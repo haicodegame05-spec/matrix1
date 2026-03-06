@@ -2,6 +2,7 @@
 import React from 'react';
 import { Player, getGenreMeta, GameGenre } from '../../types';
 import { NewIndicator } from '../NewIndicator';
+import { InspectType } from './McInspector';
 
 interface StatsGridProps {
   player: Player;
@@ -9,6 +10,7 @@ interface StatsGridProps {
   isEditing: boolean;
   onUpdatePlayer: (player: Player) => void;
   onToggleLock?: (field: string) => void;
+  onInspect?: (item: any) => void;
 }
 
 const LockIcon = ({ isLocked, onClick, className = "" }: { isLocked: boolean, onClick?: () => void, className?: string }) => (
@@ -25,7 +27,7 @@ const LockIcon = ({ isLocked, onClick, className = "" }: { isLocked: boolean, on
   </button>
 );
 
-export const McStatsGrid: React.FC<StatsGridProps> = ({ player, genre, isEditing, onUpdatePlayer, onToggleLock }) => {
+export const McStatsGrid: React.FC<StatsGridProps> = ({ player, genre, isEditing, onUpdatePlayer, onToggleLock, onInspect }) => {
   const meta = getGenreMeta(genre);
   const statsDef = meta.statsDef || [];
 
@@ -137,15 +139,25 @@ export const McStatsGrid: React.FC<StatsGridProps> = ({ player, genre, isEditing
                           onUpdatePlayer({ ...player, customFields: newFields });
                         }}
                         className="w-full bg-transparent text-lg font-black text-white tabular-nums outline-none border-b border-white/10"
+                        placeholder="Giá trị"
                       />
                       <LockIcon isLocked={player.lockedFields?.includes(`customField.${i}.value`) || false} onClick={() => onToggleLock?.(`customField.${i}.value`)} />
                     </div>
                   ) : (
-                    <div className="flex items-center">
-                      <span className="text-lg font-black text-white tabular-nums group-hover:text-emerald-400 transition-colors leading-none">
-                        {field.value}
-                      </span>
-                      <LockIcon isLocked={player.lockedFields?.includes(`customField.${i}.value`) || false} onClick={() => onToggleLock?.(`customField.${i}.value`)} />
+                    <div 
+                      className="flex flex-col w-full cursor-pointer"
+                      onClick={() => onInspect?.({
+                        name: field.label,
+                        type: 'customField',
+                        description: `Giá trị: ${field.value}`
+                      })}
+                    >
+                      <div className="flex items-center">
+                        <span className="text-lg font-black text-white tabular-nums group-hover:text-emerald-400 transition-colors leading-none">
+                          {field.value}
+                        </span>
+                        <LockIcon isLocked={player.lockedFields?.includes(`customField.${i}.value`) || false} onClick={() => onToggleLock?.(`customField.${i}.value`)} />
+                      </div>
                     </div>
                   )}
                 </div>

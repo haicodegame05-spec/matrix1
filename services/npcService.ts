@@ -15,7 +15,7 @@ export const compensateNpcData = (npc: Relationship, _currentYear: number): Rela
   const result = { ...npc };
   if (!result.id) {
     // Fallback nếu useGameLogic không gán ID theo số thứ tự
-    result.id = `npc_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    result.id = `npc_fb_${Date.now()}`;
   }
   return result;
 };

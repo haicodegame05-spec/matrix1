@@ -409,6 +409,7 @@ export const McModal: React.FC<Props> = ({
                   isEditing={isEditing}
                   onUpdatePlayer={onUpdatePlayer}
                   onToggleLock={onToggleLock}
+                  onInspect={setInspectingItem}
                 />
               </section>
 

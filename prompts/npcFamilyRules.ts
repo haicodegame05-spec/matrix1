@@ -19,7 +19,7 @@ D. LOGIC THAY ĐỔI QUAN HỆ (BLOOD TO LUST TRANSITION):
 
 E. MATRIX LÀ MẠNG LƯỚI LIÊN ĐỚI (NPC-to-NPC CORE - CRITICAL):
    - AI PHẢI duy trì mảng 'relatives' để mô tả NPC này đang quan hệ thế nào với các NPC khác.
-   - QUY TẮC PHÂN TÁCH: Mỗi thực thể khi xuất hiện phải kéo theo ít nhất 2 "cái đuôi" quan hệ (Ghost NPC). Thế giới không bao giờ chỉ có một vài người cô lập.
+   - QUY TẮC PHÂN TÁCH: Mỗi thực thể khi xuất hiện phải kéo theo ít nhất 2 "cái đuôi" quan hệ (NPC). Thế giới không bao giờ chỉ có một vài người cô lập.
    - BẮT BUỘC: Khi khởi tạo NPC lần đầu, hãy quét toàn bộ danh sách "Thực thể đã biết" (Entity DB) để móc nối quan hệ nếu hợp lý (ví dụ: cùng Họ, cùng Tổ chức).
    - Thiết lập các mối quan hệ đa tầng: Huyết thống (Mẹ/Con), Công việc (Sếp/Thư ký), Đối địch (Kẻ thù), Tình cảm (Đạo lữ/Người yêu).
 
@@ -34,5 +34,9 @@ H. XỬ LÝ TABU & LOẠN LUÂN (TABOO LOGIC - R-RATED):
    - Matrix quản lý tính "Cấm kỵ". Sử dụng trường 'currentOpinion' để diễn tả sự "Sung sướng trong tội lỗi" của các thành viên trong cùng một Matrix gia đình.
 
 I. TÍNH NHẤT QUÁN CỦA MATRIX:
-   - Mỗi "FamilyLink" trong mảng "relatives" PHẢI có đủ: npcId, npcName, và relation. Bất kỳ NPC Met nào cũng phải dẫn đến ít nhất 2 Ghost NPC.
+   - Mỗi "FamilyLink" trong mảng "relatives" PHẢI có đủ: npcId, npcName, và relation. Bất kỳ NPC Met nào cũng phải dẫn đến ít nhất 2 NPC.
+
+J. QUY TẮC ĐỊNH DANH (ID CONVENTION):
+   - ID của NPC phải có dạng npc_xxxxxx (Ví dụ: npc_000001, npc_000002).
+   - AI PHẢI sử dụng đúng ID đã có của NPC khi cập nhật thông tin hoặc thiết lập quan hệ.
 `;

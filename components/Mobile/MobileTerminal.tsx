@@ -472,33 +472,32 @@ export const MobileTerminal: React.FC<MobileTerminalProps> = ({
                         const actionText = typeof sObj === 'string' ? sObj : (sObj.action || "Tiếp tục");
                         const actionTime = typeof sObj === 'string' ? 15 : (sObj.time || 15);
                         return (
-                          <div
-                            key={idx}
-                            onClick={() => !isLoading && handleSubmit(undefined, actionText, actionTime)}
-                            className={`p-1 rounded-xl border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 mono text-[12px] uppercase font-black active:scale-95 flex items-center justify-between gap-2 shadow-lg group ${isLoading ? 'opacity-20 cursor-not-allowed' : 'cursor-pointer'}`}
-                          >
-                            <div className="flex items-center gap-3">
-                              <span className="text-emerald-500/40">❯</span>
-                              <span className="whitespace-normal text-left">{actionText}</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <button
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  handleCopy(actionText, idx);
-                                }}
-                                className="p-1.5 hover:bg-white/10 rounded-lg transition-colors"
-                              >
-                                {copiedIndex === idx ? (
-                                  <Check className="w-3.5 h-3.5 text-emerald-500" />
-                                ) : (
-                                  <Copy className="w-3.5 h-3.5 opacity-40 group-hover:opacity-100" />
-                                )}
-                              </button>
+                          <div key={idx} className="flex items-center gap-1.5 group/action">
+                            <div
+                              onClick={() => !isLoading && handleSubmit(undefined, actionText, actionTime)}
+                              className={`p-1 flex-grow rounded-xl border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 mono text-[12px] uppercase font-black active:scale-95 flex items-center justify-between gap-2 shadow-lg ${isLoading ? 'opacity-20 cursor-not-allowed' : 'cursor-pointer'}`}
+                            >
+                              <div className="flex items-center gap-3">
+                                <span className="text-emerald-500/40">❯</span>
+                                <span className="whitespace-normal text-left">{actionText}</span>
+                              </div>
                               <span className="px-2 py-1 bg-black/60 rounded-lg text-[9px] text-emerald-500/60 border border-white/5 shrink-0">
                                 {formatActionTime(actionTime)}
                               </span>
                             </div>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleCopy(actionText, idx);
+                              }}
+                              className="p-3 bg-emerald-500/5 border border-emerald-500/20 rounded-xl active:scale-90 transition-all shadow-lg shrink-0"
+                            >
+                              {copiedIndex === idx ? (
+                                <Check className="w-4 h-4 text-emerald-500" />
+                              ) : (
+                                <Copy className="w-4 h-4 text-emerald-500/40" />
+                              )}
+                            </button>
                           </div>
                         );
                       })}

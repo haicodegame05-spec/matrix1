@@ -597,34 +597,33 @@ export const Terminal: React.FC<TerminalProps> = (props) => {
                 const actionText = typeof sObj === 'string' ? sObj : (sObj.action || "Tiếp tục");
                 const actionTime = typeof sObj === 'string' ? 15 : (sObj.time || 15);
                 return (
-                  <div
-                    key={idx}
-                    onClick={() => !isLoading && handleSubmit(undefined, actionText, actionTime)}
-                    className={`${isMobile ? 'p-4 text-[12px]' : 'px-4 py-2 text-[10px]'} rounded-sm border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 mono uppercase font-black hover:bg-emerald-500/20 hover:text-emerald-300 hover:border-emerald-500/60 transition-all active:scale-95 flex items-center justify-between gap-2 shadow-lg group ${isLoading ? 'opacity-20 cursor-not-allowed' : 'cursor-pointer'}`}
-                  >
-                    <div className="flex items-center gap-2">
-                      <span className="opacity-40">❯</span>
-                      {actionText}
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleCopy(actionText, idx);
-                        }}
-                        className="p-1 hover:bg-white/10 rounded transition-colors"
-                        title="Sao chép hành động"
-                      >
-                        {copiedIndex === idx ? (
-                          <Check className="w-3 h-3 text-emerald-500" />
-                        ) : (
-                          <Copy className="w-3 h-3 opacity-40 group-hover:opacity-100" />
-                        )}
-                      </button>
+                  <div key={idx} className="flex items-center gap-1 group/action">
+                    <div
+                      onClick={() => !isLoading && handleSubmit(undefined, actionText, actionTime)}
+                      className={`${isMobile ? 'p-4 text-[12px]' : 'px-4 py-2 text-[10px]'} flex-grow rounded-sm border border-emerald-500/20 bg-emerald-500/5 text-emerald-400 mono uppercase font-black hover:bg-emerald-500/20 hover:text-emerald-300 hover:border-emerald-500/60 transition-all active:scale-95 flex items-center justify-between gap-2 shadow-lg ${isLoading ? 'opacity-20 cursor-not-allowed' : 'cursor-pointer'}`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="opacity-40">❯</span>
+                        {actionText}
+                      </div>
                       <span className="px-1.5 py-0.5 bg-black/40 rounded-sm text-[8px] text-emerald-500/60 border border-white/5 shrink-0">
                         {formatActionTime(actionTime)}
                       </span>
                     </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleCopy(actionText, idx);
+                      }}
+                      className="p-2 bg-emerald-500/5 border border-emerald-500/20 rounded-sm hover:bg-emerald-500/20 hover:border-emerald-500/40 transition-all shadow-lg shrink-0"
+                      title="Sao chép hành động"
+                    >
+                      {copiedIndex === idx ? (
+                        <Check className="w-3 h-3 text-emerald-500" />
+                      ) : (
+                        <Copy className="w-3 h-3 text-emerald-500/40 group-hover/action:text-emerald-500/80" />
+                      )}
+                    </button>
                   </div>
                 );
               })}

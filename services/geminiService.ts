@@ -35,7 +35,13 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
     "spiritRoot": "Linh căn (nếu có)",
     "physique": "Thể chất (nếu có)",
     "avatar": "URL ảnh đại diện (nếu AI muốn gợi ý)",
-    "customFields": [{"label": "Tên trường", "value": "Giá trị", "icon": "Biểu tượng"}],
+    "customFields": [
+      {
+        "label": "Tên trường", 
+        "value": "Giá trị", 
+        "icon": "Biểu tượng"
+      }
+    ],
     "customCurrency": "Đơn vị tiền tệ (Vd: Berry, Linh Thạch, Vàng...)",
     "inventory": [{"name": "Tên vật phẩm", "description": "Mô tả"}], 
     "skills": [{"name": "Tên kỹ năng", "description": "Mô tả"}],
@@ -61,7 +67,7 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
   },
   "newRelationships": [
     {
-      "id": "npc_id",
+      "id": "npc_000001",
       "name": "Tên",
       "type": "social", 
       "status": "Đang làm gì",
@@ -111,7 +117,7 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
       "currentOutfit": "Trang phục hiện tại",
       "fashionStyle": "Phong cách thời trang",
       "lastLocation": "Địa điểm cuối cùng nhìn thấy",
-      "relatives": [{"id": "npc_id_or_mc_player", "relation": "Mối quan hệ"}],
+      "relatives": [{"id": "npc_000002_or_mc_player", "relation": "Mối quan hệ"}],
       "witnessedEvents": ["Sự kiện 1 đã chứng kiến"],
       "knowledgeBase": ["Kiến thức/Thông tin NPC biết"],
       "affinityChangeReason": "Lý do thay đổi chỉ số",
@@ -120,7 +126,13 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
       "inventory": [{"name": "Tên vật phẩm", "description": "Mô tả"}],
       "skills": [{"name": "Tên kỹ năng", "description": "Mô tả"}],
       "identities": [{"name": "Thân phận", "description": "Mô tả", "role": "Vai trò", "isRevealed": false}],
-      "customFields": [{"label": "Tên trường", "value": "Giá trị", "icon": "Biểu tượng"}]
+      "customFields": [
+        {
+          "label": "Tên trường", 
+          "value": "Giá trị", 
+          "icon": "Biểu tượng"
+        }
+      ]
     }
   ],
   "newCodexEntries": [
@@ -239,7 +251,13 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
     "spiritRoot": "Linh căn (nếu có)",
     "physique": "Thể chất (nếu có)",
     "avatar": "URL ảnh đại diện (nếu AI muốn gợi ý)",
-    "customFields": [{"label": "Tên trường", "value": "Giá trị", "icon": "Biểu tượng"}],
+    "customFields": [
+      {
+        "label": "Tên trường", 
+        "value": "Giá trị", 
+        "icon": "Biểu tượng"
+      }
+    ],
     "customCurrency": "Đơn vị tiền tệ (Vd: Berry, Linh Thạch, Vàng...)",
     "inventory": [], 
     "skills": [],
@@ -265,7 +283,7 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
   },
   "newRelationships": [
     {
-      "id": "npc_id",
+      "id": "npc_000001",
       "name": "Tên",
       "type": "social", 
       "status": "Trạng thái",
@@ -301,7 +319,13 @@ BẠN PHẢI TRẢ VỀ PHẢN HỒI DƯỚI ĐỊNH DẠNG JSON SAU ĐÂY (VÀ 
       "inventory": [{"name": "Tên vật phẩm", "description": "Mô tả"}],
       "skills": [{"name": "Tên kỹ năng", "description": "Mô tả"}],
       "identities": [{"name": "Thân phận", "description": "Mô tả", "role": "Vai trò", "isRevealed": false}],
-      "customFields": [{"label": "Tên trường", "value": "Giá trị", "icon": "Biểu tượng"}]
+      "customFields": [
+        {
+          "label": "Tên trường", 
+          "value": "Giá trị", 
+          "icon": "Biểu tượng"
+        }
+      ]
     }
   ],
   "suggestedActions": [
@@ -388,8 +412,16 @@ QUY TẮC TÔN TRỌNG DỮ LIỆU NGƯỜI CHƠI (PLAYER DATA PROTOCOL - SUPREM
 1. LƯỢT ĐẦU TIÊN (TURN 1): Bạn BẮT BUỘC phải tôn trọng 100% các thông tin về Nhân vật chính (MC) mà người chơi đã thiết lập trong bảng MC (Tên, Tuổi, Giới tính, Gia thế, Tính cách, Linh căn, Thể chất, v.v.). AI tuyệt đối không được tự ý thay đổi bất kỳ thông tin nào đã có giá trị cụ thể.
 2. CÁC LƯỢT TIẾP THEO (TURN 2+): Bạn có quyền cập nhật hoặc thay đổi các dữ liệu đã tồn tại của MC (Vd: Tăng/giảm chỉ số, thay đổi linh căn, tiến hóa thể chất, v.v.) để phản ánh sự phát triển của nhân vật trong câu chuyện.
 3. Ô KHÓA DỮ LIỆU (LOCKED FIELDS): Nếu một trường thông tin (Vd: Tên, Tuổi, Giới tính, Gia thế, v.v.) được người chơi "KHÓA" (LOCKED), bạn TUYỆT ĐỐI KHÔNG ĐƯỢC THAY ĐỔI giá trị của trường đó trong bất kỳ trường hợp nào, kể cả khi có biến cố lớn. Bạn phải giữ nguyên giá trị đã khóa.
-4. GIẢI TRÌNH THAY ĐỔI (MANDATORY): Nếu có bất kỳ sự thay đổi nào đối với dữ liệu đã tồn tại của MC từ lượt 2 trở đi, bạn PHẢI giải thích lý do thay đổi đó một cách rõ ràng trong trường "evolutionJustification" của JSON.
+4. GIẢI TRÌNH THAY ĐỔI (MANDATORY): Nếu có bất kỳ sự thay đổi nào đối với dữ liệu đã tồn tại của MC từ lượt 2 đi, bạn PHẢI giải thích lý do thay đổi đó một cách rõ ràng trong trường "evolutionJustification" của JSON.
 5. TÍNH CÁCH: Giữ đúng nét tính cách (personality) mà người chơi đã chọn. Nếu người chơi chọn "Lạnh lùng", đừng viết MC nói quá nhiều hoặc quá nhiệt tình, trừ khi có biến cố tâm lý cực lớn được giải trình rõ ràng.
+`;
+
+export const CUSTOM_WIDGET_RULES = `
+QUY TẮC CUSTOM WIDGET (CUSTOM WIDGET PROTOCOL):
+1. TỰ ĐỘNG KHỞI TẠO: AI nên chủ động tạo ra các "customFields" để phản ánh các thông tin đặc thù của MC mà các trường mặc định không có (Vd: Học vấn, Nghề nghiệp, Danh tiếng trong giới, Trình độ lái xe, v.v.).
+2. NỘI DUNG ĐẦY ĐỦ: Mỗi custom widget PHẢI có "label" và "value" mang ý nghĩa thực tế, giàu thông tin. 
+3. TUYỆT ĐỐI CẤM: Không được để "label" là các ký tự giữ chỗ như "??", "N/A", "Chưa rõ", "Unknown", hoặc để trống. "label" PHẢI mang ý nghĩa thực tế. Đối với "value", AI có thể sử dụng "??" nếu thông tin thực sự chưa rõ ràng hoặc cần cập nhật bổ sung sau.
+4. BIẾN ĐỘNG LOGIC: Cập nhật các widget này khi MC có sự thay đổi trong cuộc sống hoặc đạt được thành tựu mới.
 `;
 
 export const LEGACY_CONTENT_RULES = `
@@ -588,6 +620,7 @@ export class GeminiGameService {
         ${isFanfic ? FANFIC_JSON_SCHEMA : GENERAL_JSON_SCHEMA}
         
         ${MC_DATA_RULES}
+        ${CUSTOM_WIDGET_RULES}
         ${beautifyRules}
         
         ${aiHints ? `

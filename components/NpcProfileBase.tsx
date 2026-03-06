@@ -287,7 +287,11 @@ export const NpcSocialColumn: React.FC<{
             if (!rel) return null;
             const rawName = renderSafeText(rel.npcName, "");
             const playerName = renderSafeText(player.name, "MC");
-            const isPlayer = rel.npcId === 'mc_player' || (rawName && rawName.toLowerCase() === playerName.toLowerCase());
+            const isPlayer = rel.npcId === 'mc_player' || 
+                             (rawName && (
+                               rawName.toLowerCase() === playerName.toLowerCase() ||
+                               ['mc', 'bạn', 'người chơi', 'player'].includes(rawName.toLowerCase())
+                             ));
             
             const knownNpc = player.relationships.find(r => 
               (rel.npcId && r.id === rel.npcId) || 
@@ -303,7 +307,7 @@ export const NpcSocialColumn: React.FC<{
                 key={i} 
                 onClick={() => !isPlayer && knownNpc && onSwitchNpc(knownNpc)}
                 className={`group p-2 border transition-all ${
-                  isPlayer ? 'bg-emerald-500/[0.04] border-emerald-500/30' : 
+                  isPlayer ? 'bg-emerald-500/10 border-emerald-500/40 shadow-[0_0_15px_rgba(16,185,129,0.1)]' : 
                   knownNpc ? 'bg-white/[0.02] border-white/10 cursor-pointer hover:border-yellow-500/40 hover:bg-white/[0.05]' : 
                   'bg-black/40 border-white/5 opacity-40 grayscale'
                 }`}
@@ -313,7 +317,7 @@ export const NpcSocialColumn: React.FC<{
                     <span className={`text-[11px] font-black truncate uppercase ${isPlayer ? 'text-emerald-400' : 'text-neutral-200'}`}>
                       {displayRelName}
                     </span>
-                    <span className="text-[8px] font-bold text-neutral-600 uppercase tracking-tighter">
+                    <span className={`text-[8px] font-bold uppercase tracking-tighter ${isPlayer ? 'text-emerald-500/70' : 'text-neutral-600'}`}>
                       {ownerShortName} ❯ {renderSafeText(rel.relation)}
                     </span>
                   </div>

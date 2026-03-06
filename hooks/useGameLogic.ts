@@ -382,7 +382,7 @@ export const useGameLogic = () => {
             });
           }
         } else {
-          const npcWithId = { ...rawNpc, id: String(updatedPlayer.nextNpcId++) };
+          const npcWithId = { ...rawNpc, id: `npc_${String(updatedPlayer.nextNpcId++).padStart(6, '0')}` };
           currentRels.push(compensateNpcData({ ...npcWithId, isPresent: true, viewed: false }, gameTime.year));
           newNpcCount++;
         }
@@ -835,7 +835,7 @@ YÊU CẦU TỐI CAO: AI phải tôn trọng TUYỆT ĐỐI và 100% dữ liệu
       
       if (Array.isArray(update.newRelationships)) {
         updatedPlayer.relationships = update.newRelationships.map(r => {
-          const npcWithId = { ...r, id: String(updatedPlayer.nextNpcId++) };
+          const npcWithId = { ...r, id: `npc_${String(updatedPlayer.nextNpcId++).padStart(6, '0')}` };
           return compensateNpcData({ ...npcWithId, isPresent: true, viewed: false }, update.newTime?.year || startTime.year);
         });
       }
@@ -1129,7 +1129,7 @@ YÊU CẦU TỐI CAO: AI phải tôn trọng TUYỆT ĐỐI và 100% dữ liệu
 
       if (Array.isArray(update.newRelationships)) {
         updatedPlayer.relationships = update.newRelationships.map(r => {
-          const npcWithId = { ...r, id: String(updatedPlayer.nextNpcId++) };
+          const npcWithId = { ...r, id: `npc_${String(updatedPlayer.nextNpcId++).padStart(6, '0')}` };
           return compensateNpcData({ ...npcWithId, isPresent: true, viewed: false }, update.newTime?.year || 0);
         });
       }

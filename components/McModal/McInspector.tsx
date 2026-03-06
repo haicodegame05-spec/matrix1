@@ -2,7 +2,7 @@
 import React from 'react';
 import { Player } from '../../types';
 
-export type InspectType = 'asset' | 'skill' | 'item' | 'quest' | 'system';
+export type InspectType = 'asset' | 'skill' | 'item' | 'quest' | 'system' | 'customField';
 
 interface McInspectorProps {
   item: {
@@ -53,6 +53,7 @@ export const McInspector: React.FC<McInspectorProps> = ({ item, player, onClose 
                  item.type === 'asset' ? 'bg-amber-500/20 text-amber-400' : 
                  item.type === 'quest' ? (item.questGroup === 'main' ? 'bg-yellow-500/20 text-yellow-400' : 'bg-blue-500/20 text-blue-400') :
                  item.type === 'system' ? 'bg-cyan-500/20 text-cyan-400' :
+                 item.type === 'customField' ? 'bg-emerald-500/20 text-emerald-400' :
                  'bg-blue-500/20 text-blue-400'
                }`}>
                  Phân loại: {item.type === 'quest' ? (item.questGroup === 'main' ? 'CHÍNH TUYẾN' : 'PHỤ TUYẾN') : item.type.toUpperCase()}

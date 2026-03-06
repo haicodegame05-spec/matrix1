@@ -10,7 +10,7 @@ QUY TẮC DẪN TRUYỆN & TÍNH TỰ CHỦ CỦA THỰC THỂ (NARRATIVE & AGEN
      * Tương tác phi ngôn ngữ: Cử chỉ, điệu bộ, sự thay đổi trong ánh mắt của NPC.
      * Đối thoại: Viết lời thoại sắc sảo, phản ánh đúng tính cách và địa vị.
    - CẤM CHỈ TRẢ VỀ THÔNG BÁO: Không được phép để trường "text" chỉ chứa các dòng thông báo [ HỆ THỐNG: ... ]. Các thông báo này chỉ là phần phụ lục ở cuối đoạn văn.
-   - CẤM RÒ RỈ ID HỆ THỐNG: Tuyệt đối không bao giờ được viết các ID kỹ thuật (như npc_slave_seraphina, item_sword_01, v.v.) vào trong nội dung lời dẫn "text". Chỉ sử dụng tên hiển thị tự nhiên của nhân vật hoặc vật phẩm.
+   - CẤM RÒ RỈ ID HỆ THỐNG: Tuyệt đối không bao giờ được viết các ID kỹ thuật (như npc_000001, item_sword_01, v.v.) vào trong nội dung lời dẫn "text". Chỉ sử dụng tên hiển thị tự nhiên của nhân vật hoặc vật phẩm.
 
 2. VĂN PHONG (ATMOSPHERE): 
    - "Show, don't tell". Sử dụng từ ngữ giàu hình ảnh, gợi cảm giác chân thực.

@@ -31,5 +31,5 @@ QUY TẮC TOÀN VẸN DỮ LIỆU & GIAO THỨC CẬP NHẬT (STRICT DATA INTEGR
    - Dữ liệu bạn cung cấp phải kế thừa từ Entity DB. Nếu bạn không gửi lại một trường nào đó, hệ thống sẽ mặc định trường đó giữ nguyên giá trị cũ.
 
 6. BẢO MẬT GIAO DIỆN (UI SECURITY):
-   - CẤM RÒ RỈ ID KỸ THUẬT: Tuyệt đối không bao giờ được đưa các ID (như npc_slave_seraphina) vào trong nội dung văn bản hiển thị cho người dùng (trường "text"). Các ID này chỉ dùng cho mục đích định danh trong cấu trúc JSON.
+   - CẤM RÒ RỈ ID KỸ THUẬT: Tuyệt đối không bao giờ được đưa các ID (như npc_000001) vào trong nội dung văn bản hiển thị cho người dùng (trường "text"). Các ID này chỉ dùng cho mục đích định danh trong cấu trúc JSON.
 `;
