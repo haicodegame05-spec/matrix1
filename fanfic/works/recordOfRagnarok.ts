@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const recordOfRagnarok: FanficWork = {
+  id: 'record-of-ragnarok',
+  title: 'Record of Ragnarok (Shuumatsu no Walküre)',
+  description: 'Cuộc đại chiến giữa thần và người để quyết định vận mệnh của nhân loại.',
+  country: 'Nhật',
+  plot: 'Hội nghị các vị thần quyết định tận diệt nhân loại sau 7 triệu năm tồn tại. Tuy nhiên, Valkyrie Brunhilde đã đề xuất Ragnarok - một giải đấu 13 trận đấu tay đôi giữa thần và người. Nếu nhân loại thắng 7 trận, họ sẽ được sống thêm 1000 năm. Với sự giúp đỡ của các Valkyrie thông qua Volund (hợp thể vũ khí), những con người mạnh nhất lịch sử đối đầu với những vị thần tối cao.',
+  worldSetting: 'Thế giới nơi các vị thần từ mọi thần thoại (Hy Lạp, Bắc Âu, Ấn Độ, Ai Cập...) cùng tồn tại và cai quản vũ trụ. Nhân loại được đại diện bởi những vĩ nhân, chiến binh và tội đồ nổi tiếng nhất lịch sử. Sức mạnh của con người được cường hóa bởi linh hồn của các Valkyrie.',
+  characters: [
+    { name: 'Brunhilde', role: 'Valkyrie / Người dẫn dắt', age: 'Unknown', description: 'Chị cả trong 13 chị em Valkyrie, người khởi xướng Ragnarok để cứu nhân loại. Cô có tính cách mạnh mẽ, quyết đoán và đôi khi khá tàn nhẫn.' },
+    { name: 'Göll', role: 'Valkyrie', age: 'Unknown', description: 'Em út trong 13 chị em Valkyrie, luôn lo lắng và sợ hãi trước sự tàn khốc của các trận đấu nhưng luôn ủng hộ chị mình.' },
+    { name: 'Lü Bu (Lữ Bố)', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Chiến thần của Tam Quốc, người đại diện cho nhân loại trong trận đấu đầu tiên. Ông sở hữu sức mạnh thể chất vô song và kỹ năng sử dụng Phương Thiên Họa Kích đỉnh cao.' },
+    { name: 'Thor', role: 'Đại diện thần linh', age: 'Unknown', description: 'Thần sấm của Bắc Âu, vị thần mạnh nhất trong thần thoại Bắc Âu với cây búa Mjolnir. Ông là đối thủ của Lữ Bố trong trận đầu tiên.' },
+    { name: 'Adam', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Người đàn ông đầu tiên, cha của toàn nhân loại. Ông sở hữu "Thần nhãn" cho phép sao chép mọi kỹ thuật của thần linh.' },
+    { name: 'Zeus', role: 'Đại diện thần linh', age: 'Unknown', description: 'Chúa tể đỉnh Olympus, cha của các vị thần. Ông là một chiến binh cực kỳ mạnh mẽ với hình dạng "Adamas" tối thượng.' },
+    { name: 'Kojiro Sasaki', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Kiếm sĩ thất bại vĩ đại nhất lịch sử Nhật Bản. Ông có khả năng mô phỏng và vượt qua mọi đối thủ thông qua sự quan sát và luyện tập trong tâm trí.' },
+    { name: 'Poseidon', role: 'Đại diện thần linh', age: 'Unknown', description: 'Thần biển cả, vị thần kiêu ngạo nhất Olympus. Ông coi thường con người và cả những vị thần khác.' },
+    { name: 'Jack the Ripper', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Kẻ sát nhân khét tiếng nhất lịch sử London. Ông sử dụng mưu mẹo, sự lừa lọc và khả năng biến mọi thứ chạm vào thành vũ khí giết thần.' },
+    { name: 'Heracles', role: 'Đại diện thần linh', age: 'Unknown', description: 'Vị thần của sức mạnh, người từng là con người. Ông chiến đấu cho thần linh nhưng luôn yêu thương nhân loại.' },
+    { name: 'Raiden Tameemon', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Võ sĩ Sumo vĩ đại nhất lịch sử Nhật Bản với cơ bắp phát triển đến mức phi lý.' },
+    { name: 'Shiva', role: 'Đại diện thần linh', age: 'Unknown', description: 'Thần hủy diệt của Ấn Độ, vị thần của những điệu nhảy và sự hủy diệt. Ông sở hữu 4 cánh tay và ngọn lửa rực cháy.' },
+    { name: 'Buddha (Đức Phật)', role: 'Đại diện nhân loại / Thần linh', age: 'Unknown', description: 'Người sáng lập Phật giáo. Ông phản bội thần linh để chiến đấu cho nhân loại vì "Ta chỉ làm những gì ta muốn".' },
+    { name: 'Zerofuku', role: 'Đại diện thần linh', age: 'Unknown', description: 'Vị thần của sự bất hạnh, thực thể hợp nhất của Thất Phúc Thần. Anh mang trong mình nỗi đau và sự đố kỵ với con người.' },
+    { name: 'Hajun', role: 'Phản diện / Thực thể quỷ', age: 'Unknown', description: 'Ma vương của chiều không gian thứ sáu, thực thể tà ác chiếm đoạt cơ thể Zerofuku.' },
+    { name: 'Qin Shi Huang (Tần Thủy Hoàng)', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Vị hoàng đế đầu tiên của Trung Hoa. Ông có khả năng nhìn thấy dòng chảy năng lượng và chiến đấu bằng võ thuật đỉnh cao.' },
+    { name: 'Hades', role: 'Đại diện thần linh', age: 'Unknown', description: 'Chúa tể cõi âm, anh cả của Zeus và Poseidon. Ông chiến đấu để trả thù cho em trai mình.' },
+    { name: 'Nikola Tesla', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Nhà khoa học thiên tài, người biến ma thuật thành khoa học thông qua bộ giáp Super Automaton Beta.' },
+    { name: 'Beelzebub', role: 'Đại diện thần linh', age: 'Unknown', description: 'Chúa tể loài ruồi, vị thần bị nguyền rủa với sức mạnh rung động tàn phá.' },
+    { name: 'Leonidas', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Vua của Sparta, chiến binh dũng cảm nhất lịch sử Hy Lạp với lòng căm thù sâu sắc dành cho Apollo.' },
+    { name: 'Apollo', role: 'Đại diện thần linh', age: 'Unknown', description: 'Thần mặt trời, vị thần của nghệ thuật và sự hoàn mỹ. Ông luôn nỗ lực để tỏa sáng rực rỡ nhất.' },
+    { name: 'Okita Souji', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Đội trưởng đội 1 Shinsengumi, thiên tài kiếm thuật với tốc độ kinh hồn.' },
+    { name: 'Susanoo-no-Mikoto', role: 'Đại diện thần linh', age: 'Unknown', description: 'Thần bão tố của Nhật Bản, người sáng tạo ra kiếm thuật thần thánh.' },
+    { name: 'Simö Häyhä', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Xạ thủ bắn tỉa huyền thoại "Cái chết trắng", người có số lượng tiêu diệt kỷ lục trong lịch sử.' },
+    { name: 'Grigori Rasputin', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Tu sĩ bất tử của Nga, người sở hữu những bí ẩn về sự sống và cái chết.' },
+    { name: 'Michel Nostradamus', role: 'Đại diện nhân loại', age: 'Unknown', description: 'Nhà tiên tri vĩ đại, người duy nhất bị trục xuất xuống địa ngục vì làm loạn thiên giới.' },
+    { name: 'Loki', role: 'Thần linh', age: 'Unknown', description: 'Thần lừa lọc của Bắc Âu, luôn theo dõi Ragnarok với nụ cười nham hiểm và những toan tính riêng.' },
+    { name: 'Hermes', role: 'Thần linh', age: 'Unknown', description: 'Sứ giả của các vị thần, người luôn điềm tĩnh và sở hữu kiến thức sâu rộng về mọi trận đấu.' },
+    { name: 'Ares', role: 'Thần linh', age: 'Unknown', description: 'Thần chiến tranh, người thường xuyên bị sốc trước sức mạnh của con người trong Ragnarok.' },
+    { name: 'Aphrodite', role: 'Thần linh', age: 'Unknown', description: 'Nữ thần tình yêu và sắc đẹp, người luôn xuất hiện với vẻ ngoài lộng lẫy và sự kiêu sa.' },
+    { name: 'Odin', role: 'Thần linh', age: 'Unknown', description: 'Vua của các vị thần Bắc Âu, một thực thể trầm mặc và đầy quyền uy với những âm mưu sâu xa.' }
+  ]
+};

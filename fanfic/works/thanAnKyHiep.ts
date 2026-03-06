@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thanAnKyHiep: FanficWork = {
+  id: 'than-an-ky-hiep',
+  title: 'Thần Ấn Vương Tọa (Sealed Divine Throne)',
+  description: 'Long Ha Thần, một thiếu niên mang trong mình dòng máu kỵ sĩ, nỗ lực vươn lên để bảo vệ nhân loại khỏi sự thống trị của ma tộc.',
+  country: 'Trung',
+  plot: 'Trong một thế giới mà nhân loại bị ma tộc dồn vào đường cùng, Long Ha Thần gia nhập Kỵ Sĩ Thánh Điện. Với thiên phú "Thần Thánh Thể Chất" cực cao, cậu dần thăng tiến và trở thành người sở hữu Thần Ấn Vương Tọa mạnh nhất, dẫn dắt nhân loại phản công giành lại tự do.',
+  worldSetting: 'Thế giới Thánh Ma Đại Lục nơi nhân loại và ma tộc đối đầu. Hệ thống tu luyện dựa trên Linh Lực với các cấp bậc từ 1 đến 9, mỗi cấp có 10 bậc.',
+  characters: [
+    { name: 'Long Ha Thần', role: 'Nhân vật chính', description: 'Chân thành, dũng cảm, sở hữu linh lực ánh sáng thuần khiết và là kỵ sĩ vĩ đại nhất.' },
+    { name: 'Thánh Thái Nhi', role: 'Nữ chính', description: 'Thánh nữ của Thích Khách Thánh Điện, xinh đẹp nhưng lạnh lùng, luôn sát cánh bảo vệ Long Ha Thần.' },
+    { name: 'Hạo Nguyệt', role: 'Bạn đồng hành', description: 'Một sinh vật huyền bí có nhiều đầu, là thú cưỡi và cũng là người bạn đồng hành sinh tử của Long Ha Thần.' },
+    { name: 'Long Tinh Vũ', role: 'Người dẫn dắt / Cha', description: 'Cha của Long Ha Thần, một trong những kỵ sĩ mạnh nhất, người đã rèn luyện cậu từ nhỏ.' },
+    { name: 'Lâm Hâm', role: 'Đồng minh', description: 'Pháp sư hệ hỏa nhưng không biết tấn công, chỉ giỏi phòng ngự và luyện đan, là thành viên của đội Long Ha Thần.' },
+    { name: 'Ma Thần Hoàng', role: 'Phản diện', description: 'Lãnh đạo tối cao của ma tộc, thực thể quyền năng nhất và là đối thủ cuối cùng của Long Ha Thần.' },
+    { name: 'Trần Anh Nhi', role: 'Đồng minh', description: 'Triệu hoán sư tài năng, một cô gái tinh nghịch và là thành viên quan trọng của đội Long Ha Thần.' },
+    { name: 'Vương Nguyên Nguyên', role: 'Đồng minh', description: 'Chiến sĩ mạnh mẽ, sở hữu tấm khiên khổng lồ và là lá chắn vững chắc bảo vệ đồng đội trên chiến trường.' },
+    { name: 'Tư Mã Tiên', role: 'Đồng minh', description: 'Mục sư kỳ lạ, không chuyên về chữa trị mà lại có sức mạnh tấn công vật lý cực lớn bằng cây trượng của mình.' },
+    { name: 'Hàn Vũ', role: 'Đồng minh / Kỵ sĩ', description: 'Kỵ sĩ hộ vệ, người đã thề trung thành và luôn sát cánh bảo vệ Long Ha Thần trong mọi hoàn cảnh hiểm nghèo.' },
+    { name: 'Đoạn Ức', role: 'Đồng minh / Kỵ sĩ', description: 'Một kỵ sĩ tài ba, người đã cùng Long Ha Thần trải qua nhiều trận chiến sinh tử và lập nhiều chiến công.' },
+    { name: 'Long Thiên Ấn', role: 'Gia đình / Lãnh đạo', description: 'Ông nội của Long Ha Thần, một trong những kỵ sĩ Thần Ấn vĩ đại nhất, người đứng đầu Kỵ Sĩ Thánh Điện.' },
+    { name: 'Bạch Nguyệt', role: 'Gia đình', description: 'Mẹ của Long Ha Thần, người luôn dành tình yêu thương vô bờ bến cho con trai mình.' },
+    { name: 'Thánh Nguyệt', role: 'Lãnh đạo', description: 'Ông nội của Thánh Thái Nhi, người đứng đầu Thích Khách Thánh Điện, một sát thủ huyền thoại.' },
+    { name: 'Lâm Thần', role: 'Lãnh đạo', description: 'Ông nội của Lâm Hâm, một pháp sư cấp cao và là người có tầm ảnh hưởng lớn trong Pháp Sư Thánh Điện.' },
+    { name: 'Trần Chi', role: 'Lãnh đạo', description: 'Bà nội của Trần Anh Nhi, một triệu hoán sư bậc thầy, người đã truyền dạy nhiều bí kíp cho cháu gái.' },
+    { name: 'Hàn Thiến', role: 'Lãnh đạo', description: 'Cha của Hàn Vũ, một kỵ sĩ cấp cao luôn nghiêm khắc nhưng cũng rất tự hào về con trai mình.' },
+    { name: 'A Bảo', role: 'Phản diện / Đối thủ', description: 'Con trai của Ma Thần Hoàng, một thiên tài của ma tộc, đối thủ lớn nhất của Long Ha Thần trong thế hệ trẻ.' },
+    { name: 'Nguyệt Dạ', role: 'Nhân vật quan trọng', description: 'Con gái của Ma Thần Hoàng, xinh đẹp và thông minh, có mối quan hệ phức tạp với Long Ha Thần.' },
+    { name: 'Tử Nguyệt', role: 'Phản diện', description: 'Một trong những ma thần mạnh nhất dưới trướng Ma Thần Hoàng, chuyên dẫn quân xâm lược nhân loại.' },
+    { name: 'Tử Tinh', role: 'Phản diện', description: 'Ma thần sở hữu sức mạnh tinh tú, kẻ đã gây ra nhiều thảm kịch cho các chiến sĩ nhân loại.' },
+    { name: 'Tử Kim', role: 'Phản diện', description: 'Ma thần với lớp giáp kim loại bất hoại, một đối thủ vô cùng khó chịu trên chiến trường.' },
+    { name: 'Tử Huyết', role: 'Phản diện', description: 'Ma thần khát máu, kẻ luôn tìm kiếm sự tàn sát và hủy diệt trong các cuộc chiến.' },
+    { name: 'Tử Ma', role: 'Phản diện', description: 'Ma thần chuyên về các loại ma pháp hắc ám, kẻ thao túng tâm trí của kẻ thù.' },
+    { name: 'Tử Thần', role: 'Phản diện', description: 'Ma thần mang lại cái chết thầm lặng, một sát thủ đáng sợ của ma tộc.' },
+    { name: 'Tử Thiên', role: 'Phản diện', description: 'Ma thần sở hữu sức mạnh bầu trời, kẻ thống trị không trung trong các trận chiến.' },
+    { name: 'Tử Địa', role: 'Phản diện', description: 'Ma thần sở hữu sức mạnh mặt đất, kẻ có khả năng gây ra các trận động đất kinh hoàng.' },
+    { name: 'Thần Ấn Linh Hồn', role: 'Hỗ trợ', description: 'Ý chí trú ngụ trong Thần Ấn Vương Tọa, người dẫn dắt Long Ha Thần thấu hiểu sức mạnh của ánh sáng.' },
+    { name: 'Thánh Điện Trưởng Lão', role: 'Lãnh đạo', description: 'Một vị tiền bối uyên bác, người luôn đưa ra những lời khuyên sáng suốt cho Long Ha Thần.' },
+    { name: 'Nhân Loại Chiến Sĩ X', role: 'Nhân vật phụ', description: 'Một chiến binh dũng cảm luôn lấy Long Ha Thần làm tấm gương để phấn đấu bảo vệ nhân loại.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const reMonster: FanficWork = {
+  id: 're-monster',
+  title: 'Re:Monster',
+  description: 'Tomokui Kanata chuyển sinh thành một con Goblin yếu ớt, nhưng sở hữu khả năng "Hấp thụ" vô hạn.',
+  country: 'Nhật',
+  plot: 'Tomokui Kanata, một người sở hữu năng lực đặc biệt ở thế giới hiện đại, bị giết và chuyển sinh thành một con Goblin tên là Rou. Với kỹ năng "Hấp thụ" cho phép anh nhận được sức mạnh và kỹ năng của bất cứ thứ gì anh ăn, Rou bắt đầu hành trình tiến hóa từ một con Goblin thấp kém trở thành một thực thể thần thánh, xây dựng một đế chế quái vật hùng mạnh.',
+  worldSetting: 'Một thế giới fantasy tàn khốc nơi kẻ mạnh ăn thịt kẻ yếu. Hệ thống tiến hóa (Evolution) cho phép quái vật thay đổi hình dạng và sức mạnh khi đạt đến điều kiện nhất định. Rou dẫn dắt bộ tộc Goblin của mình phát triển thành một lực lượng quân sự tinh nhuệ.',
+  characters: [
+    { name: 'Rou (Aporou)', role: 'Nhân vật chính', age: '???', description: 'Vốn là Goblin, tiến hóa thành Hobgoblin, Ogres, và cuối cùng là thực thể thần thánh. Sở hữu khả năng Hấp thụ vô hạn.' },
+    { name: 'Kichi (Apokichi)', role: 'Thuộc hạ / Anh em', age: '???', description: 'Bạn thân nhất của Rou, tiến hóa thành Lord Ogres. Một chiến binh dũng mãnh và trung thành tuyệt đối.' },
+    { name: 'Mi (Apomi)', role: 'Thuộc hạ / Harem', age: '???', description: 'Tiến hóa thành Lord Ogres, chuyên gia về ma pháp và hỗ trợ. Rất yêu quý Rou.' },
+    { name: 'E (Apoe)', role: 'Thuộc hạ / Harem', age: '???', description: 'Tiến hóa thành Lord Ogres, một chiến binh mạnh mẽ với khả năng phòng thủ cao.' },
+    { name: 'Sato (Aposato)', role: 'Thuộc hạ / Harem', age: '???', description: 'Tiến hóa thành Lord Ogres, chuyên gia về do thám và ám sát.' },
+    { name: 'Hầu Gái 1 (Red)', role: 'Harem', age: '???', description: 'Một trong những con người bị Rou bắt và sau này trở thành vợ của anh.' },
+    { name: 'Hầu Gái 2 (Blue)', role: 'Harem', age: '???', description: 'Một con người khác trong dàn harem của Rou, chuyên về quản lý việc nhà.' },
+    { name: 'Alchemist-san', role: 'Hỗ trợ', age: '???', description: 'Một nhà giả kim tài ba gia nhập bộ tộc của Rou, giúp phát triển công nghệ và dược phẩm.' },
+    { name: 'Blacksmith-san', role: 'Hỗ trợ', age: '???', description: 'Thợ rèn chính của bộ tộc, người chế tạo trang bị cho quân đội của Rou.' },
+    { name: 'Overbear', role: 'Thú cưỡi / Đồng minh', age: '???', description: 'Một con gấu khổng lồ bị Rou thu phục và trở thành thú cưỡi chiến đấu.' },
+    { name: 'Goblin Elder', role: 'Người dẫn dắt', age: '???', description: 'Trưởng lão của bộ tộc Goblin ban đầu, người đã chứng kiến sự trỗi dậy của Rou.' },
+    { name: 'Human Hero', role: 'Đối thủ', age: '???', description: 'Một anh hùng nhân loại cố gắng tiêu diệt bộ tộc của Rou nhưng thất bại.' },
+    { name: 'Dwarf King', role: 'Đồng minh', age: '???', description: 'Lãnh đạo của tộc Dwarf, người đã thiết lập quan hệ thương mại với Rou.' },
+    { name: 'Elf Princess', role: 'Đồng minh / Harem', age: '???', description: 'Công chúa tộc Elf được Rou cứu và sau này gia nhập đế chế của anh.' },
+    { name: 'Vampire Queen', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thực thể mạnh mẽ ban đầu đối đầu với Rou nhưng sau đó nể phục sức mạnh của anh.' },
+    { name: 'Demon Lord', role: 'Nhân vật quan trọng', age: '???', description: 'Một trong những thực thể cai trị thế giới, luôn dõi theo sự phát triển của Rou.' },
+    { name: 'Apoinu', role: 'Thuộc hạ', age: '???', description: 'Thành viên của đội quân quái vật, chuyên về tấn công chớp nhoáng.' },
+    { name: 'Apobun', role: 'Thuộc hạ', age: '???', description: 'Thành viên đội quân, chuyên về phòng thủ và bảo vệ căn cứ.' },
+    { name: 'Aponi', role: 'Thuộc hạ', age: '???', description: 'Thành viên đội quân, chuyên về ma pháp tầm xa.' },
+    { name: 'Apoji', role: 'Thuộc hạ', age: '???', description: 'Thành viên đội quân, chuyên về hỗ trợ và hậu cần.' },
+    { name: 'Apo-rou\'s Father', role: 'Gia đình', age: 'Deceased', description: 'Một con Goblin bình thường, người đã hy sinh trong một cuộc săn bắt.' },
+    { name: 'Apo-rou\'s Mother', role: 'Gia đình', age: 'Deceased', description: 'Một con Goblin hiền lành, người đã chăm sóc Rou trong những ngày đầu.' },
+    { name: 'Giant Snake', role: 'Đối thủ / Thức ăn', age: '???', description: 'Một con rắn khổng lồ trong rừng, sinh vật đầu tiên Rou ăn để lấy kỹ năng độc.' },
+    { name: 'Triple-Horned Horse', role: 'Thú cưỡi', age: '???', description: 'Một loài ngựa quái vật mạnh mẽ, được Rou thuần hóa để làm phương tiện di chuyển.' },
+    { name: 'Skeleton Warrior', role: 'Thuộc hạ', age: '???', description: 'Một chiến binh xương được Rou triệu hồi bằng ma pháp hắc ám.' },
+    { name: 'Lizardman Warrior', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một chiến binh thuộc tộc Người Thằn Lằn, người đã thách đấu với Rou.' },
+    { name: 'Orc King', role: 'Đối thủ', age: '???', description: 'Lãnh đạo của tộc Orc, kẻ đã cố gắng xâm chiếm lãnh thổ của Rou.' },
+    { name: 'Dryad', role: 'Đồng minh', age: 'Ancient', description: 'Tinh linh rừng xanh, người đã giúp đỡ Rou trong việc bảo vệ khu rừng.' },
+    { name: 'Centaur Knight', role: 'Đồng minh', age: '???', description: 'Một hiệp sĩ nhân mã dũng cảm, người đã gia nhập liên minh của Rou.' },
+    { name: 'Harpy Scout', role: 'Thuộc hạ', age: '???', description: 'Một yêu tinh chim chuyên về trinh sát từ trên không cho bộ tộc của Rou.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const konosuba: FanficWork = {
+  id: 'konosuba',
+  title: 'Konosuba: Chúc phúc cho thế giới tuyệt vời này!',
+  description: 'Satou Kazuma chết một cách lãng xẹt và được đưa đến thế giới khác cùng với một nữ thần vô dụng và những đồng đội kỳ quặc.',
+  country: 'Nhật',
+  plot: 'Sau khi chết vì sốc, Kazuma được gặp nữ thần Aqua. Anh chọn mang theo chính cô đến thế giới mới. Tại đây, họ lập đội với Megumin (pháp sư chỉ biết dùng một phép nổ mỗi ngày) và Darkness (kỵ sĩ có sở thích bị hành hạ). Cuộc phiêu lưu của họ đầy rẫy những tình huống hài hước và oái oăm thay vì những trận chiến anh hùng.',
+  worldSetting: 'Thế giới kỳ ảo mang phong cách nhập vai với các nhiệm vụ, quái vật và Ma Vương. Tuy nhiên, mọi thứ đều bị biến tấu theo hướng hài hước.',
+  characters: [
+    { name: 'Satou Kazuma', role: 'Nhân vật chính', age: '16', description: 'Một game thủ có chỉ số may mắn cực cao, cực kỳ thực dụng, hay cằn nhằn nhưng luôn là người gánh đội trong những tình huống ngặt nghèo.' },
+    { name: 'Aqua', role: 'Nữ chính / Đồng minh', age: '1000+', description: 'Nữ thần nước xinh đẹp nhưng vô dụng, hay gây rắc rối, nghiện rượu và luôn đòi hỏi Kazuma phải dọn dẹp hậu quả.' },
+    { name: 'Megumin', role: 'Đồng minh', age: '14', description: 'Pháp sư thuộc tộc Hồng Ma, cuồng phép nổ (Explosion) và từ chối học bất kỳ phép thuật nào khác dù nó chỉ dùng được một lần mỗi ngày.' },
+    { name: 'Darkness (Lalatina)', role: 'Đồng minh', age: '18', description: 'Kỵ sĩ thánh với khả năng phòng ngự tuyệt vời nhưng độ chính xác cực thấp và là một kẻ khổ dâm chính hiệu, luôn khao khát bị quái vật hành hạ.' },
+    { name: 'Wiz', role: 'Đồng minh', age: '20', description: 'Một Lich hiền lành chủ cửa hàng ma pháp, thường xuyên bị Aqua bắt nạt và luôn nhập về những món đồ vô dụng khiến cửa hàng thua lỗ.' },
+    { name: 'Yunyun', role: 'Đối thủ / Bạn bè', age: '14', description: 'Bạn thân và cũng là đối thủ tự phong của Megumin, luôn cô đơn, khao khát có bạn bè và thường xuyên bị Megumin trêu chọc.' },
+    { name: 'Chris', role: 'Đồng minh', age: '15', description: 'Một nữ tặc nhanh nhẹn, bạn thân của Kazuma, người đã dạy cho anh kỹ năng "Steal" nổi tiếng.' },
+    { name: 'Eris', role: 'Vị thần', age: '1000+', description: 'Nữ thần may mắn, cấp dưới của Aqua, được Kazuma vô cùng kính trọng vì sự dịu dàng và tốt bụng.' },
+    { name: 'Dust', role: 'Đồng minh', age: '17', description: 'Một mạo hiểm giả côn đồ, bạn nhậu của Kazuma, thường xuyên cùng anh tham gia vào những phi vụ mờ ám.' },
+    { name: 'Mitsurugi Kyouya', role: 'Đối thủ', age: '17', description: 'Một "anh hùng" chính hiệu sở hữu thanh kiếm ma thuật, luôn coi Kazuma là kẻ xấu xa đang bắt giữ Aqua.' },
+    { name: 'Vanir', role: 'Đồng minh / Đối thủ', age: '???', description: 'Một ác quỷ cấp cao có khả năng nhìn thấu tương lai, đối tác kinh doanh của Wiz và là "kẻ thù" truyền kiếp của Aqua.' },
+    { name: 'Beldia', role: 'Phản diện', age: '???', description: 'Một hiệp sĩ không đầu (Dullahan), tướng quân của Ma Vương, người đã tấn công thành phố Axel vì sự quấy rối của Megumin.' },
+    { name: 'Sylvia', role: 'Phản diện', age: '???', description: 'Một sinh vật tổng hợp (Chimera), tướng quân của Ma Vương, kẻ đã tấn công làng Hồng Ma.' },
+    { name: 'Hans', role: 'Phản diện', age: '???', description: 'Một con Slime khổng lồ, tướng quân của Ma Vương, kẻ đã đầu độc nguồn nước thánh của giáo phái Axis.' },
+    { name: 'Wolbach', role: 'Nhân vật quan trọng', age: '???', description: 'Nữ thần lười biếng và bạo lực, người đã dạy Megumin phép nổ và có mối liên hệ mật thiết với Chomusuke.' },
+    { name: 'Komekko', age: '8', role: 'Em gái', description: 'Em gái nhỏ của Megumin, cực kỳ thông minh và có khả năng triệu hồi ác quỷ để giúp mình... nấu ăn.' },
+    { name: 'Hyoizaburo', age: '35', role: 'Phụ thân', description: 'Cha của Megumin, một thợ rèn đạo cụ ma thuật tài ba nhưng luôn trong tình trạng nghèo túng.' },
+    { name: 'Yuiyui', age: '33', role: 'Mẫu thân', description: 'Mẹ của Megumin, một pháp sư Hồng Ma giỏi về các phép thuật gây ngủ và luôn vun vén cho con gái mình với Kazuma.' },
+    { name: 'Arue', age: '14', role: 'Bạn bè', description: 'Bạn học của Megumin, một nhà văn đầy triển vọng với những câu chuyện cực kỳ "kịch tính" và viển vông.' },
+    { name: 'Funifura', age: '14', role: 'Bạn bè', description: 'Bạn học của Megumin, luôn đi cùng Dodonko và thường xuyên bị Megumin trêu chọc về tình cảm anh em.' },
+    { name: 'Dodonko', age: '14', role: 'Bạn bè', description: 'Bạn học của Megumin, thành viên của nhóm pháp sư Hồng Ma trẻ tuổi đầy nhiệt huyết.' },
+    { name: 'Sena', age: '22', role: 'Công tố viên', description: 'Đại diện của vương quốc tại Axel, luôn nghi ngờ Kazuma là kẻ chủ mưu đằng sau mọi rắc rối trong thành phố.' },
+    { name: 'Alderp', age: '45', role: 'Phản diện', description: 'Một quý tộc tham nhũng và biến thái, kẻ luôn tìm cách chiếm đoạt Darkness cho riêng mình.' },
+    { name: 'Claire', age: '20', role: 'Cận vệ', description: 'Nữ kỵ sĩ bảo vệ công chúa Iris, cực kỳ nghiêm túc và luôn coi thường Kazuma.' },
+    { name: 'Rain', age: '20', role: 'Cận vệ', description: 'Pháp sư hoàng gia bảo vệ công chúa Iris, người có cái nhìn khách quan hơn về Kazuma so với Claire.' },
+    { name: 'Iris', age: '12', role: 'Công chúa', description: 'Công chúa của vương quốc Belzerg, cực kỳ mạnh mẽ và luôn coi Kazuma là "anh trai" đáng kính của mình.' },
+    { name: 'Lean', age: '16', role: 'Đồng minh', description: 'Pháp sư trong nhóm của Dust, người luôn phải chịu đựng những trò quậy phá của Dust.' },
+    { name: 'Chomusuke', age: '???', role: 'Thú cưng', description: 'Chú mèo đen của Megumin, thực chất là một phần của nữ thần Wolbach, rất thích được Kazuma vuốt ve.' },
+    { name: 'The Demon King', age: '???', role: 'Phản diện cuối', description: 'Kẻ đứng đầu đội quân quỷ dữ, mục tiêu cuối cùng mà Kazuma và nhóm bạn phải tiêu diệt để trở về thế giới cũ.' },
+    { name: 'Luna', age: '24', role: 'Tiếp tân', description: 'Nhân viên tại Hội mạo hiểm giả Axel, người luôn kiên nhẫn giải quyết các rắc rối do nhóm Kazuma gây ra.' }
+  ]
+};

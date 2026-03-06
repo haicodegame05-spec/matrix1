@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const lordOfTheRings: FanficWork = {
+  id: 'lord-of-the-rings',
+  title: 'Chúa Tể Những Chiếc Nhẫn',
+  description: 'Cuộc hành trình vĩ đại của Frodo Baggins để tiêu diệt Chiếc Nhẫn Quyền Lực và giải cứu Trung Địa.',
+  country: 'Khác',
+  plot: 'Frodo Baggins, một người Hobbit nhỏ bé, nhận nhiệm vụ tiêu diệt Chiếc Nhẫn Quyền Lực của bạo chúa Sauron bằng cách ném nó vào ngọn lửa của Núi Diệt Vong. Cùng với Đoàn Hộ Nhẫn gồm đại diện của các chủng tộc, Frodo phải vượt qua vô số hiểm nguy và sự cám dỗ của bóng tối để mang lại hòa bình cho Trung Địa.',
+  worldSetting: 'Thế giới Trung Địa (Middle-earth) kỳ ảo với các chủng tộc như Tiên (Elf), Người Lùn (Dwarf), Con Người, Hobbit và các sinh vật bóng tối như Orc, Nazgul.',
+  characters: [
+    { name: 'Frodo Baggins', role: 'Nhân vật chính', age: '50', description: 'Người Hobbit dũng cảm, người mang nhẫn, sở hữu ý chí kiên cường chống lại sự cám dỗ của bóng tối.' },
+    { name: 'Samwise Gamgee', role: 'Đồng minh / Bạn thân', age: '38', description: 'Người làm vườn trung thành của Frodo, người đã đồng hành cùng anh đến tận Núi Diệt Vong và là anh hùng thực sự của câu chuyện.' },
+    { name: 'Merry (Meriadoc Brandybuck)', role: 'Đồng minh', age: '36', description: 'Một người Hobbit thông minh và dũng cảm, thành viên của Đoàn Hộ Nhẫn, người đã giúp tiêu diệt Vua Phù Thủy Angmar.' },
+    { name: 'Pippin (Peregrin Took)', role: 'Đồng minh', age: '28', description: 'Thành viên trẻ nhất của Đoàn Hộ Nhẫn, tinh nghịch nhưng đã trưởng thành vượt bậc qua các cuộc chiến tại Gondor.' },
+    { name: 'Gandalf', role: 'Người dẫn dắt', age: '2000+', description: 'Phù thủy áo xám (sau là áo trắng), một Maia được gửi đến Trung Địa để dẫn dắt các dân tộc tự do chống lại Sauron.' },
+    { name: 'Aragorn', role: 'Anh hùng / Vua', age: '87', description: 'Người kế vị ngai vàng Gondor, một chiến binh vĩ đại, thủ lĩnh của quân đội tự do và là biểu tượng của hy vọng.' },
+    { name: 'Legolas', role: 'Đồng minh', age: '500+', description: 'Hoàng tử của tộc Tiên Rừng Mirkwood, một cung thủ thiện xạ với đôi mắt tinh tường và sự nhanh nhẹn phi thường.' },
+    { name: 'Gimli', role: 'Đồng minh', age: '139', description: 'Chiến binh tộc Người Lùn, dũng cảm, bộc trực và là bạn thân của Legolas, đại diện cho sự hòa giải giữa hai chủng tộc.' },
+    { name: 'Boromir', role: 'Anh hùng / Nhân vật phức tạp', age: '41', description: 'Con trai cả của quan nhiếp chính Gondor, một chiến binh dũng mãnh nhưng bị Chiếc Nhẫn cám dỗ, cuối cùng đã hy sinh anh dũng để bảo vệ Merry và Pippin.' },
+    { name: 'Sauron', role: 'Phản diện chính', age: 'Ancient', description: 'Chúa tể bóng tối, kẻ tạo ra Chiếc Nhẫn Quyền Lực để thống trị toàn bộ Trung Địa, hiện thân của cái ác tuyệt đối.' },
+    { name: 'Galadriel', role: 'Đồng minh / Nữ vương', age: '8000+', description: 'Nữ vương tộc Tiên tại Lothlórien, sở hữu trí tuệ và quyền năng ma thuật to lớn, người đã giúp đỡ Đoàn Hộ Nhẫn.' },
+    { name: 'Elrond', role: 'Đồng minh / Lãnh chúa', age: '6000+', description: 'Lãnh chúa thành Rivendell, một nửa dòng máu Tiên, người đã triệu tập Hội đồng Elrond để quyết định số phận của Chiếc Nhẫn.' },
+    { name: 'Saruman', role: 'Phản diện', age: '2000+', description: 'Phù thủy áo trắng, từng là người đứng đầu Hội đồng Phù thủy nhưng đã bị Sauron tha hóa và phản bội các dân tộc tự do.' },
+    { name: 'Gollum (Sméagol)', role: 'Nhân vật phức tạp', age: '589', description: 'Một sinh vật bị Chiếc Nhẫn tha hóa suốt hàng trăm năm, mang trong mình hai nhân cách đối lập và đóng vai trò quyết định trong việc tiêu diệt Chiếc Nhẫn.' },
+    { name: 'Éowyn', role: 'Anh hùng', age: '24', description: 'Công chúa của Rohan, một nữ chiến binh dũng cảm đã cải trang thành nam giới để ra trận và tiêu diệt Vua Phù Thủy Angmar.' },
+    { name: 'Faramir', role: 'Đồng minh', age: '36', description: 'Em trai của Boromir, một lãnh đạo quân sự tài ba và chính trực, người đã chứng tỏ bản lĩnh khi từ chối sự cám dỗ của Chiếc Nhẫn.' },
+    { name: 'Theoden', role: 'Vua', age: '71', description: 'Vua của Rohan, người đã vượt qua sự thao túng của Saruman để dẫn dắt quân đội của mình đến chiến thắng tại Helm\'s Deep và Pelennor Fields.' },
+    { name: 'Arwen', role: 'Đồng minh / Nữ vương', age: '2700+', description: 'Con gái của Elrond, người đã từ bỏ sự bất tử của tộc Tiên để kết hôn với Aragorn và trở thành Hoàng hậu của Gondor.' },
+    { name: 'Eomer', role: 'Anh hùng / Vua', age: '28', description: 'Cháu trai của Theoden, một kỵ sĩ dũng cảm của Rohan, người sau này trở thành Vua của Rohan sau cái chết của chú mình.' },
+    { name: 'Treebeard (Fangorn)', role: 'Đồng minh', age: 'Ancient', description: 'Thủ lĩnh của tộc Ent (Người Cây), sinh vật cổ xưa nhất Trung Địa, người đã dẫn dắt các Ent tấn công Isengard.' },
+    { name: 'Bilbo Baggins', role: 'Nhân vật quan trọng', age: '131', description: 'Chú của Frodo, người đã tìm thấy Chiếc Nhẫn Quyền Lực trong chuyến phiêu lưu của mình và để lại nó cho Frodo.' },
+    { name: 'Denethor II', role: 'Nhân vật phức tạp / Quan nhiếp chính', age: '89', description: 'Quan nhiếp chính cuối cùng của Gondor, cha của Boromir và Faramir, người đã rơi vào tuyệt vọng khi nhìn thấy sức mạnh của Sauron qua Palantir.' },
+    { name: 'The Witch-king of Angmar', role: 'Phản diện', age: 'Ancient', description: 'Thủ lĩnh của các Nazgul (Ma Nhẫn), tay sai đáng sợ nhất của Sauron, kẻ không thể bị giết bởi bất kỳ người đàn ông nào.' },
+    { name: 'Shelob', role: 'Quái vật', age: 'Ancient', description: 'Một con nhện khổng lồ cổ xưa sống trong hang động dẫn đến Mordor, kẻ đã suýt chút nữa giết chết Frodo.' },
+    { name: 'Grima Wormtongue', role: 'Phản diện', age: 'Unknown', description: 'Tay sai của Saruman, kẻ đã thao túng Vua Theoden và gây ra sự suy yếu cho vương quốc Rohan.' },
+    { name: 'Haldir', role: 'Đồng minh', age: 'Unknown', description: 'Một chiến binh tộc Tiên từ Lothlórien, người đã dẫn dắt quân đội Tiên đến giúp đỡ Rohan tại trận chiến Helm\'s Deep.' },
+    { name: 'Celeborn', role: 'Đồng minh / Lãnh chúa', age: 'Ancient', description: 'Chồng của Galadriel, Lãnh chúa của Lothlórien, một trong những vị Tiên thông thái và quyền năng nhất.' },
+    { name: 'Glorfindel', role: 'Đồng minh', age: 'Ancient', description: 'Một chiến binh Tiên hùng mạnh từ Rivendell, người đã cứu Frodo khỏi các Nazgul tại bến đò Bruinen.' },
+    { name: 'Tom Bombadil', role: 'Bí ẩn', age: 'Ancient', description: 'Một thực thể bí ẩn và quyền năng sống trong Rừng Già, người không bị ảnh hưởng bởi sức mạnh của Chiếc Nhẫn.' },
+    { name: 'Rosie Cotton', role: 'Hỗ trợ', age: '34', description: 'Vợ của Samwise Gamgee, người đại diện cho cuộc sống bình yên và hạnh phúc tại Shire mà các Hobbit chiến đấu để bảo vệ.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const classroomOfTheElite: FanficWork = {
+  id: 'classroom-of-the-elite',
+  title: 'Chào Mừng Đến Với Lớp Học Đề Cao Thực Lực (Classroom of the Elite)',
+  description: 'Tại ngôi trường danh giá nhất Nhật Bản, nơi mọi thứ được quyết định bởi điểm số và thực lực, Ayanokouji Kiyotaka che giấu tài năng thiên bẩm của mình.',
+  country: 'Nhật',
+  plot: 'Trường Cao trung Nâng cao Thủ đô Tokyo là nơi đảm bảo tương lai cho học sinh, nhưng thực chất là một chiến trường khốc liệt. Ayanokouji, một học sinh lớp D (lớp thấp nhất), cố gắng sống một cuộc đời bình thường nhưng buộc phải nhúng tay vào các âm mưu để giúp lớp mình thăng hạng và đối phó với những kẻ thù từ quá khứ.',
+  worldSetting: 'Ngôi trường biệt lập với thế giới bên ngoài, sử dụng hệ thống điểm S-Point để mua sắm và quyết định thứ hạng của các lớp.',
+  characters: [
+    { name: 'Ayanokouji Kiyotaka', role: 'Nhân vật chính', age: '16', description: 'Cực kỳ thông minh, lạnh lùng, luôn đứng sau giật dây mọi chuyện. Xuất thân từ "Căn phòng trắng" đầy bí ẩn, nơi đào tạo những thiên tài nhân tạo.' },
+    { name: 'Horikita Suzune', role: 'Nữ chính / Đồng minh', age: '16', description: 'Một nữ sinh tài năng nhưng cô độc, mục tiêu là thăng lên lớp A để nhận được sự công nhận của anh trai. Cô dần trưởng thành và trở thành lãnh đạo thực thụ của lớp.' },
+    { name: 'Kushida Kikyou', role: 'Đối thủ', age: '16', description: 'Vẻ ngoài thiên thần nhưng bên trong là một ác quỷ, luôn tìm cách tiêu diệt những ai biết được bí mật về quá khứ đen tối của mình.' },
+    { name: 'Karuizawa Kei', role: 'Nữ chính / Đồng minh', age: '16', description: 'Thủ lĩnh nữ sinh lớp D, sau này trở thành bạn gái và là người thân cận nhất của Ayanokouji, giúp anh thu thập thông tin.' },
+    { name: 'Ryuuen Kakeru', role: 'Đối thủ', age: '17', description: 'Thủ lĩnh lớp C, sử dụng bạo lực và mưu mẹo để thống trị. Sau khi bị Ayanokouji đánh bại, anh trở nên thâm trầm và đáng sợ hơn.' },
+    { name: 'Sakayanagi Arisu', role: 'Đối thủ', age: '16', description: 'Thiên tài lớp A, bị khuyết tật chân nhưng sở hữu trí tuệ siêu việt. Cô coi Ayanokouji là đối thủ duy nhất xứng tầm.' },
+    { name: 'Ichinose Honami', role: 'Đồng minh / Đối thủ', age: '16', description: 'Thủ lĩnh lớp B, xinh đẹp, tốt bụng và được mọi người tin tưởng tuyệt đối. Tuy nhiên, sự lương thiện quá mức đôi khi là điểm yếu của cô.' },
+    { name: 'Hirata Yousuke', role: 'Đồng minh', age: '16', description: 'Thủ lĩnh nam sinh lớp D, luôn cố gắng giữ gìn sự đoàn kết trong lớp và là người hòa giải các xung đột.' },
+    { name: 'Chabashira Sae', role: 'Người dẫn dắt', age: '30', description: 'Giáo viên chủ nhiệm lớp D, người mang trong mình hối tiếc về quá khứ và đã ép Ayanokouji phải hành động.' },
+    { name: 'Horikita Manabu', role: 'Người dẫn dắt', age: '18', description: 'Anh trai của Suzune, cựu Hội trưởng Hội học sinh, người được toàn trường kính trọng vì năng lực và sự liêm chính.' },
+    { name: 'Nagumo Miyabi', role: 'Phản diện', age: '17', description: 'Hội trưởng Hội học sinh năm 3, người muốn thay đổi toàn bộ hệ thống của trường thành một chế độ độc tài dựa trên thực lực cá nhân.' },
+    { name: 'Koenji Rokusuke', role: 'Nhân vật tự do', age: '16', description: 'Một học sinh lớp D có năng lực thể chất và trí tuệ cực cao nhưng cực kỳ ích kỷ và chỉ làm những gì mình thích.' },
+    { name: 'Shiina Hiyori', role: 'Đồng minh', age: '16', description: 'Học sinh lớp C, yêu thích đọc sách và là người hiếm hoi có thể trò chuyện trí tuệ với Ayanokouji.' },
+    { name: 'Katsuragi Kouhei', role: 'Đối thủ', age: '16', description: 'Từng là lãnh đạo phe đối lập trong lớp A, một người cẩn trọng và có tinh thần trách nhiệm cao.' },
+    { name: 'Ibuki Mio', role: 'Đối thủ', age: '16', description: 'Thành viên lớp C, giỏi võ thuật và luôn coi Horikita Suzune là đối thủ truyền kiếp.' },
+    { name: 'Albert Yamada', role: 'Đối thủ', age: '17', description: 'Cánh tay phải của Ryuuen, một học sinh lai có sức mạnh thể chất khổng lồ nhưng rất trung thành.' },
+    { name: 'Nanase Tsubasa', role: 'Nhân vật bí ẩn', age: '15', description: 'Học sinh năm nhất, có liên quan đến quá khứ của Ayanokouji và Căn phòng trắng.' },
+    { name: 'Amasawa Ichika', role: 'Nhân vật bí ẩn', age: '15', description: 'Học sinh năm nhất từ Căn phòng trắng, sở hữu năng lực vượt trội và tính cách tinh quái.' },
+    { name: 'Housen Kazuomi', role: 'Phản diện', age: '15', description: 'Thủ lĩnh năm nhất lớp D, một kẻ bạo lực và kiêu ngạo, muốn hạ gục Ayanokouji để lấy tiền thưởng.' },
+    { name: 'Kiryuuin Fuuka', role: 'Nhân vật tự do', age: '18', description: 'Nữ sinh năm 3 duy nhất có thể sánh ngang với Nagumo về thực lực, tính cách phóng khoáng và bí ẩn.' },
+    { name: 'Sakura Airi', role: 'Đồng minh', age: '16', description: 'Một nữ sinh nhút nhát, từng là một thần tượng mạng nổi tiếng. Cô là thành viên của nhóm Ayanokouji và có tình cảm sâu đậm với anh.' },
+    { name: 'Akito Miyake', role: 'Đồng minh', age: '16', description: 'Thành viên nhóm Ayanokouji, giỏi võ thuật và luôn bảo vệ bạn bè. Anh là một người trầm tính và đáng tin cậy.' },
+    { name: 'Haruka Hasebe', role: 'Đồng minh', age: '16', description: 'Thành viên nhóm Ayanokouji, người đã thành lập nhóm để gắn kết những người bạn lại với nhau. Cô có tính cách thẳng thắn và trung thành.' },
+    { name: 'Keisei Yukimura', role: 'Đồng minh', age: '16', description: 'Thành viên nhóm Ayanokouji, một thiên tài về học thuật. Anh luôn nỗ lực để cải thiện điểm số cho cả lớp.' },
+    { name: 'Kaneda Satoru', role: 'Đối thủ', age: '16', description: 'Học sinh lớp C, một chiến lược gia tài năng luôn hỗ trợ Ryuuen trong các kế hoạch mưu mô.' },
+    { name: 'Hiyori Shiina', role: 'Đồng minh / Lớp C', age: '16', description: 'Nữ sinh lớp C yêu thích đọc sách, người hiếm hoi có thể trò chuyện trí tuệ với Ayanokouji mà không có ác ý.' },
+    { name: 'Kamuro Masumi', role: 'Đối thủ / Lớp A', age: '16', description: 'Cánh tay phải của Sakayanagi, người luôn thực hiện các nhiệm vụ bí mật cho cô. Cô có một bí mật bị Sakayanagi nắm giữ.' },
+    { name: 'Hashimoto Masayoshi', role: 'Đối thủ / Lớp A', age: '16', description: 'Thành viên lớp A, một kẻ cơ hội luôn tìm cách đứng về phía người thắng cuộc. Anh là một người thu thập thông tin tài ba.' },
+    { name: 'Kanzaki Ryuuji', role: 'Đối thủ / Lớp B', age: '16', description: 'Cánh tay phải của Ichinose, người luôn lo lắng về sự lương thiện quá mức của cô và cố gắng bảo vệ lớp B bằng sự thực tế.' },
+    { name: 'Matsushita Chiaki', role: 'Đồng minh (Tiềm năng)', age: '16', description: 'Học sinh lớp D, người đã sớm nhận ra tài năng thực sự của Ayanokouji và luôn âm thầm quan sát anh.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const maouGakuin: FanficWork = {
+  id: 'maou-gakuin',
+  title: 'Học Viện Ma Vương (The Misfit of Demon King Academy)',
+  description: 'Ma vương bạo chúa Anos Voldigoad chuyển sinh sau 2000 năm, nhưng lại bị coi là "kẻ không thích hợp".',
+  country: 'Nhật',
+  plot: 'Anos Voldigoad, Ma vương bạo chúa đã hy sinh bản thân để mang lại hòa bình cho thế giới, chuyển sinh sau 2000 năm. Tuy nhiên, lịch sử đã bị bóp méo, và anh bị coi là một kẻ lai căng không xứng đáng tại học viện đào tạo Ma vương. Với sức mạnh áp đảo, Anos bắt đầu hành trình lấy lại vị thế và tìm ra kẻ đã thay đổi lịch sử.',
+  worldSetting: 'Một thế giới nơi ma pháp dựa trên nguồn gốc (Origin). Anos là nguồn gốc của mọi ma pháp Ma tộc. Học viện Ma vương chia học sinh thành "thuần chủng" và "lai căng", tạo ra sự phân biệt đối xử gay gắt.',
+  characters: [
+    { name: 'Anos Voldigoad', role: 'Nhân vật chính', age: '2000+', description: 'Ma vương bạo chúa thực sự. Sở hữu sức mạnh hủy diệt mọi thứ, kể cả các vị thần. Luôn tự tin và bảo vệ những người thân yêu.' },
+    { name: 'Misha Necron', role: 'Nữ chính', age: '15', description: 'Một cô gái trầm lặng, hiền lành, mang trong mình dòng máu Necron. Là người đầu tiên kết bạn với Anos tại học viện.' },
+    { name: 'Sasha Necron', role: 'Nữ chính', age: '15', description: 'Chị gái của Misha, biệt danh "Ma nhãn hủy diệt". Ban đầu kiêu ngạo nhưng sau này trở nên trung thành và yêu Anos.' },
+    { name: 'Lay Glanzudlii', role: 'Bạn thân / Đối thủ', age: '2000+', description: 'Chuyển sinh của Anh hùng Kanon, kiếm sĩ tài ba nhất nhân loại. Có mối quan hệ phức tạp và sâu sắc với Anos.' },
+    { name: 'Misa Ilioroagu', role: 'Hỗ trợ', age: '15', description: 'Một cô gái lai giữa Ma tộc và Tinh linh, lãnh đạo hội những người ủng hộ Anos. Có thân phận thực sự đáng kinh ngạc.' },
+    { name: 'Eleonore Bianca', role: 'Hỗ trợ', age: '???', description: 'Một cô gái là hiện thân của ma pháp cấm kỵ "Jerga Kanon". Có trái tim nhân hậu và coi Anos như người cứu rỗi.' },
+    { name: 'Zeshia Bianca', role: 'Hỗ trợ', age: '???', description: 'Những bản sao của Eleonore, trung thành và luôn đi theo bảo vệ cô.' },
+    { name: 'Shin Reglia', role: 'Thuộc hạ', age: '2000+', description: 'Cánh tay phải của Anos từ thời cổ đại, kiếm sĩ mạnh nhất Ma tộc. Trung thành tuyệt đối và lạnh lùng.' },
+    { name: 'Ivis Necron', role: 'Thuộc hạ', age: '2000+', description: 'Một trong Thất Ma Hoàng Lão do Anos tạo ra. Bị kẻ thù thao túng nhưng đã được Anos cứu thoát.' },
+    { name: 'Melheis Boran', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên khác của Thất Ma Hoàng Lão, chuyên gia về ma pháp không gian.' },
+    { name: 'Gaios Anzem', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên Thất Ma Hoàng Lão, chiến binh mạnh mẽ với sức mạnh thể chất vượt trội.' },
+    { name: 'Ydol Anzeo', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên Thất Ma Hoàng Lão, sử dụng song kiếm ma pháp điêu luyện.' },
+    { name: 'Medoin Garsa', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên Thất Ma Hoàng Lão, chuyên về ma pháp nguyền rủa.' },
+    { name: 'Zoro Angart', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên Thất Ma Hoàng Lão, có khả năng điều khiển lửa ma pháp.' },
+    { name: 'Eldora Zaia', role: 'Thuộc hạ', age: '2000+', description: 'Thành viên cuối cùng của Thất Ma Hoàng Lão, chuyên về ma pháp phòng thủ.' },
+    { name: 'Avos Dilhevia', role: 'Phản diện', age: '???', description: 'Kẻ mạo danh danh hiệu Ma vương bạo chúa, mục tiêu chính của Anos trong giai đoạn đầu.' },
+    { name: 'Jerga', role: 'Phản diện', age: '2000+', description: 'Anh hùng nhân loại thời cổ đại, người mang lòng hận thù sâu sắc với Ma tộc và muốn hủy diệt tất cả.' },
+    { name: 'Nosgalia', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Thiên phụ thần, kẻ luôn tìm cách tiêu diệt Anos vì anh là sự tồn tại đe dọa trật tự thế giới.' },
+    { name: 'Gusta Voldigoad', role: 'Phụ thân', age: '40+', description: 'Cha của Anos ở kiếp này, một thợ rèn nhiệt huyết và luôn tự hào về con trai mình.' },
+    { name: 'Izabella Voldigoad', role: 'Mẫu thân', age: '35+', description: 'Mẹ của Anos, người phụ nữ hiền hậu và luôn chăm sóc Anos hết mực.' },
+    { name: 'Emilia Ludowell', role: 'Đối thủ / Hỗ trợ', age: '25+', description: 'Giáo viên tại học viện Ma vương, ban đầu phân biệt đối xử với Anos nhưng sau đó đã thay đổi sau một biến cố.' },
+    { name: 'Leorig Indu', role: 'Đối thủ', age: '18', description: 'Một học sinh thuần chủng kiêu ngạo, người luôn coi thường Anos và các học sinh lai căng.' },
+    { name: 'Zepes Indu', role: 'Đối thủ', age: '18', description: 'Em trai của Leorig, một kẻ hèn nhát thường xuyên bắt nạt những người yếu hơn.' },
+    { name: 'Enyu Unbal', role: 'Hỗ trợ', age: '18', description: 'Một thành viên trong hội những người ủng hộ Anos, luôn tin tưởng vào sức mạnh của anh.' },
+    { name: 'Nao', role: 'Hỗ trợ', age: '18', description: 'Một cô gái trong hội ủng hộ Anos, người thường xuyên tham gia vào các hoạt động của hội.' },
+    { name: 'Meno Historia', role: 'Hỗ trợ', age: '30+', description: 'Một giáo viên khác tại học viện Ma vương, người có cái nhìn công bằng hơn về các học sinh.' },
+    { name: 'Diego Kanon Ijaysica', role: 'Phản diện', age: '40+', description: 'Một hậu duệ của Anh hùng Kanon, người mang lòng hận thù sâu sắc với Ma tộc.' },
+    { name: 'Great Spirit Reno', role: 'Nhân vật quan trọng', age: '2000+', description: 'Đại tinh linh thời cổ đại, mẹ của Misa và là người có mối liên kết với Shin.' },
+    { name: 'Militia', role: 'Thần / Nhân vật quan trọng', age: 'Vĩnh cửu', description: 'Sáng tạo thần, người đã cùng Anos tạo ra bức tường ngăn cách thế giới 2000 năm trước.' },
+    { name: 'Abernyu', role: 'Thần / Nhân vật quan trọng', age: 'Vĩnh cửu', description: 'Phá hoại thần, người sở hữu sức mạnh hủy diệt và có mối quan hệ đặc biệt với Anos.' }
+  ]
+};

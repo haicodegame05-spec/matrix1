@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const ansatsusha: FanficWork = {
+  id: 'ansatsusha',
+  title: 'Sát Thủ Mạnh Nhất Thế Giới Chuyển Sinh (The World\'s Finest Assassin)',
+  description: 'Lugh Tuatha Dé, một sát thủ huyền thoại chuyển sinh để thực hiện nhiệm vụ cuối cùng: giết chết Anh hùng cứu thế.',
+  country: 'Nhật',
+  plot: 'Một sát thủ già dặn bị tổ chức phản bội và giết chết. Nữ thần đã cho ông cơ hội chuyển sinh vào một gia tộc sát thủ quý tộc ở dị giới. Nhiệm vụ của ông là phải giết chết Anh hùng cứu thế trước khi người đó phá hủy thế giới. Với kiến thức sát thủ hiện đại và ma pháp dị giới, Lugh bắt đầu hành trình chuẩn bị cho nhiệm vụ tối thượng này.',
+  worldSetting: 'Một thế giới ma pháp nơi sức mạnh dựa trên các kỹ năng (Skill) và Mana. Lugh được ban cho những kỹ năng tối thượng để có thể đối đầu với Anh hùng, người vốn dĩ bất tử và vô địch.',
+  characters: [
+    { name: 'Lugh Tuatha Dé', role: 'Nhân vật chính', age: '18', description: 'Sát thủ huyền thoại chuyển sinh. Thông minh, lạnh lùng và cực kỳ hiệu quả trong mọi nhiệm vụ. Luôn chuẩn bị kỹ lưỡng cho mọi tình huống.' },
+    { name: 'Dia Viekone', role: 'Nữ chính / Sư phụ', age: '18', description: 'Một nữ pháp sư tài ba, người đã dạy ma pháp cho Lugh. Xinh đẹp, hiền hậu và yêu Lugh sâu đậm.' },
+    { name: 'Tarte', role: 'Thuộc hạ / Nữ chính', age: '18', description: 'Một cô gái được Lugh cứu thoát khỏi cái chết. Trung thành tuyệt đối và là một chiến binh mạnh mẽ hỗ trợ Lugh.' },
+    { name: 'Maha', role: 'Thuộc hạ / Nữ chính', age: '18', description: 'Một cô gái thông minh được Lugh cứu, sau này điều hành mạng lưới tình báo và kinh doanh cho gia tộc Tuatha Dé.' },
+    { name: 'Cian Tuatha Dé', role: 'Phụ thân', age: '45+', description: 'Cha của Lugh, một sát thủ quý tộc nghiêm khắc nhưng rất yêu thương và tin tưởng con trai mình.' },
+    { name: 'Esri Tuatha Dé', role: 'Mẫu thân', age: '40+', description: 'Mẹ của Lugh, người phụ nữ hiền hậu và luôn chăm sóc Lugh hết mực.' },
+    { name: 'Epona', role: 'Anh hùng / Mục tiêu', age: '18', description: 'Anh hùng cứu thế thực sự. Sở hữu sức mạnh vô địch nhưng lại có tâm hồn mỏng manh và dễ bị tổn thương.' },
+    { name: 'Nữ Thần', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Vị thần đã cho Lugh cơ hội chuyển sinh. Luôn theo dõi và thúc đẩy Lugh thực hiện nhiệm vụ.' },
+    { name: 'Ronny', role: 'Đồng minh', age: '20+', description: 'Một mạo hiểm giả cấp cao, người đã cùng Lugh thực hiện một số nhiệm vụ quan trọng.' },
+    { name: 'Goddess of Death', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Thực thể liên quan đến cái chết và sự cân bằng của thế giới, có mối liên hệ mật thiết với Lugh.' },
+    { name: 'Clau', role: 'Đối thủ', age: '25+', description: 'Một sát thủ từ tổ chức đối địch, luôn tìm cách ám sát Lugh và gia đình anh.' },
+    { name: 'Nevan', role: 'Nhân vật quan trọng', age: '20+', description: 'Một quý tộc từ vương quốc láng giềng, có mưu đồ chính trị phức tạp liên quan đến Anh hùng.' },
+    { name: 'Setanta', role: 'Đối thủ', age: '???', description: 'Một chiến binh mạnh mẽ được tạo ra từ ma pháp, kẻ thù đáng gờm của Lugh trong một số giai đoạn.' },
+    { name: 'Lugh (Kiếp trước)', role: 'Ký ức', age: '70+', description: 'Hình bóng của sát thủ già dặn luôn hiện hữu trong tâm trí Lugh, nhắc nhở anh về kinh nghiệm và sự tàn nhẫn.' },
+    { name: 'Mina', role: 'Hỗ trợ', age: '20+', description: 'Một nữ tu sĩ có khả năng trị thương, người đã giúp đỡ nhóm của Lugh trong các trận chiến.' },
+    { name: 'Viekone Duke', role: 'Nhân vật quan trọng', age: '50+', description: 'Cha của Dia, một quý tộc quyền lực và là đồng minh của gia tộc Tuatha Dé.' },
+    { name: 'Tuatha Dé Ancestor', role: 'Linh hồn', age: '???', description: 'Linh hồn của người sáng lập gia tộc sát thủ, người đã truyền lại những bí kíp tối thượng cho Lugh.' },
+    { name: 'Hero Party Member 1', role: 'Hỗ trợ', age: '20+', description: 'Thành viên trong nhóm của Anh hùng, luôn tin tưởng và bảo vệ Epona.' },
+    { name: 'Hero Party Member 2', role: 'Hỗ trợ', age: '20+', description: 'Thành viên khác trong nhóm Anh hùng, chuyên về ma pháp phòng thủ.' },
+    { name: 'The King', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua của vương quốc, người đã ra lệnh cho gia tộc Tuatha Dé thực hiện các nhiệm vụ ám sát vì lợi ích quốc gia.' },
+    { name: 'Goddess of Wisdom', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Một vị thần khác trong hội đồng thần linh, người luôn phản đối cách làm của Nữ Thần chính và âm thầm giúp đỡ Lugh.' },
+    { name: 'Duke Viekone', role: 'Nhân vật quan trọng', age: '50+', description: 'Cha của Dia, một quý tộc quyền lực và là đồng minh thân cận của gia tộc Tuatha Dé, người nắm giữ nhiều bí mật về ma pháp cổ đại.' },
+    { name: 'The Pope of Alvan', role: 'Phản diện', age: '60+', description: 'Người đứng đầu giáo hội, kẻ luôn mượn danh nghĩa thần linh để thực hiện những âm mưu chính trị đen tối.' },
+    { name: 'Lugh\'s Rival', role: 'Đối thủ', age: '20', description: 'Một sát thủ thiên tài từ một quốc gia khác, người luôn coi Lugh là mục tiêu lớn nhất để vượt qua.' },
+    { name: 'Dia\'s Mother', role: 'Gia đình', age: '45', description: 'Nữ công tước Viekone, một người phụ nữ quý phái và là một pháp sư tài năng, người đã truyền dạy những kiến thức nền tảng cho Dia.' },
+    { name: 'The Royal Guard Captain', role: 'Đối thủ / Đồng minh', age: '35', description: 'Chỉ huy đội cận vệ hoàng gia, một chiến binh chính trực luôn nghi ngờ về các hoạt động của gia tộc Tuatha Dé.' },
+    { name: 'The Underground Informant', role: 'Hỗ trợ', age: '???', description: 'Một nhân vật bí ẩn trong thế giới ngầm, người cung cấp cho Maha những thông tin mật về các quý tộc tham nhũng.' },
+    { name: 'The Alchemist of Alvan', role: 'Hỗ trợ', age: '50+', description: 'Một nhà giả kim tài ba, người đã giúp Lugh chế tạo ra những loại thuốc độc và thuốc hồi phục đặc biệt.' },
+    { name: 'The Fallen Hero', role: 'Phản diện', age: '???', description: 'Một anh hùng từ thời đại trước đã bị bóng tối tha hóa, đối thủ lớn nhất của Lugh trước khi đối đầu với Epona.' },
+    { name: 'The Village Girl', role: 'Hỗ trợ', age: '16', description: 'Một cô gái bình thường tại lãnh địa Tuatha Dé, người luôn ngưỡng mộ lòng nhân hậu và sức mạnh của Lugh.' }
+  ]
+};

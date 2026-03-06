@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const lordOfTheMysteries: FanficWork = {
+  id: 'lord-of-the-mysteries',
+  title: 'Quỷ Bí Chi Chủ (Lord of the Mysteries)',
+  description: 'Chu Minh Thụy xuyên không vào thế giới hơi nước và ma thuật, trở thành Klein Moretti.',
+  country: 'Trung',
+  plot: 'Chu Minh Thụy, một thanh niên hiện đại, tỉnh dậy trong cơ thể của Klein Moretti tại thành phố Tingen thuộc vương quốc Loen. Anh phát hiện mình đang ở một thế giới mang phong cách Victoria với sự tồn tại của các "Người Vượt Bậc". Klein bắt đầu hành trình khám phá bí ẩn về sự xuyên không của mình, thành lập "Hội Tarot" và từng bước thăng tiến trên các con đường danh giá để trở thành một vị thần.',
+  worldSetting: 'Một thế giới hơi nước kết hợp với ma thuật huyền bí. Có 22 con đường danh giá, mỗi con đường có 10 cấp bậc từ 9 đến 0. Sự thăng tiến đi kèm với nguy cơ mất kiểm soát và điên loạn. Các vị thần và thực thể bí ẩn luôn rình rập trong bóng tối.',
+  characters: [
+    { name: 'Klein Moretti', role: 'Nhân vật chính', age: '24', description: 'Kẻ Khờ, người sáng lập Hội Tarot, sở hữu khả năng bói toán, triệu hồi và điều khiển rối, luôn giữ sự tỉnh táo giữa sự điên loạn.' },
+    { name: 'Leonard Mitchell', role: 'Đồng minh', age: '25', description: 'Thành viên Kẻ Gác Đêm, sở hữu một linh hồn cổ xưa bên trong, người bạn thân thiết và luôn hỗ trợ Klein trong bóng tối.' },
+    { name: 'Audrey Hall', role: 'Thành viên Hội Tarot', age: '18', description: 'Chính Nghĩa, tiểu thư nhà quý tộc, thuộc con đường Khán Giả với khả năng thao túng tâm lý và quan sát tinh tế.' },
+    { name: 'Alger Wilson', role: 'Thành viên Hội Tarot', age: '30', description: 'Người Treo Cổ, một thuyền trưởng hải quân lão luyện, thuộc con đường Thủy Thủ, giàu kinh nghiệm và đầy mưu mẹo.' },
+    { name: 'Derrick Berg', role: 'Thành viên Hội Tarot', age: '15', description: 'Mặt Trời, thiếu niên đến từ Thành Phố Bạc bị lãng quên, thuộc con đường Mặt Trời, mang trong mình hy vọng của cả bộ tộc.' },
+    { name: 'Amon', role: 'Phản diện', age: '2000+', description: 'Thiên sứ thời đại thứ tư, kẻ trộm thời gian và định mệnh, luôn đeo một chiếc kính một tròng và là nỗi khiếp sợ của mọi thực thể.' },
+    { name: 'Pallez Zoroast', role: 'Người dẫn dắt / Đồng minh', age: '2000+', description: 'Linh hồn cổ xưa bên trong Leonard, một thiên sứ thuộc con đường Kẻ Trộm, cung cấp kiến thức và sự bảo vệ bí mật.' },
+    { name: 'Fors Wall', role: 'Thành viên Hội Tarot', age: '22', description: 'Ma Thuật Sư, một nhà văn lười biếng nhưng tài năng, thuộc con đường Học Đồ với khả năng dịch chuyển và ẩn nấp.' },
+    { name: 'Xio Derecha', role: 'Thành viên Hội Tarot', age: '21', description: 'Phán Quyết, một thợ săn tiền thưởng chính trực, thuộc con đường Trọng Tài với khả năng thiết lập luật lệ.' },
+    { name: 'Cattleya', role: 'Thành viên Hội Tarot', age: '32', description: 'Ẩn Sĩ, đô đốc hải tặc nổi tiếng, thuộc con đường Nhòm Ngó Bí Ẩn với kiến thức sâu rộng về thế giới huyền bí.' },
+    { name: 'Emlyn White', role: 'Thành viên Hội Tarot', age: '20', description: 'Mặt Trăng, một ma cà rồng yêu búp bê, thuộc con đường Mặt Trăng với khả năng hồi phục và điều khiển sinh vật bóng tối.' },
+    { name: 'Danitz', role: 'Đồng minh', age: '28', description: 'Một hải tặc thuộc băng của Cattleya, người thường xuyên bị Klein (dưới danh nghĩa Gehrman Sparrow) "bắt nạt" nhưng rất trung thành.' },
+    { name: 'Bernadette Gustav', role: 'Đồng minh', age: '100+', description: 'Nữ vương thần bí, con gái của hoàng đế Roselle, một người vượt bậc mạnh mẽ luôn tìm kiếm sự thật về cha mình.' },
+    { name: 'Roselle Gustav', role: 'Nhân vật lịch sử / Bí ẩn', age: '???', description: 'Hoàng đế xuyên không tiền nhiệm, người đã để lại những cuốn nhật ký bằng tiếng Trung và thay đổi hoàn toàn thế giới.' },
+    { name: 'Will Auceptin', role: 'Đồng minh', age: '???', description: 'Vòng Quay Vận Mệnh, một thiên sứ thuộc con đường Vận Mệnh hiện thân dưới hình hài một đứa trẻ, thường xuyên giúp đỡ Klein.' },
+    { name: 'Azik Eggers', role: 'Người dẫn dắt / Đồng minh', age: '1000+', description: 'Tử Thần bất tử, người thầy và là người bảo hộ của Klein, luôn tìm lại ký ức qua các kiếp luân hồi.' },
+    { name: 'Reinette Tinkerr', role: 'Bạn đồng hành', age: '???', description: 'Sứ giả của Klein, một thực thể linh hồn mạnh mẽ với bốn cái đầu cắt rời, luôn đòi hỏi tiền vàng cho mỗi lần đưa thư.' },
+    { name: 'Zaratul', role: 'Đối thủ', age: '1000+', description: 'Thủ lĩnh của hội Mật Tu, một thiên sứ thuộc con đường Kẻ Khờ, đối thủ lớn của Klein trong việc thăng tiến.' },
+    { name: 'Adam', role: 'Phản diện / Bí ẩn', age: '2000+', description: 'Thiên sứ trí tưởng tượng, con trai của Đấng Sáng Thế, kẻ đứng sau nhiều sự kiện lịch sử vĩ đại.' },
+    { name: 'Medici', role: 'Phản diện', age: '2000+', description: 'Thiên sứ chiến tranh, một thực thể linh hồn đầy thù hận và sức mạnh hỏa diệm đáng sợ.' },
+    { name: 'Ince Zangwill', role: 'Phản diện', age: '45', description: 'Một cựu Kẻ Gác Đêm phản bội, người đã gây ra cái chết của Klein ở Tingen và sở hữu một vật phẩm thần kỳ nguy hiểm.' },
+    { name: 'Daly Simone', role: 'Đồng minh', age: '28', description: 'Một nữ Kẻ Gác Đêm tài năng, người có tình cảm sâu đậm với Dunn Smith và luôn giúp đỡ Klein.' },
+    { name: 'Dunn Smith', role: 'Người dẫn dắt', age: '35', description: 'Đội trưởng Kẻ Gác Đêm tại Tingen, một người đàn ông chính trực và hay quên, người đã hy sinh để bảo vệ thành phố.' },
+    { name: 'Old Neil', role: 'Người dẫn dắt', age: '60', description: 'Một Kẻ Gác Đêm già kinh nghiệm, người đã dạy cho Klein những kiến thức cơ bản về thế giới huyền bí.' },
+    { name: 'Melissa Moretti', role: 'Gia đình', age: '16', description: 'Em gái của Klein, một cô gái thông minh, tiết kiệm và có khiếu về cơ khí.' },
+    { name: 'Benson Moretti', role: 'Gia đình', age: '26', description: 'Anh trai của Klein, một nhân viên văn phòng tận tụy, người luôn lo lắng cho tương lai của các em mình.' },
+    { name: 'Susi', role: 'Bạn đồng hành', age: '???', description: 'Một con chó thuộc con đường Khán Giả, thú cưng của Audrey Hall, có trí tuệ và khả năng quan sát vượt trội.' },
+    { name: 'Frank Lee', role: 'Đồng minh', age: '30', description: 'Một nhà khoa học điên rồ trên tàu của Cattleya, chuyên gia về lai tạo sinh vật quỷ dị.' },
+    { name: 'Anderson Hood', role: 'Đồng minh', age: '29', description: 'Một thợ săn mạnh mẽ và hài hước, người thường xuyên đồng hành cùng Klein trong các cuộc phiêu lưu trên biển.' },
+    { name: 'Ludwig', role: 'Bạn đồng hành', age: '???', description: 'Một đứa trẻ bí ẩn có sức mạnh đáng sợ, được Klein nhận nuôi và bảo vệ.' }
+  ]
+};

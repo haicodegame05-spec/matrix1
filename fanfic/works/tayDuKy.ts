@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tayDuKy: FanficWork = {
+  id: 'tay-du-ky',
+  title: 'Tây Du Ký',
+  description: 'Hành trình thỉnh kinh đầy gian nan của bốn thầy trò Đường Tăng qua 81 kiếp nạn.',
+  country: 'Trung',
+  plot: 'Đường Tam Tạng cùng ba đồ đệ là Tôn Ngộ Không, Trư Bát Giới và Sa Tăng lên đường sang Tây Trúc thỉnh kinh để cứu độ chúng sinh. Trên đường đi, họ phải đối mặt với vô số yêu ma quỷ quái muốn ăn thịt Đường Tăng để trường sinh bất lão. Nhờ bản lĩnh của Tôn Ngộ Không và sự giúp đỡ của các vị thần tiên, họ đã vượt qua mọi thử thách.',
+  worldSetting: 'Thế giới thần thoại phương Đông nơi thần tiên, yêu ma và con người cùng tồn tại. Các địa danh kỳ bí như Hoa Quả Sơn, Hỏa Diệm Sơn, Tây Thiên...',
+  characters: [
+    { name: 'Tôn Ngộ Không', role: 'Nhân vật chính', age: '1000+', description: 'Tề Thiên Đại Thánh, Thạch Hầu sinh ra từ đá. Ông sở hữu 72 phép biến hóa, gậy Như Ý và Cân Đẩu Vân. Dù ngang tàng nhưng ông là người bảo vệ trung thành nhất của Đường Tăng.' },
+    { name: 'Đường Tam Tạng (Trần Huyền Trang)', role: 'Người dẫn dắt / Sư phụ', age: '30', description: 'Một nhà sư nhân hậu, kiên trì và một lòng hướng Phật. Ông là trung tâm của cuộc hành trình thỉnh kinh và là người duy nhất có thể kiềm chế Tôn Ngộ Không bằng Khẩn Cô Nhi chú.' },
+    { name: 'Trư Bát Giới (Trư Ngộ Năng)', role: 'Hỗ trợ / Đồ đệ', age: '500+', description: 'Cựu Thiên Bồng Nguyên Soái, bị đày xuống trần gian trong hình hài nửa người nửa lợn. Anh tham ăn, lười biếng và hay nịnh hót nhưng cũng sở hữu 36 phép biến hóa và cào sắt chín răng.' },
+    { name: 'Sa Tăng (Sa Ngộ Tĩnh)', role: 'Hỗ trợ / Đồ đệ', age: '500+', description: 'Cựu Quyển Liêm Đại Tướng, bị đày xuống sông Lưu Sa. Anh là người cần cù, nhẫn nại, luôn gánh vác hành lý và hòa giải mâu thuẫn giữa các sư huynh.' },
+    { name: 'Bạch Long Mã', role: 'Thú cưỡi / Đồ đệ', age: 'Unknown', description: 'Tam Thái tử của Tây Hải Long Vương, vì phạm lỗi mà biến thành ngựa trắng để đưa Đường Tăng đi thỉnh kinh. Anh là một thành viên thầm lặng nhưng vô cùng quan trọng.' },
+    { name: 'Quan Thế Âm Bồ Tát', role: 'Người dẫn dắt / Hỗ trợ', age: 'Ancient', description: 'Vị Bồ Tát từ bi, người đã điểm hóa cho bốn thầy trò và luôn xuất hiện để cứu giúp họ trong những tình huống ngặt nghèo nhất.' },
+    { name: 'Phật Tổ Như Lai', role: 'Lãnh đạo tối cao', age: 'Ancient', description: 'Người đứng đầu Linh Sơn, có quyền năng vô hạn. Ngài là người đã đặt ra thử thách thỉnh kinh và cuối cùng ban phong sắc cho bốn thầy trò.' },
+    { name: 'Ngọc Hoàng Đại Đế', role: 'Lãnh đạo Thiên đình', age: 'Ancient', description: 'Vị vua tối cao của Thiên đình, người cai quản tam giới. Ông từng bị Tôn Ngộ Không đại náo thiên cung làm cho khốn đốn.' },
+    { name: 'Ngưu Ma Vương', role: 'Đối thủ / Anh em kết nghĩa', age: '1000+', description: 'Đại lực vương mạnh mẽ, anh em kết nghĩa của Tôn Ngộ Không. Ông sở hữu sức mạnh tàn phá và là một trong những yêu vương đáng sợ nhất.' },
+    { name: 'Thiết Phiến Công Chúa', role: 'Đối thủ', age: 'Unknown', description: 'Vợ của Ngưu Ma Vương, chủ nhân của Quạt Ba Tiêu có khả năng dập tắt lửa Hỏa Diệm Sơn.' },
+    { name: 'Hồng Hài Nhi', role: 'Đối thủ', age: '300 (ngoại hình 10)', description: 'Con trai của Ngưu Ma Vương, sở hữu Tam Muội Chân Hỏa cực kỳ lợi hại, từng khiến Tôn Ngộ Không phải điêu đứng.' },
+    { name: 'Thái Thượng Lão Quân', role: 'Hỗ trợ / Thần tiên', age: 'Ancient', description: 'Vị tiên ông cao quý của Đạo giáo, người sở hữu lò luyện đan và nhiều pháp bảo quyền năng.' },
+    { name: 'Nhị Lang Thần (Dương Tiễn)', role: 'Đối thủ / Đồng minh', age: 'Unknown', description: 'Chiến thần của Thiên đình với con mắt thứ ba nhìn thấu mọi sự. Anh là người duy nhất từng đánh bại Tôn Ngộ Không về phép biến hóa.' },
+    { name: 'Bạch Cốt Tinh', role: 'Phản diện', age: 'Unknown', description: 'Yêu quái xương trắng xảo quyệt, ba lần biến hóa để lừa Đường Tăng nhằm ăn thịt ông, gây ra sự hiểu lầm lớn giữa Đường Tăng và Ngộ Không.' },
+    { name: 'Kim Giác & Ngân Giác', role: 'Đối thủ', age: 'Unknown', description: 'Hai anh em yêu quái sở hữu nhiều pháp bảo của Thái Thượng Lão Quân, gây ra nhiều khó khăn cho thầy trò tại núi Bình Đỉnh.' },
+    { name: 'Thái Bạch Kim Tinh', role: 'Sứ giả / Thần tiên', age: 'Ancient', description: 'Vị tiên ông hiền hậu của Thiên đình, người thường xuyên làm sứ giả hòa giải và giúp đỡ Tôn Ngộ Không.' },
+    { name: 'Thác Tháp Thiên Vương (Lý Tịnh)', role: 'Lãnh đạo quân đội Thiên đình', age: 'Ancient', description: 'Vị tướng quân uy nghiêm của Thiên đình, cha của Na Tra, người sở hữu bảo tháp trấn yêu.' },
+    { name: 'Na Tra (Tam Thái Tử)', role: 'Chiến thần Thiên đình', age: 'Unknown', description: 'Con trai thứ ba của Lý Tịnh, sở hữu vòng Càn Khôn và dải lụa Hỗn Thiên, là một chiến binh dũng cảm.' },
+    { name: 'Đông Hải Long Vương (Ngao Quảng)', role: 'Lãnh đạo Thủy tộc', age: 'Ancient', description: 'Vị vua của biển Đông, người đã bị Tôn Ngộ Không lấy đi gậy Như Ý và bộ giáp vàng.' },
+    { name: 'Tây Hải Long Vương (Ngao Nhuận)', role: 'Lãnh đạo Thủy tộc', age: 'Ancient', description: 'Cha của Bạch Long Mã, người đã cầu xin Quan Âm cứu mạng con trai mình.' },
+    { name: 'Diêm Vương', role: 'Lãnh đạo Âm phủ', age: 'Ancient', description: 'Vị vua cai quản cõi chết, người đã bị Tôn Ngộ Không gạch tên khỏi sổ sinh tử.' },
+    { name: 'Hằng Nga', role: 'Thần tiên', age: 'Ancient', description: 'Nữ thần xinh đẹp cai quản cung Trăng, người mà Trư Bát Giới từng trêu ghẹo dẫn đến bị đày xuống trần gian.' },
+    { name: 'Trấn Nguyên Đại Tiên', role: 'Đại tiên / Đồng minh', age: 'Ancient', description: 'Chủ nhân của cây Nhân Sâm tại quán Ngũ Trang, một vị tiên có địa vị cực cao và là anh em kết nghĩa với Ngộ Không.' },
+    { name: 'Linh Cát Bồ Tát', role: 'Hỗ trợ / Bồ Tát', age: 'Ancient', description: 'Vị Bồ Tát sở hữu Định Phong Châu, người đã giúp thầy trò vượt qua yêu quái Hoàng Phong Quái.' },
+    { name: 'Văn Thù Bồ Tát', role: 'Hỗ trợ / Bồ Tát', age: 'Ancient', description: 'Vị Bồ Tát tượng trưng cho trí tuệ, thú cưỡi của ngài là Thanh Sư từng gây náo loạn trần gian.' },
+    { name: 'Phổ Hiền Bồ Tát', role: 'Hỗ trợ / Bồ Tát', age: 'Ancient', description: 'Vị Bồ Tát tượng trưng cho hành động, thú cưỡi của ngài là Bạch Tượng cũng từng là một yêu vương.' },
+    { name: 'Địa Tạng Vương Bồ Tát', role: 'Lãnh đạo Âm phủ / Bồ Tát', age: 'Ancient', description: 'Vị Bồ Tát thề cứu độ chúng sinh nơi địa ngục, người có uy tín tuyệt đối tại cõi âm.' },
+    { name: 'Thổ Địa Công', role: 'Thần tiên địa phương', age: 'Unknown', description: 'Vị thần nhỏ bé cai quản từng vùng đất, thường xuyên cung cấp thông tin về yêu quái cho Tôn Ngộ Không.' },
+    { name: 'Thái Ất Cứu Khổ Thiên Tôn', role: 'Thần tiên cao cấp', age: 'Ancient', description: 'Vị thần sở hữu thú cưỡi Cửu Linh Nguyên Thánh, một yêu quái cực kỳ mạnh mẽ từng bắt giữ Đường Tăng.' },
+    { name: 'Thanh Ngưu Quái', role: 'Đối thủ', age: 'Unknown', description: 'Thú cưỡi của Thái Thượng Lão Quân, sở hữu Kim Cương Trác có khả năng hút mọi binh khí của thần tiên.' }
+  ]
+};

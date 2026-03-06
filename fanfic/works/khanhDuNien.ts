@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const khanhDuNien: FanficWork = {
+  id: 'khanh-du-nien',
+  title: 'Khánh Dư Niên',
+  description: 'Phạm Nhàn, một thanh niên hiện đại xuyên không về một thế giới cổ đại đầy rẫy âm mưu và quyền lực.',
+  country: 'Trung',
+  plot: 'Phạm Nhàn là con trai ngoài giá thú của Khánh Đế và Diệp Khinh Mi - một người phụ nữ thay đổi cả thế giới. Anh mang theo kiến thức hiện đại và sức mạnh từ mẹ mình, bước vào kinh thành để tìm kiếm sự thật về cái chết của mẹ và đối mặt với những âm mưu thâm độc nhất của hoàng quyền.',
+  worldSetting: 'Thế giới cổ đại nhưng có dấu vết của nền văn minh hiện đại tàn dư. Hệ thống sức mạnh chia thành các cấp bậc võ công từ 1 đến 9, và cao nhất là Đại Tông Sư (chỉ có 4 người). Giám Sát Viện là cơ quan quyền lực nhất, nắm giữ mọi bí mật của vương quốc.',
+  characters: [
+    { name: 'Phạm Nhàn', role: 'Nhân vật chính', age: '20+', description: 'Thông minh, hài hước, mang theo tư duy hiện đại. Là một cao thủ cửu phẩm, sở hữu chân khí bá đạo và kiến thức y thuật uyên thâm.' },
+    { name: 'Lâm Uyển Nhi', role: 'Nữ chính', age: '18+', description: 'Quận chúa Thần Nhạc, con gái của Trưởng công chúa và Tể tướng. Xinh đẹp, dịu dàng, là người vợ duy nhất Phạm Nhàn hết mực yêu thương.' },
+    { name: 'Khánh Đế', role: 'Phản diện / Phụ thân', age: '50+', description: 'Hoàng đế Khánh Quốc, một trong bốn Đại Tông Sư, cực kỳ thâm trầm, đa nghi và nắm giữ quyền lực tuyệt đối.' },
+    { name: 'Trần Bình Bình', role: 'Người dẫn dắt', age: '60+', description: 'Viện trưởng Giám Sát Viện, trung thành tuyệt đối với Diệp Khinh Mi, luôn âm thầm bảo vệ và sắp xếp tương lai cho Phạm Nhàn.' },
+    { name: 'Ngũ Trúc', role: 'Người bảo vệ', age: '???', description: 'Một robot sinh học từ nền văn minh trước, luôn bịt mắt, sở hữu tốc độ và sức mạnh vượt xa Đại Tông Sư, là người thân thiết nhất của Phạm Nhàn.' },
+    { name: 'Diệp Khinh Mi', role: 'Mẹ của main', age: 'Đã mất', description: 'Người phụ nữ xuyên không từ hiện đại, đã tạo ra Giám Sát Viện, nội công bá đạo và thay đổi cả cục diện thế giới.' },
+    { name: 'Phạm Kiến', role: 'Cha nuôi', age: '50+', description: 'Hộ bộ Thượng thư, người đã nuôi dưỡng Phạm Nhàn từ nhỏ và luôn coi anh như con đẻ.' },
+    { name: 'Vương Khải Niên', role: 'Đồng minh', age: '40+', description: 'Thành viên Giám Sát Viện, chuyên gia theo dõi và khinh công, cực kỳ tham tiền nhưng trung thành và là trợ thủ đắc lực của Phạm Nhàn.' },
+    { name: 'Hải Đường Đóa Đóa', role: 'Hỗ trợ', age: '20+', description: 'Thánh nữ của Bắc Tề, đệ tử của Khổ Hà, tính tình phóng khoáng, có mối quan hệ tri kỷ đặc biệt với Phạm Nhàn.' },
+    { name: 'Lý Thừa Càn', role: 'Thái tử', age: '20+', description: 'Thái tử Khánh Quốc, bề ngoài hiền lành nhưng nội tâm phức tạp, luôn chịu áp lực từ Khánh Đế và sự cạnh tranh của Nhị hoàng tử.' },
+    { name: 'Lý Thừa Trạch', role: 'Nhị hoàng tử', age: '20+', description: 'Thông minh, xảo quyệt, không thích đi giày, là đối thủ lớn nhất của Thái tử và sau này là của Phạm Nhàn.' },
+    { name: 'Phạm Nhược Nhược', role: 'Em gái', age: '18+', description: 'Em gái của Phạm Nhàn, đệ nhất tài nữ kinh thành, cực kỳ sùng bái anh trai và là người duy nhất Phạm Nhàn tin tưởng tuyệt đối.' },
+    { name: 'Phạm Tư Triệt', role: 'Em trai', age: '16+', description: 'Em trai cùng cha khác mẹ của Phạm Nhàn, thiên tài kinh doanh, tính tình ham tiền nhưng rất nghe lời anh trai.' },
+    { name: 'Lý Vân Duệ', role: 'Phản diện', age: '40+', description: 'Trưởng Công Chúa, mẹ của Lâm Uyển Nhi, người phụ nữ quyền lực và điên cuồng, luôn tìm cách tiêu diệt Phạm Nhàn.' },
+    { name: 'Yên Tiểu Ất', role: 'Đối thủ', age: '30+', description: 'Thần tiễn cửu phẩm duy nhất của Khánh Quốc, trung thành với Trưởng Công Chúa, là mối đe dọa tầm xa cực lớn đối với Phạm Nhàn.' },
+    { name: 'Tư Lý Lý', role: 'Đồng minh / Tình cảm', age: '20+', description: 'Danh kỹ Bắc Tề, thực chất là gián điệp, có mối quan hệ tình cảm phức tạp và nhiều lần giúp đỡ Phạm Nhàn.' },
+    { name: 'Diệp Linh Nhi', role: 'Bạn bè', age: '18+', description: 'Con gái Diệp Trọng, bạn thân của Lâm Uyển Nhi, tính cách hào sảng, võ công cao cường.' },
+    { name: 'Diệp Lưu Vân', role: 'Đại Tông Sư', age: '70+', description: 'Một trong bốn Đại Tông Sư, tổ phụ của Diệp Linh Nhi, phiêu diêu tự tại, sở hữu Lưu Vân Tán Thủ vô song.' },
+    { name: 'Khổ Hà', role: 'Đại Tông Sư', age: '70+', description: 'Quốc sư Bắc Tề, một trong bốn Đại Tông Sư, người sáng lập Thiên Đạo Viện, sở hữu Thiên Đạo công pháp.' },
+    { name: 'Tứ Cố Kiếm', role: 'Đại Tông Sư', age: '70+', description: 'Chủ nhân Đông Di Thành, kiếm đạo đệ nhất thiên hạ, tính cách quái dị nhưng cực kỳ bảo vệ thành phố của mình.' },
+    { name: 'Ngôn Băng Vân', role: 'Đồng minh', age: '20+', description: 'Con trai Ngôn Nhược Hải, gián điệp tài ba, lạnh lùng, lý trí, luôn đặt lợi ích quốc gia lên hàng đầu.' },
+    { name: 'Ngôn Nhược Hải', role: 'Người dẫn dắt', age: '50+', description: 'Viện phó Giám Sát Viện, phụ trách tình báo, là người trầm ổn và đáng tin cậy nhất bên cạnh Trần Bình Bình.' },
+    { name: 'Phí Giới', role: 'Sư phụ', age: '50+', description: 'Chủ quản Tam xứ Giám Sát Viện, bậc thầy độc thuật, là người thầy đầu tiên dạy Phạm Nhàn cách sinh tồn.' },
+    { name: 'Liễu Như Ngọc', role: 'Mẹ kế', age: '40+', description: 'Vợ thứ của Phạm Kiến, ban đầu đối đầu với Phạm Nhàn nhưng sau này trở thành người ủng hộ anh trong gia đình.' },
+    { name: 'Cung Điển', role: 'Hỗ trợ', age: '40+', description: 'Thống lĩnh thị vệ kinh thành, cao thủ bát phẩm đỉnh phong, trung thành với Khánh Đế nhưng cũng nể trọng Phạm Nhàn.' },
+    { name: 'Hồng Tứ Tượng', role: 'Nhân vật quan trọng', age: '60+', description: 'Thái giám thân cận của Thái hậu, cao thủ cửu phẩm đỉnh phong, người nắm giữ nhiều bí mật trong cung.' },
+    { name: 'Thái hậu', role: 'Nhân vật quan trọng', age: '70+', description: 'Mẹ của Khánh Đế, người phụ nữ quyền lực nhất hậu cung, luôn giữ thái độ thâm trầm với Phạm Nhàn.' },
+    { name: 'Nghi Quý phi', role: 'Nhân vật quan trọng', age: '40+', description: 'Mẹ của Nhị hoàng tử, thông minh và biết cách sinh tồn trong cung cấm.' },
+    { name: 'Thục Quý phi', role: 'Nhân vật quan trọng', age: '40+', description: 'Mẹ của Thái tử, yêu thích sách vở, tính tình điềm đạm nhưng cũng đầy mưu lược.' },
+    { name: 'Đại hoàng tử (Lý Thừa Nho)', role: 'Đồng minh', age: '25+', description: 'Con trai trưởng của Khánh Đế, thống lĩnh quân đội biên cương, tính tình thẳng thắn và rất quý mến Phạm Nhàn.' }
+  ]
+};

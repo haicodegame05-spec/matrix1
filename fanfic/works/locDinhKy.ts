@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const locDinhKy: FanficWork = {
+  id: 'loc-dinh-ky',
+  title: 'Lộc Đỉnh Ký',
+  description: 'Vi Tiểu Bảo, một thanh niên xuất thân từ kỹ viện, bước vào hoàng cung và trở thành người thân cận nhất của Khang Hy.',
+  country: 'Trung',
+  plot: 'Vi Tiểu Bảo là con của một kỹ nữ ở Dương Châu, tình cờ vào cung và trở thành bạn thân của hoàng đế Khang Hy. Anh không có võ công nhưng lại có trí thông minh và sự lém lỉnh, giúp Khang Hy giải quyết nhiều vấn đề chính trị và quân sự. Cuộc đời anh là một chuỗi những cuộc phiêu lưu giữa triều đình và giang hồ, cuối cùng có 7 người vợ xinh đẹp.',
+  worldSetting: 'Thế giới lịch sử võ hiệp Kim Dung, bối cảnh thời nhà Thanh khi Khang Hy lên ngôi. Võ công chia thành các môn phái và các đại cao thủ (Thiên Địa Hội, Thần Long Giáo).',
+  characters: [
+    { name: 'Vi Tiểu Bảo', role: 'Nhân vật chính', age: '15+', description: 'Thông minh, lém lỉnh, không có võ công nhưng có trí tuệ siêu phàm. Là người thân cận nhất của Khang Hy.' },
+    { name: 'Khang Hy', role: 'Hoàng đế', age: '15+', description: 'Hoàng đế nhà Thanh, thông minh, quyết đoán, là bạn thân của Vi Tiểu Bảo.' },
+    { name: 'Trần Cận Nam', role: 'Sư phụ', age: '40+', description: 'Tổng đà chủ Thiên Địa Hội, chính trực, trọng tình nghĩa, là người thầy của Vi Tiểu Bảo.' },
+    { name: 'Song Nhi', role: 'Nữ chính', age: '15+', description: 'Người vợ trung thành nhất của Vi Tiểu Bảo, xinh đẹp, dịu dàng, võ công cao cường.' },
+    { name: 'Kiến Ninh Công Chúa', role: 'Nữ chính', age: '15+', description: 'Công chúa nhà Thanh, tính tình bướng bỉnh, yêu Vi Tiểu Bảo một cách mù quáng.' },
+    { name: 'A Kha', role: 'Nữ chính', age: '18+', description: 'Người vợ xinh đẹp nhất của Vi Tiểu Bảo, ban đầu ghét anh nhưng sau này yêu anh.' },
+    { name: 'Tô Thuyên', role: 'Nữ chính', age: '25+', description: 'Vợ của giáo chủ Thần Long Giáo, xinh đẹp, thông minh, sau này trở thành vợ của Vi Tiểu Bảo.' },
+    { name: 'Mộc Kiếm Bình', role: 'Nữ chính', age: '15+', description: 'Tiểu quận chúa Mộc Vương Phủ, ngây thơ, đáng yêu, là một trong những người vợ của Vi Tiểu Bảo.' },
+    { name: 'Phương Di', role: 'Nữ chính', age: '18+', description: 'Đệ tử Mộc Vương Phủ, xinh đẹp, thông minh, là một trong những người vợ của Vi Tiểu Bảo.' },
+    { name: 'Tăng Nhu', role: 'Nữ chính', age: '18+', description: 'Đệ tử Vương Ốc Phái, hiền lành, thật thà, là một trong những người vợ của Vi Tiểu Bảo.' },
+    { name: 'Mao Thập Bát', role: 'Đồng minh', age: '30+', description: 'Một hào kiệt giang hồ, người đã đưa Vi Tiểu Bảo từ Dương Châu lên Bắc Kinh và là người bạn đầu tiên của anh.' },
+    { name: 'Hải Đại Phú', role: 'Nhân vật quan trọng', age: '50+', description: 'Thái giám tổng quản trong cung, võ công thâm hậu nhưng bị mù, là người dạy võ công ban đầu cho Vi Tiểu Bảo.' },
+    { name: 'Ngao Bái', role: 'Phản diện', age: '50+', description: 'Đệ nhất dũng sĩ Mãn Châu, quyền thần lấn át vua, cuối cùng bị Vi Tiểu Bảo và Khang Hy tiêu diệt.' },
+    { name: 'Hồng An Thông', role: 'Phản diện', age: '60+', description: 'Giáo chủ Thần Long Giáo, võ công cực cao nhưng tính tình đa nghi và tàn nhẫn.' },
+    { name: 'Cửu Nạn Sư Thái', role: 'Sư phụ', age: '40+', description: 'Công chúa Trường Bình của nhà Minh đã đi tu, võ công tuyệt thế và là sư phụ của A Kha và Vi Tiểu Bảo.' },
+    { name: 'Ngô Tam Quế', role: 'Phản diện', age: '60+', description: 'Bình Tây Vương, kẻ phản bội nhà Minh dẫn quân Thanh vào quan ải, luôn âm mưu phản lại nhà Thanh.' },
+    { name: 'Trịnh Khắc Sảng', role: 'Đối thủ', age: '20+', description: 'Nhị công tử của Trịnh gia ở Đài Loan, tình địch của Vi Tiểu Bảo và là một kẻ hèn nhát, đê tiện.' },
+    { name: 'Phùng Tích Phạm', role: 'Phản diện', age: '50+', description: 'Sư phụ của Trịnh Khắc Sảng, võ công cao cường nhưng tâm địa hiểm độc.' },
+    { name: 'Đa Long', role: 'Đồng minh', age: '30+', description: 'Ngự tiền thị vệ tổng quản, người anh em thân thiết của Vi Tiểu Bảo trong cung.' },
+    { name: 'Trương Khang Niên', role: 'Hỗ trợ', age: '25+', description: 'Thị vệ trong cung, thuộc hạ trung thành và luôn giúp đỡ Vi Tiểu Bảo trong các phi vụ.' },
+    { name: 'Triệu Tề Hiền', role: 'Hỗ trợ', age: '25+', description: 'Thị vệ trong cung, cùng với Trương Khang Niên là bộ đôi trợ thủ đắc lực của Vi Tiểu Bảo.' },
+    { name: 'Vi Xuân Hoa', role: 'Gia đình', age: '40+', description: 'Mẹ của Vi Tiểu Bảo, một kỹ nữ ở Lệ Xuân Viện, Dương Châu, người đã nuôi nấng anh khôn lớn.' },
+    { name: 'Khang Thân Vương', role: 'Đồng minh', age: '40+', description: 'Một vương gia quyền quý trong triều đình, rất yêu quý và thường xuyên bao che cho Vi Tiểu Bảo.' },
+    { name: 'Sát Nhĩ Đồ', role: 'Đồng minh', age: '40+', description: 'Một tướng quân nhà Thanh, người cùng Vi Tiểu Bảo tham gia các chiến dịch quân sự.' },
+    { name: 'Lục Cao Tuyên', role: 'Nhân vật quan trọng', age: '40+', description: 'Quân sư của Thần Long Giáo, người thông minh nhưng luôn phải sống trong sợ hãi dưới trướng Hồng An Thông.' },
+    { name: 'Trần Viên Viên', role: 'Nhân vật quan trọng', age: '40+', description: 'Đệ nhất mỹ nhân thời bấy giờ, mẹ của A Kha, người khiến Ngô Tam Quế phản bội nhà Minh.' },
+    { name: 'Lý Tự Thành', role: 'Nhân vật quan trọng', age: '60+', description: 'Sấm Vương, người lật đổ nhà Minh, cha ruột của A Kha, hiện đang đi tu.' },
+    { name: 'Ngô Ứng Hùng', role: 'Đối thủ', age: '25+', description: 'Con trai của Ngô Tam Quế, chồng hờ của Kiến Ninh Công Chúa, thường xuyên bị Vi Tiểu Bảo bắt nạt.' },
+    { name: 'Mộc Kiếm Thanh', role: 'Đồng minh', age: '25+', description: 'Tiểu mộc vương của Mộc Vương Phủ, anh trai của Mộc Kiếm Bình, nỗ lực khôi phục nhà Minh.' },
+    { name: 'Phương Di\'s Master', role: 'Nhân vật phụ', age: '50+', description: 'Trưởng lão của Mộc Vương Phủ, người luôn lo lắng cho sự an nguy của các đệ tử.' }
+  ]
+};

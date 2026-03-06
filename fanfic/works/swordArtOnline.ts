@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const swordArtOnline: FanficWork = {
+  id: 'sword-art-online',
+  title: 'Sword Art Online',
+  description: 'Mười ngàn người chơi bị kẹt trong một trò chơi thực tế ảo sinh tử, nơi cái chết trong game đồng nghĩa với cái chết ngoài đời thực.',
+  country: 'Nhật',
+  plot: 'Năm 2022, trò chơi nhập vai thực tế ảo trực tuyến nhiều người chơi Sword Art Online (SAO) ra mắt. Tuy nhiên, người chơi sớm phát hiện ra họ không thể đăng xuất và nếu thanh HP về 0, họ sẽ chết ở thế giới thực. Kirito, một người chơi đơn độc, quyết tâm phá đảo 100 tầng của tòa thành bay Aincrad để giải cứu chính mình và mọi người.',
+  worldSetting: 'Thế giới ảo Aincrad, một tòa thành nổi khổng lồ gồm 100 tầng. Mỗi tầng có môi trường, quái vật và trùm riêng biệt. Người chơi sử dụng các kỹ năng kiếm (Sword Skills) thay vì ma pháp.',
+  characters: [
+    { name: 'Kirito (Kirigaya Kazuto)', role: 'Nhân vật chính', age: '16', description: 'Hắc Kiếm Sĩ nổi tiếng with kỹ năng "Song Kiếm". Anh là một người chơi đơn độc (Solo Player) tài ba, luôn gánh vác trách nhiệm bảo vệ mọi người trong thế giới sinh tử SAO.' },
+    { name: 'Asuna (Yuuki Asuna)', role: 'Nữ chính', age: '17', description: 'Phó đoàn trưởng hội Huyết Thệ Kỵ Sĩ Đoàn, được mệnh danh là "Tia Chớp". Cô là một kiếm sĩ xuất sắc và là chỗ dựa tinh thần vững chắc cho Kirito.' },
+    { name: 'Yui', role: 'Con gái nuôi (AI)', age: 'Unknown', description: 'Một chương trình trí tuệ nhân tạo (MHCP v.1) được Kirito và Asuna nhận nuôi. Cô có khả năng can thiệp vào hệ thống game để bảo vệ cha mẹ mình.' },
+    { name: 'Klein (Tsuboi Ryoutarou)', role: 'Đồng đội thân thiết', age: '24', description: 'Trưởng hội Phong Lâm Hỏa Sơn, người bạn đầu tiên của Kirito. Anh là một chiến binh samurai hào sảng, luôn sẵn sàng giúp đỡ bạn bè.' },
+    { name: 'Agil (Andrew Gilbert Mills)', role: 'Đồng đội / Thương nhân', age: '28', description: 'Một người chơi to lớn, chủ cửa hàng trang bị tại tầng 50. Anh là người thực tế, tốt bụng và luôn hỗ trợ các người chơi ở tuyến đầu.' },
+    { name: 'Silica (Ayano Keiko)', role: 'Đồng đội', age: '14', description: 'Một người thuần phục thú (Beast Tamer) với chú rồng nhỏ Pina. Cô coi Kirito như một người anh trai đáng kính.' },
+    { name: 'Lisbeth (Shinozaki Rika)', role: 'Thợ rèn', age: '17', description: 'Thợ rèn tài ba, người đã chế tạo ra thanh kiếm Dark Repulser cho Kirito. Cô có tính cách vui vẻ và luôn ủng hộ Asuna.' },
+    { name: 'Kayaba Akihiko', role: 'Kẻ tạo lập / Phản diện', age: '28', description: 'Người sáng tạo ra SAO và công nghệ FullDive. Ông là trùm cuối của tầng 100 và là người đã nhốt hàng ngàn người chơi vào thế giới này.' },
+    { name: 'Heathcliff', role: 'Đoàn trưởng Huyết Thệ', age: '28', description: 'Lãnh đạo của hội mạnh nhất SAO, sở hữu kỹ năng phòng ngự tuyệt đối. Thực chất anh chính là nhân dạng của Kayaba Akihiko trong game.' },
+    { name: 'Sachi', role: 'Thành viên hội Mèo Đen', age: '16', description: 'Thành viên của hội đầu tiên Kirito tham gia. Sự ra đi của cô đã để lại một vết sẹo tâm lý sâu sắc trong lòng anh.' },
+    { name: 'Sinon (Asada Shino)', role: 'Nữ chính / Xạ thủ', age: '16', description: 'Một xạ thủ tài ba trong GGO, người đã giúp Kirito đánh bại Death Gun. Cô sở hữu khẩu súng bắn tỉa Hecate II và luôn nỗ lực vượt qua nỗi sợ súng đạn.' },
+    { name: 'Leafa (Kirigaya Suguha)', role: 'Nữ chính / Em gái', age: '15', description: 'Em gái của Kirito, một kiếm sĩ Kendo tài năng. Trong ALO, cô là một Sylph mạnh mẽ và đã giúp Kirito giải cứu Asuna.' },
+    { name: 'Yuuki (Konno Yuuki)', role: 'Kiếm sĩ huyền thoại', age: '15 (khi qua đời)', description: 'Được mệnh danh là "Tuyệt Kiếm", người đã đánh bại cả Kirito và Asuna. Cô là lãnh đạo của hội Sleeping Knights và sở hữu kỹ năng kiếm thuật đỉnh cao.' },
+    { name: 'Alice Zuberg', role: 'Nữ chính / Hiệp sĩ Chỉnh hợp', age: '19', description: 'Một hiệp sĩ mạnh mẽ trong thế giới Underworld. Cô sở hữu thanh kiếm Kim Quế và luôn chiến đấu để bảo vệ nhân loại.' },
+    { name: 'Eugeo', role: 'Đồng đội / Bạn thân', age: '19 (khi hy sinh)', description: 'Bạn thân nhất của Kirito trong Underworld. Anh là một người hiền lành, dũng cảm và đã hy sinh để đánh bại Administrator.' },
+    { name: 'Quinella (Administrator)', role: 'Phản diện chính', age: 'Unknown', description: 'Kẻ thống trị tối cao của Underworld, người đã thao túng ký ức của hàng ngàn người để duy trì quyền lực tuyệt đối.' },
+    { name: 'Bercouli Synthesis One', role: 'Hiệp sĩ Chỉnh hợp', age: 'Unknown', description: 'Lãnh đạo của các Hiệp sĩ Chỉnh hợp, một chiến binh huyền thoại với kinh nghiệm chiến đấu dày dặn.' },
+    { name: 'Cardinal', role: 'Hệ thống kiểm soát / Đồng minh', age: 'Unknown', description: 'Một chương trình trí tuệ nhân tạo đối lập với Administrator, người đã giúp đỡ Kirito và Eugeo trong hành trình của họ.' },
+    { name: 'Gabriel Miller (Vecta)', role: 'Phản diện', age: 'Unknown', description: 'Kẻ xâm nhập vào Underworld với mục tiêu chiếm đoạt Alice. Hắn là một kẻ tàn nhẫn, vô cảm và sở hữu sức mạnh bóng tối đáng sợ.' },
+    { name: 'Vassago Casals (PoH)', role: 'Phản diện', age: 'Unknown', description: 'Lãnh đạo của hội giết người Laughing Coffin trong SAO. Hắn luôn ám ảnh với việc tiêu diệt Kirito và gieo rắc nỗi sợ hãi.' },
+    { name: 'Kuradeel', role: 'Phản diện', age: 'Unknown', description: 'Vệ sĩ của Asuna và là thành viên bí mật của Laughing Coffin, một kẻ điên rồ và tàn nhẫn.' },
+    { name: 'Sugou Nobuyuki (Oberon)', role: 'Phản diện chính (ALO)', age: '30+', description: 'Kẻ đã nhốt Asuna trong ALO và tự xưng là vua tiên Oberon. Hắn là một kẻ hèn hạ và biến thái.' },
+    { name: 'Death Gun (Shinkawa Shouichi)', role: 'Phản diện chính (GGO)', age: 'Unknown', description: 'Kẻ giết người hàng loạt trong GGO, một cựu thành viên của Laughing Coffin với khả năng giết người chơi ngoài đời thực.' },
+    { name: 'Kikuoka Seijirou', role: 'Nhân vật quan trọng / Chính phủ', age: '30+', description: 'Thành viên của Bộ Nội vụ và Truyền thông, người đứng sau dự án Alicization và thường xuyên nhờ cậy Kirito.' },
+    { name: 'Higa Takeru', role: 'Kỹ thuật viên / Đồng minh', age: '30+', description: 'Thiên tài lập trình đứng sau hệ thống Underworld, người đã hỗ trợ Kirito rất nhiều trong cuộc chiến ở Underworld.' },
+    { name: 'Fanatio Synthesis Two', role: 'Hiệp sĩ Chỉnh hợp', age: 'Unknown', description: 'Phó lãnh đạo các Hiệp sĩ Chỉnh hợp, sở hữu thanh kiếm Thiên Quang với sức mạnh ánh sáng mạnh mẽ.' },
+    { name: 'Eldrie Synthesis Thirty-one', role: 'Hiệp sĩ Chỉnh hợp', age: 'Unknown', description: 'Học trò của Alice, một hiệp sĩ trẻ tuổi tài năng với kỹ năng điều khiển roi điêu luyện.' },
+    { name: 'Sheyta Synthesis Twelve', role: 'Hiệp sĩ Chỉnh hợp', age: 'Unknown', description: 'Được mệnh danh là "Hiệp sĩ Câm lặng", một chiến binh lạnh lùng với khả năng chém đứt mọi thứ.' },
+    { name: 'Iskahn', role: 'Lãnh đạo / Đồng minh', age: 'Unknown', description: 'Thủ lĩnh của quân đoàn Đấm bốc trong Dark Territory, một chiến binh dũng mãnh và trọng danh dự.' },
+    { name: 'Shasta', role: 'Lãnh đạo Dark Territory', age: 'Unknown', description: 'Tướng quân của các Hiệp sĩ Bóng tối, người luôn mong muốn hòa bình giữa nhân giới và Dark Territory.' }
+  ]
+};

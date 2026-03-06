@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const hurricanger: FanficWork = {
+  id: 'hurricanger',
+  title: 'Ninpuu Sentai Hurricanger',
+  description: 'Chiến đội Nhẫn phong - Những ninja cuối cùng của trường Hayate chiến đấu chống lại tập đoàn ninja không gian Jakanja.',
+  country: 'Nhật',
+  plot: 'Tập đoàn ninja không gian Jakanja tấn công và tiêu diệt các trường đào tạo ninja trên Trái Đất. 3 học viên còn sót lại của trường Hayate được chọn để trở thành Hurricanger. Sau đó, họ hợp tác cùng 2 anh em ninja trường Ikazuchi (Gouraiger) và chiến binh bí ẩn Shurikenger để bảo vệ thế giới khỏi "Vật đó" - thảm họa diệt vong.',
+  worldSetting: 'Thế giới hiện đại nơi các trường phái ninja tồn tại bí mật. Công nghệ ninja kết hợp với sức mạnh tâm linh tạo ra các Karakuri khổng lồ.',
+  characters: [
+    { name: 'Shiina Yousuke (Hurricane Red)', role: 'Lãnh đạo', age: '19', description: 'Ninja Không Trung, một thanh niên nhiệt huyết, không bao giờ bỏ cuộc. Anh sử dụng sức mạnh của gió và bầu trời.' },
+    { name: 'Nono Nanami (Hurricane Blue)', role: 'Chiến binh', age: '18', description: 'Ninja Sóng Nước, một cô gái mơ ước trở thành ca sĩ thần tượng. Cô sử dụng sức mạnh của nước và sự linh hoạt.' },
+    { name: 'Bitou Kouta (Hurricane Yellow)', role: 'Chiến binh', age: '20', description: 'Ninja Mặt Đất, một người điềm tĩnh, làm việc tại trung tâm chăm sóc người già. Anh sử dụng sức mạnh của đất và sự kiên định.' },
+    { name: 'Kasumi Ikkou (Kabuto Raiger)', role: 'Đồng minh / Lãnh đạo Gouraiger', age: '22', description: 'Ninja Sấm Sét, anh trai trong bộ đôi Gouraiger. Anh nghiêm khắc, mạnh mẽ và luôn bảo vệ em trai mình.' },
+    { name: 'Kasumi Isshuu (Kuwaga Raiger)', role: 'Đồng minh / Gouraiger', age: '21', description: 'Ninja Sấm Sét, em trai của Ikkou. Anh có chút nóng nảy nhưng rất trung thành với lý tưởng của anh trai.' },
+    { name: 'Shurikenger', role: 'Đồng minh / Chiến binh bí ẩn', age: 'Unknown', description: 'Ninja của các Ninja, một chiến binh bí ẩn không bao giờ lộ mặt thật, thường xuyên cải trang thành người khác. Anh sử dụng sức mạnh của lửa và các nhạc cụ.' },
+    { name: 'Hinata Mugensai', role: 'Người dẫn dắt', age: '50', description: 'Hiệu trưởng trường Hayate, bị biến thành một con chuột sau cuộc tấn công của Jakanja.' },
+    { name: 'Hinata Oboro', role: 'Hỗ trợ kỹ thuật', age: '25', description: 'Con gái của hiệu trưởng Mugensai, một thiên tài cơ khí chế tạo ra các vũ khí và Karakuri cho Hurricanger.' },
+    { name: 'Tau Zant', role: 'Phản diện chính', age: 'Unknown', description: 'Đại ma đầu của Jakanja, kẻ khao khát chiếm đoạt "Vật đó" để thống trị vũ trụ.' },
+    { name: 'Chuuzubo', role: 'Phản diện', age: 'Unknown', description: 'Ám đen nhất thủ, chuyên gia triệu hồi các quái vật khổng lồ.' },
+    { name: 'Sargain', role: 'Phản diện', age: 'Unknown', description: 'Ám đen nhị thủ, một robot cơ khí thiên tài, đối thủ kỹ thuật của Oboro.' },
+    { name: 'Manmaruba', role: 'Phản diện', age: 'Unknown', description: 'Ám đen tam thủ, kẻ sở hữu khả năng tiên tri và có mối thù sâu sắc với Hurricane Red.' },
+    { name: 'Wendinu', role: 'Phản diện', age: 'Unknown', description: 'Ám đen tứ thủ, nữ ninja quyến rũ chuyên sử dụng các đòn tấn công gợi cảm và hồi sinh quái vật.' },
+    { name: 'Furabiijo', role: 'Phản diện', age: 'Unknown', description: 'Ám đen ngũ thủ, một cô gái tinh nghịch với cuốn sổ đánh dấu các quái vật bị tiêu diệt.' },
+    { name: 'Satarakura', role: 'Phản diện', age: 'Unknown', description: 'Ám đen lục thủ, kẻ điên rồ thích đố vui và gieo rắc sự hỗn loạn.' },
+    { name: 'Sandaaru', role: 'Phản diện', age: 'Unknown', description: 'Ám đen thất thủ, chiến binh mạnh nhất của Jakanja, kẻ đã tiêu diệt vô số hành tinh.' },
+    { name: 'Hurricane Hawk', role: 'Karakuri', age: 'N/A', description: 'Linh hồn Diều Hâu của Hurricane Red.' },
+    { name: 'Hurricane Dolphin', role: 'Karakuri', age: 'N/A', description: 'Linh hồn Cá Heo của Hurricane Blue.' },
+    { name: 'Hurricane Lion', role: 'Karakuri', age: 'N/A', description: 'Linh hồn Sư Tử của Hurricane Yellow.' },
+    { name: 'Gouraijin', role: 'Karakuri', age: 'N/A', description: 'Robot hợp thể của hai anh em Gouraiger.' },
+    { name: 'Senpuujin', role: 'Karakuri', age: 'N/A', description: 'Robot hợp thể chính của Hurricanger.' },
+    { name: 'Tenkuujin', role: 'Karakuri', age: 'N/A', description: 'Robot trực thăng của Shurikenger.' },
+    { name: 'Karakuri Ball', role: 'Vũ khí', age: 'N/A', description: 'Các quả cầu chứa vũ khí hỗ trợ cho các robot khổng lồ.' },
+    { name: 'Vật đó (It)', role: 'Thực thể / Thảm họa', age: 'Unknown', description: 'Nguồn năng lượng hủy diệt tối thượng mà Jakanja muốn triệu hồi.' },
+    { name: 'Học viên trường Hayate', role: 'Nhân vật phụ', age: '18-20', description: 'Các học viên bị sát hại hoặc bắt giữ trong cuộc tấn công ban đầu.' },
+    { name: 'Học viên trường Ikazuchi', role: 'Nhân vật phụ', age: '18-20', description: 'Các ninja thuộc phái sấm sét bị Jakanja thao túng.' },
+    { name: 'Mugensai (Dạng người)', role: 'Người dẫn dắt', age: '50', description: 'Hình dáng thật của hiệu trưởng trước khi bị dính lời nguyền.' },
+    { name: 'Kouta\'s Sister', role: 'Gia đình', age: '18', description: 'Em gái của Kouta, người luôn lo lắng cho anh trai mình.' },
+    { name: 'Nanami\'s Manager', role: 'Nhân vật phụ', age: '35', description: 'Người quản lý sự nghiệp thần tượng của Nanami.' },
+    { name: 'Jakanja Soldiers (Magerappa)', role: 'Phản diện', age: 'N/A', description: 'Đội quân lính lác của tập đoàn Jakanja.' },
+    { name: 'Princess Laiina', role: 'Đồng minh', age: 'Unknown', description: 'Công chúa từ hành tinh khác xuất hiện trong bản điện ảnh.' }
+  ]
+};

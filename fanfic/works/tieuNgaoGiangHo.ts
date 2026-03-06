@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tieuNgaoGiangHo: FanficWork = {
+  id: 'tieu-ngao-giang-ho',
+  title: 'Tiếu Ngạo Giang Hồ',
+  description: 'Lệnh Hồ Xung, một đệ tử Hoa Sơn phóng khoáng, bước vào giang hồ đầy rẫy những âm mưu và sự giả dối.',
+  country: 'Trung',
+  plot: 'Lệnh Hồ Xung là đệ tử của Nhạc Bất Quần, bị vu oan là kẻ phản bội và bị đuổi khỏi phái. Anh tình cờ học được Độc Cô Cửu Kiếm và Hấp Tinh Đại Pháp, đồng thời gặp Nhậm Doanh Doanh - thánh cô của Nhật Nguyệt Thần Giáo. Cả hai cùng nhau phiêu bạt giang hồ, đối mặt với những âm mưu của Nhạc Bất Quần và sự tàn bạo của Đông Phương Bất Bại.',
+  worldSetting: 'Thế giới võ hiệp Kim Dung, nơi võ công chia thành các môn phái và các đại cao thủ (Ngũ Nhạc Kiếm Phái). Giang hồ đầy rẫy những ân oán tình thù và lòng yêu nước chống lại quân Kim xâm lược.',
+  characters: [
+    { name: 'Lệnh Hồ Xung', role: 'Nhân vật chính', age: '20+', description: 'Phóng khoáng, yêu rượu, trọng tình nghĩa. Sở hữu Độc Cô Cửu Kiếm và Hấp Tinh Đại Pháp.' },
+    { name: 'Nhậm Doanh Doanh', role: 'Nữ chính', age: '18+', description: 'Thánh cô Nhật Nguyệt Thần Giáo, xinh đẹp, thông minh, hết lòng yêu Lệnh Hồ Xung.' },
+    { name: 'Nhạc Bất Quần', role: 'Phản diện', age: '50+', description: 'Quân Tử Kiếm, sư phụ của Lệnh Hồ Xung nhưng thực chất là một kẻ ngụy quân tử, tham lam quyền lực.' },
+    { name: 'Đông Phương Bất Bại', role: 'Phản diện', age: '40+', description: 'Giáo chủ Nhật Nguyệt Thần Giáo, võ công vô địch thiên hạ sau khi luyện Quỳ Hoa Bảo Điển.' },
+    { name: 'Nhậm Ngã Hành', role: 'Đối thủ / Đồng minh', age: '50+', description: 'Cha của Nhậm Doanh Doanh, giáo chủ cũ của Nhật Nguyệt Thần Giáo, võ công cao cường nhưng tham vọng lớn.' },
+    { name: 'Lâm Bình Chi', role: 'Đối thủ / Phản diện', age: '20+', description: 'Gia đình bị thảm sát, gia nhập Hoa Sơn để báo thù, sau này trở nên tàn nhẫn và mù quáng.' },
+    { name: 'Nhạc Linh San', role: 'Nữ chính', age: '18+', description: 'Con gái của Nhạc Bất Quần, sư muội của Lệnh Hồ Xung, yêu Lâm Bình Chi và chịu nhiều đau khổ.' },
+    { name: 'Phong Thanh Dương', role: 'Sư phụ', age: '70+', description: 'Tiền bối phái Hoa Sơn, truyền dạy Độc Cô Cửu Kiếm cho Lệnh Hồ Xung.' },
+    { name: 'Tả Lãnh Thiền', role: 'Phản diện', age: '50+', description: 'Chưởng môn phái Tung Sơn, tham vọng thống nhất Ngũ Nhạc Kiếm Phái.' },
+    { name: 'Điền Bá Quang', role: 'Bạn đồng hành', age: '30+', description: 'Hái hoa tặc nhưng sau này kết bạn với Lệnh Hồ Xung, tính tình phóng khoáng.' },
+    { name: 'Ninh Trung Tắc', role: 'Hỗ trợ', age: '40+', description: 'Vợ của Nhạc Bất Quần, một nữ hiệp chính trực và nhân hậu, luôn yêu thương Lệnh Hồ Xung như con đẻ.' },
+    { name: 'Nghi Lâm', role: 'Nữ chính', age: '18+', description: 'Tiểu ni cô phái Hằng Sơn, ngây thơ, thánh thiện, thầm yêu Lệnh Hồ Xung sâu sắc.' },
+    { name: 'Định Nhàn Sư Thái', role: 'Lãnh đạo', age: '50+', description: 'Chưởng môn phái Hằng Sơn, một vị cao ni đức độ, sáng suốt và có tầm nhìn xa trông rộng.' },
+    { name: 'Mạc Đại Tiên Sinh', role: 'Hỗ trợ', age: '60+', description: 'Chưởng môn phái Hành Sơn, nổi tiếng với tiếng đàn nhị thê lương và kiếm pháp biến hóa khôn lường.' },
+    { name: 'Lưu Chính Phong', role: 'Nhân vật quan trọng', age: '45+', description: 'Cao thủ phái Hành Sơn, người đã cùng Khúc Dương tạo nên bản nhạc "Tiếu Ngạo Giang Hồ" bất hủ.' },
+    { name: 'Khúc Dương', role: 'Nhân vật quan trọng', age: '50+', description: 'Trưởng lão Nhật Nguyệt Thần Giáo, tri kỷ của Lưu Chính Phong, cùng nhau vượt qua ranh giới chính tà.' },
+    { name: 'Khúc Phi Yên', role: 'Nhân vật phụ', age: '12', description: 'Cháu gái của Khúc Dương, thông minh, lanh lợi và rất mực yêu quý ông nội.' },
+    { name: 'Phương Chứng Đại Sư', role: 'Lãnh đạo', age: '70+', description: 'Chưởng môn Thiếu Lâm Tự, võ công Dịch Cân Kinh thâm hậu, là người đức cao vọng trọng trong võ lâm.' },
+    { name: 'Xung Hư Đạo Trưởng', role: 'Lãnh đạo', age: '70+', description: 'Chưởng môn phái Võ Đang, bậc thầy Thái Cực Kiếm, luôn ủng hộ Lệnh Hồ Xung.' },
+    { name: 'Hướng Vấn Thiên', role: 'Đồng minh', age: '45+', description: 'Thiên Vương Lão Tử, trưởng lão Nhật Nguyệt Thần Giáo, người anh em kết nghĩa trung thành của Lệnh Hồ Xung.' },
+    { name: 'Lục Trúc Ông', role: 'Hỗ trợ', age: '60+', description: 'Người hầu của Nhậm Doanh Doanh, giỏi âm nhạc và luôn bảo vệ thánh cô.' },
+    { name: 'Bình Nhất Chỉ', role: 'Hỗ trợ / Thần y', age: '50+', description: 'Sát Nhân Danh Y, y thuật cao minh nhưng có quy tắc quái đản: cứu một người phải giết một người.' },
+    { name: 'Lam Phượng Hoàng', role: 'Đồng minh', age: '25+', description: 'Giáo chủ Ngũ Độc Giáo, xinh đẹp, quyến rũ và là chuyên gia về các loại độc dược.' },
+    { name: 'Đào Cốc Lục Tiên', role: 'Hỗ trợ', age: '30+', description: 'Sáu anh em quái dị với tính cách trẻ con nhưng võ công phối hợp cực kỳ lợi hại.' },
+    { name: 'Bất Giới Hòa Thượng', role: 'Hỗ trợ', age: '50+', description: 'Cha của Nghi Lâm, một nhà sư phá giới với tính cách nóng nảy nhưng rất yêu thương con gái.' },
+    { name: 'Á Bà Bà', role: 'Hỗ trợ', age: '45+', description: 'Mẹ của Nghi Lâm, người phụ nữ bí ẩn luôn âm thầm bảo vệ con gái mình.' },
+    { name: 'Lục Đại Hữu', role: 'Hỗ trợ', age: '22+', description: 'Lục hầu nhi, đệ tử thứ sáu của phái Hoa Sơn, người bạn thân thiết nhất của Lệnh Hồ Xung.' },
+    { name: 'Thiên Môn Đạo Nhân', role: 'Lãnh đạo', age: '50+', description: 'Chưởng môn phái Thái Sơn, chính trực nhưng nóng nảy, cuối cùng hy sinh vì môn phái.' },
+    { name: 'Định Tĩnh Sư Thái', role: 'Hỗ trợ', age: '50+', description: 'Sư thái phái Hằng Sơn, dũng cảm và kiên định, đã hy sinh để bảo vệ các đệ tử.' },
+    { name: 'Định Dật Sư Thái', role: 'Hỗ trợ', age: '48+', description: 'Sư thái phái Hằng Sơn, tính tình bộc trực, nóng nảy nhưng hết lòng vì công lý.' }
+  ]
+};

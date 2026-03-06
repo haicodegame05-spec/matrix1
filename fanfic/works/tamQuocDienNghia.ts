@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tamQuocDienNghia: FanficWork = {
+  id: 'tam-quoc-dien-nghia',
+  title: 'Tam Quốc Diễn Nghĩa',
+  description: 'Cuộc tranh hùng giữa ba tập đoàn phong kiến Ngụy, Thục, Ngô để thống nhất thiên hạ Trung Hoa.',
+  country: 'Trung',
+  plot: 'Cuối thời Đông Hán, triều đình mục nát, khởi nghĩa Khăn Vàng nổ ra. Các thế lực quân phiệt nổi lên tranh giành quyền lực. Lưu Bị, Quan Vũ, Trương Phi kết nghĩa vườn đào, thề phò tá nhà Hán. Tào Tháo đa nghi nhưng tài năng xây dựng nước Ngụy. Tôn Quyền kế thừa cơ nghiệp cha anh ở Giang Đông lập nước Ngô. Cuộc chiến kéo dài hàng chục năm với những trận đánh kinh điển như Xích Bích, Quan Độ.',
+  worldSetting: 'Thế giới lịch sử quân sự Trung Hoa cổ đại, nơi mưu lược và lòng dũng cảm được đặt lên hàng đầu. Các vị tướng quân sở hữu sức mạnh phi thường và các quân sư có trí tuệ xoay chuyển càn khôn.',
+  characters: [
+    { name: 'Lưu Bị', role: 'Nhân vật chính', age: '40+', description: 'Huyền Đức, hoàng thúc nhà Hán, nhân hậu, trọng hiền tài. Người sáng lập nước Thục Hán.' },
+    { name: 'Gia Cát Lượng', role: 'Quân sư', age: '27+', description: 'Khổng Minh, Ngoọa Long tiên sinh. Trí tuệ tuyệt đỉnh, thông thiên văn tường địa lý, trung thành tuyệt đối với nhà Thục.' },
+    { name: 'Quan Vũ', role: 'Hỗ trợ', age: '40+', description: 'Vân Trường, võ thánh, nghĩa khí ngút trời. Sử dụng Thanh Long Yển Nguyệt Đao, cưỡi ngựa Xích Thố.' },
+    { name: 'Trương Phi', role: 'Hỗ trợ', age: '40+', description: 'Dực Đức, dũng mãnh vô song, nóng nảy nhưng chân thành. Sử dụng Bát Xà Mâu, tiếng hét vang dội như sấm.' },
+    { name: 'Tào Tháo', role: 'Phản diện / Anh hùng', age: '40+', description: 'Mạnh Đức, gian hùng thời loạn, đa nghi nhưng cực kỳ tài năng trong việc dùng người và trị quốc. Người đặt nền móng cho nước Ngụy.' },
+    { name: 'Tôn Quyền', role: 'Hỗ trợ', age: '20+', description: 'Trọng Mưu, người sáng lập nước Ngô, tài năng giữ vững cơ nghiệp Giang Đông qua nhiều biến cố.' },
+    { name: 'Chu Du', role: 'Đối thủ / Đồng minh', age: '30+', description: 'Công Cẩn, đại đô đốc nước Ngô, tài hoa xuất chúng, người có công lớn nhất trong trận Xích Bích.' },
+    { name: 'Triệu Vân', role: 'Hỗ trợ', age: '25+', description: 'Tử Long, hổ tướng nước Thục, dũng cảm, trung thành, một mình phá vòng vây cứu ấu chúa ở Trường Bản.' },
+    { name: 'Lữ Bố', role: 'Đối thủ', age: '30+', description: 'Phụng Tiên, chiến thần mạnh nhất Tam Quốc nhưng phản phúc, tham lam. Sử dụng Phương Thiên Họa Kích.' },
+    { name: 'Điêu Thuyền', role: 'Nữ chính', age: '18+', description: 'Một trong tứ đại mỹ nhân, dùng mỹ nhân kế để ly gián Đổng Trác và Lữ Bố.' },
+    { name: 'Đổng Trác', role: 'Phản diện', age: '50+', description: 'Trọng Dĩnh, thái sư tàn bạo lũng đoạn triều đình, người gây ra sự hỗn loạn ban đầu cho thời Tam Quốc.' },
+    { name: 'Viên Thiệu', role: 'Đối thủ', age: '40+', description: 'Bản Sơ, thủ lĩnh liên minh 18 lộ chư hầu chống Đổng Trác, thế lực lớn nhất phương Bắc trước khi bị Tào Tháo đánh bại.' },
+    { name: 'Tư Mã Ý', role: 'Phản diện / Đối thủ', age: '30+', description: 'Trọng Đạt, đối thủ lớn nhất của Gia Cát Lượng, người đặt nền móng cho nhà Tấn sau này.' },
+    { name: 'Tuân Úc', role: 'Quân sư', age: '30+', description: 'Văn Nhược, quân sư hàng đầu của Tào Tháo, người giúp ông xây dựng nền tảng chính trị vững chắc.' },
+    { name: 'Quách Gia', role: 'Quân sư', age: '27+', description: 'Phụng Hiếu, thiên tài quân sự của Tào Tháo, người có những dự đoán chính xác đến kinh ngạc.' },
+    { name: 'Trương Liêu', role: 'Hỗ trợ', age: '30+', description: 'Văn Viễn, danh tướng nước Ngụy, nổi tiếng với trận Hợp Phì khiến trẻ con Giang Đông nghe tên không dám khóc.' },
+    { name: 'Hạ Hầu Đôn', role: 'Hỗ trợ', age: '30+', description: 'Nguyên Nhượng, mãnh tướng trung thành của Tào Tháo, người đã nuốt con mắt bị bắn trúng của mình trên chiến trường.' },
+    { name: 'Hứa Chử', role: 'Hỗ trợ', age: '30+', description: 'Trọng Khang, hộ vệ thân cận của Tào Tháo, dũng mãnh như hổ nên được gọi là "Hổ si".' },
+    { name: 'Bàng Thống', role: 'Quân sư', age: '30+', description: 'Sĩ Nguyên, Phượng Sồ tiên sinh, tài năng ngang ngửa Gia Cát Lượng nhưng bạc mệnh ở gò Lạc Phượng.' },
+    { name: 'Mã Siêu', role: 'Hỗ trợ', age: '25+', description: 'Mạnh Khởi, Cẩm Mã Siêu, hổ tướng nước Thục với sức mạnh và vẻ ngoài oai phong lẫm liệt.' },
+    { name: 'Hoàng Trung', role: 'Hỗ trợ', age: '60+', description: 'Hán Thăng, lão tướng nước Thục, thiện xạ vô song, chém chết Hạ Hầu Uyên ở núi Định Quân.' },
+    { name: 'Ngụy Diên', role: 'Hỗ trợ', age: '30+', description: 'Văn Trường, dũng tướng nước Thục nhưng có xương phản sau gáy, luôn mâu thuẫn với Gia Cát Lượng.' },
+    { name: 'Khương Duy', role: 'Hỗ trợ / Quân sư', age: '20+', description: 'Bá Ước, người kế thừa chí nguyện của Gia Cát Lượng, nỗ lực khôi phục nhà Hán đến hơi thở cuối cùng.' },
+    { name: 'Lục Tốn', role: 'Quân sư / Lãnh đạo', age: '25+', description: 'Bá Ngôn, đại đô đốc nước Ngô, người đánh bại Lưu Bị trong trận Di Lăng bằng hỏa công.' },
+    { name: 'Cam Ninh', role: 'Hỗ trợ', age: '30+', description: 'Hưng Bá, mãnh tướng nước Ngô, vốn là hải tặc sau đó quy thuận Tôn Quyền, dũng cảm vô song.' },
+    { name: 'Thái Sử Từ', role: 'Hỗ trợ', age: '30+', description: 'Tử Nghĩa, danh tướng nước Ngô, nổi tiếng với tài bắn cung và lòng trung nghĩa.' },
+    { name: 'Lỗ Túc', role: 'Quân sư / Đồng minh', age: '30+', description: 'Tử Kính, người duy trì liên minh Thục - Ngô, tính tình trung hậu, thành thật.' },
+    { name: 'Pháp Chính', role: 'Quân sư', age: '30+', description: 'Hiếu Trực, mưu sĩ hàng đầu của Lưu Bị trong chiến dịch chiếm Thục, người có mưu lược sắc bén.' },
+    { name: 'Mạnh Hoạch', role: 'Đối thủ / Đồng minh', age: '40+', description: 'Thủ lĩnh các bộ tộc Nam Man, bị Gia Cát Lượng bảy lần bắt bảy lần thả mới tâm phục khẩu phục.' },
+    { name: 'Chúc Dung Phu Nhân', role: 'Đối thủ / Đồng minh', age: '30+', description: 'Vợ của Mạnh Hoạch, nữ chiến binh dũng cảm sử dụng phi đao điêu luyện.' }
+  ]
+};

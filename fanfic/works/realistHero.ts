@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const realistHero: FanficWork = {
+  id: 'realist-hero',
+  title: 'Anh Hùng Thực Tế Tái Thiết Vương Quốc (Realist Hero)',
+  description: 'Souma Kazuya, một sinh viên đại học chuyển sinh để cứu vương quốc khỏi sự sụp đổ kinh tế.',
+  country: 'Nhật',
+  plot: 'Souma Kazuya bị triệu hồi đến vương quốc Elfrieden để làm anh hùng. Tuy nhiên, thay vì chiến đấu với quái vật, anh lại đưa ra một kế hoạch cải cách kinh tế và chính trị toàn diện. Nhà vua quá ấn tượng đã nhường ngôi cho Souma và gả công chúa Liscia cho anh. Với kiến thức hiện đại về quản lý, Souma bắt đầu hành trình tái thiết vương quốc và đối mặt với các thế lực thù địch.',
+  worldSetting: 'Một thế giới fantasy nơi ma pháp và quái vật tồn tại, nhưng các vấn đề về kinh tế, lương thực và chính trị lại cực kỳ thực tế. Souma sở hữu ma pháp "Living Poltergeist" cho phép anh điều khiển các vật thể vô tri.',
+  characters: [
+    { name: 'Souma Kazuya', role: 'Nhân vật chính', age: '19', description: 'Một sinh viên đại học thông minh, thực tế và quyết đoán. Luôn ưu tiên sự ổn định và phát triển của vương quốc.' },
+    { name: 'Liscia Elfrieden', role: 'Nữ chính / Hôn thê', age: '18', description: 'Công chúa của vương quốc, một chiến binh dũng cảm và là người ủng hộ trung thành nhất của Souma.' },
+    { name: 'Aisha Udgard', role: 'Nữ chính / Harem', age: '18', description: 'Một nữ chiến binh thuộc tộc Dark Elf, người đã thề trung thành và bảo vệ Souma sau khi anh cứu tộc của cô.' },
+    { name: 'Juna Doma', role: 'Nữ chính / Harem', age: '18', description: 'Một nữ ca sĩ (Lorelei) xinh đẹp, cháu gái của Đô đốc quân đội, người đã giúp Souma trong các chiến dịch tuyên truyền.' },
+    { name: 'Roroa Amidonia', role: 'Nữ chính / Harem', age: '16', description: 'Công chúa của vương quốc Amidonia, một thiên tài về kinh tế và là người vợ sắc sảo của Souma.' },
+    { name: 'Naden Delal', role: 'Nữ chính / Harem', age: '???', description: 'Một con rồng không có cánh nhưng có khả năng điều khiển sấm sét, người đã cùng Souma phiêu lưu.' },
+    { name: 'Hakuya Kwonmin', role: 'Quân sư', age: '25+', description: 'Một thiên tài về mưu lược, người đã giúp Souma trong các vấn đề chính trị và quân sự phức tạp.' },
+    { name: 'Tomoe Inui', role: 'Hỗ trợ', age: '10', description: 'Một cô bé thuộc tộc người sói, có khả năng giao tiếp với động vật và quái vật.' },
+    { name: 'Poncho Panacotta', role: 'Hỗ trợ', age: '30+', description: 'Một người sành ăn, người đã giúp Souma giải quyết vấn đề lương thực bằng cách tìm kiếm các nguồn thực phẩm mới.' },
+    { name: 'Ludwin Arcs', role: 'Đồng minh', age: '25+', description: 'Đội trưởng đội cận vệ hoàng gia, một chiến binh dũng cảm và trung thành.' },
+    { name: 'Genia Maxwell', role: 'Hỗ trợ', age: '20+', description: 'Một nhà khoa học điên rồ, người đã giúp Souma phát triển các công nghệ mới dựa trên ma pháp.' },
+    { name: 'Excel Walter', role: 'Đồng minh', age: '500+', description: 'Đô đốc hải quân, một người phụ nữ thông minh và có ảnh hưởng lớn trong vương quốc.' },
+    { name: 'Castor Vargas', role: 'Đối thủ / Đồng minh', age: '40+', description: 'Tướng quân không quân, ban đầu phản đối Souma nhưng sau đó đã bị thu phục bởi tài năng của anh.' },
+    { name: 'Georg Carmine', role: 'Đối thủ / Đồng minh', age: '50+', description: 'Tướng quân lục quân, một chiến binh trung thành đã hy sinh bản thân để giúp Souma củng cố quyền lực.' },
+    { name: 'Maria Euphoria', role: 'Nữ chính / Harem', age: '20+', description: 'Nữ hoàng của Đế quốc Gran Chaos, người có lý tưởng cao đẹp và là đối tác quan trọng của Souma.' },
+    { name: 'Jeanne Euphoria', role: 'Đồng minh', age: '18+', description: 'Em gái của Maria, một chiến binh mạnh mẽ và là người liên lạc giữa Đế quốc và vương quốc của Souma.' },
+    { name: 'Gaius Amidonia', role: 'Phản diện', age: '50+', description: 'Vua của Amidonia, kẻ luôn tìm cách xâm lược vương quốc Elfrieden.' },
+    { name: 'Julius Amidonia', role: 'Đối thủ', age: '20+', description: 'Thái tử của Amidonia, người có tư duy quân sự lỗi thời và thất bại trước Souma.' },
+    { name: 'Albert Elfrieden', role: 'Nhân vật quan trọng', age: '50+', description: 'Cựu vương của Elfrieden, người đã nhường ngôi cho Souma.' },
+    { name: 'Elisha Elfrieden', role: 'Nhân vật quan trọng', age: '45+', description: 'Cựu hoàng hậu, người sở hữu ma pháp thời gian bí ẩn đã giúp Souma chuyển sinh.' },
+    { name: 'Kaede Foxia', role: 'Đồng minh', age: '18', description: 'Một pháp sư tài năng trong quân đội, chuyên về ma pháp thổ và là người yêu của Halbert.' },
+    { name: 'Halbert Magna', role: 'Đồng minh', age: '19', description: 'Một chiến binh nhiệt huyết, bạn thân của Souma và là thành viên chủ chốt của đội quân tiên phong.' },
+    { name: 'Glaive Magna', role: 'Đồng minh', age: '45+', description: 'Cha của Halbert, một quý tộc trung thành và là một chỉ huy quân sự dày dạn kinh nghiệm.' },
+    { name: 'Beowulf', role: 'Đồng minh', age: '50+', description: 'Tộc trưởng tộc Dark Elf, cha của Aisha, người luôn ủng hộ các chính sách của Souma.' },
+    { name: 'Ginger Camden', role: 'Hỗ trợ', age: '20+', description: 'Một cựu chủ nô đã thay đổi và trở thành một quản lý tài ba giúp Souma cải cách xã hội.' },
+    { name: 'Sandria', role: 'Hỗ trợ', age: '18+', description: 'Trợ lý đắc lực của Ginger, người đã cùng anh xây dựng hệ thống giáo dục và phúc lợi mới.' },
+    { name: 'Hilde Norg', role: 'Hỗ trợ', age: '22', description: 'Một nữ bác sĩ tài giỏi, người đã giúp Souma hiện đại hóa hệ thống y tế của vương quốc.' },
+    { name: 'Chris Armand', role: 'Đồng minh', age: '25+', description: 'Một nữ hiệp sĩ dũng cảm, người dẫn đầu đội quân bảo vệ biên giới.' },
+    { name: 'Serina', role: 'Hỗ trợ', age: '20+', description: 'Trưởng nhóm hầu gái trong cung điện, người đảm bảo mọi sinh hoạt của Souma và Harem diễn ra suôn sẻ.' },
+    { name: 'Sebastian', role: 'Hỗ trợ', age: '50+', description: 'Quản gia trưởng của hoàng gia, người nắm giữ mọi quy tắc lễ nghi và quản lý cung điện.' }
+  ]
+};

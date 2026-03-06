@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const doraemon: FanficWork = {
+  id: 'doraemon',
+  title: 'Chú mèo máy Doraemon',
+  description: 'Doraemon, một chú mèo máy đến từ tương lai, quay về quá khứ để giúp đỡ cậu bé Nobita hậu đậu và thay đổi vận mệnh của cậu.',
+  country: 'Nhật',
+  plot: 'Doraemon được Sewashi, cháu của Nobita, gửi về quá khứ để giúp Nobita vượt qua những khó khăn trong cuộc sống hằng ngày. Với chiếc túi thần kỳ chứa vô số bảo bối tương lai, Doraemon cùng Nobita và những người bạn trải qua những cuộc phiêu lưu kỳ thú và những bài học ý nghĩa về tình bạn và lòng dũng cảm.',
+  worldSetting: 'Thế giới hiện đại tại Nhật Bản, nơi các bảo bối tương lai mang lại những khả năng phi thường và những cuộc phiêu lưu vượt thời gian và không gian.',
+  characters: [
+    { name: 'Doraemon', role: 'Nhân vật chính / Mèo máy', age: 'N/A', description: 'Chú mèo máy đến từ thế kỷ 22 với chiếc túi thần kỳ chứa hàng ngàn bảo bối. Cậu rất sợ chuột và thích ăn bánh rán (Dorayaki).' },
+    { name: 'Nobita Nobi', role: 'Nhân vật chính', age: '10', description: 'Cậu bé hậu đậu, lười học và hay bị bắt nạt. Tuy nhiên, Nobita là người có trái tim nhân hậu và khả năng bắn súng, chơi dây cực giỏi.' },
+    { name: 'Shizuka Minamoto', role: 'Nữ chính / Bạn gái', age: '10', description: 'Cô bé xinh đẹp, học giỏi và rất thích tắm. Shizuka là người mà Nobita luôn thầm thương trộm nhớ.' },
+    { name: 'Takeshi Goda (Gian)', role: 'Bạn bè / Bắt nạt', age: '10', description: 'Cậu bé to béo, hay bắt nạt bạn bè nhưng rất yêu thương em gái. Gian có giọng hát "kinh hoàng" và ước mơ trở thành ca sĩ.' },
+    { name: 'Suneo Honekawa', role: 'Bạn bè / Khoe khoang', age: '10', description: 'Cậu bé nhà giàu, hay khoe khoang và nịnh bợ Gian. Suneo có năng khiếu về hội họa và lắp ráp mô hình.' },
+    { name: 'Dorami', role: 'Em gái Doraemon', age: 'N/A', description: 'Mèo máy em gái của Doraemon, thông minh và chu đáo hơn anh trai. Cô thường xuất hiện để giúp đỡ khi Doraemon gặp khó khăn.' },
+    { name: 'Sewashi Nobi', role: 'Cháu Nobita', age: '10', description: 'Cháu của Nobita đến từ tương lai, người đã gửi Doraemon về để giúp đỡ ông cố của mình.' },
+    { name: 'Tamako Nobi', role: 'Mẹ Nobita', age: '38', description: 'Người mẹ nghiêm khắc, hay mắng Nobita vì tội lười học nhưng thực chất rất yêu thương con.' },
+    { name: 'Nobisuke Nobi', role: 'Cha Nobita', age: '40', description: 'Người cha hiền lành, làm nhân viên văn phòng và có niềm đam mê với hội họa.' },
+    { name: 'Hidetoshi Dekisugi', role: 'Đối thủ / Bạn học', age: '10', description: 'Cậu bé hoàn hảo về mọi mặt: học giỏi, chơi thể thao hay và rất đẹp trai. Nobita luôn coi Dekisugi là đối thủ lớn nhất.' },
+    { name: 'Jaiko Goda', role: 'Em gái Gian', age: '8', description: 'Em gái của Gian, có năng khiếu vẽ truyện tranh và là người mà Nobita suýt nữa phải lấy làm vợ nếu không có Doraemon.' },
+    { name: 'Mrs. Goda', role: 'Mẹ Gian', age: 'Unknown', description: 'Người phụ nữ mạnh mẽ, chủ cửa hàng tạp hóa và là người duy nhất khiến Gian phải sợ hãi.' },
+    { name: 'Mr. Goda', role: 'Cha Gian', age: 'Unknown', description: 'Người cha hiền lành và ít xuất hiện hơn vợ mình.' },
+    { name: 'Mrs. Honekawa', role: 'Mẹ Suneo', age: 'Unknown', description: 'Người phụ nữ quý tộc, hay khoe khoang sự giàu có của gia đình.' },
+    { name: 'Mr. Honekawa', role: 'Cha Suneo', age: 'Unknown', description: 'Doanh nhân thành đạt, thường xuyên đi công tác xa.' },
+    { name: 'Mrs. Minamoto', role: 'Mẹ Shizuka', age: 'Unknown', description: 'Người phụ nữ dịu dàng và luôn mong muốn Shizuka trở thành một cô gái hoàn hảo.' },
+    { name: 'Mr. Minamoto', role: 'Cha Shizuka', age: 'Unknown', description: 'Người cha mẫu mực, thường xuyên xuất hiện trong các tập phim dài.' },
+    { name: 'Sensei (Teacher)', role: 'Thầy giáo', age: 'Unknown', description: 'Thầy giáo chủ nhiệm của Nobita, nghiêm khắc nhưng luôn lo lắng cho kết quả học tập của học sinh.' },
+    { name: 'Kaminari-san', role: 'Hàng xóm', age: 'Unknown', description: 'Ông lão hàng xóm khó tính, thường xuyên bị Nobita và các bạn làm vỡ kính cửa sổ bằng bóng chày.' },
+    { name: 'Mini-Dora', role: 'Bảo bối', age: 'N/A', description: 'Phiên bản thu nhỏ của Doraemon với đầy đủ các chức năng tương tự.' },
+    { name: 'Pawaemon', role: 'Mèo máy / Bạn Doraemon', age: 'N/A', description: 'Mèo máy ưu tú, bạn học cũ của Doraemon tại trường đào tạo mèo máy.' },
+    { name: 'Noramyako', role: 'Bạn gái cũ Doraemon', age: 'N/A', description: 'Cô mèo máy xinh đẹp, từng là bạn gái của Doraemon trước khi cậu bị mất tai.' },
+    { name: 'Lululu', role: 'Mèo máy / Bạn Doraemon', age: 'N/A', description: 'Một chú mèo máy khác xuất hiện trong các tập phim đặc biệt.' },
+    { name: 'Miyoko Mangetsu', role: 'Đồng minh', age: '15', description: 'Con gái của tiến sĩ Mangetsu, người có khả năng sử dụng ma thuật trong tập phim "Lạc vào thế giới ma quỷ".' },
+    { name: 'Papi', role: 'Đồng minh / Người ngoài hành tinh', age: '10', description: 'Tổng thống của hành tinh Pirika, người đã trốn thoát đến Trái Đất để tìm kiếm sự giúp đỡ.' },
+    { name: 'Riruru', role: 'Đồng minh / Robot', age: 'N/A', description: 'Nữ robot từ hành tinh Mechatopia, ban đầu là kẻ thù nhưng sau đó đã hy sinh để cứu Trái Đất.' },
+    { name: 'Pippo', role: 'Đồng minh / Robot', age: 'N/A', description: 'Chú robot nhỏ đồng hành cùng Riruru, có hình dáng giống một chú chim.' },
+    { name: 'Fuuko', role: 'Đồng minh / Cơn bão', age: 'N/A', description: 'Một cơn bão nhỏ được Nobita nuôi dưỡng như thú cưng trong tập phim "Vương quốc gió".' },
+    { name: 'Kibo', role: 'Đồng minh / Cây xanh', age: 'N/A', description: 'Một cái cây nhỏ được Doraemon ban cho sự sống, sau này trở thành lãnh đạo của hành tinh thực vật.' },
+    { name: 'Nobisuke (Nobita\'s son)', role: 'Gia đình / Con Nobita', age: '10', description: 'Con trai của Nobita và Shizuka trong tương lai, có tính cách mạnh mẽ và nghịch ngợm hơn cha mình.' }
+  ]
+};

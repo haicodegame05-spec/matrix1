@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const anhHungXaDieu: FanficWork = {
+  id: 'anh-hung-xa-dieu',
+  title: 'Anh Hùng Xạ Điêu',
+  description: 'Quách Tĩnh, một thiếu niên khờ khạo nhưng chính trực, bước vào giang hồ và trở thành một đại hiệp bảo vệ đất nước.',
+  country: 'Trung',
+  plot: 'Quách Tĩnh sinh ra ở Mông Cổ, được Giang Nam Thất Quái nhận làm đệ tử. Anh gặp Hoàng Dung - con gái của Đông Tà Hoàng Dược Sư, một cô gái thông minh tuyệt đỉnh. Cả hai cùng nhau phiêu bạt giang hồ, học được Hàng Long Thập Bát Chưởng và Cửu Âm Chân Kinh, đồng thời đối mặt với những âm mưu của Tây Độc Âu Dương Phong và sự phản bội của Dương Khang.',
+  worldSetting: 'Thế giới võ hiệp Kim Dung, nơi võ công chia thành các môn phái và các đại cao thủ (Thiên Hạ Ngũ Tuyệt). Giang hồ đầy rẫy những ân oán tình thù và lòng yêu nước chống lại quân Kim xâm lược.',
+  characters: [
+    { name: 'Quách Tĩnh', role: 'Nhân vật chính', age: '20+', description: 'Khờ khạo, chính trực, trọng tình nghĩa. Sở hữu Hàng Long Thập Bát Chưởng và Cửu Âm Chân Kinh.' },
+    { name: 'Hoàng Dung', role: 'Nữ chính', age: '18+', description: 'Thông minh, lém lỉnh, con gái của Hoàng Dược Sư. Sử dụng Đả Cẩu Bổng Pháp và là bang chủ Cái Bang.' },
+    { name: 'Dương Khang', role: 'Đối thủ / Phản diện', age: '20+', description: 'Bạn thân từ nhỏ của Quách Tĩnh nhưng tham vinh hoa phú quý, phản bội đất nước và bạn bè.' },
+    { name: 'Mục Niệm Từ', role: 'Nữ chính', age: '18+', description: 'Người yêu của Dương Khang, xinh đẹp, chung thủy nhưng chịu nhiều đau khổ vì tình yêu.' },
+    { name: 'Hoàng Dược Sư', role: 'Hỗ trợ / Đối thủ', age: '50+', description: 'Đông Tà, chủ nhân đảo Đào Hoa. Tính tình quái dị, võ công cao cường, tinh thông mọi thứ.' },
+    { name: 'Âu Dương Phong', role: 'Phản diện', age: '50+', description: 'Tây Độc, chủ nhân núi Bạch Đà. Độc ác, tham lam, sử dụng Linh Xà Quyền và Cáp Mô Công.' },
+    { name: 'Hồng Thất Công', role: 'Sư phụ', age: '60+', description: 'Bắc Cái, bang chủ Cái Bang. Ham ăn nhưng chính trực, truyền dạy Hàng Long Thập Bát Chưởng cho Quách Tĩnh.' },
+    { name: 'Nhất Đăng Đại Sư', role: 'Hỗ trợ', age: '60+', description: 'Nam Đế, hoàng đế nước Đại Lý đi tu. Sử dụng Nhất Dương Chỉ, là người đức độ, từ bi.' },
+    { name: 'Vương Trùng Dương', role: 'Hỗ trợ', age: 'Đã mất', description: 'Trung Thần Thông, người mạnh nhất trong Thiên Hạ Ngũ Tuyệt, sáng lập Toàn Chân Giáo.' },
+    { name: 'Chu Bá Thông', role: 'Bạn đồng hành', age: '60+', description: 'Lão Ngoan Đồng, tính tình trẻ con nhưng võ công cực cao, sáng tạo ra Không Minh Quyền và Song Thủ Hổ Bác.' },
+    { name: 'Mai Siêu Phong', role: 'Phản diện', age: '30+', description: 'Đệ tử của Hoàng Dược Sư, luyện Cửu Âm Bạch Cốt Trảo khiến giang hồ khiếp sợ, mang mối thù sâu nặng với Giang Nam Thất Quái.' },
+    { name: 'Âu Dương Khắc', role: 'Phản diện', age: '25+', description: 'Cháu (thực chất là con trai) của Âu Dương Phong, phong lưu đa tình, võ công cao cường nhưng tính tình xảo quyệt.' },
+    { name: 'Khưu Xứ Cơ', role: 'Sư phụ / Hỗ trợ', age: '40+', description: 'Một trong Toàn Chân Thất Tử, tính tình nóng nảy nhưng chính trực, là người đã lập ra ước hẹn 18 năm với Giang Nam Thất Quái.' },
+    { name: 'Kha Trấn Ác', role: 'Sư phụ', age: '50+', description: 'Phi Thiên Biên Bức, thủ lĩnh Giang Nam Thất Quái. Dù mù lòa và tính tình gàn dở nhưng cực kỳ trọng nghĩa khí.' },
+    { name: 'Hoa Tranh', role: 'Nữ chính / Tình cảm', age: '18+', description: 'Công chúa Mông Cổ, con gái Thành Cát Tư Hãn, thanh mai trúc mã của Quách Tĩnh và luôn dành tình yêu sâu đậm cho anh.' },
+    { name: 'Thành Cát Tư Hãn', role: 'Lãnh đạo', age: '50+', description: 'Đại hãn Mông Cổ, một nhà quân sự thiên tài, người đã nuôi dưỡng Quách Tĩnh và coi anh như một dũng sĩ thực thụ.' },
+    { name: 'Bao Tích Nhược', role: 'Gia đình', age: '40+', description: 'Mẹ của Dương Khang, vợ của Dương Thiết Tâm, một người phụ nữ hiền hậu nhưng cuộc đời đầy bi kịch giữa hai người đàn ông.' },
+    { name: 'Dương Thiết Tâm', role: 'Gia đình', age: '40+', description: 'Cha ruột của Dương Khang, một nghĩa sĩ yêu nước, người đã thất lạc gia đình sau biến cố thôn Ngưu Gia.' },
+    { name: 'Mã Ngọc', role: 'Sư phụ / Hỗ trợ', age: '50+', description: 'Đan Dương Tử, chưởng môn Toàn Chân Giáo, người đã bí mật truyền dạy nội công Toàn Chân cho Quách Tĩnh ở Mông Cổ.' },
+    { name: 'Đà Lôi', role: 'Bạn thân', age: '20+', description: 'Con trai thứ tư của Thành Cát Tư Hãn, anh em kết nghĩa (An Đáp) của Quách Tĩnh, một chiến binh dũng cảm và trung thành.' },
+    { name: 'Trần Huyền Phong', role: 'Phản diện', age: '30+', description: 'Hắc Phong Song Sát, chồng của Mai Siêu Phong. Võ công cao cường nhưng tàn ác, chết dưới tay Quách Tĩnh khi anh còn nhỏ.' },
+    { name: 'Chu Thông', role: 'Sư phụ', age: '40+', description: 'Diệu Thủ Thư Sinh, người thứ hai trong Giang Nam Thất Quái. Tài hoa, mưu mẹo và có kỹ năng lấy đồ trong túi người khác như không.' },
+    { name: 'Hàn Tiểu Oanh', role: 'Sư phụ', age: '30+', description: 'Việt Nữ Kiếm, người thứ bảy trong Giang Nam Thất Quái. Xinh đẹp, kiếm pháp tinh diệu và rất mực yêu thương Quách Tĩnh.' },
+    { name: 'Lục Thừa Phong', role: 'Đồng minh', age: '40+', description: 'Đệ tử của Hoàng Dược Sư, chủ nhân Quy Vân Trang. Dù bị què chân nhưng võ công và kiến thức về ngũ hành bát quái rất uyên bác.' },
+    { name: 'Doãn Chí Bình', role: 'Đối thủ / Đồng minh', age: '20+', description: 'Đệ tử của Toàn Chân Giáo, người đã đến Mông Cổ để thử thách võ công của Quách Tĩnh.' },
+    { name: 'Hoàn Nhan Hồng Liệt', role: 'Phản diện chính', age: '45+', description: 'Triệu Vương nhà Kim, kẻ đã gây ra thảm kịch cho gia đình Quách, Dương để chiếm đoạt Bao Tích Nhược.' },
+    { name: 'Linh Trí Thượng Nhân', role: 'Phản diện', age: '50+', description: 'Một trong những cao thủ được Hoàn Nhan Hồng Liệt chiêu mộ, sử dụng Mật Tông Độc Chưởng.' },
+    { name: 'Lương Tử Ông', role: 'Phản diện', age: '50+', description: 'Cao thủ phái Trường Bạch, chuyên luyện thuốc bằng máu rắn để mong trường sinh bất tử.' },
+    { name: 'Sa Thông Thiên', role: 'Phản diện', age: '45+', description: 'Quỷ Môn Long Vương, cao thủ vùng sông nước, tính tình hung bạo và võ công lợi hại.' },
+    { name: 'Hầu Thông Hải', role: 'Phản diện', age: '40+', description: 'Tam Thủ Giao, sư đệ của Sa Thông Thiên, tính tình ngốc nghếch nhưng rất khỏe mạnh.' },
+    { name: 'Bành Liên Hổ', role: 'Phản diện', age: '45+', description: 'Thiên Thủ Độc Nhân, một kẻ xảo quyệt và tàn nhẫn, chuyên sử dụng ám khí.' }
+  ]
+};

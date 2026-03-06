@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const oregairu: FanficWork = {
+  id: 'oregairu',
+  title: 'Yahari Ore no Seishun Love Come wa Machigatteiru (Oregairu)',
+  description: 'Câu chuyện về câu lạc bộ tình nguyện, nơi những học sinh có vấn đề về xã hội cùng nhau giải quyết các rắc rối của bạn bè.',
+  country: 'Nhật',
+  plot: 'Hikigaya Hachiman là một học sinh trung học bi quan, thực dụng và cô độc. Anh bị ép gia nhập Câu lạc bộ Tình nguyện do Yukinoshita Yukino - một cô gái xinh đẹp nhưng lạnh lùng - làm chủ tịch. Cùng với Yuigahama Yui, họ cùng nhau giải quyết các vấn đề của học sinh trong trường theo những cách kỳ lạ và đôi khi gây tranh cãi.',
+  worldSetting: 'Trường trung học Soubu tại thành phố Chiba, Nhật Bản. Một bối cảnh đời thường nhưng đầy rẫy những mâu thuẫn tâm lý và xã hội của tuổi trẻ.',
+  characters: [
+    { name: 'Hikigaya Hachiman', role: 'Nhân vật chính', age: '17', description: 'Một học sinh có cái nhìn bi quan, thực dụng và cô độc. Anh có đôi mắt "cá chết" đặc trưng và khả năng quan sát, phân tích tâm lý con người cực kỳ sắc bén, thường giải quyết vấn đề bằng cách tự làm tổn thương bản thân hoặc đóng vai kẻ xấu.' },
+    { name: 'Yukinoshita Yukino', role: 'Nữ chính', age: '17', description: 'Chủ tịch Câu lạc bộ Tình nguyện, xinh đẹp, thông minh nhưng cực kỳ thẳng thắn và lạnh lùng. Cô luôn theo đuổi sự hoàn hảo và có mối quan hệ phức tạp với gia đình quyền thế của mình.' },
+    { name: 'Yuigahama Yui', role: 'Nữ chính', age: '17', description: 'Thành viên thứ ba của câu lạc bộ, một cô gái năng động, hòa đồng và luôn cố gắng giữ cho bầu không khí trong nhóm được vui vẻ. Cô là người kết nối Hachiman và Yukino lại với nhau.' },
+    { name: 'Isshiki Iroha', role: 'Hỗ trợ / Hội trưởng', age: '16', description: 'Hậu bối của Hachiman, hội trưởng hội học sinh. Cô là một cô gái ranh mãnh, biết cách sử dụng vẻ ngoài đáng yêu để thao túng người khác nhưng lại bộc lộ bản chất thật trước mặt Hachiman.' },
+    { name: 'Hiratsuka Shizuka', role: 'Người dẫn dắt / Giáo viên', age: '20+', description: 'Cô giáo cố vấn của Câu lạc bộ Tình nguyện, người luôn quan tâm và cố gắng giúp đỡ Hachiman thay đổi. Cô thích hút thuốc, xem manga shounen và thường xuyên dùng nắm đấm để "dạy dỗ" Hachiman.' },
+    { name: 'Hikigaya Komachi', role: 'Gia đình', age: '15', description: 'Em gái của Hachiman, một cô bé lém lỉnh, luôn ủng hộ anh trai mình. Cô thường xuyên đóng vai trò "ông tơ bà nguyệt" để giúp Hachiman cải thiện các mối quan hệ xã hội.' },
+    { name: 'Hayama Hayato', role: 'Đối thủ / Đồng minh', age: '17', description: 'Hot boy của trường, một người hoàn hảo về mọi mặt nhưng lại mang trong mình những áp lực và mâu thuẫn nội tâm. Anh là hình ảnh phản chiếu đối lập hoàn toàn với Hachiman.' },
+    { name: 'Totsuka Saika', role: 'Bạn bè', age: '17', description: 'Bạn cùng lớp của Hachiman, chủ tịch câu lạc bộ tennis. Cậu có vẻ ngoài và tính cách dịu dàng đến mức khiến Hachiman nhiều lần phải nghi ngờ giới tính của mình.' },
+    { name: 'Miura Yumiko', role: 'Hỗ trợ / Nữ vương', age: '17', description: 'Thủ lĩnh của nhóm học sinh nổi tiếng trong lớp, một cô gái có vẻ ngoài kiêu kỳ và nóng nảy nhưng thực chất rất quan tâm đến bạn bè trong nhóm của mình.' },
+    { name: 'Ebina Hina', role: 'Hỗ trợ / Fujoshi', age: '17', description: 'Một cô gái đeo kính với niềm đam mê mãnh liệt với thể loại BL. Cô thường sử dụng sở thích này để che giấu sự thông minh và khả năng quan sát tinh tế của mình.' },
+    { name: 'Zaimokuza Yoshiteru', role: 'Bạn bè / Chuunibyou', age: '17', description: 'Một học sinh mắc hội chứng tuổi dậy thì (chuunibyou), luôn mơ ước trở thành nhà văn light novel. Anh là người bạn hiếm hoi mà Hachiman có thể thoải mái trò chuyện.' },
+    { name: 'Kawasaki Saki', role: 'Bạn bè', age: '17', description: 'Một cô gái có vẻ ngoài đáng sợ như một yankee nhưng thực chất lại là một người chị đảm đang, làm việc vất vả để lo cho gia đình.' },
+    { name: 'Yukinoshita Haruno', role: 'Nhân vật quan trọng', age: '20', description: 'Chị gái của Yukino, một người phụ nữ xinh đẹp, thông minh nhưng đầy bí ẩn và thích trêu chọc người khác. Cô luôn theo dõi và can thiệp vào cuộc sống của Yukino và Hachiman.' },
+    { name: 'Sagami Minami', role: 'Đối thủ', age: '17', description: 'Một cô gái luôn muốn được chú ý, từng là trưởng ban tổ chức lễ hội văn hóa nhưng lại thiếu năng lực và gây ra nhiều rắc rối.' },
+    { name: 'Orimoto Kaori', role: 'Nhân vật quan trọng', age: '17', description: 'Bạn học cũ của Hachiman, người mà anh từng thầm yêu thời trung học cơ sở. Cô có tính cách thẳng thắn và đôi khi vô tâm.' },
+    { name: 'Tsurumi Rumi', role: 'Hỗ trợ', age: '10', description: 'Một cô bé tiểu học cô độc, người đã được câu lạc bộ tình nguyện giúp đỡ trong chuyến đi cắm trại hè.' },
+    { name: 'Yukinoshita Mother', role: 'Gia đình', age: '45+', description: 'Mẹ của Yukino và Haruno, một người phụ nữ quyền lực, nghiêm khắc và luôn muốn kiểm soát cuộc sống của các con mình.' },
+    { name: 'Shiromeguri Meguri', role: 'Hỗ trợ', age: '18', description: 'Cựu hội trưởng hội học sinh, một cô gái hiền lành, luôn mong muốn mọi người trong trường được hòa thuận và vui vẻ.' },
+    { name: 'Tamanawa', role: 'Đối thủ', age: '17', description: 'Hội trưởng hội học sinh của trường Kaihin, người có phong cách làm việc rườm rà và thích sử dụng các thuật ngữ kinh doanh khó hiểu.' },
+    { name: 'Kawasaki Taishi', role: 'Hỗ trợ', age: '15', description: 'Em trai của Saki, một cậu bé ngoan ngoãn và luôn lo lắng cho chị gái mình. Cậu thường xuyên nhờ Hachiman giúp đỡ.' },
+    { name: 'Hikigaya Father', role: 'Gia đình', age: '45+', description: 'Cha của Hachiman và Komachi, một người đàn ông điềm tĩnh và ít nói, thường xuyên đi làm về muộn.' },
+    { name: 'Hikigaya Mother', role: 'Gia đình', age: '40+', description: 'Mẹ của Hachiman và Komachi, một người phụ nữ đảm đang, luôn chăm lo cho bữa ăn của cả gia đình.' },
+    { name: 'Yuigahama Mother', role: 'Gia đình', age: '40+', description: 'Mẹ của Yui, một người phụ nữ trẻ trung, năng động và rất yêu thương con gái mình. Cô rất quý mến Hachiman.' },
+    { name: 'Totsuka\'s Sister', role: 'Gia đình', age: '15', description: 'Em gái của Saika, một cô bé dễ thương và luôn tự hào về người anh trai xinh đẹp của mình.' },
+    { name: 'Hayama\'s Father', role: 'Gia đình', age: '50+', description: 'Cha của Hayato, một luật sư nổi tiếng và có mối quan hệ làm ăn với gia đình Yukinoshita.' },
+    { name: 'Miura\'s Friend A', role: 'Hỗ trợ', age: '17', description: 'Một thành viên trong nhóm của Yumiko, luôn đi theo và ủng hộ các quyết định của cô.' },
+    { name: 'Miura\'s Friend B', role: 'Hỗ trợ', age: '17', description: 'Một thành viên khác trong nhóm của Yumiko, người thường xuyên tham gia vào các hoạt động của nhóm.' },
+    { name: 'Ebina\'s Friend', role: 'Hỗ trợ', age: '17', description: 'Một người bạn cùng lớp của Hina, người thỉnh thoảng tham gia vào các cuộc thảo luận về BL.' },
+    { name: 'Zaimokuza\'s Rival', role: 'Đối thủ', age: '17', description: 'Một học sinh khác cũng đam mê light novel và luôn coi Zaimokuza là đối thủ cạnh tranh.' },
+    { name: 'Kawasaki\'s Younger Brother', role: 'Gia đình', age: '10', description: 'Em trai út của Saki, một cậu bé hiếu động và luôn được các anh chị yêu chiều.' }
+  ]
+};

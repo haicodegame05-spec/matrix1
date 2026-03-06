@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const eightySix: FanficWork = {
+  id: 'eighty-six',
+  title: '86 - Eighty Six',
+  description: 'Câu chuyện về cuộc chiến tranh tàn khốc giữa Cộng hòa San Magnolia và Đế quốc Giad.',
+  country: 'Nhật',
+  plot: 'Trong một thế giới bị tàn phá bởi chiến tranh, Cộng hòa San Magnolia tuyên bố rằng họ đang chiến đấu bằng các phương tiện không người lái. Tuy nhiên, thực tế là những người thuộc khu vực 86 - những người bị tước đoạt quyền công dân và bị coi là "lợn" - đang phải lái những cỗ máy chiến đấu nguy hiểm để bảo vệ quốc gia. Câu chuyện xoay quanh Lena - một nữ sĩ quan trẻ tuổi - và Shin - một chỉ huy của đội 86 - trong hành trình tìm kiếm sự thật và tự do.',
+  worldSetting: 'Một thế giới bị tàn phá bởi chiến tranh, nơi sự phân biệt chủng tộc và sự tàn bạo của con người được phơi bày.',
+  characters: [
+    { name: 'Shinei Nouzen (Shin)', role: 'Nhân vật chính', age: '16-18', description: 'Chỉ huy của đội Spearhead, được mệnh danh là "Undertaker". Anh là một chiến binh 86 lạnh lùng, dũng cảm và sở hữu khả năng ngoại cảm có thể nghe thấy tiếng gọi của những người đã khuất trong quân đoàn Legion. Anh mang trên mình gánh nặng là người tiễn đưa các đồng đội đã hy sinh.' },
+    { name: 'Vladilena Milizé (Lena)', role: 'Nữ chính / Lãnh đạo', age: '16-18', description: 'Một nữ sĩ quan trẻ tuổi và tài năng của Cộng hòa San Magnolia, đảm nhận vai trò Handler cho đội Spearhead. Cô là một người lý tưởng, luôn đấu tranh chống lại sự phân biệt đối xử đối với người 86 và dần nảy sinh tình cảm sâu sắc với Shin.' },
+    { name: 'Raiden Shuga', role: 'Bạn thân / Hộ vệ', age: '17-19', description: 'Phó chỉ huy của đội Spearhead, bạn thân nhất và là cánh tay phải đắc lực của Shin. Anh là một chiến binh dũng cảm, thẳng thắn, luôn quan tâm và bảo vệ các thành viên trong đội như một người anh cả.' },
+    { name: 'Anju Emma', role: 'Đồng minh', age: '17-19', description: 'Thành viên của đội Spearhead, một cô gái hiền lành và điềm tĩnh. Cô mang trong mình những vết sẹo của sự ngược đãi nhưng vẫn giữ được lòng nhân hậu và tinh thần chiến đấu kiên cường.' },
+    { name: 'Kurena Kukumila', role: 'Đồng minh / Xạ thủ', age: '16-18', description: 'Xạ thủ bắn tỉa tài ba của đội Spearhead. Cô có tính cách năng động, bộc trực và mang lòng thù hận sâu sắc đối với người Alba vì những gì họ đã gây ra cho gia đình cô. Cô cũng thầm ngưỡng mộ Shin.' },
+    { name: 'Theoto Rikka (Theo)', role: 'Đồng minh', age: '16-18', description: 'Thành viên của đội Spearhead, một chiến binh dũng cảm và có năng khiếu hội họa. Anh thường vẽ biểu tượng lên các cỗ máy Juggernaut của đồng đội và luôn giữ thái độ thực tế về cuộc chiến.' },
+    { name: 'Frederica Rosenfort', role: 'Hỗ trợ / Nhân vật quan trọng', age: '10', description: 'Nữ hoàng cuối cùng của Đế quốc Giad, hiện đang được Liên bang bảo hộ. Cô là một cô bé thông minh, sắc sảo và sở hữu khả năng nhìn thấy quá khứ cũng như tương lai của những người cô quen biết.' },
+    { name: 'Ernst Zimmerman', role: 'Lãnh đạo / Đồng minh', age: '50+', description: 'Tổng thống tạm thời của Liên bang Giad, người đã nhận nuôi Shin và các thành viên sống sót của đội Spearhead. Ông là một nhà lãnh đạo lý tưởng, luôn mong muốn xây dựng một thế giới công bằng.' },
+    { name: 'Shourei Nouzen', role: 'Nhân vật quan trọng', age: 'Deceased', description: 'Anh trai của Shin, người từng là một Handler dũng cảm trước khi hy sinh và bị Legion hấp thụ não bộ. Anh là động lực và cũng là nỗi ám ảnh lớn nhất trong cuộc đời của Shin.' },
+    { name: 'Henrietta Penrose (Annette)', role: 'Hỗ trợ / Nhà khoa học', age: '17-19', description: 'Bạn thân thời thơ ấu của Lena và là một nhà khoa học hàng đầu của Cộng hòa chuyên về công nghệ đồng bộ hóa não bộ. Cô mang trong mình mặc cảm tội lỗi về quá khứ liên quan đến gia đình Shin.' },
+    { name: 'Daiya Irma', role: 'Đồng minh', age: '17 (Deceased)', description: 'Thành viên của đội Spearhead, một chàng trai vui tính và là người yêu của Anju. Sự hy sinh của anh đã để lại một khoảng trống lớn trong lòng các đồng đội.' },
+    { name: 'Fido', role: 'Hỗ trợ / Robot', age: 'N/A', description: 'Một robot hỗ trợ (Scavenger) trung thành của đội Spearhead. Fido có trí thông minh nhân tạo đáng ngạc nhiên và luôn đi theo hỗ trợ Shin trong mọi trận chiến.' },
+    { name: 'Vika (Viktor Idinarohk)', role: 'Đồng minh / Lãnh đạo', age: '18', description: 'Hoàng tử của Vương quốc Roa Gracia, một thiên tài về trí tuệ nhân tạo và là chỉ huy của đội quân Sirin.' },
+    { name: 'Lerche', role: 'Hỗ trợ / Sirin', age: '???', description: 'Một Sirin (người nhân tạo) phục vụ dưới quyền Vika, sở hữu tính cách mạnh mẽ và luôn bảo vệ chủ nhân của mình.' },
+    { name: 'Zelene Ehrenfried', role: 'Nhân vật quan trọng', age: 'Deceased', description: 'Nhà khoa học thiên tài của Đế quốc Giad, người đã tạo ra Legion và là nguồn gốc của mọi bi kịch.' },
+    { name: 'Willem Ehrenfried', role: 'Lãnh đạo', age: '40+', description: 'Một sĩ quan cấp cao của Liên bang Giad, người luôn nỗ lực để ngăn chặn sự tàn phá của Legion.' },
+    { name: 'Grethe Wenzel', role: 'Hỗ trợ / Kỹ sư', age: '25+', description: 'Kỹ sư trưởng của Liên bang, người đã thiết kế các cỗ máy chiến đấu mới để hỗ trợ Shin và đồng đội.' },
+    { name: 'Shin\'s Father', role: 'Gia đình', age: 'Deceased', description: 'Một nhà khoa học của Đế quốc Giad, người đã hy sinh để bảo vệ gia đình khỏi sự tàn bạo của Legion.' },
+    { name: 'Shin\'s Mother', role: 'Gia đình', age: 'Deceased', description: 'Một người phụ nữ hiền hậu, người đã truyền dạy cho Shin những bài học về lòng dũng cảm.' },
+    { name: 'Lena\'s Father', role: 'Gia đình', age: 'Deceased', description: 'Một sĩ quan cao cấp của Cộng hòa San Magnolia, người đã hy sinh để bảo vệ đất nước.' },
+    { name: 'Lena\'s Mother', role: 'Gia đình', age: '40+', description: 'Một người phụ nữ quý tộc, người luôn lo lắng cho sự an nguy của con gái mình.' },
+    { name: 'Raiden\'s Sister', role: 'Gia đình', age: '15', description: 'Một thiếu nữ dũng cảm, người luôn lấy Raiden làm tấm gương phấn đấu.' },
+    { name: 'Anju\'s Brother', role: 'Gia đình', age: '14', description: 'Một thiếu niên đầy nhiệt huyết, người luôn tin tưởng vào sự tự do của người 86.' },
+    { name: 'Kurena\'s Sister', role: 'Gia đình', age: '13', description: 'Một cô bé đáng yêu, người luôn ngưỡng mộ tài năng bắn tỉa của Kurena.' },
+    { name: 'Theo\'s Brother', role: 'Gia đình', age: '12', description: 'Một thiếu niên có khiếu về hội họa, người luôn vẽ những bức tranh về hòa bình.' },
+    { name: 'Frederica\'s Guard', role: 'Hỗ trợ', age: '30', description: 'Một người cận vệ trung thành, người luôn sát cánh cùng Frederica bảo vệ Liên bang.' },
+    { name: 'Ernst\'s Assistant', role: 'Hỗ trợ', age: '35', description: 'Một người trợ lý đắc lực, người giúp Ernst quản lý các công việc của Liên bang.' },
+    { name: 'Annette\'s Father', role: 'Gia đình', age: 'Deceased', description: 'Một nhà khoa học hàng đầu, người đã cùng cha của Shin nghiên cứu về công nghệ Legion.' },
+    { name: 'Vika\'s Assistant', role: 'Hỗ trợ', age: '25', description: 'Một người trợ lý thông minh, người giúp Vika trong việc nghiên cứu trí tuệ nhân tạo.' },
+    { name: 'Lerche\'s Sister', role: 'Hỗ trợ / Sirin', age: '???', description: 'Một Sirin khác phục vụ dưới quyền Vika, người sở hữu tính cách điềm tĩnh.' }
+  ]
+};

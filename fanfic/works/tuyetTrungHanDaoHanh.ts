@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tuyetTrungHanDaoHanh: FanficWork = {
+  id: 'tuyet-trung-han-dao-hanh',
+  title: 'Tuyết Trung Hãn Đao Hành',
+  description: 'Từ Phượng Niên, thế tử của Bắc Lương, gánh vác vận mệnh của cả vương quốc và giang hồ.',
+  country: 'Trung',
+  plot: 'Từ Phượng Niên là con trai của Từ Kiêu - Bắc Lương Vương, người đã thống nhất sáu nước. Anh mang danh là một kẻ ăn chơi trác táng nhưng thực chất là một thiên tài võ học và mưu lược. Cuộc hành trình của anh là sự kết hợp giữa giang hồ hiệp khách và những âm mưu chính trị đỉnh cao.',
+  worldSetting: 'Thế giới võ hiệp kết hợp tiên hiệp, hệ thống sức mạnh chia thành các cấp bậc từ 9 đến 1, và cao nhất là Lục Địa Thần Tiên (chỉ có vài người). Bắc Lương là vùng đất biên cương, nơi 30 vạn kỵ binh bảo vệ vương quốc khỏi giặc ngoại xâm.',
+  characters: [
+    { name: 'Từ Phượng Niên', role: 'Nhân vật chính', age: '20+', description: 'Thế tử Bắc Lương, vẻ ngoài phong lưu nhưng bên trong là một cao thủ võ học, sau này trở thành Lục Địa Thần Tiên.' },
+    { name: 'Khương Nê', role: 'Nữ chính', age: '18+', description: 'Công chúa của Tây Sở, bị Từ Kiêu bắt làm nô tỳ, có thiên phú kiếm đạo cực cao và là người Từ Phượng Niên yêu nhất.' },
+    { name: 'Từ Kiêu', role: 'Phụ thân', age: '50+', description: 'Bắc Lương Vương, người đã chinh phạt sáu nước, tàn bạo với kẻ thù nhưng hết mực yêu thương con cái.' },
+    { name: 'Lý Thuần Cương', role: 'Sư phụ', age: '70+', description: 'Kiếm Thần của giang hồ, người đã dạy cho Từ Phượng Niên những tinh hoa nhất của kiếm đạo.' },
+    { name: 'Lão Quái Vật (Vương Tiên Chi)', role: 'Đối thủ', age: '80+', description: 'Võ Đế Thành chủ, người mạnh nhất thiên hạ trong suốt 60 năm, là ngọn núi mà Từ Phượng Niên phải vượt qua.' },
+    { name: 'Nam Cung Phác Xạ', role: 'Đồng minh', age: '20+', description: 'Đệ nhất mỹ nhân thiên hạ, một cao thủ đao pháp cực mạnh, luôn ở bên cạnh hỗ trợ Từ Phượng Niên.' },
+    { name: 'Từ Chi Hổ', role: 'Chị gái', age: '25+', description: 'Đại tỷ của Từ Phượng Niên, hy sinh hạnh phúc cá nhân để bảo vệ em trai và Bắc Lương.' },
+    { name: 'Trần Chi Báo', role: 'Đối thủ / Đồng minh', age: '30+', description: 'Tiểu Nhân Đồ, một trong sáu nghĩa tử của Từ Kiêu, có mưu lược và võ công kinh người, luôn muốn thay thế Từ Phượng Niên.' },
+    { name: 'Từ Vị Hùng', role: 'Chị gái', age: '25+', description: 'Nhị tỷ của Từ Phượng Niên, thiên tài mưu lược, thống lĩnh mạng lưới tình báo của Bắc Lương, cực kỳ nghiêm khắc với em trai.' },
+    { name: 'Từ Long Tượng', role: 'Em trai', age: '15+', description: 'Em trai út của Từ Phượng Niên, sinh ra đã có sức mạnh thần thánh (Kim Cương cảnh), tâm trí đơn thuần nhưng cực kỳ bảo vệ anh trai.' },
+    { name: 'Thanh Điểu', role: 'Người bảo vệ', age: '20+', description: 'Một trong những tử sĩ của Từ Phượng Niên, sử dụng thương pháp điêu luyện, luôn âm thầm đi theo bảo vệ thế tử.' },
+    { name: 'Hồng Thư Phụ', role: 'Đồng minh', age: '30+', description: 'Một thư sinh tại Võ Đang, thực chất là chuyển thế của một đại năng, có mối tình sâu đậm với Từ Chi Hổ.' },
+    { name: 'Tào Quan Tử (Tào Uế An)', role: 'Đối thủ / Đồng minh', age: '50+', description: 'Quan tử của Tây Sở, một trong những người mạnh nhất thiên hạ, luôn ôm mộng khôi phục Tây Sở nhưng cũng nể trọng Từ Phượng Niên.' },
+    { name: 'Kiếm Cửu Hoàng (Lão Mã)', role: 'Người dẫn dắt', age: '60+', description: 'Người dắt ngựa cho Từ Phượng Niên trong chuyến du hành 3 năm, thực chất là một kiếm khách đại tài với tuyệt kỹ Kiếm Cửu.' },
+    { name: 'Bùi Nam Vi', role: 'Tình cảm', age: '25+', description: 'Vương phi của Tĩnh An Vương, sau này đi theo Từ Phượng Niên, là một trong những mỹ nhân có ảnh hưởng lớn đến cuộc đời anh.' },
+    { name: 'Ngô Tố', role: 'Mẫu thân', age: 'Đã mất', description: 'Mẹ của Từ Phượng Niên, vợ của Từ Kiêu, một kiếm khách đại tài và là người phụ nữ duy nhất Từ Kiêu yêu thương.' },
+    { name: 'Hàn Điêu Tự', role: 'Phản diện', age: '60+', description: 'Thái giám đứng đầu triều đình, sở hữu võ công thâm sâu và là kẻ thù không đội trời chung của Bắc Lương.' },
+    { name: 'Triệu Hoàng Sào', role: 'Đại năng', age: '100+', description: 'Lão tổ tông của hoàng tộc Ly Dương, tu luyện hàng trăm năm để bảo vệ vận mệnh của vương triều.' },
+    { name: 'Trương Cự Lộc', role: 'Nhân vật quan trọng', age: '60+', description: 'Thủ phụ của Ly Dương, một mưu sĩ đại tài luôn tìm cách kiềm chế sức mạnh của Bắc Lương.' },
+    { name: 'Cố Kiếm Đường', role: 'Đại năng', age: '50+', description: 'Đại tướng quân của Ly Dương, một cao thủ đao pháp lừng danh thiên hạ.' },
+    { name: 'Hiên Viên Kính Thành', role: 'Đồng minh', age: '45+', description: 'Gia chủ của Hiên Viên gia, một người học rộng biết sâu, hy sinh bản thân để bảo vệ gia đình.' },
+    { name: 'Hiên Viên Thanh Phong', role: 'Đồng minh', age: '20+', description: 'Con gái của Hiên Viên Kính Thành, sau này trở thành gia chủ và là đồng minh của Từ Phượng Niên.' },
+    { name: 'Đặng Thái A', role: 'Đại năng', age: '50+', description: 'Đào Hoa Kiếm Thần, một trong những người mạnh nhất thiên hạ, sở hữu kiếm đạo độc đáo.' },
+    { name: 'Thác Bạt Bồ Tát', role: 'Phản diện', age: '50+', description: 'Đại tướng quân của Bắc Mãng, đối thủ lớn nhất của Từ Phượng Niên trên chiến trường.' },
+    { name: 'Mộ Dung Nữ Đế', role: 'Nhân vật quan trọng', age: '50+', description: 'Nữ hoàng của Bắc Mãng, một người phụ nữ quyền lực và đầy tham vọng.' },
+    { name: 'Ôn Hoa', role: 'Bạn bè', age: '20+', description: 'Bạn thân nhất của Từ Phượng Niên, một kiếm khách phong trần và đầy nghĩa khí.' },
+    { name: 'Ngư Hữu Vi', role: 'Tình cảm', age: '20+', description: 'Một mỹ nhân tài sắc vẹn toàn, luôn ôm theo một con mèo trắng, có mối quan hệ sâu đậm với Từ Phượng Niên.' },
+    { name: 'Lý Nghĩa Sơn', role: 'Người dẫn dắt', age: '60+', description: 'Mưu sĩ số một của Từ Kiêu, người đã vạch ra những kế hoạch vĩ đại cho tương lai của Bắc Lương.' },
+    { name: 'Triệu Phượng Nhã', role: 'Nhân vật quan trọng', age: '18+', description: 'Công chúa của Ly Dương, tính tình kiêu kỳ nhưng cũng đầy nội tâm.' },
+    { name: 'Viên Tả Tông', role: 'Đồng minh', age: '30+', description: 'Một trong sáu nghĩa tử của Từ Kiêu, một chiến tướng dũng mãnh và trung thành tuyệt đối.' }
+  ]
+};

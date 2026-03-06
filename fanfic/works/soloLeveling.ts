@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const soloLeveling: FanficWork = {
+  id: 'solo-leveling',
+  title: 'Solo Leveling',
+  description: 'Sung Jin-Woo, từ thợ săn yếu nhất thế giới trở thành vị vua bóng tối mạnh nhất.',
+  country: 'Hàn',
+  plot: 'Trong một thế giới nơi những thợ săn phải chiến đấu với quái vật trong các hầm ngục, Sung Jin-Woo là một thợ săn hạng E yếu ớt. Sau khi sống sót qua một hầm ngục kép kinh hoàng, anh nhận được một hệ thống bí ẩn cho phép anh "thăng cấp" thông qua việc thực hiện các nhiệm vụ, điều mà không thợ săn nào khác có thể làm được.',
+  worldSetting: 'Thế giới xuất hiện các "Cổng" kết nối với các chiều không gian khác đầy quái vật. Con người thức tỉnh sức mạnh được gọi là Thợ Săn, chia theo các hạng từ E đến S. Hệ thống của Jin-Woo biến thế giới của anh thành một trò chơi nhập vai thực tế.',
+  characters: [
+    { name: 'Sung Jin-Woo', role: 'Nhân vật chính', age: '24', description: 'Từ thợ săn hạng E yếu nhất, anh trở thành Quân Vương Bóng Tối với khả năng triệu hồi đội quân bóng tối vô tận. Anh gánh vác trọng trách bảo vệ thế giới khỏi các thế lực cổ xưa.' },
+    { name: 'Cha Hae-In', role: 'Nữ chính', age: '23', description: 'Thợ săn hạng S duy nhất của hội Hunters, sở hữu khứu giác nhạy cảm với ma lực. Cô là một kiếm sĩ tài ba và có tình cảm đặc biệt với Jin-Woo.' },
+    { name: 'Yoo Jin-Ho', role: 'Đồng đội thân thiết', age: '22', description: 'Thợ săn hạng D, thiếu gia tập đoàn Yoo Myung. Anh là người bạn trung thành nhất của Jin-Woo, luôn hỗ trợ anh trong việc quản lý bang hội Ahjin.' },
+    { name: 'Go Gun-Hee', role: 'Chủ tịch Hiệp hội', age: '80', description: 'Chủ tịch Hiệp hội Thợ săn Hàn Quốc, một thợ săn hạng S huyền thoại. Ông là người có tầm nhìn và luôn ủng hộ Jin-Woo hết mình.' },
+    { name: 'Choi Jong-In', role: 'Hội trưởng Hunters', age: '35', description: 'Được mệnh danh là "Bậc thầy lửa", hội trưởng của bang hội mạnh nhất Hàn Quốc. Anh là một nhà lãnh đạo tài ba và đầy tham vọng.' },
+    { name: 'Baek Yoon-Ho', role: 'Hội trưởng Baekho', age: '38', description: 'Thợ săn hạng S với khả năng hóa thú thành một con hổ trắng khổng lồ. Anh là một chiến binh dũng mãnh và trọng danh dự.' },
+    { name: 'Thomas Andre', role: 'Thợ săn cấp quốc gia', age: '45', description: 'Thợ săn mạnh nhất thế giới đến từ Mỹ, được gọi là "Goliath". Anh sở hữu sức mạnh thể chất áp đảo và là một trong những người nắm giữ sức mạnh của các vị thần.' },
+    { name: 'Igris', role: 'Thống lĩnh bóng tối', age: 'Ancient', description: 'Bóng tối trung thành nhất của Jin-Woo, một hiệp sĩ cao quý với kỹ năng kiếm thuật tuyệt đỉnh. Anh luôn là người tiên phong trong mọi trận chiến.' },
+    { name: 'Beru', role: 'Thống lĩnh bóng tối', age: 'Unknown', description: 'Vua kiến từ đảo Jeju, sau khi trở thành lính bóng tối, anh cực kỳ cuồng nhiệt và luôn muốn thể hiện sự hữu dụng của mình trước Jin-Woo.' },
+    { name: 'Tusk', role: 'Thống lĩnh bóng tối', age: 'Unknown', description: 'Phù thủy High Orc khổng lồ, sở hữu ma pháp hủy diệt diện rộng. Anh là nguồn hỏa lực chính trong đội quân bóng tối của Jin-Woo.' },
+    { name: 'Tank', role: 'Thống lĩnh bóng tối', age: 'Unknown', description: 'Một con gấu băng khổng lồ với sức mạnh vật lý đáng kinh ngạc, là một trong những lính bóng tối đầu tiên của Jin-Woo.' },
+    { name: 'Kaisel', role: 'Thú cưỡi bóng tối', age: 'Unknown', description: 'Một con rồng bóng tối trung thành, phương tiện di chuyển chính của Jin-Woo trên bầu trời.' },
+    { name: 'Kamish', role: 'Bóng tối huyền thoại', age: 'Ancient', description: 'Con rồng mạnh nhất trong lịch sử, sau khi chết đã để lại một sức mạnh và di sản khổng lồ cho Jin-Woo.' },
+    { name: 'Sung Il-Hwan', role: 'Cha / Thợ săn bí ẩn', age: '50+', description: 'Cha của Jin-Woo, người đã mất tích trong một hầm ngục và trở lại với sức mạnh của các vị thần để bảo vệ con trai mình.' },
+    { name: 'Park Kyung-Hye', role: 'Mẹ', age: '45+', description: 'Mẹ của Jin-Woo, người đã mắc căn bệnh "Giấc ngủ vĩnh hằng" và là động lực lớn nhất để anh thăng cấp.' },
+    { name: 'Sung Jin-Ah', role: 'Em gái', age: '17', description: 'Em gái của Jin-Woo, một nữ sinh trung học luôn lo lắng và yêu thương anh trai mình hết mực.' },
+    { name: 'Liu Zhigang', role: 'Thợ săn cấp quốc gia', age: '35', description: 'Thợ săn mạnh nhất Trung Quốc, người sở hữu sức mạnh của các vị thần và luôn tôn trọng Jin-Woo.' },
+    { name: 'Christopher Reed', role: 'Thợ săn cấp quốc gia', age: '40', description: 'Thợ săn mạnh nhất nước Mỹ, một trong những người nắm giữ sức mạnh của các vị thần.' },
+    { name: 'Lennart Niermann', role: 'Thợ săn hạng S', age: '30', description: 'Thợ săn mạnh nhất nước Đức, một người chính trực và luôn ngưỡng mộ sức mạnh của Jin-Woo.' },
+    { name: 'Antares', role: 'Phản diện chính / Quân vương', age: 'Ancient', description: 'Quân Vương Hủy Diệt, kẻ thù lớn nhất của Jin-Woo và là người đứng đầu các Quân Vương.' },
+    { name: 'Bellion', role: 'Thống lĩnh bóng tối', age: 'Ancient', description: 'Đại thống lĩnh của đội quân bóng tối gốc, người sở hữu sức mạnh vượt trội và lòng trung thành tuyệt đối với Quân Vương Bóng Tối.' },
+    { name: 'Greed', role: 'Thống lĩnh bóng tối', age: 'Unknown', description: 'Bóng tối của thợ săn hạng S Hwang Dong-Su, một chiến binh mạnh mẽ nhưng luôn bị Jin-Woo kiểm soát chặt chẽ.' },
+    { name: 'Jinho\'s Father', role: 'Gia đình', age: '50+', description: 'Chủ tịch tập đoàn Yoo Myung, người ban đầu không tin tưởng Jin-Woo nhưng sau đó đã trở thành đồng minh kinh tế quan trọng.' },
+    { name: 'Hwang Dong-Su', role: 'Phản diện / Đối thủ', age: '35', description: 'Thợ săn hạng S người Hàn Quốc làm việc tại Mỹ, kẻ luôn tìm cách trả thù Jin-Woo vì cái chết của anh trai mình.' },
+    { name: 'Yogumunt', role: 'Phản diện / Quân vương', age: 'Ancient', description: 'Quân Vương Biến Hình, một trong những Quân Vương xảo quyệt nhất luôn tìm cách thao túng cục diện trận chiến.' },
+    { name: 'Querehsha', role: 'Phản diện / Quân vương', age: 'Ancient', description: 'Quân Vương Côn Trùng, nữ hoàng của các loài sâu bọ với khả năng lây nhiễm và điều khiển đám đông.' },
+    { name: 'Baran', role: 'Phản diện / Quân vương', age: 'Ancient', description: 'Quân Vương Trắng, kẻ cai trị tầng cao nhất của lâu đài quỷ, đối thủ lớn của Jin-Woo trong quá trình thăng cấp.' },
+    { name: 'The Architect', role: 'Phản diện / Người tạo hệ thống', age: 'Ancient', description: 'Thực thể đã tạo ra hệ thống để giúp Jin-Woo thăng cấp, nhưng thực chất là để chuẩn bị vật chứa cho Quân Vương Bóng Tối.' },
+    { name: 'Woo Jin-Chul', role: 'Đồng minh', age: '32', description: 'Cục trưởng Cục Giám sát của Hiệp hội Thợ săn, một người nghiêm túc, chính trực và luôn hỗ trợ Jin-Woo trong các vấn đề pháp lý.' },
+    { name: 'Min Byung-Gu', role: 'Đồng minh / Thợ săn hạng S', age: '28', description: 'Thợ săn trị thương hạng S duy nhất của Hàn Quốc, người đã hy sinh trong chiến dịch đảo Jeju và được Jin-Woo triệu hồi tạm thời.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const skeletonKnight: FanficWork = {
+  id: 'skeleton-knight',
+  title: 'Hiệp Sĩ Xương Ở Dị Giới (Skeleton Knight in Another World)',
+  description: 'Arc, một game thủ MMORPG, tỉnh dậy trong một thế giới khác với hình dạng một bộ xương mặc bộ giáp toàn thân.',
+  country: 'Nhật',
+  plot: 'Arc, một game thủ đang chơi MMORPG, ngủ quên và tỉnh dậy trong một thế giới khác với hình dạng nhân vật của mình: một bộ xương mặc bộ giáp toàn thân cực kỳ mạnh mẽ. Anh quyết định che giấu hình dạng thật sự của mình và bắt đầu hành trình du ngoạn dị giới như một mạo hiểm giả. Trên đường đi, anh gặp gỡ Ariane - một nữ tinh linh xinh đẹp và cùng cô giải cứu các tinh linh bị bắt làm nô lệ, đồng thời khám phá những bí mật của thế giới mới.',
+  worldSetting: 'Một thế giới fantasy cổ điển với ma pháp, quái vật và các vương quốc loài người. Arc sở hữu các kỹ năng và ma pháp tối thượng của một hiệp sĩ cấp cao.',
+  characters: [
+    { name: 'Arc (Arc Lalatoya)', role: 'Nhân vật chính', age: '20+ (??? )', description: 'Game thủ chuyển sinh, hiệp sĩ xương mạnh mẽ. Hiền lành, chính trực và cực kỳ thích đồ ăn ngon. Luôn che giấu hình dạng thật.' },
+    { name: 'Ariane Glenys Maple', role: 'Nữ chính / Đồng minh', age: '100+', description: 'Một nữ tinh linh (Elf) xinh đẹp, chiến binh dũng cảm. Ban đầu nghi ngờ Arc nhưng sau đó trở thành bạn đồng hành tin cậy.' },
+    { name: 'Ponta', role: 'Thú cưng / Hỗ trợ', age: '???', description: 'Một con cáo bay (Cotton-tail Fox) cực kỳ đáng yêu, luôn đi theo Arc và hỗ trợ anh trong các trận chiến.' },
+    { name: 'Chiyome', role: 'Nữ chính / Đồng minh', age: '18', description: 'Một nữ ninja thuộc tộc người thú, chuyên gia về do thám và ám sát. Luôn nỗ lực bảo vệ tộc nhân của mình.' },
+    { name: 'Glenys Alna Maple', role: 'Hỗ trợ', age: '300+', description: 'Mẹ của Ariane, một chiến binh tinh linh cực kỳ mạnh mẽ và là người đã dạy ma pháp cho Arc.' },
+    { name: 'Dillan Maple', role: 'Đồng minh', age: '300+', description: 'Cha của Ariane, người đứng đầu làng tinh linh Lalatoya, một nhà lãnh đạo sáng suốt.' },
+    { name: 'Ewen Maple', role: 'Đồng minh', age: '150+', description: 'Chị gái của Ariane, một nữ chiến binh tinh linh tài ba và nghiêm khắc.' },
+    { name: 'Goemon', role: 'Đồng minh', age: '25+', description: 'Một ninja mạnh mẽ thuộc tộc người thú, bạn đồng hành của Chiyome.' },
+    { name: 'Sekt', role: 'Nhân vật quan trọng', age: '25+', description: 'Đệ nhất hoàng tử của vương quốc Rhoden, một người có tham vọng chính trị lớn.' },
+    { name: 'Dakhares', role: 'Phản diện', age: '25+', description: 'Đệ nhị hoàng tử, kẻ đứng sau các vụ bắt cóc tinh linh làm nô lệ.' },
+    { name: 'Yuriana', role: 'Hỗ trợ', age: '20+', description: 'Đệ nhị công chúa, người có lý tưởng cao đẹp và luôn muốn hòa bình giữa các chủng tộc.' },
+    { name: 'Fernand', role: 'Phản diện', age: '40+', description: 'Một hồng y giáo chủ tham lam, kẻ thù của các tinh linh và người thú.' },
+    { name: 'Vân', role: 'Hỗ trợ', age: '20+', description: 'Một nữ mạo hiểm giả cấp cao, người đã giúp đỡ Arc trong các nhiệm vụ.' },
+    { name: 'Kẻ Săn Tinh Linh 1', role: 'Đối thủ', age: '30+', description: 'Một lính đánh thuê tàn bạo chuyên bắt cóc tinh linh.' },
+    { name: 'Kẻ Săn Tinh Linh 2', role: 'Đối thủ', age: '30+', description: 'Thành viên khác trong nhóm săn tinh linh, chuyên về bẫy và thuốc mê.' },
+    { name: 'The King of Rhoden', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua già yếu của vương quốc, người đang mất dần quyền kiểm soát vào tay các hoàng tử.' },
+    { name: 'Elf Elder', role: 'Hỗ trợ', age: '500+', description: 'Vị trưởng lão thông thái của tộc tinh linh, người nắm giữ nhiều bí mật cổ đại.' },
+    { name: 'Beastman Leader', role: 'Đồng minh', age: '40+', description: 'Lãnh đạo của tộc người thú, người luôn nỗ lực vì quyền lợi của tộc nhân.' },
+    { name: 'Arc (Kiếp trước)', role: 'Ký ức', age: '20+', description: 'Hình bóng của game thủ bình thường luôn nhắc nhở Arc về thế giới cũ.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán trang bị, người đã cung cấp cho Arc những vật phẩm cần thiết.' },
+    { name: 'Fangas', role: 'Đồng minh', age: '50+', description: 'Trưởng lão của tộc người thú, một người thông thái và là đồng minh quan trọng của Arc.' },
+    { name: 'Hanzo', role: 'Đồng minh', age: '35+', description: 'Thủ lĩnh của tộc ninja Jinshin, người đã cùng Arc và Chiyome thực hiện nhiều nhiệm vụ giải cứu.' },
+    { name: 'Tiana', role: 'Hỗ trợ', age: '12', description: 'Một cô bé tinh linh được Arc cứu thoát khỏi bọn buôn nô lệ, hiện đang sống yên bình tại làng Maple.' },
+    { name: 'Carat', role: 'Hỗ trợ', age: '35', description: 'Một thương nhân thông minh, người đã giúp Arc thiết lập các tuyến đường thương mại an toàn cho các tinh linh.' },
+    { name: 'Domitianus', role: 'Phản diện', age: '50+', description: 'Hoàng đế của Đế quốc Thánh, kẻ luôn âm mưu thống trị thế giới và tiêu diệt các chủng tộc khác.' },
+    { name: 'Fura', role: 'Đối thủ / Đồng minh', age: '100+', description: 'Một nữ tinh linh bóng tối (Dark Elf) mạnh mẽ, ban đầu đối đầu với Arc nhưng sau đó đã hiểu ra sự thật.' },
+    { name: 'Haubans', role: 'Đồng minh', age: '40+', description: 'Chỉ huy đội hiệp sĩ của công chúa Yuriana, một chiến binh dũng cảm và chính trực.' },
+    { name: 'Celsia', role: 'Hỗ trợ', age: '18', description: 'Công chúa của Đế quốc Thánh, người không đồng tình với các chính sách tàn bạo của cha mình.' },
+    { name: 'Branig', role: 'Hỗ trợ', age: '60+', description: 'Một thợ rèn người lùn tài ba, người đã giúp Arc sửa chữa và nâng cấp bộ giáp của mình.' },
+    { name: 'Silvia', role: 'Hỗ trợ', age: '22', description: 'Hầu gái thân cận của công chúa Yuriana, người luôn hỗ trợ nhóm của Arc trong các hoạt động ngoại giao.' }
+  ]
+};

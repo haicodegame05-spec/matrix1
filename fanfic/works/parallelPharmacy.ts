@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const parallelPharmacy: FanficWork = {
+  id: 'parallel-pharmacy',
+  title: 'Dược Sĩ Dị Giới (Parallel World Pharmacy)',
+  description: 'Yakutani Kanji, một dược sĩ tài ba chuyển sinh thành Falma de Médicis, một thiếu niên trong một gia tộc dược sĩ quý tộc.',
+  country: 'Nhật',
+  plot: 'Yakutani Kanji, một dược sĩ đang làm việc quá sức để tìm kiếm thuốc chữa bệnh cho em gái mình, tỉnh dậy trong một thế giới khác với hình dạng Falma de Médicis. Anh nhận ra mình sở hữu ma pháp "Sáng tạo vật chất" và "Phân tích cấu trúc" cực kỳ mạnh mẽ, có thể tạo ra mọi loại thuốc hiện đại từ hư vô. Falma quyết định mở một hiệu thuốc hiện đại để cứu giúp mọi người và thay đổi nền y học lạc hậu của dị giới.',
+  worldSetting: 'Một thế giới fantasy mang phong cách châu Âu thời Phục hưng, nơi ma pháp và y học còn thô sơ. Falma sở hữu ma pháp "Thần Dược" tối thượng, có thể nhìn thấu mọi căn bệnh và tạo ra thuốc chữa trị.',
+  characters: [
+    { name: 'Falma de Médicis (Yakutani Kanji)', role: 'Nhân vật chính', age: '10 (31)', description: 'Dược sĩ chuyển sinh, sở hữu ma pháp Thần Dược. Thông minh, nhân hậu và cực kỳ tài giỏi trong việc chữa bệnh. Luôn nỗ lực vì sức khỏe của mọi người.' },
+    { name: 'Eleonore "Ellen" Bonnefoy', role: 'Nữ chính / Sư phụ', age: '18', description: 'Một nữ dược sĩ tài ba, đệ tử của cha Falma. Xinh đẹp, thông minh và là người đầu tiên nhận ra sức mạnh của Falma.' },
+    { name: 'Charlotte "Lotte" Soller', role: 'Hỗ trợ / Nữ chính', age: '10', description: 'Một cô bé hầu gái hiền lành, trung thành và luôn chăm sóc Falma hết mực. Có thiên phú về hội họa.' },
+    { name: 'Bruno de Médicis', role: 'Phụ thân', age: '45+', description: 'Cha của Falma, một dược sĩ quý tộc nghiêm khắc và là người đứng đầu gia tộc Médicis.' },
+    { name: 'Béatrice de Médicis', role: 'Mẫu thân', age: '40+', description: 'Mẹ của Falma, người phụ nữ hiền hậu và luôn chăm sóc Falma hết mực.' },
+    { name: 'Blanche de Médicis', role: 'Em gái', age: '8', description: 'Em gái của Falma, một cô bé đáng yêu và luôn ngưỡng mộ anh trai mình.' },
+    { name: 'Palle de Médicis', role: 'Anh trai', age: '15+', description: 'Anh trai của Falma, một thiếu niên nhiệt huyết và luôn nỗ lực vì vương quốc.' },
+    { name: 'Elisabeth II', role: 'Nhân vật quan trọng', age: '50+', description: 'Nữ hoàng của vương quốc San Fleuve, người đã được Falma cứu sống và luôn ủng hộ anh.' },
+    { name: 'Salomon', role: 'Hỗ trợ', age: '30+', description: 'Một linh mục thuộc Giáo hội, người đã giúp Falma trong các vấn đề liên quan đến ma pháp và tôn giáo.' },
+    { name: 'Veron', role: 'Đối thủ', age: '40+', description: 'Một dược sĩ tham lam và độc ác, kẻ thù của gia tộc Médicis và luôn tìm cách hãm hại Falma.' },
+    { name: 'Claude', role: 'Hỗ trợ', age: '25+', description: 'Một hiệp sĩ thuộc đội cận vệ của Nữ hoàng, luôn bảo vệ Falma trong các chuyến đi.' },
+    { name: 'Pierre', role: 'Hỗ trợ', age: '25+', description: 'Một dược sĩ trẻ tuổi, bạn đồng hành của Falma tại hiệu thuốc.' },
+    { name: 'The Grand Inquisitor', role: 'Nhân vật quan trọng', age: '60+', description: 'Vị giáo sĩ quyền lực của Giáo hội, người luôn nghi ngờ về sức mạnh ma pháp của Falma.' },
+    { name: 'Doctor 1', role: 'Hỗ trợ', age: '45+', description: 'Một bác sĩ truyền thống, ban đầu phản đối Falma nhưng sau đó đã bị thu phục bởi tài năng của anh.' },
+    { name: 'Doctor 2', role: 'Hỗ trợ', age: '45+', description: 'Thành viên khác trong hội y học, chuyên về phẫu thuật.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán dược liệu, người đã cung cấp cho Falma những nguyên liệu quý hiếm.' },
+    { name: 'Yakutani Kanji (Kiếp trước)', role: 'Ký ức', age: '31', description: 'Hình bóng của dược sĩ làm việc quá sức luôn nhắc nhở Falma về mục tiêu cứu người.' },
+    { name: 'Kanji\'s Sister', role: 'Ký ức', age: '10', description: 'Em gái của Kanji ở kiếp trước, người đã qua đời vì bệnh tật và là động lực để Falma trở thành dược sĩ.' },
+    { name: 'San Fleuve Citizen 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Falma cứu sống, luôn biết ơn và ủng hộ hiệu thuốc của anh.' },
+    { name: 'San Fleuve Citizen 2', role: 'Hỗ trợ', age: '30+', description: 'Thành viên khác trong cộng đồng, người đã giúp Falma lan tỏa kiến thức y học hiện đại.' },
+    { name: 'Noah', role: 'Nhân vật quan trọng', age: '12', description: 'Cháu trai của Nữ hoàng Elisabeth II, một cậu bé thông minh và là bạn thân của Falma.' },
+    { name: 'Julian', role: 'Hỗ trợ', age: '40+', description: 'Bác sĩ riêng của Nữ hoàng, người ban đầu hoài nghi nhưng sau đó đã hợp tác chặt chẽ với Falma.' },
+    { name: 'Jean-Benoît', role: 'Hỗ trợ', age: '35+', description: 'Một quý tộc bị mắc bệnh nan y đã được Falma cứu sống, sau này trở thành nhà tài trợ cho hiệu thuốc.' },
+    { name: 'Madame L\'Heureux', role: 'Hỗ trợ', age: '45+', description: 'Một khách hàng thường xuyên của hiệu thuốc, người đã giúp quảng bá các sản phẩm chăm sóc sức khỏe của Falma.' },
+    { name: 'Casper', role: 'Học viên', age: '18', description: 'Học viên xuất sắc tại trường dược do Falma thành lập, chuyên về nghiên cứu vi khuẩn học.' },
+    { name: 'Chloe', role: 'Học viên', age: '17', description: 'Học viên nữ tài năng, người luôn nỗ lực áp dụng các kiến thức hóa học hiện đại vào bào chế thuốc.' },
+    { name: 'Matthew', role: 'Học viên', age: '19', description: 'Học viên chuyên về dược lý học, người hỗ trợ Falma trong việc thử nghiệm lâm sàng các loại thuốc mới.' },
+    { name: 'Luke', role: 'Học viên', age: '18', description: 'Học viên có kỹ năng phân tích cấu trúc vật chất tốt, được Falma trực tiếp hướng dẫn.' },
+    { name: 'Mark', role: 'Học viên', age: '18', description: 'Học viên chuyên về y học dự phòng, người giúp Falma triển khai các chiến dịch tiêm chủng.' },
+    { name: 'Simon', role: 'Học viên', age: '19', description: 'Học viên tài giỏi trong việc quản lý kho dược phẩm và phân phối thuốc đến các vùng xa xôi.' }
+  ]
+};

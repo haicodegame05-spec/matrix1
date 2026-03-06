@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const nhatNiemVinhHang: FanficWork = {
+  id: 'nhat-niem-vinh-hang',
+  title: 'Nhất Niệm Vĩnh Hằng',
+  description: 'Bạch Tiểu Thuần, một thiếu niên nhát chết nhưng luôn khao khát trường sinh, gây ra vô số chuyện dở khóc dở cười trên con đường tu tiên.',
+  country: 'Trung',
+  plot: 'Bạch Tiểu Thuần là một thiếu niên mồ côi, luôn sợ chết và khao khát được sống mãi mãi. Anh gia nhập Linh Khê Tông và bắt đầu con đường tu tiên theo cách không giống ai. Dù nhát gan, nhưng khi những người thân yêu bị đe dọa, anh lại trở nên cực kỳ đáng sợ. Hành trình của anh đầy rẫy những tình huống hài hước nhưng cũng không kém phần bi tráng.',
+  worldSetting: 'Thế giới tu tiên với các tông môn lớn tranh giành ảnh hưởng. Hệ thống tu luyện: Ngưng Khí, Trúc Cơ (Địa Mạch, Thiên Mạch), Kết Đan, Nguyên Anh, Thiên Nhân, Bán Bộ Trường Sinh, Thái Cổ, Chúa Tể.',
+  characters: [
+    { name: 'Bạch Tiểu Thuần', role: 'Nhân vật chính', age: '500+', description: 'Nhát chết, thích khoe khoang, nhưng cực kỳ tài năng trong luyện đan và có ý chí trường sinh mãnh liệt. Sau này trở thành Vĩnh Hằng Chúa Tể.' },
+    { name: 'Tống Quân Uyển', role: 'Nữ chính', age: '200+', description: 'Đại trưởng lão của Huyết Khê Tông, xinh đẹp, quyến rũ và có tình cảm sâu đậm với Bạch Tiểu Thuần, mẹ của con trai anh.' },
+    { name: 'Chu Tử Mạch', role: 'Nữ chính', age: '200+', description: 'Thiên kiêu của Linh Khê Tông, tính cách lạnh lùng nhưng luôn quan tâm đến Bạch Tiểu Thuần, sau này trở thành vợ anh.' },
+    { name: 'Lý Thanh Hậu', role: 'Người dẫn dắt', age: '100+', description: 'Người đã đưa Bạch Tiểu Thuần vào con đường tu tiên, luôn coi anh như con đẻ và bảo vệ anh hết lòng.' },
+    { name: 'Hầu Tiểu Muội', role: 'Nữ chính', age: '150+', description: 'Cô bé đáng yêu luôn ngưỡng mộ Bạch Tiểu Thuần từ những ngày đầu ở Linh Khê Tông, sau này cũng trở thành vợ anh.' },
+    { name: 'Trương Đại Bàn', role: 'Bạn thân', age: '200+', description: 'Người bạn thân thiết từ thời ở nhà bếp, sở hữu tài năng đặc biệt về luyện khí và luôn sát cánh bên Bạch Tiểu Thuần.' },
+    { name: 'Đỗ Lăng Phi', role: 'Nữ chính / Bí ẩn', age: '???', description: 'Con gái của Thông Thiên Đạo Nhân, người có thân phận bí ẩn và mối duyên nợ sâu sắc với Bạch Tiểu Thuần.' },
+    { name: 'Thông Thiên Đạo Nhân', role: 'Phản diện', age: '2000+', description: 'Kẻ thống trị Thông Thiên Thế Giới, một người tham vọng và tàn nhẫn, kẻ thù lớn nhất của Bạch Tiểu Thuần ở giai đoạn đầu.' },
+    { name: 'Thánh Hoàng', role: 'Đồng minh', age: '3000+', description: 'Lãnh đạo của Thánh Hoàng Triều, một người điềm tĩnh và có mối quan hệ hữu hảo với Bạch Tiểu Thuần.' },
+    { name: 'Tà Hoàng', role: 'Đối thủ', age: '3000+', description: 'Lãnh đạo của Tà Hoàng Triều, một kẻ tàn bạo và luôn tìm cách thôn tính các thế lực khác.' },
+    { name: 'Tiểu Ô Quy', role: 'Bạn đồng hành', age: 'Vĩnh cửu', description: 'Một con rùa nhỏ bí ẩn sống trong nồi của Bạch Tiểu Thuần, thường xuyên trêu chọc và giúp đỡ anh.' },
+    { name: 'Thiết Đản', role: 'Bạn đồng hành', age: '???', description: 'Vương thú do Bạch Tiểu Thuần nuôi dưỡng, cực kỳ trung thành và có sức mạnh khống chế yêu thú.' },
+    { name: 'Lý Vô Đạo', role: 'Đồng minh', age: '500+', description: 'Một vị đại năng ở Vĩnh Hằng Tiên Vực, người đã hỗ trợ Bạch Tiểu Thuần trong việc xây dựng thế lực.' },
+    { name: 'Công Tôn Uyển Nhi', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thực thể cổ xưa chiếm hữu thân xác của một nữ tử, có mối quan hệ phức tạp với Bạch Tiểu Thuần.' },
+    { name: 'Trần Hạ Thiên', role: 'Đối thủ', age: '500+', description: 'Thiên kiêu của một tông môn lớn, luôn đố kỵ và tìm cách gây khó dễ cho Bạch Tiểu Thuần.' },
+    { name: 'Bạch Hạo', role: 'Đệ tử / Con trai', age: '100+', description: 'Đệ tử duy nhất của Bạch Tiểu Thuần, một thiên tài về luyện đan và linh hồn, sau này trở thành Minh Hoàng.' },
+    { name: 'Tống Khuyết', role: 'Đối thủ / Đồng minh', age: '200+', description: 'Cháu trai của Tống Quân Uyển, ban đầu rất ghét Bạch Tiểu Thuần nhưng sau đó đã nể phục và sát cánh cùng anh.' },
+    { name: 'Thần Toán Tử', role: 'Đồng minh', age: '150+', description: 'Một tu sĩ có khả năng bói toán tài ba, thường xuyên giúp Bạch Tiểu Thuần thoát khỏi nguy hiểm.' },
+    { name: 'Linh Khê Tông Chủ', role: 'Lãnh đạo', age: '300+', description: 'Người đứng đầu Linh Khê Tông, một vị đại năng sáng suốt luôn bảo vệ tông môn.' },
+    { name: 'Huyết Khê Tông Chủ', role: 'Lãnh đạo', age: '300+', description: 'Người đứng đầu Huyết Khê Tông, một người mạnh mẽ và quyết đoán trong các cuộc chiến.' },
+    { name: 'Đan Khê Tông Chủ', role: 'Lãnh đạo', age: '300+', description: 'Người đứng đầu Đan Khê Tông, bậc thầy về luyện dược luôn ngưỡng mộ tài năng của Bạch Tiểu Thuần.' },
+    { name: 'Huyền Khê Tông Chủ', role: 'Lãnh đạo', age: '300+', description: 'Người đứng đầu Huyền Khê Tông, chuyên gia về trận pháp và cấm chế.' },
+    { name: 'Bạch Tiểu Thuần\'s Father', role: 'Gia đình', age: 'Unknown', description: 'Cha của Bạch Tiểu Thuần, người đã để lại cho anh niềm khao khát trường sinh.' },
+    { name: 'Bạch Tiểu Thuần\'s Mother', role: 'Gia đình', age: 'Unknown', description: 'Mẹ của Bạch Tiểu Thuần, người phụ nữ hiền hậu luôn hiện về trong ký ức của anh.' },
+    { name: 'Triệu Hải', role: 'Nhân vật phụ', age: '25', description: 'Một đệ tử ngoại môn của Linh Khê Tông, luôn ngưỡng mộ và lấy Bạch Tiểu Thuần làm tấm gương phấn đấu.' },
+    { name: 'Trần Gia', role: 'Nhân vật phụ', age: '24', description: 'Một nữ tu sĩ xinh đẹp, người đã thầm thương trộm nhớ Bạch Tiểu Thuần từ lâu.' },
+    { name: 'Ngô Gia', role: 'Nhân vật phụ', age: '23', description: 'Một thiên tài về luyện khí, người đã giúp Bạch Tiểu Thuần nâng cấp trang bị.' },
+    { name: 'Trịnh Gia', role: 'Nhân vật phụ', age: '22', description: 'Một thiếu niên đầy nhiệt huyết, người luôn tin tưởng vào sự may mắn của Bạch Tiểu Thuần.' },
+    { name: 'Chu Gia', role: 'Nhân vật phụ', age: '21', description: 'Một đệ tử trẻ tuổi của Vĩnh Hằng Tiên Vực, người mang trong mình hy vọng về sự trường sinh.' },
+    { name: 'Tần Gia', role: 'Nhân vật phụ', age: '20', description: 'Một chiến binh nhỏ tuổi nhưng dũng cảm, luôn sẵn sàng chiến đấu bảo vệ quê hương.' }
+  ]
+};

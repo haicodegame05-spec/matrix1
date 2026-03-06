@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const gaoranger: FanficWork = {
+  id: 'gaoranger',
+  title: 'Hyakujuu Sentai Gaoranger',
+  description: 'Chiến đội Bách Thú - Những chiến binh được chọn bởi các Siêu Thú để bảo vệ Trái Đất khỏi nanh vuốt của loài Org.',
+  country: 'Nhật',
+  plot: 'Loài Org, những sinh vật tà ác sinh ra từ sự ô nhiễm và lòng tham của con người, trỗi dậy sau 1000 năm bị phong ấn. 5 chiến binh được các Siêu Thú (Power Animals) lựa chọn để trở thành Gaoranger. Họ chiến đấu dưới sự dẫn dắt của Công chúa Tetomu để bảo vệ sự sống trên hành tinh xanh.',
+  worldSetting: 'Thế giới hiện đại nơi tồn tại Đảo Animarium bay lơ lửng trên bầu trời, là nơi trú ngụ của các Siêu Thú. Các Org xuất hiện từ những nơi ô nhiễm và có khả năng biến thành khổng lồ khi bị tiêu diệt.',
+  characters: [
+    { name: 'Shishi Kakeru (Gao Red)', role: 'Lãnh đạo', age: '24', description: 'Một bác sĩ thú y có khả năng thấu hiểu tiếng nói của động vật. Anh là chiến binh của Sư Tử Đỏ, luôn tràn đầy nhiệt huyết và lòng nhân ái.' },
+    { name: 'Washio Gaku (Gao Yellow)', role: 'Chiến binh', age: '23', description: 'Cựu phi công của Lực lượng Phòng vệ, chiến binh của Đại Bàng Vàng. Anh nghiêm túc, kỷ luật và là người có kinh nghiệm chiến đấu nhất đội.' },
+    { name: 'Samezu Kai (Gao Blue)', role: 'Chiến binh', age: '19', description: 'Một thanh niên năng động, từng làm việc tại tiệm pizza, chiến binh của Cá Mập Xanh. Anh có tính cách trẻ con nhưng rất dũng cảm.' },
+    { name: 'Ushigome Soutarou (Gao Black)', role: 'Chiến binh', age: '22', description: 'Cựu võ sĩ Sumo, chiến binh của Bò Tót Đen. Anh sở hữu sức mạnh thể chất to lớn nhưng có tâm hồn dịu dàng và sợ độ cao.' },
+    { name: 'Taiga Sae (Gao White)', role: 'Chiến binh', age: '17', description: 'Nữ sinh trung học, con gái của một võ sư, chiến binh của Hổ Trắng. Cô mạnh mẽ, độc lập và là bóng hồng duy nhất trong đội.' },
+    { name: 'Oogami Tsukumaro (Gao Silver)', role: 'Chiến binh / Tiền bối', age: '1062', description: 'Chiến binh từ 1000 năm trước, từng bị Org hóa thân thành Rouki. Anh chiến đấu cùng Sói Bạc để chuộc lại lỗi lầm quá khứ.' },
+    { name: 'Tetomu', role: 'Người dẫn dắt', age: '1022', description: 'Công chúa của Đảo Animarium, người hướng dẫn các Gaoranger. Cô có giọng hát tuyệt vời có thể xoa dịu các Siêu Thú.' },
+    { name: 'Gao Lion', role: 'Siêu Thú', age: 'Ancient', description: 'Linh hồn Sư Tử Đỏ, thủ lĩnh của các Siêu Thú trên đảo Animarium.' },
+    { name: 'Gao Eagle', role: 'Siêu Thú', age: 'Ancient', description: 'Linh hồn Đại Bàng Vàng, mang lại khả năng không chiến cho Gaoranger.' },
+    { name: 'Gao Shark', role: 'Siêu Thú', age: 'Ancient', description: 'Linh hồn Cá Mập Xanh, làm chủ vùng sông nước.' },
+    { name: 'Gao Bison', role: 'Siêu Thú', age: 'Ancient', description: 'Linh hồn Bò Tót Đen, biểu tượng của sức mạnh mặt đất.' },
+    { name: 'Gao Tiger', role: 'Siêu Thú', age: 'Ancient', description: 'Linh hồn Hổ Trắng, nhanh nhẹn và sắc bén.' },
+    { name: 'Gao Elephant', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Voi, có thể biến thành vũ khí khiên và kiếm cho Gao King.' },
+    { name: 'Gao Giraffe', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Hươu Cao Cổ, biến thành ngọn giáo thần sầu.' },
+    { name: 'Gao Bear & Gao Polar', role: 'Siêu Thú', age: 'Ancient', description: 'Cặp đôi Gấu Đen và Gấu Bắc Cực, mang lại sức mạnh hỏa lực và băng giá.' },
+    { name: 'Gao Gorilla', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Khỉ Đột, chiến binh rừng rậm mạnh mẽ.' },
+    { name: 'Gao Wolf', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Sói Bạc, người bạn đồng hành trung thành của Gao Silver.' },
+    { name: 'Gao Hammerhead', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Cá Mập Đầu Búa, hỗ trợ Gao Hunter.' },
+    { name: 'Gao Ligator', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Cá Sấu khổng lồ, phần thân chính của Gao Hunter.' },
+    { name: 'Gao Falcon', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Chim Ưng Lửa, linh hồn tối cao xuất hiện khi các chiến binh gặp nguy nan.' },
+    { name: 'Gao Deer', role: 'Siêu Thú', age: 'Ancient', description: 'Siêu Thú Nai, có khả năng chữa lành vết thương cho các Siêu Thú khác.' },
+    { name: 'Shuten', role: 'Phản diện', age: 'Unknown', description: 'Highness Org đầu tiên, kẻ sở hữu đôi mắt khổng lồ trên khắp cơ thể.' },
+    { name: 'Ura', role: 'Phản diện', age: 'Unknown', description: 'Highness Org thứ hai, kẻ mưu mô với chiếc mũi thính và khả năng thao túng linh hồn.' },
+    { name: 'Rasetsu', role: 'Phản diện', age: 'Unknown', description: 'Highness Org thứ ba, kẻ tham ăn với cái miệng khổng lồ, đại diện cho sự tàn bạo.' },
+    { name: 'TsueTsue', role: 'Phản diện', age: 'Unknown', description: 'Nữ tước Org, chuyên sử dụng ma thuật để hồi sinh và phóng to các Org bị tiêu diệt.' },
+    { name: 'Yabaiba', role: 'Phản diện', age: 'Unknown', description: 'Nam tước Org, một kẻ điên rồ với kỹ năng sử dụng dao điêu luyện, cộng sự thân thiết của TsueTsue.' },
+    { name: 'Rouki', role: 'Phản diện / Nhân vật phức tạp', age: '1000+', description: 'Hình dạng Org của Tsukumaro khi bị mặt nạ bóng tối kiểm soát, một chiến binh sói đáng sợ.' },
+    { name: 'Senki', role: 'Phản diện chính', age: 'Unknown', description: 'Thực thể hợp nhất của ba Highness Org, Org tối thượng đe dọa sự tồn vong của thế giới.' },
+    { name: 'Futaro', role: 'Thần linh', age: 'Ancient', description: 'Hình dạng con người của Gao God, vị thần tối cao của các Siêu Thú.' },
+    { name: 'Gao God', role: 'Thần linh', age: 'Ancient', description: 'Vị thần bảo hộ của Đảo Animarium, người đã chiến đấu cùng các chiến binh 1000 năm trước.' },
+    { name: 'Piyo', role: 'Hỗ trợ', age: 'Unknown', description: 'Sinh vật nhỏ bé nở ra từ trứng Gao Soul, giúp các Gaoranger tìm kiếm các Siêu Thú bị thất lạc.' }
+  ]
+};

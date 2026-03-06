@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const saintsMagic: FanficWork = {
+  id: 'saints-magic',
+  title: 'Sức Mạnh Ma Pháp Của Thánh Nữ (The Saint\'s Magic Power is Omnipotent)',
+  description: 'Takanashi Sei, một nhân viên văn phòng 20 tuổi, bị triệu hồi sang dị giới để làm Thánh nữ, nhưng lại bị nhà vua phớt lờ.',
+  country: 'Nhật',
+  plot: 'Takanashi Sei bị triệu hồi đến vương quốc Salutania cùng với một cô gái khác là Aira. Tuy nhiên, hoàng tử Kyle chỉ công nhận Aira là Thánh nữ và phớt lờ Sei. Sei quyết định rời khỏi cung điện và gia nhập Viện Nghiên cứu Dược liệu Ma pháp. Tại đây, cô phát hiện ra mình sở hữu sức mạnh ma pháp cực kỳ mạnh mẽ, có thể tạo ra những loại thuốc và món ăn có tác dụng thần kỳ, đồng thời thanh tẩy các vùng đất bị ô nhiễm bởi quái vật.',
+  worldSetting: 'Một thế giới fantasy nhẹ nhàng với ma pháp, dược liệu và các vương quốc loài người. Sức mạnh dựa trên các kỹ năng (Skill) và Mana. Sei sở hữu ma pháp "Thánh nữ" tối thượng.',
+  characters: [
+    { name: 'Takanashi Sei', role: 'Nhân vật chính', age: '20', description: 'Nhân viên văn phòng chuyển sinh, Thánh nữ thực sự. Hiền lành, chăm chỉ và cực kỳ tài giỏi trong việc chế tạo dược liệu.' },
+    { name: 'Albert Hawke', role: 'Nam chính / Hôn phu', age: '25+', description: 'Đội trưởng đội hiệp sĩ hoàng gia, một chiến binh dũng cảm và lạnh lùng. Luôn bảo vệ và yêu Sei sâu đậm.' },
+    { name: 'Johan Valdec', role: 'Hỗ trợ', age: '30+', description: 'Viện trưởng Viện Nghiên cứu Dược liệu Ma pháp, người đã giúp đỡ Sei trong giai đoạn đầu.' },
+    { name: 'Jude', role: 'Hỗ trợ', age: '20+', description: 'Một nhà nghiên cứu dược liệu trẻ tuổi, bạn thân của Sei tại viện nghiên cứu.' },
+    { name: 'Elizabeth Ashley', role: 'Bạn thân', age: '18', description: 'Một tiểu thư quý tộc xinh đẹp, người đã dạy Sei về lễ nghi và văn hóa dị giới.' },
+    { name: 'Aira Misono', role: 'Nữ chính / Đối thủ', age: '18', description: 'Cô gái bị triệu hồi cùng Sei, ban đầu bị hoàng tử Kyle lợi dụng nhưng sau này trở thành bạn của Sei.' },
+    { name: 'Kyle Salutania', role: 'Phản diện', age: '20+', description: 'Đệ nhất hoàng tử, kiêu ngạo và nông cạn, người đã phớt lờ Sei và gây ra nhiều rắc rối.' },
+    { name: 'Yuri Drewes', role: 'Hỗ trợ', age: '30+', description: 'Ma đạo sư mạnh nhất vương quốc, người đã giúp Sei khám phá và kiểm soát sức mạnh ma pháp của mình.' },
+    { name: 'Marie', role: 'Hỗ trợ', age: '40+', description: 'Một nữ đầu bếp tại viện nghiên cứu, người đã dạy Sei về ẩm thực dị giới.' },
+    { name: 'The King of Salutania', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua của vương quốc, người đã nhận ra sai lầm của hoàng tử Kyle và cố gắng sửa chữa.' },
+    { name: 'The Queen', role: 'Hỗ trợ', age: '50+', description: 'Hoàng hậu hiền hậu, người luôn quan tâm và ủng hộ Sei.' },
+    { name: 'Siegfried Hawke', role: 'Nhân vật quan trọng', age: '50+', description: 'Cha của Albert, một quý tộc quyền lực và là đồng minh của Sei.' },
+    { name: 'Damian Goltz', role: 'Hỗ trợ', age: '25+', description: 'Một hiệp sĩ thuộc đội của Albert, luôn giúp đỡ Sei trong các nhiệm vụ thanh tẩy.' },
+    { name: 'Leonhardt Hawke', role: 'Nhân vật quan trọng', age: '20+', description: 'Em trai của Albert, một thiếu niên nhiệt huyết và luôn ngưỡng mộ Sei.' },
+    { name: 'Corinna', role: 'Hỗ trợ', age: '25+', description: 'Một nữ dược sĩ tài ba, người đã cùng Sei nghiên cứu các loại thuốc mới.' },
+    { name: 'Wolf', role: 'Hỗ trợ', age: '???', description: 'Một con sói ma pháp được Sei cứu, luôn đi theo bảo vệ cô.' },
+    { name: 'The Grand Magus', role: 'Nhân vật quan trọng', age: '80+', description: 'Vị phù thủy già thông thái, người nắm giữ nhiều bí mật về sức mạnh của Thánh nữ.' },
+    { name: 'Knight 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong đội hiệp sĩ của Albert, luôn tin tưởng và bảo vệ Sei.' },
+    { name: 'Knight 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong đội hiệp sĩ, chuyên về ma pháp phòng thủ.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán dược liệu, người đã cung cấp cho Sei những nguyên liệu quý hiếm.' },
+    { name: 'Erhart Hawke', role: 'Đồng minh', age: '28', description: 'Anh trai của Albert, một quý tộc quyền lực và là người hỗ trợ tài chính cho các dự án của Sei.' },
+    { name: 'Kyle\'s Mother', role: 'Gia đình', age: '45+', description: 'Hoàng hậu của vương quốc, người luôn cảm thấy có lỗi vì hành động của con trai mình và rất yêu quý Sei.' },
+    { name: 'Aira\'s Mother', role: 'Ký ức', age: '40', description: 'Người mẹ ở thế giới cũ của Aira, nguồn động lực để Aira cố gắng thích nghi với dị giới.' },
+    { name: 'Sei\'s Boss', role: 'Ký ức', age: '45', description: 'Vị sếp khó tính ở thế giới cũ, người đã vô tình khiến Sei làm việc quá sức trước khi bị triệu hồi.' },
+    { name: 'Liz', role: 'Hỗ trợ', age: '19', description: 'Một hầu gái trẻ tại viện nghiên cứu, người luôn ngưỡng mộ và học hỏi các kỹ năng của Sei.' },
+    { name: 'Anne', role: 'Hỗ trợ', age: '20', description: 'Hầu gái thân cận của Elizabeth, người giúp Sei làm quen với các quy tắc xã giao quý tộc.' },
+    { name: 'Thomas', role: 'Học giả', age: '35', description: 'Một nhà nghiên cứu tại viện, chuyên về lịch sử ma pháp và các truyền thuyết về Thánh nữ.' },
+    { name: 'Richard', role: 'Hiệp sĩ', age: '24', description: 'Thành viên đội hiệp sĩ của Albert, người luôn nhiệt tình giúp Sei thu thập các mẫu dược liệu quý.' },
+    { name: 'Henry', role: 'Học giả', age: '30', description: 'Nhà nghiên cứu chuyên về cấu trúc Mana trong thực vật, cộng sự đắc lực của Sei.' },
+    { name: 'William', role: 'Thương nhân', age: '42', description: 'Một thương nhân quốc tế, người giúp Sei xuất khẩu các loại dược liệu đặc biệt sang các vương quốc khác.' }
+  ]
+};

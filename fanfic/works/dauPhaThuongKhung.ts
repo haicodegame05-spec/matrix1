@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const dauPhaThuongKhung: FanficWork = {
+  id: 'dau-pha-thuong-khung',
+  title: 'Đấu Phá Thương Khung',
+  description: 'Tiêu Viêm, một thiên tài bỗng chốc trở thành phế vật, nhờ sự giúp đỡ của Dược Lão mà vươn lên đỉnh cao Đấu Khí Đại Lục.',
+  country: 'Trung',
+  plot: 'Tiêu Viêm từng là thiên tài của Tiêu gia, nhưng bỗng nhiên mất đi đấu khí và bị coi thường. Sau khi bị hôn thê Nạp Lan Yên Nhiên hủy hôn, anh thề sẽ trở nên mạnh mẽ. Với sự dẫn dắt của linh hồn Dược Lão ẩn trong chiếc nhẫn, Tiêu Viêm bắt đầu hành trình thu thập Dị Hỏa và chinh phục Đấu Khí Đại Lục.',
+  worldSetting: 'Đấu Khí Đại Lục là nơi không có ma pháp, chỉ có Đấu Khí phát triển đến đỉnh cao. Hệ thống cấp bậc: Đấu Giả, Đấu Sư, Đại Đấu Sư, Đấu Linh, Đấu Vương, Đấu Hoàng, Đấu Tông, Đấu Tôn, Đấu Thánh, Đấu Đế. Luyện dược sư là nghề nghiệp cao quý nhất.',
+  characters: [
+    { name: 'Tiêu Viêm', role: 'Nhân vật chính', age: '15', description: 'Thiên tài kiên cường, sở hữu nhiều Dị Hỏa, có ý chí sắt đá và luôn bảo vệ gia tộc. Sau này trở thành Viêm Đế.' },
+    { name: 'Dược Lão (Dược Trần)', role: 'Người dẫn dắt', age: '1000+', description: 'Linh hồn của đệ nhất luyện dược sư, người thầy vĩ đại đã giúp Tiêu Viêm thay đổi vận mệnh.' },
+    { name: 'Tiêu Huân Nhi', role: 'Nữ chính', age: '15', description: 'Thanh mai trúc mã của Tiêu Viêm, xuất thân từ Cổ tộc bí ẩn, luôn tin tưởng và ủng hộ anh vô điều kiện.' },
+    { name: 'Thải Lân (Mỹ Đỗ Toa)', role: 'Nữ chính', age: '100+', description: 'Nữ vương của Xà Nhân tộc, ban đầu là kẻ thù nhưng sau đó trở thành vợ của Tiêu Viêm, sở hữu sức mạnh Thất Thải Thôn Thiên Mãng.' },
+    { name: 'Tiểu Y Tiên', role: 'Đồng minh', age: '16', description: 'Sở hữu Ách Nan Độc Thể, người bạn thân thiết và luôn đồng hành cùng Tiêu Viêm qua nhiều sinh tử.' },
+    { name: 'Nạp Lan Yên Nhiên', role: 'Đối thủ / Hôn thê cũ', age: '15', description: 'Người đã hủy hôn với Tiêu Viêm, tạo nên động lực ban đầu cho hành trình của anh. Sau này hối hận và cố gắng bù đắp.' },
+    { name: 'Vân Vận', role: 'Đồng minh / Tình cảm', age: '25', description: 'Tông chủ Vân Lam Tông, có mối quan hệ tình cảm phức tạp và đầy tiếc nuối với Tiêu Viêm.' },
+    { name: 'Hải Ba Đông', role: 'Đồng minh', age: '60', description: 'Băng Hoàng của Gia Mã đế quốc, người bạn già đáng tin cậy đã giúp đỡ Tiêu Viêm rất nhiều trong giai đoạn đầu.' },
+    { name: 'Pháp Mã', role: 'Đồng minh', age: '70', description: 'Hội trưởng Hội Luyện Dược Sư Gia Mã đế quốc, người luôn ủng hộ tài năng của Tiêu Viêm.' },
+    { name: 'Gia Hình Thiên', role: 'Đồng minh', age: '80', description: 'Thái thượng hoàng của Gia Mã đế quốc, một cường giả Đấu Hoàng bảo vệ sự ổn định của đế quốc.' },
+    { name: 'Tiêu Chiến', role: 'Gia đình', age: '45', description: 'Cha của Tiêu Viêm, tộc trưởng Tiêu gia, người luôn yêu thương và tin tưởng con trai mình bất chấp mọi khó khăn.' },
+    { name: 'Hồn Thiên Đế', role: 'Phản diện chính', age: '1000+', description: 'Tộc trưởng Hồn tộc, kẻ đầy tham vọng muốn trở thành Đấu Đế và thống trị toàn bộ Đấu Khí Đại Lục.' },
+    { name: 'Cổ Nguyên', role: 'Đồng minh', age: '1000+', description: 'Tộc trưởng Cổ tộc, cha của Huân Nhi, một trong những cường giả mạnh nhất thế giới.' },
+    { name: 'Thanh Lân', role: 'Đồng minh', age: '14', description: 'Cô gái mang dòng máu lai giữa người và rắn, sở hữu Bích Xà Tam Hoa Đồng có thể khống chế xà tộc.' },
+    { name: 'Tử Nghiên', role: 'Đồng minh', age: '???', description: 'Thái Cổ Hư Long, một cô bé ham ăn nhưng sở hữu sức mạnh kinh người và khả năng tìm kiếm dược liệu.' },
+    { name: 'Phong Tôn Giả', role: 'Đồng minh', age: '100+', description: 'Bạn thân của Dược Lão, người đã giúp đỡ Tiêu Viêm rất nhiều trong việc thành lập Tinh Vân Các.' },
+    { name: 'Hồn Điện Điện Chủ', role: 'Phản diện', age: '???', description: 'Lãnh đạo của Hồn Điện, tổ chức chuyên thu thập linh hồn và là kẻ thù trực tiếp của Tiêu Viêm.' },
+    { name: 'Vân Sơn', role: 'Phản diện', age: '80', description: 'Cựu tông chủ Vân Lam Tông, kẻ đã cấu kết với Hồn Điện để đạt được sức mạnh Đấu Tông.' },
+    { name: 'Tiêu Đỉnh', role: 'Anh em', age: '22', description: 'Anh cả của Tiêu Viêm, lãnh đạo đoàn mạo hiểm giả Mạc Thiết, thông minh và điềm tĩnh.' },
+    { name: 'Tiêu Lệ', role: 'Anh em', age: '20', description: 'Anh thứ của Tiêu Viêm, tính cách nóng nảy nhưng rất yêu thương em trai, sau này thành lập Tiêu Môn.' },
+    { name: 'Lâm Tu Nhai', role: 'Đồng minh', age: '22', description: 'Một thiên tài của học viện Già Nam, người sở hữu sức mạnh phong hệ và là đối thủ cạnh tranh lành mạnh với Tiêu Viêm.' },
+    { name: 'Liễu Kình', role: 'Đồng minh / Đối thủ', age: '23', description: 'Một thiên tài khác của học viện Già Nam, nổi tiếng với kỹ năng sử dụng thương và tính cách bộc trực.' },
+    { name: 'Hàn Nguyệt', role: 'Đồng minh', age: '21', description: 'Một nữ sinh xinh đẹp và thông minh của học viện Già Nam, người đã giúp đỡ Tiêu Viêm trong nhiều nhiệm vụ.' },
+    { name: 'Tô Thiên', role: 'Người dẫn dắt', age: '100+', description: 'Đại trưởng lão của học viện Già Nam, một cường giả Đấu Tông đã bảo vệ Tiêu Viêm khỏi các thế lực thù địch.' },
+    { name: 'Hổ Càn', role: 'Đồng minh', age: '60+', description: 'Viện trưởng ngoại viện học viện Già Nam, người đã phát hiện và bồi dưỡng tài năng của Tiêu Viêm.' },
+    { name: 'Nhã Phi', role: 'Đồng minh / Tình cảm', age: '20', description: 'Một nữ doanh nhân tài ba của đấu giá hội Mễ Đặc Nhĩ, người đã hỗ trợ tài chính và thông tin cho Tiêu Viêm.' },
+    { name: 'Tiêu Ngọc', role: 'Chị họ', age: '18', description: 'Chị họ của Tiêu Viêm, ban đầu hay gây gổ nhưng sau đó luôn quan tâm và lo lắng cho sự an nguy của anh.' },
+    { name: 'Mộc Chiến', role: 'Đối thủ', age: '22', description: 'Một thiên tài của Mộc gia, người luôn đố kỵ với tài năng của Tiêu Viêm và tìm cách gây khó dễ.' },
+    { name: 'Hàn Phong', role: 'Phản diện', age: '100+', description: 'Đệ tử phản bội của Dược Lão, kẻ đã giết hại sư phụ mình để chiếm đoạt Dị Hỏa và là kẻ thù không đội trời chung của Tiêu Viêm.' },
+    { name: 'Mạc Thiên Hành', role: 'Phản diện / Đồng minh', age: '100+', description: 'Tông chủ Hắc Hoàng Tông, một kẻ thực dụng luôn hành động vì lợi ích cá nhân trong các cuộc tranh chấp.' }
+  ]
+};

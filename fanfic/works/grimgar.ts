@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const grimgar: FanficWork = {
+  id: 'grimgar',
+  title: 'Grimgar of Fantasy and Ash (Hai to Gensou no Grimgar)',
+  description: 'Câu chuyện về một nhóm người trẻ tuổi bị đưa đến thế giới Grimgar mà không có ký ức và phải đấu tranh để sinh tồn.',
+  country: 'Nhật',
+  plot: 'Haruhiro và một nhóm người lạ mặt tỉnh dậy trong một thế giới xa lạ mang tên Grimgar mà không có bất kỳ ký ức nào về quá khứ. Để sinh tồn, họ phải gia nhập quân đội dự bị và thành lập một nhóm mạo hiểm giả. Không giống như những câu chuyện anh hùng khác, Grimgar là một thế giới tàn khốc, nơi việc tiêu diệt ngay cả một con yêu tinh cũng là một thử thách sinh tử. Nhóm của Haruhiro phải học cách phối hợp, đối mặt với cái chết và sự mất mát để trưởng thành.',
+  worldSetting: 'Thế giới giả tưởng Grimgar đầy rẫy nguy hiểm, nơi sự sống và cái chết chỉ cách nhau một gang tấc. Một bối cảnh thực tế và u ám về cuộc sống của những mạo hiểm giả cấp thấp.',
+  characters: [
+    { name: 'Haruhiro', role: 'Nhân vật chính / Lãnh đạo', age: '16-18', description: 'Một đạo tặc (Thief) trầm lặng và hay tự ti. Sau cái chết của Manato, anh buộc phải trở thành lãnh đạo của nhóm và học cách đưa ra những quyết định khó khăn để bảo vệ đồng đội.' },
+    { name: 'Manato', role: 'Lãnh đạo / Tu sĩ', age: '17-19 (Deceased)', description: 'Thủ lĩnh ban đầu của nhóm, một tu sĩ (Priest) thông minh, nhân hậu và là chỗ dựa tinh thần cho mọi người. Sự hy sinh của anh đã để lại một khoảng trống lớn và là động lực để nhóm trưởng thành.' },
+    { name: 'Yume', role: 'Đồng minh / Thợ săn', age: '16-18', description: 'Một thợ săn (Hunter) năng động, thẳng thắn và luôn tràn đầy năng lượng. Cô có mối quan hệ thân thiết với Haruhiro và luôn cố gắng giữ cho tinh thần của nhóm được lạc quan.' },
+    { name: 'Shihoru', role: 'Đồng minh / Pháp sư', age: '16-18', description: 'Một pháp sư (Mage) nhút nhát, rụt rè nhưng sở hữu tiềm năng ma thuật lớn. Cô thầm ngưỡng mộ Manato và đã phải trải qua nỗi đau lớn sau khi anh qua đời.' },
+    { name: 'Moguzo', role: 'Đồng minh / Chiến binh', age: '17-19', description: 'Một chiến binh (Warrior) to lớn, hiền lành và có tài nấu nướng. Anh là tấm khiên vững chắc bảo vệ nhóm trong mọi trận chiến.' },
+    { name: 'Ranta', role: 'Đồng minh / Hiệp sĩ tối tăm', age: '16-18', description: 'Một hiệp sĩ tối tăm (Dark Knight) ồn ào, kiêu ngạo và thường xuyên gây rắc rối cho nhóm. Tuy nhiên, anh là một chiến binh dũng cảm và luôn quan tâm đến đồng đội theo cách riêng của mình.' },
+    { name: 'Mary', role: 'Đồng minh / Tu sĩ', age: '17-19', description: 'Một tu sĩ lạnh lùng và xa cách gia nhập nhóm sau cái chết của Manato. Cô mang trong mình nỗi đau mất mát từ nhóm cũ và dần dần mở lòng với Haruhiro và các đồng đội mới.' },
+    { name: 'Kuzaku', role: 'Đồng minh / Paladin', age: '17-19', description: 'Một Paladin gia nhập nhóm ở giai đoạn sau, thay thế vị trí của Moguzo. Anh là một người điềm tĩnh và đáng tin cậy.' },
+    { name: 'Renji', role: 'Đối thủ / Đồng minh', age: '18-20', description: 'Thủ lĩnh của một nhóm mạo hiểm giả tài năng khác, người đã chọn những thành viên mạnh nhất ngay từ đầu. Anh có phong cách chiến đấu mạnh mẽ và thực dụng.' },
+    { name: 'Chibi', role: 'Đồng minh', age: '17-19', description: 'Một thành viên trong nhóm của Renji, chuyên về các đòn tấn công nhanh nhẹn.' },
+    { name: 'Adachi', role: 'Đồng minh', age: '17-19', description: 'Pháp sư trong nhóm của Renji, sở hữu những phép thuật tấn công mạnh mẽ.' },
+    { name: 'Sassa', role: 'Đồng minh', age: '17-19', description: 'Một thành viên khác trong nhóm của Renji, luôn hỗ trợ đồng đội hết mình.' },
+    { name: 'Barbara', role: 'Người dẫn dắt / Đạo tặc', age: '25+', description: 'Sư phụ của Haruhiro, một đạo tặc bậc thầy với tính cách nghiêm khắc và huấn luyện cực kỳ tàn khốc.' },
+    { name: 'Kikkawa', role: 'Đồng minh', age: '18-20', description: 'Một mạo hiểm giả vui vẻ và có phần hời hợt, người đã giới thiệu Mary cho nhóm của Haruhiro.' },
+    { name: 'Shinohara', role: 'Đồng minh / Lãnh đạo', age: '20+', description: 'Thủ lĩnh của nhóm Orion, một nhóm mạo hiểm giả mạnh mẽ và giàu kinh nghiệm, luôn sẵn lòng giúp đỡ các nhóm mới.' },
+    { name: 'Hayashi', role: 'Đồng minh / Tu sĩ', age: '20+', description: 'Tu sĩ trong nhóm Orion, người đã chứng kiến bi kịch của nhóm cũ của Mary và luôn cảm thấy tội lỗi.' },
+    { name: 'Soma', role: 'Thủ lĩnh / Chiến binh', age: '22+', description: 'Thủ lĩnh của "Day Breakers", một tổ chức mạo hiểm giả hàng đầu tại Grimgar, sở hữu sức mạnh và uy tín tuyệt đối.' },
+    { name: 'Briar', role: 'Đồng minh', age: '20+', description: 'Thành viên cốt cán của Day Breakers, một chiến binh dũng mãnh luôn sát cánh cùng Soma.' },
+    { name: 'Hiyomu', role: 'Đồng minh', age: '20+', description: 'Pháp sư tài năng của Day Breakers, người cung cấp hỗ trợ ma thuật tầm xa cho cả đội.' },
+    { name: 'Inui', role: 'Đồng minh', age: '20+', description: 'Thành viên của Day Breakers, chuyên gia về trinh sát và thu thập thông tin.' },
+    { name: 'Tokimune', role: 'Đồng minh / Lãnh đạo', age: '20+', description: 'Thủ lĩnh của nhóm Tokimune, một nhóm mạo hiểm giả vui nhộn nhưng cực kỳ chuyên nghiệp.' },
+    { name: 'Mimori', role: 'Đồng minh / Pháp sư', age: '18-20', description: 'Pháp sư trong nhóm Tokimune, có tính cách dịu dàng và luôn quan tâm đến mọi người.' },
+    { name: 'Anna', role: 'Đồng minh / Tu sĩ', age: '18-20', description: 'Tu sĩ của nhóm Tokimune, người luôn giữ cho cả đội được khỏe mạnh và tràn đầy năng lượng.' },
+    { name: 'Tada', role: 'Đồng minh / Chiến binh', age: '18-20', description: 'Chiến binh mạnh mẽ của nhóm Tokimune, luôn đi đầu trong mọi cuộc tấn công.' },
+    { name: 'Choco', role: 'Nhân vật quan trọng', age: '16-18', description: 'Một cô gái từ quá khứ của Haruhiro, người xuất hiện trong một nhóm mạo hiểm giả khác và gợi lại những ký ức mơ hồ.' },
+    { name: 'Death Spots', role: 'Phản diện', age: '???', description: 'Một con Orc trắng khổng lồ và cực kỳ nguy hiểm, kẻ đã gây ra cái chết của nhiều mạo hiểm giả và là nỗi khiếp sợ của vùng Damuro.' },
+    { name: 'Hozumi', role: 'Người dẫn dắt / Pháp sư', age: '30+', description: 'Sư phụ của Shihoru, một pháp sư quyền năng luôn đòi hỏi sự tập trung và nỗ lực tuyệt đối từ học trò.' },
+    { name: 'Britney', role: 'Nhân vật quan trọng', age: 'Unknown', description: 'Người quản lý của quân đội dự bị, một nhân vật kỳ quặc với phong cách ăn mặc sặc sỡ và luôn giao nhiệm vụ cho các nhóm mới.' },
+    { name: 'C.J.', role: 'Đồng minh', age: '20+', description: 'Một mạo hiểm giả tự do thường xuyên xuất hiện tại quán rượu, cung cấp các tin đồn và lời khuyên hữu ích cho Haruhiro.' },
+    { name: 'The Goblin King', role: 'Phản diện', age: '???', description: 'Thủ lĩnh của lũ yêu tinh tại mỏ Cyrene, một đối thủ thông minh và tàn nhẫn mà nhóm Haruhiro phải đối mặt.' }
+  ]
+};

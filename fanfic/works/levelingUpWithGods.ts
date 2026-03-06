@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const levelingUpWithGods: FanficWork = {
+  id: 'leveling-up-with-gods',
+  title: 'Thăng Cấp Cùng Các Vị Thần (Leveling Up with the Gods)',
+  description: 'Kim Yu-won, người sống sót cuối cùng trong cuộc chiến chống lại các Outer Gods, quay ngược thời gian để thay đổi vận mệnh vũ trụ.',
+  country: 'Hàn',
+  plot: 'Sau thất bại thảm hại trước các vị thần ngoài hành tinh, Kim Yu-won được các đồng đội hy sinh để gửi về quá khứ. Với kiến thức về tương lai và kinh nghiệm chiến đấu đỉnh cao, anh bắt đầu leo tháp lại từ đầu, thu thập các vật phẩm huyền thoại và tập hợp các vị thần để chuẩn bị cho cuộc chiến cuối cùng.',
+  worldSetting: 'Thế giới Tòa Tháp nơi các vị thần từ nhiều thần thoại (Hy Lạp, Bắc Âu, Ai Cập...) cùng tồn tại và tranh giành ảnh hưởng.',
+  characters: [
+    { name: 'Kim Yu-won', role: 'Nhân vật chính', age: '25', description: 'Quyết đoán, am hiểu mọi bí mật của tòa tháp, sở hữu sức mạnh vượt xa cấp độ hiện tại nhờ quay ngược thời gian.' },
+    { name: 'Son Oh-Gong', role: 'Đồng minh', age: '5000+', description: 'Tề Thiên Đại Thánh, một trong những người mạnh nhất tòa tháp, chiến binh cuồng nhiệt và là đồng đội cũ của Yu-won.' },
+    { name: 'Hephaestus', role: 'Đồng minh', age: '10000+', description: 'Vị thần thợ rèn, người đã giúp Yu-won chế tạo, nâng cấp các trang bị huyền thoại và là một người bạn đáng tin cậy.' },
+    { name: 'Hercules', role: 'Đồng minh', age: '5000+', description: 'Vị thần sức mạnh, một chiến binh dũng mãnh luôn đứng về phía chính nghĩa và hỗ trợ Yu-won trong các trận chiến.' },
+    { name: 'Odin', role: 'Đồng minh / Người dẫn dắt', age: '10000+', description: 'Vị thần tối cao của Bắc Âu, người đã nhìn thấy tương lai và hỗ trợ Yu-won bằng trí tuệ, sức mạnh của mình.' },
+    { name: 'Outer Gods', role: 'Phản diện', age: '???', description: 'Những thực thể tà ác từ ngoài vũ trụ, mục tiêu cuối cùng mà Yu-won phải tiêu diệt để bảo vệ thế giới.' },
+    { name: 'Zeus', role: 'Vị thần / Đối thủ', age: '10000+', description: 'Vua của các vị thần Hy Lạp, người có tham vọng quyền lực và ban đầu không tin tưởng vào kế hoạch của Yu-won.' },
+    { name: 'Poseidon', role: 'Vị thần / Đối thủ', age: '10000+', description: 'Thần biển cả, một vị thần kiêu ngạo và thường xuyên gây khó dễ cho Yu-won trong quá trình leo tháp.' },
+    { name: 'Hades', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Chúa tể địa ngục, một trong những vị thần mạnh nhất ủng hộ Yu-won trong hành trình thay đổi vận mệnh.' },
+    { name: 'Chronos', role: 'Vị thần / Người dẫn dắt', age: '10000+', description: 'Thần thời gian, người đã hy sinh toàn bộ sức mạnh để gửi Yu-won quay lại quá khứ.' },
+    { name: 'Athena', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Nữ thần trí tuệ, người luôn hỗ trợ Yu-won bằng những lời khuyên chiến lược và kiến thức sâu rộng về Tòa Tháp.' },
+    { name: 'Ares', role: 'Vị thần / Đối thủ', age: '10000+', description: 'Thần chiến tranh, một vị thần hung bạo luôn tìm cách thách thức Yu-won để chứng minh sức mạnh của mình.' },
+    { name: 'Hermes', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần truyền tin, người giúp Yu-won thu thập thông tin nhanh chóng và di chuyển giữa các tầng của Tòa Tháp.' },
+    { name: 'Artemis', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Nữ thần săn bắn, một xạ thủ tài ba luôn hỗ trợ Yu-won từ xa trong các trận chiến với quái vật.' },
+    { name: 'Apollo', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần ánh sáng và tiên tri, người cung cấp những dự đoán quan trọng về các sự kiện sắp tới trong Tòa Tháp.' },
+    { name: 'Thor', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần sấm sét của Bắc Âu, một chiến binh dũng mãnh luôn sát cánh cùng Yu-won trong các cuộc viễn chinh.' },
+    { name: 'Loki', role: 'Vị thần / Bí ẩn', age: '10000+', description: 'Thần lừa lọc, một nhân vật khó lường luôn có những kế hoạch riêng nhưng đôi khi lại giúp đỡ Yu-won một cách gián tiếp.' },
+    { name: 'Freyja', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Nữ thần tình yêu và chiến tranh của Bắc Âu, người sở hữu ma pháp mạnh mẽ và luôn ủng hộ Yu-won.' },
+    { name: 'Baldur', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Vị thần ánh sáng và sự thuần khiết, người mang lại hy vọng cho các cư dân trong Tòa Tháp.' },
+    { name: 'Osiris', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Vị thần của sự sống lại và cái chết trong thần thoại Ai Cập, một đồng minh quyền năng của Yu-won.' },
+    { name: 'Anubis', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần dẫn dắt linh hồn, người giúp Yu-won hiểu rõ hơn về bản chất của cái chết và sự tái sinh trong Tòa Tháp.' },
+    { name: 'Ra', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần mặt trời tối cao của Ai Cập, một trong những thực thể mạnh nhất luôn dõi theo hành trình của Yu-won.' },
+    { name: 'Horus', role: 'Vị thần / Đồng minh', age: '10000+', description: 'Thần bầu trời, một chiến binh dũng cảm luôn bảo vệ công lý trong Tòa Tháp.' },
+    { name: 'Set', role: 'Vị thần / Phản diện', age: '10000+', description: 'Thần hỗn loạn, kẻ luôn tìm cách phá hoại sự ổn định của Tòa Tháp và là tay sai của các Outer Gods.' },
+    { name: 'The Tower Master', role: 'Lãnh đạo', age: 'Unknown', description: 'Thực thể bí ẩn quản lý toàn bộ Tòa Tháp, người đặt ra các quy tắc và thử thách cho những người leo tháp.' },
+    { name: 'High Ranker A', role: 'Nhân vật quan trọng', age: '500+', description: 'Một trong những người leo tháp mạnh nhất, người đã đạt đến đỉnh cao và luôn tìm kiếm những thử thách mới.' },
+    { name: 'Newbie Climber B', role: 'Nhân vật phụ', age: '20', description: 'Đại diện cho những người chơi mới bắt đầu hành trình leo tháp, luôn ngưỡng mộ và học hỏi từ Yu-won.' },
+    { name: 'Outer God Minion', role: 'Phản diện', age: 'Unknown', description: 'Những sinh vật tà ác phục vụ các Outer Gods, thường xuyên tấn công các tầng của Tòa Tháp.' },
+    { name: 'Ancient Guardian', role: 'Hỗ trợ', age: 'Cổ xưa', description: 'Thực thể bảo vệ các vật phẩm huyền thoại trong Tòa Tháp, người thử thách lòng dũng cảm của Yu-won.' },
+    { name: 'Mysterious Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Người bán những vật phẩm quý hiếm và thông tin mật cho những người leo tháp có đủ khả năng chi trả.' }
+  ]
+};

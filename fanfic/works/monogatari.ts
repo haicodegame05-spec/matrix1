@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const monogatari: FanficWork = {
+  id: 'monogatari',
+  title: 'Monogatari Series',
+  description: 'Câu chuyện về Araragi Koyomi và những cuộc gặp gỡ với các cô gái bị ảnh hưởng bởi các thực thể kỳ bí (Oddities).',
+  country: 'Nhật',
+  plot: 'Araragi Koyomi, một học sinh trung học từng là ma cà rồng, cố gắng sống một cuộc đời bình thường. Tuy nhiên, anh liên tục gặp gỡ và giúp đỡ những cô gái xung quanh mình - những người đang phải chịu đựng các hiện tượng siêu nhiên quái dị được gọi là "Kaii". Với sự giúp đỡ của chuyên gia Oshino Meme, Koyomi dấn thân vào những câu chuyện kỳ lạ, đầy triết lý và những cuộc đối thoại sắc sảo.',
+  worldSetting: 'Thành phố hiện đại tại Nhật Bản, nơi các truyền thuyết đô thị và thực thể kỳ bí tồn tại song song với đời thường.',
+  characters: [
+    { name: 'Araragi Koyomi', role: 'Nhân vật chính', age: '18', description: 'Một học sinh trung học có lòng tốt bao dung đến mức liều lĩnh. Anh sở hữu khả năng hồi phục cực nhanh nhờ dòng máu ma cà rồng còn sót lại.' },
+    { name: 'Senjougahara Hitagi', role: 'Nữ chính', age: '18', description: 'Một cô gái xinh đẹp nhưng sắc sảo và có phần độc miệng. Cô từng bị mất trọng lượng do một thực thể cua thần bí và là bạn gái của Koyomi.' },
+    { name: 'Oshino Shinobu', role: 'Nữ chính / Ma cà rồng', age: '500+', description: 'Tên thật là Kiss-shot Acerola-orion Heart-under-blade, một ma cà rồng huyền thoại bị mất đi sức mạnh và sống dưới hình hài một cô bé thích ăn bánh donut.' },
+    { name: 'Hanekawa Tsubasa', role: 'Nhân vật quan trọng', age: '18', description: 'Lớp trưởng mẫu mực, người "biết tất cả mọi thứ". Cô mang trong mình những áp lực gia đình nặng nề, dẫn đến việc bị ảnh hưởng bởi Sawari Neko.' },
+    { name: 'Hachikuji Mayoi', role: 'Nhân vật quan trọng', age: '10 (ngoại hình)', description: 'Một hồn ma bé gái lang thang luôn bị lạc đường. Cô có mối quan hệ trêu chọc thú vị với Koyomi.' },
+    { name: 'Kanbaru Suruga', role: 'Đồng minh', age: '17', description: 'Hậu bối của Koyomi, một ngôi sao bóng rổ. Cô sở hữu "Bàn tay khỉ" mang lại sức mạnh nhưng cũng đầy nguy hiểm.' },
+    { name: 'Sengoku Nadeko', role: 'Nhân vật quan trọng', age: '14', description: 'Bạn thuở nhỏ của em gái Koyomi, một cô bé nhút nhát thầm yêu anh. Cô sau này trở thành một thực thể thần rắn đầy quyền năng.' },
+    { name: 'Araragi Karen', role: 'Gia đình', age: '15', description: 'Em gái lớn của Koyomi, một cô gái năng động, giỏi võ thuật và luôn thực thi công lý theo cách riêng của mình.' },
+    { name: 'Araragi Tsukihi', role: 'Gia đình', age: '14', description: 'Em gái út của Koyomi, có vẻ ngoài hiền lành nhưng tính cách rất quyết liệt. Cô thực chất là một thực thể phượng hoàng tái sinh.' },
+    { name: 'Oshino Meme', role: 'Người dẫn dắt', age: '30+', description: 'Một chuyên gia về các thực thể kỳ bí, người luôn giữ thái độ trung lập và giúp đỡ Koyomi giải quyết các rắc rối siêu nhiên.' },
+    { name: 'Kaiki Deishuu', role: 'Phản diện / Phản anh hùng', age: '30+', description: 'Một kẻ lừa đảo chuyên nghiệp, chuyên về các thực thể giả mạo. Anh là một nhân vật phức tạp với những triết lý thực dụng về tiền bạc.' },
+    { name: 'Ononoki Yotsugi', role: 'Đồng minh', age: 'Unknown', description: 'Một búp bê xác sống (Tsukumogami) luôn giữ vẻ mặt vô cảm và có khả năng biến đổi cơ thể cực mạnh.' },
+    { name: 'Oshino Ougi', role: 'Phản diện / Bí ẩn', age: 'Unknown', description: 'Một thực thể bí ẩn tự xưng là cháu gái của Oshino Meme, luôn xuất hiện để thử thách và phán xét Koyomi.' },
+    { name: 'Sodachi Oikura', role: 'Nhân vật quan trọng', age: '18', description: 'Bạn thuở nhỏ của Koyomi, người mang trong mình nỗi căm ghét sâu sắc đối với anh và có quá khứ gia đình đầy bi kịch.' },
+    { name: 'Gaen Izuko', role: 'Người dẫn dắt', age: '30+', description: 'Người đứng đầu mạng lưới các chuyên gia kỳ bí, người thực sự "biết tất cả mọi thứ" và luôn đứng sau điều khiển các sự kiện.' },
+    { name: 'Kagenui Yozuru', role: 'Chuyên gia', age: '30+', description: 'Một chuyên gia về các thực thể bất tử, có sức mạnh thể chất kinh khủng và luôn đi chân trần vì lời thề không chạm đất.' },
+    { name: 'Episode', role: 'Đối thủ', age: 'Unknown', description: 'Một thợ săn ma cà rồng lai người, sử dụng một cây thánh giá khổng lồ làm vũ khí và có khả năng biến thành sương mù.' },
+    { name: 'Dramaturgy', role: 'Đối thủ', age: 'Unknown', description: 'Một ma cà rồng thợ săn, người đã lấy đi cánh tay của Kiss-shot, có khả năng biến đôi tay thành những thanh kiếm sắc bén.' },
+    { name: 'Guillotine Cutter', role: 'Đối thủ', age: 'Unknown', description: 'Một linh mục thợ săn ma cà rồng cực đoan, tin rằng việc tiêu diệt ma cà rồng là sứ mệnh thiêng liêng.' },
+    { name: 'Araragi Seishirou', role: 'Phản diện', age: '400+', description: 'Ma cà rồng đầu tiên và là "quyến thuộc" đầu tiên của Kiss-shot, người đã hồi sinh để tìm kiếm sự báo thù.' },
+    { name: 'Numachi Rouka', role: 'Đối thủ', age: '17', description: 'Một cựu vận động viên bóng rổ, người thu thập các bộ phận của ác quỷ và có mối liên hệ đặc biệt với Kanbaru.' },
+    { name: 'Tooe Gaen', role: 'Nhân vật quan trọng', age: 'Đã mất', description: 'Mẹ của Kanbaru Suruga và là chị gái của Gaen Izuko, một người phụ nữ tài năng nhưng bạc mệnh.' },
+    { name: 'Senjougahara\'s Father', role: 'Gia đình', age: '45+', description: 'Một người cha tận tụy, luôn nỗ lực làm việc để trả nợ và bảo vệ con gái mình sau những biến cố gia đình.' },
+    { name: 'Kuchinawa', role: 'Thực thể kỳ bí', age: 'Cổ xưa', description: 'Thần rắn đã thao túng Sengoku Nadeko, đại diện cho sự đố kỵ và những mong muốn thầm kín.' },
+    { name: 'Sawari Neko', role: 'Thực thể kỳ bí', age: 'Unknown', description: 'Thường được gọi là Black Hanekawa, là hiện thân của những căng thẳng và áp lực mà Tsubasa phải chịu đựng.' },
+    { name: 'Kako', role: 'Thực thể kỳ bí', age: 'Unknown', description: 'Con hổ khổng lồ đại diện cho sự ghen tị của Hanekawa Tsubasa, có khả năng thiêu rụi mọi thứ nó đi qua.' },
+    { name: 'Tadatsuru Teori', role: 'Chuyên gia', age: '30+', description: 'Một chuyên gia về các thực thể hình nhân, người đã tạo ra Ononoki Yotsugi cùng với Kagenui.' },
+    { name: 'Araragi Koyomi\'s Mother', role: 'Gia đình', age: '40+', description: 'Một sĩ quan cảnh sát nghiêm khắc nhưng yêu thương con cái, là người giữ kỷ cương trong gia đình Araragi.' },
+    { name: 'Araragi Koyomi\'s Father', role: 'Gia đình', age: '45+', description: 'Cũng là một sĩ quan cảnh sát, người cùng vợ nuôi dạy ba anh em Araragi trong một môi trường chính trực.' },
+    { name: 'Hachikuji\'s Mother', role: 'Gia đình', age: 'Đã mất', description: 'Người mẹ mà Mayoi luôn tìm kiếm trong suốt hành trình lang thang của mình như một hồn ma.' },
+    { name: 'Higasa', role: 'Bạn bè', age: '17', description: 'Thành viên câu lạc bộ bóng rổ và là bạn của Kanbaru Suruga, người luôn ủng hộ cô trong thể thao.' }
+  ]
+};

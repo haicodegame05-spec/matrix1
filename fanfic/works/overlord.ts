@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const overlord: FanficWork = {
+  id: 'overlord',
+  title: 'Overlord',
+  description: 'Một game thủ bị kẹt lại trong trò chơi khi nó đóng cửa, nhưng dưới hình dạng một bộ xương đại ma đầu cùng với toàn bộ lâu đài của mình.',
+  country: 'Nhật',
+  plot: 'Momonga, bang chủ của bang hội Ainz Ooal Gown, quyết định ở lại đến phút cuối cùng khi trò chơi Yggdrasil đóng cửa. Tuy nhiên, anh không bị đăng xuất mà bị đưa đến một thế giới mới cùng với lăng mộ Nazarick và các nhân vật hệ thống đã có ý thức. Dưới cái tên Ainz Ooal Gown, anh bắt đầu hành trình chinh phục thế giới mới để tìm kiếm những người chơi khác.',
+  worldSetting: 'Một thế giới kỳ ảo nơi ma pháp và các chủng tộc đa dạng tồn tại. Ainz sở hữu sức mạnh áp đảo so với cư dân bản địa nhờ hệ thống cấp bậc và trang bị từ trò chơi Yggdrasil.',
+  characters: [
+    { name: 'Ainz Ooal Gown (Momonga)', role: 'Nhân vật chính', age: 'Unknown', description: 'Elder Lich quyền năng, lãnh đạo tối cao của Lăng mộ Nazarick. Anh luôn thận trọng, cố gắng giữ hình tượng vị vua uy nghiêm trước mặt các thuộc hạ trung thành.' },
+    { name: 'Albedo', role: 'Tổng quản thủ vệ', age: 'Unknown', description: 'Succubus xinh đẹp tuyệt trần, lãnh đạo các thủ vệ. Cô có tình yêu cuồng nhiệt và sự trung thành tuyệt đối dành cho Ainz sau khi anh thay đổi thiết lập của cô.' },
+    { name: 'Shalltear Bloodfallen', role: 'Thủ vệ tầng 1-3', age: 'Unknown', description: 'Ma cà rồng mạnh mẽ nhất trong các thủ vệ về khả năng cận chiến. Cô sở hữu hình thái quái vật đáng sợ và luôn cạnh tranh với Albedo để giành sự chú ý của Ainz.' },
+    { name: 'Demiurge', role: 'Thủ vệ tầng 7', age: 'Unknown', description: 'Ác quỷ thông minh nhất Nazarick, chuyên gia về chiến thuật và phòng ngự. Anh luôn suy diễn những hành động của Ainz thành những kế hoạch vĩ mô thâm hiểm.' },
+    { name: 'Cocytus', role: 'Thủ vệ tầng 5', age: 'Unknown', description: 'Chiến binh côn trùng khổng lồ với tinh thần võ sĩ đạo cao cả. Anh là bậc thầy về vũ khí và luôn khao khát được phục vụ Ainz trên chiến trường.' },
+    { name: 'Aura Bella Fiora', role: 'Thủ vệ tầng 6', age: '76', description: 'Dark Elf thuần phục thú, có tính cách năng động và tinh nghịch. Cô là chị sinh đôi của Mare và luôn bảo vệ em trai mình.' },
+    { name: 'Mare Bello Fiore', role: 'Thủ vệ tầng 6', age: '76', description: 'Dark Elf nhút nhát nhưng sở hữu ma pháp thiên nhiên cực kỳ mạnh mẽ. Cậu là em trai sinh đôi của Aura và luôn mang theo một cây gậy ma thuật.' },
+    { name: 'Sebas Tian', role: 'Quản gia', age: 'Unknown', description: 'Lãnh đạo của nhóm Pleiades, một chiến binh rồng dưới hình dạng con người. Anh có lòng chính nghĩa cao nhất Nazarick và luôn giúp đỡ những người yếu thế.' },
+    { name: 'Pandora\'s Actor', role: 'Thủ vệ kho báu', age: 'Unknown', description: 'Một Doppelganger do chính Ainz tạo ra. Anh có tính cách cường điệu, kịch tính nhưng cực kỳ thông minh và trung thành.' },
+    { name: 'Narberal Gamma', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một Doppelganger chuyên về ma pháp chiến đấu. Cô cực kỳ ghét con người và luôn coi họ là "côn trùng".' },
+    { name: 'Yuri Alpha', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một Dullahan, chị cả của nhóm Pleiades. Cô có tính cách nghiêm túc, mẫu mực và luôn cố gắng giữ trật tự trong nhóm.' },
+    { name: 'Lupusregina Beta', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một người sói với vẻ ngoài vui vẻ, thân thiện nhưng thực chất là một kẻ tàn nhẫn và thích hành hạ con người.' },
+    { name: 'Solution Epsilon', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một Slime dưới hình dạng con người xinh đẹp. Cô là một sát thủ tài ba và coi con người là nguồn thức ăn ngon lành.' },
+    { name: 'CZ2128 Delta', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một Automaton (người máy) chuyên về vũ khí tầm xa. Cô có tính cách vô cảm nhưng lại rất thích những thứ dễ thương.' },
+    { name: 'Entoma Vasilissa Zeta', role: 'Thành viên Pleiades', age: 'Unknown', description: 'Một thực thể côn trùng sử dụng ảo ảnh để che giấu hình dạng thật. Cô có khả năng điều khiển côn trùng và sử dụng giọng nói của người khác.' },
+    { name: 'Gazef Stronoff', role: 'Chiến binh trưởng', age: '30+', description: 'Người mạnh nhất Vương quốc Re-Estize, một chiến binh danh dự. Anh rất tôn trọng Ainz dù họ ở hai phe đối lập.' },
+    { name: 'Brain Unglaus', role: 'Kiếm sĩ', age: '30+', description: 'Một thiên tài kiếm thuật từng bị Shalltear đánh bại và rơi vào tuyệt vọng, nhưng sau đó đã tìm lại được ý chí chiến đấu.' },
+    { name: 'Climb', role: 'Cận vệ', age: '16', description: 'Một thanh niên mồ côi được công chúa Renner cứu giúp, luôn nỗ lực rèn luyện để bảo vệ cô dù tài năng có hạn.' },
+    { name: 'Renner Theiere Chardelon Ryle Vaiself', role: 'Công chúa', age: '16', description: 'Được mệnh danh là "Công chúa vàng" vì sự thông minh và lòng nhân hậu, nhưng thực chất là một kẻ điên rồ và mưu mô.' },
+    { name: 'Enri Emmot', role: 'Trưởng làng', age: '16', description: 'Một cô gái làng quê được Ainz cứu giúp, sau này trở thành thủ lĩnh của một đội quân Goblin hùng mạnh.' },
+    { name: 'Nfirea Bareare', role: 'Dược sĩ', age: '16', description: 'Một thiên tài về dược phẩm, sở hữu năng lực hiếm có cho phép sử dụng bất kỳ vật phẩm ma thuật nào.' },
+    { name: 'Jircniv Rune Farlord El Nix', role: 'Hoàng đế', age: '22', description: 'Vị vua trẻ tuổi của Đế quốc Baharuth, một nhà lãnh đạo tài ba luôn cố gắng bảo vệ quốc gia trước sức mạnh của Ainz.' },
+    { name: 'Fluder Paradyne', role: 'Pháp sư', age: '200+', description: 'Pháp sư mạnh nhất thế giới loài người, người đã phản bội Đế quốc để trở thành đệ tử của Ainz nhằm tìm kiếm tri thức ma pháp tối cao.' },
+    { name: 'Victim', role: 'Thủ vệ tầng 8', age: 'Unknown', description: 'Một thực thể kỳ lạ có hình dạng thai nhi, sở hữu năng lực khống chế cực mạnh kích hoạt khi hy sinh.' },
+    { name: 'Gargantua', role: 'Thủ vệ tầng 4', age: 'N/A', description: 'Một Golem khổng lồ không có ý thức, được sử dụng như một vũ khí bao vây thành trì với sức mạnh vật lý vô song.' },
+    { name: 'Rubedo', role: 'Bí ẩn', age: 'Unknown', description: 'Em gái của Albedo, được coi là thực thể mạnh nhất trong toàn bộ Nazarick, vượt qua cả các thủ vệ khác.' },
+    { name: 'Nigredo', role: 'Hỗ trợ', age: 'Unknown', description: 'Chị gái của Albedo, chuyên gia về do thám và tìm kiếm mục tiêu trên toàn thế giới.' },
+    { name: 'Pestonya S. Wanko', role: 'Trưởng nhóm hầu gái', age: 'Unknown', description: 'Một người chó (Were-dog) hiền hậu, chuyên gia về ma pháp hồi phục và quản lý các hầu gái bình thường.' },
+    { name: 'Eclair Ecleir Eicler', role: 'Hầu cận', age: 'Unknown', description: 'Một con chim cánh cụt luôn mơ ước chiếm ngôi vương của Nazarick, nhưng thực chất rất tận tụy với công việc dọn dẹp.' },
+    { name: 'Hamusuke', role: 'Thú cưng / Đồng minh', age: 'Unknown', description: 'Vua của rừng rậm, một con chuột Hamster khổng lồ sau này trở thành thú cưỡi và đệ tử của chiến binh Momon (Ainz).' }
+  ]
+};

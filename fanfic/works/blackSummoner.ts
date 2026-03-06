@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const blackSummoner: FanficWork = {
+  id: 'black-summoner',
+  title: 'Triệu Hồi Sư Đen (Black Summoner)',
+  description: 'Kelvin, một thanh niên chuyển sinh với kỹ năng "Triệu hồi sư" cực kỳ mạnh mẽ, nhưng lại đánh đổi ký ức của mình để lấy sức mạnh.',
+  country: 'Nhật',
+  plot: 'Kelvin tỉnh dậy trong một thế giới khác mà không có bất kỳ ký ức nào về cuộc sống trước đây. Anh nhận ra mình đã đánh đổi ký ức của mình để lấy các kỹ năng và ma pháp tối thượng của một Triệu hồi sư cấp S. Với sự hỗ trợ của Nữ thần Melfina - người mà anh đã triệu hồi làm thuộc hạ đầu tiên, Kelvin bắt đầu hành trình du ngoạn dị giới, chiến đấu với các quái vật mạnh mẽ và thu thập thêm nhiều thuộc hạ xinh đẹp và tài năng.',
+  worldSetting: 'Một thế giới fantasy có hệ thống cấp độ, kỹ năng và ma pháp. Kelvin sở hữu kỹ năng triệu hồi cho phép anh biến các quái vật và thực thể mạnh mẽ thành thuộc hạ của mình.',
+  characters: [
+    { name: 'Kelvin', role: 'Nhân vật chính', age: '20', description: 'Triệu hồi sư cấp S, nghiện chiến đấu và cực kỳ mạnh mẽ. Thông minh, quyết đoán và luôn bảo vệ thuộc hạ của mình.' },
+    { name: 'Melfina', role: 'Nữ thần / Thuộc hạ', age: 'Vĩnh cửu', description: 'Nữ thần Tái sinh, người đã đưa Kelvin đến dị giới. Trở thành thuộc hạ của Kelvin và luôn hỗ trợ anh bằng ma pháp ánh sáng.' },
+    { name: 'Efil', role: 'Thuộc hạ / Harem', age: '18', description: 'Một nữ tinh linh (Elf) nô lệ được Kelvin cứu thoát. Xinh đẹp, đảm đang và là một cung thủ ma pháp tài ba.' },
+    { name: 'Gerard', role: 'Thuộc hạ / Đồng minh', age: '1000+', description: 'Một kỵ sĩ xác sống (Undead Knight) mạnh mẽ, người đã thề trung thành với Kelvin sau khi bị anh đánh bại.' },
+    { name: 'Sera', role: 'Thuộc hạ / Harem', age: '18', description: 'Con gái của Ma vương Gustav, một nữ quỷ mạnh mẽ với sức mạnh thể chất vượt trội. Tính cách thẳng thắn và ham học hỏi.' },
+    { name: 'Clothos', role: 'Thuộc hạ / Thú cưng', age: '???', description: 'Một Slime ma pháp cực kỳ mạnh mẽ, có khả năng tiêu hóa mọi thứ và biến hình.' },
+    { name: 'Rion', role: 'Thuộc hạ / Harem', age: '15', description: 'Một cô bé chuyển sinh từ Nhật Bản, em gái của Kelvin ở kiếp trước. Được Kelvin triệu hồi và trở thành một chiến binh dũng cảm.' },
+    { name: 'Alex', role: 'Thuộc hạ / Thú cưng', age: '???', description: 'Một con sói bóng tối (Shadow Wolf) cực kỳ nhanh nhẹn và trung thành.' },
+    { name: 'Angie', role: 'Hỗ trợ', age: '25+', description: 'Tiếp tân tại Guild mạo hiểm giả, người luôn giúp đỡ Kelvin trong các thủ tục và nhiệm vụ.' },
+    { name: 'Clive Terajena', role: 'Đối thủ', age: '25+', description: 'Một anh hùng được triệu hồi từ thế giới khác, sở hữu sức mạnh đáng gờm nhưng có tính cách kiêu ngạo.' },
+    { name: 'Gustav', role: 'Ma Vương / Nhân vật quan trọng', age: '???', description: 'Cha của Sera, một Ma vương mạnh mẽ đã hy sinh để bảo vệ con gái mình.' },
+    { name: 'Victor', role: 'Đối thủ', age: '???', description: 'Một ác ma cấp cao phục vụ dưới trướng Ma vương, kẻ thù của Kelvin trong giai đoạn đầu.' },
+    { name: 'Leo', role: 'Đồng minh', age: '25+', description: 'Một mạo hiểm giả cấp cao, người đã cùng Kelvin thực hiện một số nhiệm vụ quan trọng.' },
+    { name: 'Claire', role: 'Đồng minh', age: '25+', description: 'Một nữ pháp sư tài ba, bạn đồng hành của Leo.' },
+    { name: 'The King of Parth', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua của vương quốc nơi Kelvin đang ở, người luôn lo lắng về sự trỗi dậy của các thế lực thù địch.' },
+    { name: 'Guild Master of Parth', role: 'Hỗ trợ', age: '50+', description: 'Người đứng đầu Guild mạo hiểm giả, luôn kinh ngạc trước sức mạnh của Kelvin.' },
+    { name: 'Trish', role: 'Đối thủ', age: '30+', description: 'Một lính đánh thuê tàn bạo chuyên bắt cóc nô lệ.' },
+    { name: 'Kẻ Săn Nô Lệ 1', role: 'Đối thủ', age: '30+', description: 'Thành viên trong nhóm săn nô lệ, chuyên về bẫy và thuốc mê.' },
+    { name: 'Kelvin (Kiếp trước)', role: 'Ký ức', age: '20+', description: 'Hình bóng của thanh niên bình thường luôn nhắc nhở Kelvin về cái giá của sức mạnh.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán trang bị, người đã cung cấp cho Kelvin những vật phẩm cần thiết.' },
+    { name: 'Colette', role: 'Nữ chính / Thánh nữ', age: '17', description: 'Thánh nữ của vương quốc Deramis, sở hữu ma pháp ánh sáng mạnh mẽ và là người sùng đạo. Cô sau này gia nhập nhóm của Kelvin.' },
+    { name: 'Urd', role: 'Anh hùng / Đối thủ', age: '18', description: 'Một trong những anh hùng được triệu hồi từ Nhật Bản, sở hữu sức mạnh thể chất vượt trội nhưng tính cách khá bốc đồng.' },
+    { name: 'Miyabi', role: 'Anh hùng / Đồng minh', age: '18', description: 'Nữ anh hùng chuyển sinh, chuyên về ma pháp hỗ trợ và là người điềm tĩnh nhất trong nhóm anh hùng.' },
+    { name: 'Setsuna', role: 'Anh hùng / Đồng minh', age: '18', description: 'Anh hùng chuyển sinh, một kiếm sĩ tài ba với tốc độ cực nhanh, luôn tìm kiếm sự công bằng.' },
+    { name: 'Nana', role: 'Anh hùng / Đồng minh', age: '18', description: 'Anh hùng chuyển sinh, một pháp sư chuyên về các loại ma pháp tấn công diện rộng.' },
+    { name: 'The Dark Elf Elder', role: 'Hỗ trợ', age: '500+', description: 'Vị trưởng lão của tộc Hắc Tinh Linh, người đã truyền dạy cho Efil những kỹ năng cung thuật cổ đại.' },
+    { name: 'The Royal Guard Captain', role: 'Đối thủ / Đồng minh', age: '35', description: 'Chỉ huy đội cận vệ của vương quốc Parth, một chiến binh chính trực luôn ngưỡng mộ sức mạnh của Kelvin.' },
+    { name: 'The Underground Broker', role: 'Hỗ trợ', age: '???', description: 'Một nhân vật bí ẩn trong thế giới ngầm, người cung cấp cho Kelvin những thông tin về các quái vật cấp S.' },
+    { name: 'The Traveling Priest', role: 'Hỗ trợ', age: '40', description: 'Một tu sĩ lang thang, người đã giúp Kelvin thanh tẩy những vùng đất bị ám ảnh bởi ma thuật bóng tối.' },
+    { name: 'The Village Orphan', role: 'Hỗ trợ', age: '10', description: 'Một cậu bé mồ côi được Kelvin cứu thoát khỏi bọn buôn nô lệ, hiện đang được nuôi dưỡng tại dinh thự của anh.' }
+  ]
+};

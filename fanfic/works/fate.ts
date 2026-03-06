@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const fate: FanficWork = {
+  id: 'fate',
+  title: 'Fate/stay night & Fate/Zero',
+  description: 'Cuộc chiến giành Chén Thánh (Holy Grail War) giữa các pháp sư (Masters) và các anh linh (Servants).',
+  country: 'Nhật',
+  plot: 'Bảy pháp sư triệu hồi bảy anh linh từ lịch sử và truyền thuyết để tham gia vào một cuộc chiến sinh tử. Kẻ chiến thắng cuối cùng sẽ được Chén Thánh ban cho một điều ước bất kỳ. Câu chuyện xoay quanh Emiya Shirou, một học sinh trung học vô tình bị cuốn vào cuộc chiến và phải đối mặt với những lý tưởng và quá khứ đen tối.',
+  worldSetting: 'Thành phố Fuyuki, Nhật Bản. Một thế giới hiện đại nơi ma thuật tồn tại bí mật dưới sự quản lý của Hiệp hội Pháp sư.',
+  characters: [
+    { name: 'Emiya Shirou', role: 'Nhân vật chính (Stay Night)', age: '17', description: 'Một học sinh trung học với lý tưởng trở thành "Anh hùng chính nghĩa". Anh là người sống sót duy nhất sau thảm họa Fuyuki 10 năm trước và sở hữu khả năng ma thuật tạo tác (Projection) độc nhất vô nhị.' },
+    { name: 'Saber (Artoria Pendragon)', role: 'Nữ chính / Servant', age: 'Ancient', description: 'Anh linh của Vua Arthur, thuộc lớp Saber. Cô là một kiếm sĩ dũng cảm, chính trực, sở hữu thanh kiếm huyền thoại Excalibur và luôn tìm kiếm Chén Thánh để thay đổi quá khứ của vương quốc mình.' },
+    { name: 'Tohsaka Rin', role: 'Nữ chính / Master', age: '17', description: 'Một pháp sư tài giỏi, kiêu kỳ và là người thừa kế của gia tộc Tohsaka. Cô triệu hồi Archer và trở thành đồng minh quan trọng của Shirou trong cuộc chiến Chén Thánh lần thứ 5.' },
+    { name: 'Archer (Emiya)', role: 'Servant', age: 'Unknown', description: 'Anh linh lớp Archer, một chiến binh thực dụng và bi quan. Anh sở hữu khả năng tạo ra vô số thanh kiếm và có một mối liên hệ định mệnh đầy mâu thuẫn với Emiya Shirou.' },
+    { name: 'Matou Sakura', role: 'Nữ chính / Master', age: '16', description: 'Em gái của Rin nhưng bị nhận nuôi bởi gia tộc Matou. Cô mang trong mình một quá khứ bi thảm và là vật chủ của một sức mạnh đen tối có thể hủy diệt cả thế giới.' },
+    { name: 'Gilgamesh', role: 'Phản diện / Servant', age: 'Ancient', description: 'Vua của các anh hùng, anh linh lớp Archer từ cuộc chiến lần thứ 4. Anh sở hữu kho báu vô tận Gate of Babylon và coi mọi thứ trên thế giới đều thuộc về mình.' },
+    { name: 'Emiya Kiritsugu', role: 'Nhân vật chính (Zero)', age: '34', description: 'Cha nuôi của Shirou, được mệnh danh là "Sát thủ pháp sư". Anh tham gia cuộc chiến lần thứ 4 với mục tiêu sử dụng Chén Thánh để mang lại hòa bình thế giới bằng mọi giá.' },
+    { name: 'Irisviel von Einzbern', role: 'Hỗ trợ / Nữ chính (Zero)', age: '9 (ngoại hình 20+)', description: 'Một homunculus được tạo ra bởi gia tộc Einzbern để làm vật chứa cho Chén Thánh. Cô là vợ của Kiritsugu và là mẹ của Illyasviel.' },
+    { name: 'Kotomine Kirei', role: 'Phản diện / Master', age: '30+', description: 'Một linh mục của Giáo hội, kẻ luôn cảm thấy trống rỗng và chỉ tìm thấy niềm vui trong nỗi đau của người khác. Anh là đối thủ truyền kiếp của Kiritsugu và Shirou.' },
+    { name: 'Rider (Iskandar)', role: 'Servant (Zero)', age: 'Ancient', description: 'Anh linh của Alexander Đại Đế, thuộc lớp Rider. Ông là một vị vua hào sảng, đầy tham vọng và đã dạy cho Master của mình - Waver Velvet - những bài học quý giá về lòng dũng cảm.' },
+    { name: 'Lancer (Cú Chulainn)', role: 'Servant (Stay Night)', age: 'Ancient', description: 'Anh linh của người anh hùng Ireland, thuộc lớp Lancer. Anh là một chiến binh danh dự với kỹ năng thương thuật tuyệt đỉnh và bảo khí Gáe Bolg không bao giờ trượt mục tiêu.' },
+    { name: 'Illyasviel von Einzbern', role: 'Master / Hỗ trợ', age: '18 (ngoại hình 10)', description: 'Con gái của Kiritsugu và Irisviel, Master của Berserker. Cô sở hữu lượng ma lực khổng lồ và ban đầu mang lòng thù hận đối với Shirou.' },
+    { name: 'Berserker (Heracles)', role: 'Servant (Stay Night)', age: 'Ancient', description: 'Anh linh của người anh hùng Hy Lạp Heracles, thuộc lớp Berserker. Ông là một quái vật chiến đấu bất tử với 12 mạng sống và sức mạnh thể chất áp đảo.' },
+    { name: 'Caster (Medea)', role: 'Servant (Stay Night)', age: 'Ancient', description: 'Anh linh của phù thủy Medea, thuộc lớp Caster. Cô là một bậc thầy về ma thuật cổ đại, người đã chiếm đóng đền Ryuudou để thu thập ma lực từ người dân thành phố.' },
+    { name: 'Assassin (Sasaki Kojirou)', role: 'Servant (Stay Night)', age: 'Ancient', description: 'Một anh linh không tên được Caster triệu hồi để canh giữ cổng đền Ryuudou. Anh là một kiếm sĩ tài hoa với kỹ thuật Tsubame Gaeshi có thể chém gục cả chim én.' },
+    { name: 'Assassin (Hassan-i-Sabbah)', role: 'Servant (Stay Night / Zero)', age: 'Ancient', description: 'Anh linh lớp Assassin, một sát thủ bóng tối với khả năng phân thân và ám sát cực kỳ nguy hiểm.' },
+    { name: 'Caster (Gilles de Rais)', role: 'Servant (Zero)', age: 'Ancient', description: 'Anh linh lớp Caster, một kẻ điên rồ và tàn nhẫn, luôn tìm kiếm sự cứu rỗi thông qua những hành động tàn bạo.' },
+    { name: 'Lancer (Diarmuid Ua Duibhne)', role: 'Servant (Zero)', age: 'Ancient', description: 'Anh linh lớp Lancer, một chiến binh danh dự với hai cây thương ma thuật có khả năng phá hủy ma lực và ngăn chặn sự hồi phục.' },
+    { name: 'Berserker (Lancelot)', role: 'Servant (Zero)', age: 'Ancient', description: 'Anh linh lớp Berserker, hiệp sĩ của bàn tròn. Anh bị điên loạn do nỗi hận thù và tội lỗi, sở hữu khả năng biến mọi vật thành bảo khí của mình.' },
+    { name: 'Waver Velvet', role: 'Master (Zero)', age: '19', description: 'Một pháp sư trẻ tuổi tham gia cuộc chiến lần thứ 4 để chứng minh tài năng của mình. Anh là Master của Rider và đã trưởng thành rất nhiều sau cuộc chiến.' },
+    { name: 'Kayneth El-Melloi Archibald', role: 'Master (Zero)', age: '30+', description: 'Một pháp sư quý tộc kiêu ngạo, giảng viên tại Hiệp hội Pháp sư và là Master của Lancer (Zero).' },
+    { name: 'Sola-Ui Nuada-Re Sophia-Ri', role: 'Master (Zero)', age: '25+', description: 'Vị hôn thê của Kayneth, người đã yêu Lancer (Zero) và gây ra nhiều mâu thuẫn trong nhóm.' },
+    { name: 'Uryuu Ryuunosuke', role: 'Master (Zero)', age: '22', description: 'Một kẻ giết người hàng loạt điên rồ, Master của Caster (Zero), kẻ luôn tìm thấy niềm vui trong sự tàn bạo.' },
+    { name: 'Tohsaka Tokiomi', role: 'Master (Zero)', age: '35+', description: 'Cha của Rin và Sakura, một pháp sư quý tộc chính thống và là Master của Gilgamesh trong cuộc chiến lần thứ 4.' },
+    { name: 'Matou Kariya', role: 'Master (Zero)', age: '30+', description: 'Một người đàn ông đau khổ, Master của Berserker (Zero), người đã hy sinh bản thân để cứu Sakura khỏi gia tộc Matou.' },
+    { name: 'Matou Zouken', role: 'Phản diện / Master', age: '500+', description: 'Lão già quỷ quyệt của gia tộc Matou, kẻ đã sống qua nhiều thế kỷ bằng cách sử dụng ma thuật sâu bọ.' },
+    { name: 'Kuzuki Souichirou', role: 'Master (Stay Night)', age: '30+', description: 'Một giáo viên nghiêm túc, Master của Caster (Stay Night), người sở hữu kỹ năng chiến đấu tay không đáng sợ.' },
+    { name: 'Fujimura Taiga', role: 'Hỗ trợ', age: '25', description: 'Giáo viên của Shirou và là người giám hộ của cậu, một người phụ nữ năng động và luôn mang lại tiếng cười.' },
+    { name: 'Issei Ryuudou', role: 'Bạn bè', age: '17', description: 'Hội trưởng hội học sinh và là bạn thân của Shirou, một người nghiêm túc và chính trực.' },
+    { name: 'Mitsuzuri Ayako', role: 'Bạn bè', age: '17', description: 'Đội trưởng câu lạc bộ bắn cung và là bạn của Shirou, một cô gái mạnh mẽ và cá tính.' }
+  ]
+};

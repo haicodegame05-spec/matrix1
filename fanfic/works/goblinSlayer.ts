@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const goblinSlayer: FanficWork = {
+  id: 'goblin-slayer',
+  title: 'Goblin Slayer',
+  description: 'Câu chuyện về một mạo hiểm giả chỉ quan tâm đến việc tiêu diệt yêu tinh (Goblins).',
+  country: 'Nhật',
+  plot: 'Trong một thế giới giả tưởng đầy rẫy quái vật, Goblin Slayer là một mạo hiểm giả hạng bạc, người chỉ nhận các nhiệm vụ tiêu diệt yêu tinh - những sinh vật bị coi là yếu ớt nhưng lại cực kỳ tàn nhẫn và nguy hiểm đối với dân làng. Cùng với Nữ Tu Sĩ trẻ tuổi và các đồng đội khác, anh bắt đầu hành trình quét sạch loài yêu tinh khỏi thế giới.',
+  worldSetting: 'Một thế giới giả tưởng cổ điển với hệ thống mạo hiểm giả, ma thuật và quái vật. Một bối cảnh đầy rẫy những nguy hiểm và sự tàn khốc của thực tại.',
+  characters: [
+    { name: 'Goblin Slayer', role: 'Nhân vật chính', age: '20', description: 'Một mạo hiểm giả hạng Bạc bí ẩn, luôn mặc bộ giáp sắt bẩn thỉu và rẻ tiền. Anh có một nỗi ám ảnh mãnh liệt với việc tiêu diệt yêu tinh sau khi chứng kiến gia đình và ngôi làng của mình bị chúng tàn phá. Anh là một bậc thầy về chiến thuật du kích và sử dụng mọi công cụ có thể để đạt được mục tiêu.' },
+    { name: 'Onna Shinkan (Nữ Tu Sĩ)', role: 'Nữ chính', age: '15', description: 'Một cô gái trẻ tuổi, hiền lành và nhân hậu. Sau khi được Goblin Slayer cứu thoát khỏi một hang ổ yêu tinh, cô đã quyết định đồng hành cùng anh. Cô sở hữu các phép thuật bảo hộ và chữa trị từ Địa Mẫu Thần.' },
+    { name: 'Yousei Kyuushu (Cung Thủ Tiên)', role: 'Nữ chính / Đồng minh', age: '2000+', description: 'Một cung thủ tộc Thượng Tiên (High Elf) xinh đẹp và năng động. Cô gia nhập nhóm của Goblin Slayer để mời anh tham gia vào một cuộc phiêu lưu thực sự, thay vì chỉ quanh quẩn trong các hang động tối tăm.' },
+    { name: 'Koujin Doushi (Pháp Sư Lùn)', role: 'Đồng minh', age: '107', description: 'Một pháp sư tộc Người Lùn vui tính, chuyên về ma thuật hỗ trợ và điều khiển vật chất. Anh thường xuyên tranh cãi với Cung Thủ Tiên nhưng thực chất rất quan tâm đến đồng đội.' },
+    { name: 'Tokage Souryo (Tu Sĩ Thằn Lằn)', role: 'Đồng minh', age: 'Unknown', description: 'Một tu sĩ tộc Người Thằn Lằn điềm tĩnh và sùng đạo. Anh sở hữu sức mạnh thể chất to lớn, kỹ năng chiến đấu bằng móng vuốt và khả năng triệu hồi các chiến binh xương.' },
+    { name: 'Ushikai Musume (Cô Gái Chăn Bò)', role: 'Hỗ trợ / Gia đình', age: '20', description: 'Bạn thanh mai trúc mã của Goblin Slayer, hiện đang sống cùng chú tại một trang trại ngoại ô thành phố. Cô là bến đỗ bình yên duy nhất của anh sau những chuyến đi săn đầy máu và nước mắt.' },
+    { name: 'Gild no Uketsukejou (Cô Gái Tiếp Tân)', role: 'Hỗ trợ', age: '22', description: 'Nhân viên của Hội Mạo Hiểm Giả, người luôn dành sự quan tâm đặc biệt cho Goblin Slayer. Cô thường xuyên giúp anh tìm kiếm các nhiệm vụ tiêu diệt yêu tinh và lo lắng cho sự an nguy của anh.' },
+    { name: 'Tsurugi no Otome (Kiếm Thánh Nữ)', role: 'Nhân vật quan trọng', age: '30+', description: 'Một trong những anh hùng huyền thoại từng tiêu diệt Ma Vương, hiện là Tổng giám mục của Thành phố Nước. Cô mang trong mình nỗi ám ảnh kinh hoàng về yêu tinh sau một biến cố trong quá khứ.' },
+    { name: 'Yari Tsukai (Thương Thủ)', role: 'Đồng minh / Đối thủ', age: '20+', description: 'Một mạo hiểm giả hạng Bạc tài năng, người luôn coi mình là đối thủ của Goblin Slayer (dù chỉ là đơn phương). Anh thầm yêu Cô Gái Tiếp Tân và thường xuyên khoe khoang về chiến tích của mình.' },
+    { name: 'Majo (Phù Thủy)', role: 'Đồng minh', age: '20+', description: 'Đồng đội của Thương Thủ, một pháp sư quyến rũ với lối nói chuyện chậm rãi. Cô sở hữu những phép thuật mạnh mẽ và thường xuyên giúp đỡ Goblin Slayer bằng các vật phẩm ma thuật.' },
+    { name: 'Shinmai Senshi (Chiến Binh Mới)', role: 'Hỗ trợ', age: '15', description: 'Một mạo hiểm giả trẻ tuổi đầy nhiệt huyết nhưng thiếu kinh nghiệm. Cậu và đồng đội của mình thường được Goblin Slayer chỉ dạy những bài học sinh tồn cơ bản.' },
+    { name: 'Seijo (Thánh Nữ)', role: 'Hỗ trợ', age: '15', description: 'Đồng đội của Chiến Binh Mới, một nữ tu sĩ trẻ đang học cách sử dụng phép thuật để bảo vệ mọi người.' },
+    { name: 'Goblin Lord', role: 'Phản diện / Boss', age: '???', description: 'Một yêu tinh cấp cao với trí tuệ vượt trội, có khả năng chỉ huy cả một đội quân yêu tinh lớn để tấn công các thành phố.' },
+    { name: 'Goblin Paladin', role: 'Phản diện / Boss', age: '???', description: 'Một biến thể yêu tinh mạnh mẽ sở hữu khả năng ma pháp và kỹ năng chiến đấu như một hiệp sĩ.' },
+    { name: 'Goblin Champion', role: 'Phản diện / Boss', age: '???', description: 'Một yêu tinh khổng lồ với sức mạnh thể chất áp đảo, là nỗi kinh hoàng của các mạo hiểm giả cấp thấp.' },
+    { name: 'Noble Fencer', role: 'Đồng minh', age: '18', description: 'Một nữ mạo hiểm giả quý tộc trẻ tuổi, người đã trải qua nỗi đau mất mát do yêu tinh gây ra và quyết tâm trả thù.' },
+    { name: 'High King', role: 'Phản diện', age: '???', description: 'Thực thể bí ẩn đứng sau sự trỗi dậy của loài yêu tinh, mục tiêu cuối cùng của Goblin Slayer.' },
+    { name: 'Kenshi (Kiếm Sĩ)', role: 'Đồng minh', age: '20+', description: 'Một mạo hiểm giả hạng Bạc, người thường xuyên hợp tác với Goblin Slayer trong các chiến dịch quy mô lớn.' },
+    { name: 'Onna Kishi (Nữ Hiệp Sĩ)', role: 'Đồng minh', age: '25+', description: 'Một hiệp sĩ dũng cảm, người luôn nỗ lực bảo vệ dân làng khỏi sự tàn phá của yêu tinh.' },
+    { name: 'Kenja (Hiền Giả)', role: 'Hỗ trợ', age: '60+', description: 'Một vị hiền giả uyên bác, người cung cấp nhiều kiến thức về loài yêu tinh cho Goblin Slayer.' },
+    { name: 'Ryoushi (Thợ Săn)', role: 'Hỗ trợ', age: '30+', description: 'Một thợ săn tài ba, người giúp Goblin Slayer trinh sát các hang ổ yêu tinh.' },
+    { name: 'Kajiya (Thợ Rèn)', role: 'Hỗ trợ', age: '40+', description: 'Thợ rèn bậc thầy, người đã chế tạo và sửa chữa bộ giáp cho Goblin Slayer.' },
+    { name: 'Shounen Senshi (Chiến Binh Trẻ)', role: 'Đồng minh', age: '16', description: 'Một thiếu niên đầy nhiệt huyết, người luôn lấy Goblin Slayer làm tấm gương phấn đấu.' },
+    { name: 'Shoujo Shinkan (Nữ Tu Sĩ Trẻ)', role: 'Đồng minh', age: '15', description: 'Một nữ tu sĩ trẻ tuổi, người luôn nỗ lực để không bị bỏ lại phía sau.' },
+    { name: 'Goblin Shaman', role: 'Phản diện', age: '???', description: 'Một yêu tinh có khả năng sử dụng ma pháp hắc ám, gây ra nhiều khó khăn cho các mạo hiểm giả.' },
+    { name: 'Goblin Assassin', role: 'Phản diện', age: '???', description: 'Sát thủ thầm lặng của loài yêu tinh, chuyên thực hiện các vụ ám sát bất ngờ.' },
+    { name: 'Goblin Rider', role: 'Phản diện', age: '???', description: 'Yêu tinh cưỡi sói, sở hữu tốc độ và khả năng tấn công linh hoạt.' },
+    { name: 'Goblin Archer', role: 'Phản diện', age: '???', description: 'Yêu tinh sử dụng cung tên, gây ra hỏa lực từ xa cho đội quân yêu tinh.' },
+    { name: 'Goblin Guard', role: 'Phản diện', age: '???', description: 'Yêu tinh sở hữu giáp trụ và vũ khí tốt, bảo vệ các vị trí quan trọng trong hang ổ.' },
+    { name: 'Goblin Scout', role: 'Phản diện', age: '???', description: 'Yêu tinh trinh sát, người cung cấp thông tin về các ngôi làng cho quân đoàn yêu tinh.' }
+  ]
+};

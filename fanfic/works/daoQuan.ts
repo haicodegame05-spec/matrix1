@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const daoQuan: FanficWork = {
+  id: 'dao-quan',
+  title: 'Đạo Quân',
+  description: 'Mưu kế, quyền lực và sự thật về một thế giới tu tiên đầy rẫy những cạm bẫy.',
+  country: 'Trung',
+  plot: 'Nguỵ Vô Kỵ là một thanh niên hiện đại xuyên không về một thế giới tu tiên. Anh không có tư chất võ học cao cường nhưng lại sở hữu trí tuệ siêu phàm và khả năng nhìn thấu lòng người. Cuộc đời anh là một chuỗi những mưu kế thâm độc, từ việc lật đổ vương triều đến việc thống trị cả giới tu tiên.',
+  worldSetting: 'Thế giới tu tiên không chỉ có sức mạnh mà còn có mưu lược. Các quốc gia và môn phái luôn tranh giành lãnh thổ và tài nguyên. Sức mạnh chia thành các cấp bậc: Luyện Khí, Trúc Cơ, Kim Đan, Nguyên Anh...',
+  characters: [
+    { name: 'Nguỵ Vô Kỵ', role: 'Nhân vật chính', age: '20+', description: 'Thông minh, mưu lược, không bao giờ để lộ bài tẩy của mình. Là một cao thủ trong việc sắp xếp các âm mưu chính trị.' },
+    { name: 'Thượng Quan Mị Nhi', role: 'Nữ chính', age: '18+', description: 'Công chúa của một vương quốc, xinh đẹp và thông minh, là người đồng hành trung thành của Nguỵ Vô Kỵ.' },
+    { name: 'Lão Quái Vật (Lý Hạo)', role: 'Sư phụ', age: '100+', description: 'Một vị đại năng tu tiên, người đã truyền thụ kiến thức và bảo vệ Nguỵ Vô Kỵ trong giai đoạn đầu.' },
+    { name: 'Triệu Công Minh', role: 'Đối thủ', age: '30+', description: 'Một vị tướng quân mạnh mẽ, luôn muốn lật đổ Nguỵ Vô Kỵ và chiếm lấy quyền lực.' },
+    { name: 'Vương Phi', role: 'Hỗ trợ', age: '25+', description: 'Một nữ tu xinh đẹp, có khả năng do thám và ám sát, là trợ thủ đắc lực của Nguỵ Vô Kỵ.' },
+    { name: 'Viên Cương', role: 'Đồng minh', age: '25+', description: 'Bạn thân và là thuộc hạ trung thành nhất của Nguỵ Vô Kỵ, một chiến binh dũng mãnh và đáng tin cậy.' },
+    { name: 'Thương Thục Thanh', role: 'Nữ chính', age: '18+', description: 'Quận chúa của Thương gia, người có tấm lòng nhân hậu và luôn âm thầm ủng hộ Nguỵ Vô Kỵ.' },
+    { name: 'Thương Triều Tông', role: 'Lãnh đạo', age: '25+', description: 'Huynh trưởng của Thục Thanh, một vị minh chủ có tham vọng và tầm nhìn, người đã cùng Nguỵ Vô Kỵ xây dựng cơ nghiệp.' },
+    { name: 'Lam Nhược Đình', role: 'Mưu sĩ', age: '35+', description: 'Cố vấn thân cận của Thương Triều Tông, một người thông minh và luôn cân nhắc đại cục.' },
+    { name: 'Phượng Nhược Nam', role: 'Đồng minh', age: '20+', description: 'Nữ tướng quân mạnh mẽ, vợ của Thương Triều Tông, người có tài cầm quân và võ nghệ cao cường.' },
+    { name: 'Thiệu Đăng Vân', role: 'Lãnh đạo', age: '50+', description: 'Đại tướng quân của vương triều, một người có uy tín và sức ảnh hưởng lớn trong quân đội.' },
+    { name: 'Thiệu Bình Ba', role: 'Đối thủ', age: '25+', description: 'Thiên tài mưu lược, đối thủ lớn nhất của Nguỵ Vô Kỵ, luôn tìm cách phá hoại các kế hoạch của anh.' },
+    { name: 'Hải Như Nguyệt', role: 'Lãnh đạo', age: '30+', description: 'Công chúa quyền lực, một người phụ nữ sắc sảo và luôn đặt lợi ích quốc gia lên hàng đầu.' },
+    { name: 'Triệu Hùng Ca', role: 'Cao thủ', age: '50+', description: 'Một cao thủ ma giáo với sức mạnh kinh người, người có mối quan hệ phức tạp với Nguỵ Vô Kỵ.' },
+    { name: 'Ngân Nhi', role: 'Linh thú', age: '???', description: 'Linh thú hóa hình xinh đẹp, luôn đi theo và bảo vệ Nguỵ Vô Kỵ bằng bản năng của mình.' },
+    { name: 'Quản Phương Nghi', role: 'Hỗ trợ', age: '30+', description: 'Hồng nương của một tửu lâu nổi tiếng, người nắm giữ mạng lưới thông tin rộng khắp giang hồ.' },
+    { name: 'Phí Trường Lưu', role: 'Lãnh đạo', age: '60+', description: 'Chưởng môn của một môn phái lớn, một người khôn ngoan và luôn biết cách chọn phe thắng cuộc.' },
+    { name: 'Hạ Hầu Lệnh', role: 'Đối thủ', age: '45+', description: 'Một quan đại thần thâm hiểm, luôn dùng quyền lực chính trị để chèn ép Nguỵ Vô Kỵ.' },
+    { name: 'Độc Cô Tĩnh', role: 'Cao thủ', age: '???', description: 'Một nhân vật thần bí với võ công tuyệt đỉnh, người thường xuyên xuất hiện vào những thời điểm then chốt.' },
+    { name: 'Lão Đạo Sĩ', role: 'Người dẫn dắt', age: '80+', description: 'Một vị đạo sĩ ẩn cư, người đã chỉ dạy cho Nguỵ Vô Kỵ những đạo lý về sự cân bằng giữa quyền lực và đạo đức.' },
+    { name: 'Tiểu Thanh', role: 'Hỗ trợ', age: '16', description: 'Một cô gái trẻ thông minh, chuyên giúp Nguỵ Vô Kỵ quản lý các sổ sách và thông tin mật.' },
+    { name: 'Đại Hán', role: 'Đồng minh', age: '35', description: 'Một chiến binh dũng mãnh, người đã cứu mạng Nguỵ Vô Kỵ trong một trận phục kích.' },
+    { name: 'Vương Gia', role: 'Phản diện', age: '50+', description: 'Một vị vương gia tham lam, luôn tìm cách chiếm đoạt tài sản và quyền lực của Nguỵ Vô Kỵ.' },
+    { name: 'Thanh Nữ', role: 'Bí ẩn', age: 'Unknown', description: 'Một nữ tu sĩ xinh đẹp luôn xuất hiện trong những giấc mơ của Nguỵ Vô Kỵ, mang theo những lời tiên tri.' },
+    { name: 'Kiếm Sư', role: 'Sư phụ', age: '60', description: 'Người đã dạy cho Nguỵ Vô Kỵ những kỹ năng cơ bản về kiếm thuật để tự vệ.' },
+    { name: 'Thương Nhân', role: 'Hỗ trợ', age: '45', description: 'Một thương nhân giàu có, người cung cấp tài chính cho các hoạt động của Nguỵ Vô Kỵ.' },
+    { name: 'Lính Đào Ngũ', role: 'Đồng minh', age: '28', description: 'Một người lính có lương tâm, đã cung cấp cho Nguỵ Vô Kỵ những thông tin quan trọng về quân đội vương triều.' },
+    { name: 'Nữ Tặc', role: 'Đối thủ / Đồng minh', age: '22', description: 'Một nữ tặc khét tiếng, ban đầu là kẻ thù nhưng sau đó đã bị Nguỵ Vô Kỵ thu phục.' },
+    { name: 'Lão Nông', role: 'Hỗ trợ', age: '70', description: 'Một lão nông hiền lành, người đã cho Nguỵ Vô Kỵ nơi trú ẩn khi anh bị truy đuổi.' },
+    { name: 'Thái Giám', role: 'Phản diện', age: '40+', description: 'Một vị thái giám quyền lực trong cung, kẻ luôn tìm cách hãm hại Nguỵ Vô Kỵ bằng những mưu kế hèn hạ.' }
+  ]
+};

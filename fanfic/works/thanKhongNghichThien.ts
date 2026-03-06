@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thanKhongNghichThien: FanficWork = {
+  id: 'than-khong-nghich-thien',
+  title: 'Nghịch Thiên Tà Thần (Against the Gods)',
+  description: 'Vân Triệt mang theo ký ức kiếp trước và Thiên Độc Châu, bắt đầu hành trình nghịch thiên tại Lam Cực Tinh.',
+  country: 'Trung',
+  plot: 'Vân Triệt bị truy sát ở Thương Vân Đại Lục và nhảy xuống vực thẳm đồng quy vu tận với kẻ thù. Anh tái sinh vào thân xác của Tiêu Triệt, một thiếu niên bị phế bỏ huyền mạch ở Lam Cực Tinh. Nhờ Thiên Độc Châu và những cơ duyên kỳ lạ, Vân Triệt bắt đầu con đường tu luyện đầy sát phạt, phong lưu và khuấy đảo cả thần giới.',
+  worldSetting: 'Thế giới huyền huyễn với các đại lục và thần giới rộng lớn. Hệ thống tu luyện: Sơ Huyền, Nhập Huyền, Chân Huyền, Linh Huyền, Địa Huyền, Thiên Huyền, Vương Huyền, Bá Huyền, Quân Huyền... cho đến Thần cảnh.',
+  characters: [
+    { name: 'Vân Triệt', role: 'Nhân vật chính', description: 'Quyết đoán, sát phạt, phong lưu và cực kỳ bảo vệ người thân. Sở hữu Thiên Độc Châu và tà thần chi lực.' },
+    { name: 'Nhạ Công Chúa (Hạ Khuynh Nguyệt)', role: 'Nữ chính', description: 'Vợ của Vân Triệt, thiên tài tuyệt thế, có thân thế bí ẩn và sức mạnh kinh hồn.' },
+    { name: 'Tiểu Tiên Nữ (Sở Nguyệt Thiền)', role: 'Nữ chính', description: 'Băng mỹ nhân của Băng Hà Cung, người con gái Vân Triệt luôn tìm kiếm và trân trọng.' },
+    { name: 'Tô Lệnh Nhi', role: 'Nữ chính', description: 'Người con gái dịu dàng luôn chờ đợi Vân Triệt, có mối lương duyên sâu đậm từ kiếp trước.' },
+    { name: 'Phượng Tuyết Nhi', role: 'Nữ chính', description: 'Công chúa của Phượng Hoàng Thần Tông, sở hữu huyết mạch Phượng Hoàng thuần khiết.' },
+    { name: 'Nh茉 Lị (Jasmine)', role: 'Người dẫn dắt / Đồng minh', description: 'Tinh Sát Thần, người đã ban cho Vân Triệt tà thần chi lực và dẫn dắt anh trong giai đoạn đầu.' },
+    { name: 'Mộc Huyền Âm', role: 'Nữ chính / Sư phụ', description: 'Sư phụ của Vân Triệt ở Thần Giới, lạnh lùng nhưng cực kỳ quan tâm đến anh.' },
+    { name: 'Thủy Mị Âm', role: 'Nữ chính', description: 'Thiên tài sở hữu Vô Cấu Thủy Hồn, có khả năng thao túng linh hồn và tình cảm sâu đậm với Vân Triệt.' },
+    { name: 'Thải Chỉ', role: 'Nữ chính', description: 'Thiên Lang Tinh Thần, em gái của Jasmine, ban đầu hận Vân Triệt nhưng sau đó trở thành đồng minh quan trọng.' },
+    { name: 'Long Hi', role: 'Nữ chính', description: 'Long Thần của Long Thần Giới, người phụ nữ mạnh mẽ và kiêu ngạo đã bị Vân Triệt chinh phục.' },
+    { name: 'Sơ Chỉ', role: 'Nữ chính', description: 'Một trong những thê thiếp của Vân Triệt, dịu dàng và luôn ủng hộ anh.' },
+    { name: 'Tiêu Linh Tịch', role: 'Nữ chính', description: 'Cô út của Vân Triệt, người đã cùng anh lớn lên và có mối tình sâu đậm vượt qua lễ giáo.' },
+    { name: 'Thương Nguyệt', role: 'Nữ chính', description: 'Công chúa của Thương Phong Quốc, người đã cùng Vân Triệt gánh vác vận mệnh của đất nước.' },
+    { name: 'Hạ Nguyên Bá', role: 'Đồng minh / Bạn thân', description: 'Em trai của Hạ Khuynh Nguyệt, người bạn trung thành nhất của Vân Triệt, sở hữu Bá Hoàng Thần Mạch.' },
+    { name: 'Tiêu Liệt', role: 'Gia đình', description: 'Ông nội của Vân Triệt, người đã nuôi dưỡng và bảo vệ anh trong những năm tháng khó khăn nhất.' },
+    { name: 'Vân Thương Hải', role: 'Gia đình', description: 'Cha ruột của Vân Triệt, một kỵ sĩ dũng cảm của Huyễn Yêu Giới, người đã hy sinh để bảo vệ gia tộc.' },
+    { name: 'Mộc Phỉ Yên', role: 'Gia đình', description: 'Mẹ ruột của Vân Triệt, người luôn mong mỏi ngày được đoàn tụ với con trai mình.' },
+    { name: 'Vân Vô Tâm', role: 'Gia đình', description: 'Con gái của Vân Triệt và Sở Nguyệt Thiền, thiên tài nhỏ tuổi thừa hưởng mọi tinh hoa của cha mẹ.' },
+    { name: 'Long Hoàng', role: 'Lãnh đạo', description: 'Người đứng đầu Long Thần Giới, thực thể mạnh mẽ nhất Thần Giới trước khi Vân Triệt xuất hiện.' },
+    { name: 'Trụ Thiên Thần Đế', role: 'Phản diện', description: 'Một trong những thần đế của Thần Giới, kẻ luôn âm mưu thao túng vận mệnh của vũ trụ.' },
+    { name: 'Phạn Thiên Thần Đế', role: 'Phản diện', description: 'Thần đế của Phạn Thiên Thần Giới, kẻ sở hữu sức mạnh và tham vọng cực lớn.' },
+    { name: 'Nguyệt Thần Đế', role: 'Phản diện / Đồng minh', description: 'Thần đế của Nguyệt Thần Giới, người có mối quan hệ phức tạp và đầy duyên nợ với Vân Triệt.' },
+    { name: 'Tinh Thần Đế', role: 'Phản diện', description: 'Cha của Jasmine và Thải Chỉ, kẻ đã hy sinh con gái mình để đạt được sức mạnh tối thượng.' },
+    { name: 'Ma Đế (Kiếp Thiên)', role: 'Nhân vật quan trọng', description: 'Thực thể tà ác cổ xưa trở lại từ vực thẳm, người mang đến tai ương cho toàn vũ trụ.' },
+    { name: 'Tà Thần', role: 'Huyền thoại', description: 'Vị thần cổ xưa đã ban sức mạnh cho Vân Triệt, nguồn gốc của mọi kỳ tích mà anh tạo ra.' },
+    { name: 'Hoang Thiên', role: 'Huyền thoại', description: 'Vị thần của sự hoang dã, người đã để lại những di sản quý giá cho hậu thế.' },
+    { name: 'Thủy Ánh Nguyệt', role: 'Đồng minh', description: 'Chị gái của Thủy Mị Âm, một nữ tử tài năng luôn hỗ trợ em gái và Vân Triệt.' },
+    { name: 'Phượng Hoành Không', role: 'Hỗ trợ', description: 'Tông chủ của Phượng Hoàng Thần Tông, cha của Phượng Tuyết Nhi, người đã công nhận tài năng của Vân Triệt.' },
+    { name: 'Thần Giới Thiên Đạo', role: 'Thực thể', description: 'Ý chí của vũ trụ, người luôn thử thách và giám sát hành trình nghịch thiên của Vân Triệt.' },
+    { name: 'Vân Gia Trưởng Lão', role: 'Lãnh đạo', description: 'Một vị tiền bối của Vân gia ở Huyễn Yêu Giới, người đã giúp Vân Triệt khôi phục vị thế gia tộc.' }
+  ]
+};

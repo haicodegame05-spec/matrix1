@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const toanCauCaoVu: FanficWork = {
+  id: 'toan-cau-cao-vu',
+  title: 'Toàn Cầu Cao Võ',
+  description: 'Phương Bình, một thanh niên bình thường, bỗng nhiên thấy thế giới thay đổi nơi võ đạo trở thành thước đo của mọi giá trị.',
+  country: 'Trung',
+  plot: 'Phương Bình tỉnh dậy và nhận ra thế giới mình đang sống đã biến thành một nơi mà võ đạo là tối thượng. Với một hệ thống "Tiền tài" bí ẩn cho phép anh đổi tiền lấy tài nguyên tu luyện, Phương Bình bắt đầu hành trình thăng tiến thần tốc, tham gia vào cuộc chiến bảo vệ nhân loại khỏi những thế giới ngầm đầy rẫy hiểm nguy.',
+  worldSetting: 'Thế giới hiện đại nhưng võ đạo phát triển cực thịnh. Con người phải chiến đấu với các "Địa Quật" (Hầm ngục thế giới ngầm) để sinh tồn.',
+  characters: [
+    { name: 'Phương Bình', role: 'Nhân vật chính', description: 'Thực dụng, yêu tiền, nhưng cực kỳ dũng cảm và có trách nhiệm với nhân loại. Là thiên tài võ đạo thăng tiến nhanh nhất.' },
+    { name: 'Vương Kim Dương', role: 'Người dẫn dắt / Bạn bè', description: 'Thiên tài võ đạo, người đã dẫn dắt Phương Bình vào con đường tu luyện chuyên nghiệp.' },
+    { name: 'Lý Hàn Tùng', role: 'Đồng minh', description: 'Một chiến binh mạnh mẽ với khả năng phòng ngự kinh người, là đồng đội tin cậy của Phương Bình.' },
+    { name: 'Diêu Thành Quân', role: 'Đồng minh', description: 'Thiên tài tinh thần lực, tính cách lạnh lùng nhưng luôn sát cánh cùng Phương Bình trong các trận chiến.' },
+    { name: 'Lý Trường Sinh', role: 'Người dẫn dắt', description: 'Một vị tiền bối võ đạo với kiếm pháp vô song, người đã dạy cho Phương Bình nhiều bài học quý giá.' },
+    { name: 'Trương Đào', role: 'Thủ lĩnh', description: 'Người đứng đầu bộ giáo dục võ đạo Trung Quốc, một vị đại năng luôn âm thầm bảo vệ và dẫn dắt thế hệ trẻ.' },
+    { name: 'Phương Viên', role: 'Em gái', description: 'Em gái của Phương Bình, tính tình hoạt bát, sau này cũng đi theo con đường võ đạo để không trở thành gánh nặng cho anh trai.' },
+    { name: 'Tần Phượng Thanh', role: 'Đồng minh', description: 'Bạn thân của Phương Bình, cực kỳ tham tiền và liều mạng, thường xuyên cùng Phương Bình đi "vơ vét" tài nguyên ở Địa Quật.' },
+    { name: 'Ngô Khuê Sơn', role: 'Người dẫn dắt', description: 'Hiệu trưởng trường Đại học Võ đạo Ma Đô (Ma Vũ), một vị tông sư mạnh mẽ và hết lòng vì học trò.' },
+    { name: 'Lữ Phượng Nhu', role: 'Sư phụ', description: 'Sư phụ của Phương Bình, tính tình nóng nảy nhưng cực kỳ bảo vệ đồ đệ, có quá khứ đau thương liên quan đến Địa Quật.' },
+    { name: 'Trần Gia Hào', role: 'Bạn bè', description: 'Bạn học từ thời cấp 3 của Phương Bình, chứng kiến sự thăng tiến thần tốc của anh và luôn nỗ lực để đuổi kịp.' },
+    { name: 'Thương Khải Giang', role: 'Đại năng', description: 'Một trong những vị chiến thần mạnh nhất nhân loại, người trấn giữ những cửa ngõ quan trọng nhất vào Địa Quật.' },
+    { name: 'Khương Siêu', role: 'Đồng minh', description: 'Hậu duệ của một gia tộc võ đạo lâu đời, tính tình phóng khoáng, là một trong những thiên tài cùng thế hệ với Phương Bình.' },
+    { name: 'Trương Bằng', role: 'Phụ thân', description: 'Cha của Phương Bình, một người đàn ông hiền lành, luôn ủng hộ con trai hết mình.' },
+    { name: 'Lý Ngọc Anh', role: 'Mẫu thân', description: 'Mẹ của Phương Bình, người phụ nữ đảm đang, là hậu phương vững chắc cho gia đình.' },
+    { name: 'Triệu Tuyết Mai', role: 'Bạn bè', description: 'Bạn học tại Ma Vũ, tính tình kiên cường, luôn nỗ lực tu luyện để không bị tụt lại phía sau.' },
+    { name: 'Phó Xương Đỉnh', role: 'Bạn bè', description: 'Bạn học tại Ma Vũ, có gia thế tốt nhưng không ỷ lại, là một trong những đồng đội đầu tiên của Phương Bình.' },
+    { name: 'Dương Tiểu Mạn', role: 'Bạn bè', description: 'Thiên tài của Ma Vũ, tính cách có phần kiêu ngạo nhưng rất trọng tình nghĩa.' },
+    { name: 'Đường Phong', role: 'Sư phụ', description: 'Giảng viên tại Ma Vũ, biệt danh "Sư tử điên", phương pháp dạy dỗ cực kỳ khắc nghiệt.' },
+    { name: 'Ngô Xuyên', role: 'Tiền bối', description: 'Tông sư trấn giữ Địa Quật, luôn chiến đấu ở tuyến đầu để bảo vệ nhân loại.' },
+    { name: 'Điền Mục', role: 'Tiền bối', description: 'Một vị tông sư quân đội, tính tình hào sảng, rất tán thưởng tài năng của Phương Bình.' },
+    { name: 'Lý Chấn', role: 'Thủ lĩnh', description: 'Tư lệnh quân đội nhân loại, một trong những người mạnh nhất Trái Đất, gánh vác vận mệnh nhân tộc.' },
+    { name: 'Trấn Thiên Vương', role: 'Đại năng', description: 'Vị thần bảo hộ nhân loại suốt hàng nghìn năm, thực lực thâm sâu khó lường.' },
+    { name: 'Khôn Vương', role: 'Phản diện', description: 'Đại năng Địa Quật, luôn âm mưu xâm chiếm Trái Đất và tiêu diệt nhân loại.' },
+    { name: 'Mệnh Vương', role: 'Phản diện', description: 'Thủ lĩnh của yêu tộc Địa Quật, sở hữu sức mạnh thần bí và mưu đồ to lớn.' },
+    { name: 'Lê Chử', role: 'Phản diện', description: 'Một kẻ xảo quyệt trong Địa Quật, luôn tìm cách hãm hại Phương Bình và các thiên tài nhân loại.' },
+    { name: 'Thẩm Hạo Thiên', role: 'Tông sư', description: 'Tông sư của Ma Vũ, người luôn âm thầm cống hiến cho sự nghiệp giáo dục võ đạo.' },
+    { name: 'Tô Hạo Nhiên', role: 'Tông sư', description: 'Một vị tông sư ẩn cư, sở hữu những tuyệt kỹ võ học cổ xưa.' },
+    { name: 'Mạc Vấn Thiên', role: 'Đại năng', description: 'Vị vua cổ đại của nhân loại, người đã để lại nhiều di sản cho thế hệ sau.' },
+    { name: 'Thương Khải Giang', role: 'Đại năng', description: 'Một trong những vị chiến thần mạnh nhất nhân loại, người trấn giữ những cửa ngõ quan trọng nhất vào Địa Quật.' }
+  ]
+};

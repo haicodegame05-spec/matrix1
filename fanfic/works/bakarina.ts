@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const bakarina: FanficWork = {
+  id: 'bakarina',
+  title: 'Chuyển Sinh Làm Nữ Phụ Phản Diện (My Next Life as a Villainess)',
+  description: 'Katarina Claes, một cô gái hiện đại chuyển sinh vào trò chơi Otome, nhưng lại là... nữ phụ phản diện!',
+  country: 'Nhật',
+  plot: 'Katarina Claes, con gái duy nhất của Công tước Claes, sau một lần ngã đập đầu đã nhớ lại kiếp trước là một nữ sinh Nhật Bản. Cô nhận ra mình đang ở trong trò chơi Otome "Fortune Lover" và bản thân chính là nữ phụ phản diện có kết cục bi thảm nhất. Để tránh cái chết hoặc bị lưu đày, Katarina bắt đầu kế hoạch "phá hủy" mọi cờ tử thần, nhưng vô tình lại khiến tất cả các nhân vật chính đều yêu mình.',
+  worldSetting: 'Một thế giới ma pháp mang phong cách châu Âu thời Phục hưng. Sức mạnh dựa trên các nguyên tố tự nhiên. Katarina sở hữu ma pháp đất (nhưng chỉ đủ để tạo ra một cái ụ đất nhỏ).',
+  characters: [
+    { name: 'Katarina Claes', role: 'Nhân vật chính', age: '17', description: 'Biệt danh "Bakarina" vì sự ngây thơ và ngốc nghếch của mình. Luôn lo lắng về tương lai nhưng lại vô tình thu phục trái tim của mọi người.' },
+    { name: 'Geordo Stuart', role: 'Hôn phu / Nam chính', age: '17', description: 'Tam hoàng tử, vẻ ngoài hoàn hảo nhưng bên trong là một kẻ thâm trầm và chiếm hữu. Luôn tìm cách giữ Katarina bên mình.' },
+    { name: 'Keith Claes', role: 'Em trai / Nam chính', age: '17', description: 'Em trai nuôi của Katarina, sở hữu ma pháp đất mạnh mẽ. Ban đầu cô độc nhưng đã được Katarina sưởi ấm trái tim.' },
+    { name: 'Alan Stuart', role: 'Nam chính', age: '17', description: 'Tứ hoàng tử, em trai sinh đôi của Mary. Một thiên tài âm nhạc, ban đầu coi Katarina là đối thủ nhưng sau đó lại yêu cô.' },
+    { name: 'Nicol Ascart', role: 'Nam chính', age: '17', description: 'Con trai của Tể tướng, vẻ ngoài lạnh lùng nhưng cực kỳ quyến rũ. Luôn âm thầm quan tâm và bảo vệ Katarina.' },
+    { name: 'Mary Hunt', role: 'Nữ chính / Bạn thân', age: '17', description: 'Hôn thê của Alan, xinh đẹp và tài giỏi. Yêu Katarina đến mức coi cô là ưu tiên hàng đầu, vượt qua cả Alan.' },
+    { name: 'Sophia Ascart', role: 'Nữ chính / Bạn thân', age: '17', description: 'Em gái của Nicol, một cô gái yêu sách. Thực chất là chuyển sinh của người bạn thân nhất của Katarina ở kiếp trước.' },
+    { name: 'Maria Campbell', role: 'Nữ chính thực sự', age: '17', description: 'Nhân vật chính của trò chơi gốc, sở hữu ma pháp ánh sáng hiếm có. Thay vì yêu các hoàng tử, cô lại yêu Katarina.' },
+    { name: 'Anne Shelley', role: 'Hỗ trợ', age: '25+', description: 'Hầu gái thân cận nhất của Katarina, người luôn lo lắng và chăm sóc cho cô chủ ngốc nghếch của mình.' },
+    { name: 'Raphael Walt', role: 'Hỗ trợ / Đối thủ', age: '20+', description: 'Thành viên hội học sinh, mang trong mình ma pháp bóng tối. Từng bị bóng tối thao túng nhưng đã được Katarina cứu rỗi.' },
+    { name: 'Sora', role: 'Hỗ trợ', age: '20+', description: 'Một điệp viên từ quốc gia khác, sau này trở thành thuộc hạ trung thành của Katarina.' },
+    { name: 'Larna Smith', role: 'Hỗ trợ', age: '30+', description: 'Một nữ pháp sư tài ba của Bộ Ma Pháp, người luôn quan tâm đến Katarina và các bí ẩn ma pháp.' },
+    { name: 'Jeffrey Stuart', role: 'Nhân vật quan trọng', age: '25+', description: 'Nhất hoàng tử, một người có tính cách kỳ quặc nhưng rất quan tâm đến các em trai của mình.' },
+    { name: 'Ian Stuart', role: 'Nhân vật quan trọng', age: '23+', description: 'Nhị hoàng tử, nghiêm túc và có phần lạnh lùng, luôn nỗ lực vì vương quốc.' },
+    { name: 'Selena Berg', role: 'Hỗ trợ', age: '20+', description: 'Hôn thê của Ian, một cô gái hiền lành và luôn ủng hộ chồng mình.' },
+    { name: 'Suzanna Randall', role: 'Hỗ trợ', age: '25+', description: 'Hôn thê của Jeffrey, một người phụ nữ thông minh và sắc sảo.' },
+    { name: 'Millidiana Claes', role: 'Mẫu thân', age: '40+', description: 'Mẹ của Katarina, người luôn nghiêm khắc và lo lắng về hành vi kỳ quặc của con gái mình.' },
+    { name: 'Luigi Claes', role: 'Phụ thân', age: '45+', description: 'Cha của Katarina, một người cha hiền hậu và luôn chiều chuộng con gái.' },
+    { name: 'Atsuko (Acchan)', role: 'Bạn kiếp trước', age: '17', description: 'Người bạn thân nhất của Katarina ở Nhật Bản, người đã cùng cô chơi Fortune Lover.' },
+    { name: 'Pochi', role: 'Thú cưng', age: '???', description: 'Một con chó ma pháp do Katarina tạo ra từ ma pháp đất, luôn đi theo bảo vệ cô.' },
+    { name: 'The King of Stuart', role: 'Gia đình', age: '50+', description: 'Vua của vương quốc, cha của các hoàng tử. Ông là một người cha nghiêm khắc nhưng công bằng.' },
+    { name: 'The Queen of Stuart', role: 'Gia đình', age: '45+', description: 'Hoàng hậu, mẹ của các hoàng tử, người luôn lo lắng về sự cạnh tranh giữa các con trai mình.' },
+    { name: 'Marquis Hunt', role: 'Gia đình', age: '50+', description: 'Cha của Mary, một quý tộc quyền lực, người ban đầu không coi trọng Mary nhưng đã thay đổi sau khi thấy sự tiến bộ của cô.' },
+    { name: 'Mary\'s Sisters', role: 'Đối thủ', age: '20+', description: 'Các chị gái cùng cha khác mẹ của Mary, những người từng bắt nạt cô trước khi Katarina xuất hiện.' },
+    { name: 'The Dark Sorcerer', role: 'Phản diện', age: '40+', description: 'Một pháp sư bóng tối bí ẩn, kẻ đứng sau những âm mưu hãm hại Katarina và các bạn của cô.' },
+    { name: 'The Claes Family Butler', role: 'Hỗ trợ', age: '50+', description: 'Quản gia trung thành của gia tộc Claes, người luôn đảm bảo mọi thứ trong dinh thự vận hành trơn tru.' },
+    { name: 'The Royal Gardener', role: 'Hỗ trợ', age: '60+', description: 'Người làm vườn già nua, người đã dạy Katarina những kỹ thuật trồng trọt thực thụ.' },
+    { name: 'The Ministry Official', role: 'Đối thủ / Đồng minh', age: '35', description: 'Một quan chức tại Bộ Ma Pháp, người luôn theo dõi các hoạt động của Katarina vì lo ngại về sức mạnh tiềm ẩn của cô.' },
+    { name: 'The Academy Student 1', role: 'Nhân vật phụ', age: '17', description: 'Một học sinh tại học viện ma pháp, người luôn ngưỡng mộ và cố gắng bắt chước phong cách của Katarina.' },
+    { name: 'The Academy Student 2', role: 'Nhân vật phụ', age: '17', description: 'Một học sinh khác, người thường xuyên tham gia vào các bữa tiệc trà do Katarina tổ chức.' }
+  ]
+};

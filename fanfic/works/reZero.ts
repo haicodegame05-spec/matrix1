@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const reZero: FanficWork = {
+  id: 're-zero',
+  title: 'Re:Zero - Bắt đầu lại ở thế giới khác',
+  description: 'Subaru Natsuki bị triệu hồi đến thế giới khác và sở hữu năng lực "Trở về từ cõi chết" mỗi khi anh hy sinh.',
+  country: 'Nhật',
+  plot: 'Subaru, một học sinh bình thường, bỗng nhiên bị đưa đến một thế giới kỳ ảo. Tại đây, anh gặp gỡ Emilia và bị cuốn vào những âm mưu chính trị và nguy hiểm chết người. Subaru phát hiện ra mình có khả năng quay ngược thời gian về một "điểm lưu" mỗi khi chết. Anh phải dùng năng lực đau đớn này để bảo vệ những người mình yêu thương và thay đổi tương lai bi thảm.',
+  worldSetting: 'Thế giới kỳ ảo với ma pháp, tinh linh và các cuộc tranh giành ngai vàng. Năng lực của Subaru là một lời nguyền bí ẩn từ Phù Thủy Ghen Tuông Satella.',
+  characters: [
+    { name: 'Subaru Natsuki', role: 'Nhân vật chính', age: '18', description: 'Chàng trai bình thường bị triệu hồi đến thế giới khác với năng lực "Trở về từ cõi chết". Anh sở hữu ý chí sắt đá, sẵn sàng hy sinh bản thân vô số lần để cứu những người mình yêu thương.' },
+    { name: 'Emilia', role: 'Nữ chính', age: '115 (ngoại hình 18)', description: 'Bán tiên xinh đẹp với mái tóc bạc, ứng cử viên cho ngai vàng Lugnica. Cô có trái tim nhân hậu, luôn giúp đỡ người khác dù bị kỳ thị do ngoại hình giống Phù Thủy Ghen Tuông.' },
+    { name: 'Rem', role: 'Nữ chính / Hầu gái', age: '17', description: 'Hầu gái quỷ tại dinh thự Roswaal, em gái sinh đôi của Ram. Cô dành tình yêu tuyệt đối và sự ủng hộ vô điều kiện cho Subaru sau khi anh cứu cô khỏi bóng tối quá khứ.' },
+    { name: 'Ram', role: 'Hầu gái', age: '17', description: 'Chị gái của Rem, từng là thiên tài của tộc quỷ trước khi mất đi sừng. Cô có tính cách sắc sảo, độc miệng nhưng cực kỳ quan tâm đến em gái và Subaru.' },
+    { name: 'Beatrice', role: 'Tinh linh thư viện', age: '400+', description: 'Tinh linh nhân tạo canh giữ thư viện cấm của Roswaal. Sau khi được Subaru giải cứu khỏi sự cô độc kéo dài hàng thế kỷ, cô trở thành tinh linh giao ước của anh.' },
+    { name: 'Roswaal L. Mathers', role: 'Lãnh chúa / Phù thủy', age: '400+', description: 'Phù thủy mạnh nhất vương quốc, người đứng sau nhiều biến cố nhằm hồi sinh sư phục mình là Echidna. Ông là một nhân vật phức tạp và đầy mưu mô.' },
+    { name: 'Reinhard van Astrea', role: 'Thánh Kiếm Sĩ', age: '19', description: 'Người mạnh nhất thế giới với vô số phước lành. Anh là hiện thân của công lý và sức mạnh tuyệt đối, luôn sẵn sàng giúp đỡ Subaru khi cần thiết.' },
+    { name: 'Felt', role: 'Ứng cử viên ngai vàng', age: '15', description: 'Cô bé lớn lên ở khu ổ chuột, sau này được tiết lộ là công chúa bị thất lạc của vương quốc. Cô có tính cách mạnh mẽ, yêu tự do và ghét sự gò bó của hoàng gia.' },
+    { name: 'Crusch Karsten', role: 'Ứng cử viên ngai vàng', age: '20', description: 'Nữ công tước tài ba, một nhà lãnh đạo quyết đoán với khả năng nhìn thấu lời nói dối. Cô là đồng minh quan trọng của Subaru trong trận chiến với Cá Voi Trắng.' },
+    { name: 'Echidna', role: 'Phù Thủy Tham Lam', age: 'Unknown', description: 'Một trong bảy phù thủy đại tội, sở hữu tri thức vô hạn. Cô luôn tò mò về năng lực của Subaru và cố gắng lập giao ước với anh trong Lâu Đài Tri Thức.' },
+    { name: 'Julius Juukulius', role: 'Thánh Kiếm Sĩ / Hiệp sĩ', age: '21', description: 'Hiệp sĩ của Anastasia, một người tài năng, chính trực và luôn tuân thủ quy tắc. Anh từng có mâu thuẫn với Subaru nhưng sau đó đã trở thành bạn đồng hành đáng tin cậy.' },
+    { name: 'Felix Argyle (Ferris)', role: 'Hiệp sĩ / Y sĩ', age: '20', description: 'Hiệp sĩ của Crusch, một y sĩ tài ba với khả năng hồi phục ma pháp đỉnh cao. Anh có vẻ ngoài giống mèo và tính cách tinh nghịch.' },
+    { name: 'Anastasia Hoshin', role: 'Ứng cử viên ngai vàng', age: '22', description: 'Một nữ thương nhân tài ba đến từ Kararagi, luôn khao khát sở hữu mọi thứ. Cô là một nhà lãnh đạo thông minh và đầy tham vọng.' },
+    { name: 'Priscilla Barielle', age: '19', role: 'Ứng cử viên ngai vàng', description: 'Nữ công tước kiêu ngạo, tin rằng thế giới luôn xoay quanh mình. Cô sở hữu vận may kỳ lạ và sức mạnh hỏa diệm đáng sợ.' },
+    { name: 'Aldebaran (Al)', role: 'Hiệp sĩ của Priscilla', age: '30+', description: 'Một người đàn ông bí ẩn đến từ thế giới khác giống như Subaru. Anh luôn đeo mặt nạ sắt và sở hữu những năng lực chiến đấu kỳ lạ.' },
+    { name: 'Wilhelm van Astrea', role: 'Kiếm Quỷ', age: '60+', description: 'Một kiếm sĩ huyền thoại, người đã dành cả đời để trả thù cho vợ mình là Theresia. Ông là một chiến binh dũng cảm và giàu kinh nghiệm.' },
+    { name: 'Theresia van Astrea', role: 'Thánh Kiếm Sĩ tiền nhiệm', age: 'Unknown', description: 'Vợ của Wilhelm, người sở hữu phước lành của Thánh Kiếm. Cô là một người phụ nữ dịu dàng nhưng mang trong mình gánh nặng của sức mạnh.' },
+    { name: 'Petelgeuse Romanee-Conti', role: 'Giám mục đại tội Lười Biếng', age: '400+', description: 'Một kẻ điên rồ, cuồng tín phục vụ Phù Thủy Ghen Tuông. Hắn sở hữu năng lực "Bàn tay vô hình" và là kẻ thù đáng sợ của Subaru.' },
+    { name: 'Regulus Corneas', role: 'Giám mục đại tội Tham Lam', age: 'Unknown', description: 'Một kẻ ích kỷ, luôn cho rằng mình là người hoàn hảo nhất. Hắn sở hữu năng lực "Sự tĩnh lặng của thời gian" khiến bản thân bất khả xâm phạm.' },
+    { name: 'Lye Batenkaitos', role: 'Giám mục đại tội Phàm Ăn', age: 'Unknown', description: 'Kẻ có khả năng ăn đi ký ức và tên tuổi của người khác, khiến họ bị cả thế giới lãng quên. Hắn là kẻ đã khiến Rem rơi vào trạng thái ngủ say.' },
+    { name: 'Satella', role: 'Phù Thủy Ghen Tuông', age: 'Unknown', description: 'Thực thể đáng sợ nhất thế giới, người đã trao cho Subaru năng lực "Trở về từ cõi chết". Cô luôn thì thầm lời yêu thương với anh từ trong bóng tối.' },
+    { name: 'Minerva', role: 'Phù Thủy Phẫn Nộ', age: 'Unknown', description: 'Một phù thủy có khả năng chữa lành mọi vết thương bằng cách đấm vào đối phương, nhưng cái giá phải trả là sự mất cân bằng của thế giới.' },
+    { name: 'Carmilla', role: 'Phù Thủy Sắc Dục', age: 'Unknown', description: 'Một phù thủy nhút nhát nhưng sở hữu năng lực khiến bất kỳ ai nhìn thấy cô đều bị mê hoặc đến mức ngừng thở.' },
+    { name: 'Typhon', role: 'Phù Thủy Kiêu Ngạo', age: 'Unknown', description: 'Một phù thủy nhỏ tuổi có khả năng phán xét tội lỗi của người khác bằng cách làm tan biến các bộ phận cơ thể của họ.' },
+    { name: 'Daphne', role: 'Phù Thủy Phàm Ăn', age: 'Unknown', description: 'Người tạo ra ba đại ma thú, luôn bị cơn đói hành hạ và sở hữu đôi mắt có thể khiến bất kỳ ai nhìn vào đều phát điên vì đói.' },
+    { name: 'Sekhmet', role: 'Phù Thủy Lười Biếng', age: 'Unknown', description: 'Phù thủy lười biếng đến mức việc thở cũng thấy mệt mỏi, nhưng sở hữu sức mạnh áp đảo có thể đè bẹp mọi thứ xung quanh.' },
+    { name: 'Pandora', role: 'Phù Thủy Hư Vinh', age: 'Unknown', description: 'Một thực thể bí ẩn có khả năng thay đổi thực tại thông qua lời nói, là kẻ đứng sau nhiều thảm kịch trong quá khứ.' },
+    { name: 'Hector', role: 'Ma Nhân U Sầu', age: 'Unknown', description: 'Một thực thể cổ xưa sở hữu sức mạnh trọng lực cực lớn, từng đối đầu với Roswaal và Echidna trong quá khứ.' },
+    { name: 'Otto Suwen', role: 'Đồng minh / Thương gia', age: '20', description: 'Một thương gia có khả năng giao tiếp với mọi sinh vật. Anh là người bạn trung thành và là bộ não hậu cần quan trọng của nhóm Subaru.' },
+    { name: 'Garfiel Tinsel', role: 'Đồng minh / Hộ vệ', age: '14', description: 'Người bảo vệ Thánh Địa với khả năng biến hình thành hổ khổng lồ. Anh có tính cách nóng nảy nhưng cực kỳ trung thành và mạnh mẽ.' }
+  ]
+};

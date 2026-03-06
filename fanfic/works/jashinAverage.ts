@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const jashinAverage: FanficWork = {
+  id: 'jashin-average',
+  title: 'Tà Thần Tầm Thường (Jashin Average)',
+  description: 'Một cô gái chuyển sinh thành một Tà Thần với sức mạnh "tầm thường" (theo tiêu chuẩn của Tà Thần).',
+  country: 'Nhật',
+  plot: 'Một cô gái Nhật Bản bình thường chuyển sinh thành một Tà Thần ở dị giới. Tuy nhiên, cô chỉ muốn sống một cuộc đời bình yên và "tầm thường". Vấn đề là, tiêu chuẩn "tầm thường" của một Tà Thần lại vượt xa sức mạnh của bất kỳ anh hùng hay ma vương nào. Cô vô tình thu phục các thuộc hạ trung thành và xây dựng một mê cung đáng sợ, trong khi vẫn tin rằng mình chỉ là một Tà Thần bình thường.',
+  worldSetting: 'Một thế giới fantasy nơi các vị thần, anh hùng và ma vương tồn tại. Sức mạnh dựa trên các kỹ năng (Skill) và Mana. Cô sở hữu khả năng sáng tạo mê cung và thuộc hạ từ hư vô.',
+  characters: [
+    { name: 'Anri (Tà Thần)', role: 'Nhân vật chính', age: '18 (???)', description: 'Tà Thần chuyển sinh. Thông minh, lười biếng và luôn muốn sống "tầm thường". Luôn kinh ngạc trước sức mạnh của chính mình.' },
+    { name: 'Tena', role: 'Thuộc hạ / Nữ chính', age: '18', description: 'Một nữ hiệp sĩ bị Anri thu phục, trở thành thuộc hạ trung thành nhất. Xinh đẹp, dũng cảm và luôn ngưỡng mộ Anri.' },
+    { name: 'Lulu', role: 'Thuộc hạ / Harem', age: '15', description: 'Một cô bé thuộc tộc người thú, nô lệ được Anri giải cứu. Năng động, ham ăn và rất trung thành.' },
+    { name: 'Mina', role: 'Thuộc hạ / Harem', age: '20', description: 'Một nữ pháp sư tài ba, người đã gia nhập mê cung của Anri để nghiên cứu ma pháp.' },
+    { name: 'Sera', role: 'Thuộc hạ / Harem', age: '20', description: 'Một nữ chiến binh mạnh mẽ, người đã thề trung thành với Anri sau khi bị cô đánh bại.' },
+    { name: 'The Hero', role: 'Đối thủ', age: '20+', description: 'Một anh hùng nhân loại cố gắng tiêu diệt Anri nhưng thất bại thảm hại.' },
+    { name: 'The Demon Lord', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thực thể cai trị thế giới, ban đầu đối đầu với Anri nhưng sau đó nể phục sức mạnh của cô.' },
+    { name: 'God of Light', role: 'Đối thủ', age: 'Vĩnh cửu', description: 'Vị thần tối cao của ánh sáng, kẻ thù truyền kiếp của Tà Thần.' },
+    { name: 'Evil God 1', role: 'Đồng minh', age: 'Vĩnh cửu', description: 'Một Tà Thần khác, người đã giúp đỡ Anri trong giai đoạn đầu.' },
+    { name: 'Evil God 2', role: 'Đồng minh', age: 'Vĩnh cửu', description: 'Thành viên khác trong hội Tà Thần, chuyên về ma pháp bóng tối.' },
+    { name: 'Dungeon Master 1', role: 'Hỗ trợ', age: '???', description: 'Một quản lý mê cung tài ba, người đã giúp Anri xây dựng căn cứ.' },
+    { name: 'Dungeon Master 2', role: 'Hỗ trợ', age: '???', description: 'Thành viên khác trong đội quản lý mê cung, chuyên về bẫy và phòng thủ.' },
+    { name: 'Adventurer 1', role: 'Đối thủ', age: '25+', description: 'Một mạo hiểm giả cố gắng thám hiểm mê cung của Anri.' },
+    { name: 'Adventurer 2', role: 'Đối thủ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về ma pháp phòng thủ.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán vật phẩm ma pháp, người đã cung cấp cho Anri những nguyên liệu cần thiết.' },
+    { name: 'Anri (Kiếp trước)', role: 'Ký ức', age: '18', description: 'Hình bóng của cô gái bình thường luôn nhắc nhở Anri về cuộc sống cũ.' },
+    { name: 'Villager 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Anri cứu sống, luôn biết ơn và ủng hộ cô.' },
+    { name: 'Villager 2', role: 'Hỗ trợ', age: '30+', description: 'Thành viên khác trong cộng đồng, người đã giúp Anri lan tỏa kiến thức.' },
+    { name: 'Monster 1', role: 'Thuộc hạ', age: '???', description: 'Một quái vật mạnh mẽ trong mê cung, luôn trung thành với Anri.' },
+    { name: 'Monster 2', role: 'Thuộc hạ', age: '???', description: 'Thành viên khác trong đội quân quái vật, chuyên về tấn công tầm xa.' },
+    { name: 'The Pope of Light', role: 'Phản diện', age: '65', description: 'Người đứng đầu giáo hội ánh sáng, coi Anri là mối đe dọa lớn nhất đối với nhân loại.' },
+    { name: 'Kira', role: 'Thuộc hạ / Harem', age: '19', description: 'Một nữ sát thủ được phái đến để ám sát Anri nhưng lại bị cô "cảm hóa" bằng đồ ăn ngon.' },
+    { name: 'The Spirit Queen', role: 'Đồng minh', age: '???', description: 'Nữ hoàng của các tinh linh, người đã ký kết khế ước hòa bình với mê cung của Anri.' },
+    { name: 'Borg', role: 'Hỗ trợ', age: '45', description: 'Một thợ xây mê cung huyền thoại, người đã giúp Anri mở rộng căn cứ của mình.' },
+    { name: 'The Goddess of Fate', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Vị thần đã sắp đặt cuộc chuyển sinh của Anri, luôn trêu chọc cô bằng những tình huống oái oăm.' },
+    { name: 'The Royal Librarian', role: 'Hỗ trợ', age: '55', description: 'Người quản lý thư viện hoàng gia, người đã giúp Anri tìm hiểu về lịch sử của các Tà Thần tiền nhiệm.' },
+    { name: 'The Demon Merchant', role: 'Hỗ trợ', age: '40', description: 'Một thương nhân ma giới chuyên cung cấp các vật liệu xây dựng mê cung hiếm có cho Anri.' },
+    { name: 'The Holy Knight Commander', role: 'Đối thủ', age: '32', description: 'Chỉ huy đội kỵ sĩ thánh, người luôn nỗ lực tìm cách đột nhập vào mê cung của Anri để "giải cứu" thế giới.' },
+    { name: 'The Forest Spirit', role: 'Đồng minh', age: '???', description: 'Một tinh linh rừng xanh đã kết bạn với Anri, thường xuyên mang trái cây rừng đến tặng cô.' },
+    { name: 'The Village Mayor', role: 'Hỗ trợ', age: '60+', description: 'Trưởng làng của một ngôi làng nhỏ gần mê cung, người coi Anri là một vị thần bảo hộ thay vì một Tà Thần.' }
+  ]
+};

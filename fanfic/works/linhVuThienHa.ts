@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const linhVuThienHa: FanficWork = {
+  id: 'linh-vu-thien-ha',
+  title: 'Linh Vũ Thiên Hạ',
+  description: 'Lục Thiếu Du, một thanh niên hiện đại xuyên không về thế giới Linh Vũ Đại Lục, sở hữu thiên phú song tu Linh - Võ hiếm có.',
+  country: 'Trung',
+  plot: 'Lục Thiếu Du xuyên không vào thân xác một thiếu gia bị hắt hủi của Lục gia. Nhờ cơ duyên xảo hợp, anh nhận được truyền thừa của một vị đại năng và bắt đầu con đường tu luyện song hệ Linh và Võ. Với tính cách thực dụng và mưu mẹo, anh dần xây dựng thế lực của riêng mình và thống trị cả thiên hạ.',
+  worldSetting: 'Thế giới Linh Vũ Đại Lục nơi con người tu luyện Linh Lực và Vũ Lực. Hệ thống cấp bậc: Vũ Đồ, Vũ Giả, Vũ Sư, Vũ Tướng, Vũ Vương, Vũ Tôn, Vũ Đế... Linh giả cũng có các cấp bậc tương đương.',
+  characters: [
+    { name: 'Lục Thiếu Du', role: 'Nhân vật chính', age: '20', description: 'Thông minh, thực dụng, có chút "vô sỉ" nhưng cực kỳ trọng tình nghĩa. Sở hữu thiên phú song tu Linh - Võ và nhiều thú cưỡi mạnh mẽ.' },
+    { name: 'Vân Hồng Lăng', role: 'Nữ chính', age: '18', description: 'Đại tiểu thư của Vân Dương Tông, tính cách kiêu ngạo, bướng bỉnh nhưng rất mực yêu thương và chung thủy với Lục Thiếu Du.' },
+    { name: 'Lục Vô Song', role: 'Nữ chính', age: '19', description: 'Chị họ không cùng huyết thống của Lục Thiếu Du, dịu dàng, hiền thục và luôn bảo vệ anh từ những ngày đầu khó khăn.' },
+    { name: 'Bạch Linh', role: 'Nữ chính / Đồng minh', age: '1000+', description: 'Yêu thú Cửu Vĩ Yêu Hồ mạnh mẽ, xinh đẹp tuyệt trần, sau này hóa hình thành người và trở thành người vợ đắc lực của Lục Thiếu Du.' },
+    { name: 'Tiểu Long', role: 'Bạn đồng hành', age: '???', description: 'Một con yêu thú biến dị mang huyết mạch rồng và rùa, là người anh em vào sinh ra tử thân thiết nhất của Lục Thiếu Du.' },
+    { name: 'Thánh Thủ Linh Tôn', role: 'Người dẫn dắt', age: '1000+', description: 'Linh hồn của một vị đại năng, người đã truyền thụ kiến thức, bảo vật và dẫn dắt Lục Thiếu Du trên con đường tu luyện.' },
+    { name: 'Lục Tâm Đồng', role: 'Đồng minh', age: '15', description: 'Em gái của Lục Thiếu Du, sở hữu Thiên Độc Thể đáng sợ, tính cách ngây thơ nhưng cực kỳ bảo vệ anh trai.' },
+    { name: 'Độc Cô Tĩnh Văn', role: 'Nữ chính', age: '19', description: 'Thiên kim của Độc Cô gia tộc, thông minh, điềm tĩnh và là một trong những người phụ nữ quan trọng nhất đời Lục Thiếu Du.' },
+    { name: 'Bắc Cung Vô Song', role: 'Nữ chính', age: '19', description: 'Truyền nhân của Bắc Cung gia tộc, sở hữu Mộc thuộc tính mạnh mẽ, tính cách thanh cao và luôn hỗ trợ Lục Thiếu Du.' },
+    { name: 'Lục Kinh Vân', role: 'Gia đình', age: '10', description: 'Con trai của Lục Thiếu Du, thừa hưởng thiên phú kinh người và tính cách quyết đoán từ cha.' },
+    { name: 'Nam Thúc', role: 'Người dẫn dắt', age: '60', description: 'Một lão bộc bí ẩn trong Lục gia, thực chất là một vị đại năng ẩn cư, người đã dạy cho Lục Thiếu Du những kỹ năng sinh tồn đầu tiên.' },
+    { name: 'Vân Tiếu Thiên', role: 'Đồng minh', age: '50', description: 'Tông chủ của Vân Dương Tông, cha của Vân Hồng Lăng, một người có tầm nhìn xa trông rộng và luôn hỗ trợ con rể.' },
+    { name: 'Lục Trung', role: 'Gia đình', age: '45', description: 'Cha của Lục Thiếu Du, một người đàn ông nhu nhược nhưng sau này đã thay đổi để bảo vệ gia đình.' },
+    { name: 'La Lan', role: 'Gia đình', age: '40', description: 'Mẹ của Lục Thiếu Du, một người phụ nữ hiền lành, chịu nhiều khổ cực để nuôi dạy anh khôn lớn.' },
+    { name: 'Hổ Bí', role: 'Đồng minh', age: '25', description: 'Một chiến binh dũng cảm của Phi Linh Môn, luôn tiên phong trong các trận chiến bảo vệ môn phái.' },
+    { name: 'Khôi Lỗi (Lục Nhất)', role: 'Bạn đồng hành', age: 'N/A', description: 'Con rối đầu tiên do Lục Thiếu Du chế tạo, trung thành và là một chiến lực quan trọng ở giai đoạn đầu.' },
+    { name: 'Thiên Độc Yêu Long', role: 'Đồng minh', age: '1000+', description: 'Một con rồng độc mạnh mẽ, sau khi bị Lục Thiếu Du thu phục đã trở thành một hộ pháp đắc lực.' },
+    { name: 'Dương Quá', role: 'Đồng minh', age: '22', description: 'Một thiên tài kiếm đạo, người bạn và cũng là đối thủ xứng tầm của Lục Thiếu Du.' },
+    { name: 'Nguyên Nhược Lan', role: 'Đối thủ', age: '20', description: 'Thiên tài của Thiên Kiếm Môn, một cô gái mạnh mẽ, sắc sảo và luôn coi Lục Thiếu Du là mục tiêu để vượt qua.' },
+    { name: 'Lục Tiểu Bạch', role: 'Đồng minh', age: '18', description: 'Một người hầu trung thành của Lục Thiếu Du, sau này được anh tin tưởng giao quản lý nhiều công việc quan trọng.' },
+    { name: 'Khôi Lỗi (Lục Nhị)', role: 'Bạn đồng hành', age: 'N/A', description: 'Con rối thứ hai mạnh mẽ hơn, được Lục Thiếu Du cải tiến để đối phó với những kẻ thù cấp cao.' },
+    { name: 'Lão Độc Vật', role: 'Người dẫn dắt', age: '70+', description: 'Một vị đại năng chuyên về độc thuật, người đã dạy cho Lục Tâm Đồng cách kiểm soát Thiên Độc Thể.' },
+    { name: 'Vũ Ngọc Tiền', role: 'Sư phụ', age: '60+', description: 'Một trong những sư phụ của Lục Thiếu Du tại Vân Dương Tông, người đã truyền thụ cho anh nhiều kỹ năng võ học.' },
+    { name: 'Triệu Kình Hải', role: 'Đối thủ', age: '22', description: 'Một thiên tài của Triệu gia, luôn tìm cách hãm hại Lục Thiếu Du vì đố kỵ với tài năng của anh.' },
+    { name: 'Triệu Kình Thiên', role: 'Đối thủ', age: '24', description: 'Anh trai của Triệu Kình Hải, một kẻ tàn nhẫn và mưu mô, là kẻ thù lớn của Lục gia.' },
+    { name: 'Lục Thiếu Hổ', role: 'Đối thủ', age: '19', description: 'Em trai cùng cha khác mẹ của Lục Thiếu Du, luôn coi thường và tìm cách sỉ nhục anh.' },
+    { name: 'Lục Thiếu Phàm', role: 'Đối thủ', age: '21', description: 'Một người anh em khác trong Lục gia, kẻ luôn đứng về phía những kẻ hắt hủi Lục Thiếu Du.' },
+    { name: 'Thanh Hỏa Lão Quỷ', role: 'Phản diện', age: 'Unknown', description: 'Một tu sĩ tà đạo mạnh mẽ, chuyên sử dụng hỏa diễm quỷ dị để tấn công đối thủ.' },
+    { name: 'Linh Vũ Song Tu (Tiền bối)', role: 'Bí ẩn', age: 'Ancient', description: 'Vị đại năng cổ xưa đã để lại truyền thừa Linh Vũ song tu cho Lục Thiếu Du.' },
+    { name: 'Đại Trưởng Lão (Vân Dương Tông)', role: 'Đồng minh', age: '70+', description: 'Một người có địa vị cao trong Vân Dương Tông, luôn giữ sự công bằng và bảo vệ các thiên tài.' }
+  ]
+};

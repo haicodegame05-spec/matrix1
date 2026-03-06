@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const moonlightSculptor: FanficWork = {
+  id: 'moonlight-sculptor',
+  title: 'Con Đường Đế Vương (The Legendary Moonlight Sculptor)',
+  description: 'Lee Hyun, một thanh niên nghèo khó, bước vào trò chơi thực tế ảo Royal Road để kiếm tiền cứu gia đình và trở thành huyền thoại.',
+  country: 'Hàn',
+  plot: 'Lee Hyun nổi tiếng với nhân vật Weed trong trò chơi Continent of Magic. Sau khi bán tài khoản lấy một số tiền khổng lồ nhưng bị xã hội đen cướp mất, anh quyết tâm bắt đầu lại trong Royal Road. Với nghề nghiệp "Nhà điêu khắc ánh trăng" bị coi là phế vật, Weed đã dùng sự cần cù và mưu mẹo để chinh phục cả thế giới game.',
+  worldSetting: 'Trò chơi thực tế ảo Royal Road với thế giới rộng lớn, hệ thống nghề nghiệp và kỹ năng cực kỳ chi tiết.',
+  characters: [
+    { name: 'Weed (Lee Hyun)', role: 'Nhân vật chính', description: 'Cực kỳ tiết kiệm, chăm chỉ và mưu mô. Sẵn sàng làm mọi việc để kiếm tiền và tăng sức mạnh.' },
+    { name: 'Seoyoon', role: 'Nữ chính', description: 'Một cô gái xinh đẹp nhưng bị câm do chấn thương tâm lý, sau này trở thành người bạn đồng hành và là vợ của Weed.' },
+    { name: 'Van Hawk', role: 'Bạn đồng hành', description: 'Một kỵ sĩ tử vong (Death Knight) bị Weed thu phục, luôn bị anh bóc lột sức lao động nhưng rất trung thành.' },
+    { name: 'Torido', role: 'Bạn đồng hành', description: 'Một ma cà rồng cao quý, thường xuyên bị Weed ép buộc làm những việc trái với ý muốn.' },
+    { name: 'Mapan', role: 'Đồng minh', description: 'Một thương nhân tài ba, đối tác làm ăn lâu năm của Weed, người giúp anh tiêu thụ các vật phẩm quý giá.' },
+    { name: 'Bardray', role: 'Phản diện', description: 'Người đứng đầu hội Hermes, kẻ mạnh nhất Royal Road và là đối thủ lớn nhất của Weed.' },
+    { name: 'Hwaryeong', role: 'Đồng minh', description: 'Nữ vũ công xinh đẹp, một trong những thành viên đầu tiên của nhóm Weed, sở hữu sức hút mê hồn.' },
+    { name: 'Zephyr', role: 'Đồng minh', description: 'Ngư dân tài ba, người có khả năng câu được những vật phẩm quý hiếm và hỗ trợ chiến đấu bằng cần câu.' },
+    { name: 'Bellot', role: 'Đồng minh', description: 'Nữ pháp sư tài năng, bạn thân của Hwaryeong, luôn hỗ trợ nhóm bằng những phép thuật mạnh mẽ.' },
+    { name: 'Python', role: 'Đối thủ / Đồng minh', description: 'Chiến binh mạnh mẽ, người luôn khao khát được so tài với Weed và tôn trọng sức mạnh của anh.' },
+    { name: 'Pale', role: 'Đồng minh', description: 'Cung thủ điềm tĩnh, một trong những người bạn trung thành nhất của Weed từ những ngày đầu.' },
+    { name: 'Surka', role: 'Đồng minh', description: 'Nữ võ sư (Monk) mạnh mẽ, một trong những thành viên đầu tiên của nhóm Weed, luôn chiến đấu ở hàng tiền tuyến.' },
+    { name: 'Romuna', role: 'Đồng minh', description: 'Nữ pháp sư hệ hỏa, bạn thân của Surka và Pale, sở hữu hỏa lực mạnh mẽ hỗ trợ nhóm.' },
+    { name: 'Irene', role: 'Đồng minh', description: 'Nữ tu sĩ (Priest) nhân hậu, người chịu trách nhiệm hồi phục và bảo vệ an toàn cho cả nhóm.' },
+    { name: 'Hestia', role: 'Đồng minh', description: 'Nữ thợ rèn tài năng, người giúp Weed và nhóm bạn bảo trì, nâng cấp trang bị.' },
+    { name: 'Da\'in', role: 'Nhân vật quan trọng', description: 'Một nữ tu sĩ bí ẩn, mối tình đầu của Weed trong Royal Road, người đã để lại ấn tượng sâu sắc trong lòng anh.' },
+    { name: 'Alveron', role: 'Đồng minh', description: 'Giáo hoàng của Giáo hội Freya, người đã cùng Weed thực hiện nhiều nhiệm vụ cấp S và coi anh như một vị thánh.' },
+    { name: 'Lee Hye-yeon', role: 'Gia đình', description: 'Em gái của Lee Hyun, nguồn động lực lớn nhất để anh làm việc cật lực kiếm tiền.' },
+    { name: 'Lee Hyun\'s Grandmother', role: 'Gia đình', description: 'Người bà kính yêu của Lee Hyun, người luôn lo lắng và chăm sóc cho anh từ nhỏ.' },
+    { name: 'Bingryong (Băng Long)', role: 'Triệu hồi', description: 'Một con rồng băng khổng lồ được Weed điêu khắc và ban cho sự sống, sở hữu sức mạnh hủy diệt.' },
+    { name: 'Phoenix (Phượng Hoàng)', role: 'Triệu hồi', description: 'Linh thú lửa được Weed tạo ra, có khả năng tái sinh và hỗ trợ hỏa lực từ trên không.' },
+    { name: 'Yellowy (Bò Vàng)', role: 'Triệu hồi', description: 'Một con bò vàng được Weed điêu khắc để thồ hàng, tính tình hiền lành và rất chăm chỉ.' },
+    { name: 'Goldman (Người Vàng)', role: 'Triệu hồi', description: 'Một chiến binh bằng vàng được Weed tạo ra, sở hữu khả năng phòng ngự tuyệt vời và sức mạnh vật lý lớn.' },
+    { name: 'Wyvern-1', role: 'Triệu hồi', description: 'Một trong những con Wyvern được Weed điêu khắc để làm phương tiện di chuyển trên không.' },
+    { name: 'Wyvern-2', role: 'Triệu hồi', description: 'Con Wyvern thứ hai trong đội bay của Weed, luôn tuân lệnh anh tuyệt đối.' },
+    { name: 'Wyvern-3', role: 'Triệu hồi', description: 'Con Wyvern thứ ba, hỗ trợ đắc lực cho Weed trong các trận chiến quy mô lớn.' },
+    { name: 'Oberon', role: 'Đồng minh', description: 'Hội trưởng hội Frozen Throne, một chiến binh dũng cảm luôn ngưỡng mộ và hợp tác với Weed.' },
+    { name: 'Roa', role: 'Đồng minh', description: 'Một thương nhân tài ba khác, đối tác tin cậy của Mapan trong việc quản lý hậu cần cho các chiến dịch của Weed.' },
+    { name: 'KMC Media Reporter', role: 'Nhân vật phụ', description: 'Phóng viên chuyên theo dõi và đưa tin về các kỳ tích của Weed trong Royal Road.' },
+    { name: 'CTS Media Reporter', role: 'Nhân vật phụ', description: 'Phóng viên đối thủ của KMC, luôn tìm cách khai thác những thông tin độc quyền về Weed.' }
+  ]
+};

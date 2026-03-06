@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const unwantedUndead: FanficWork = {
+  id: 'unwanted-undead',
+  title: 'Mạo Hiểm Giả Bất Tử Không Mong Muốn (Nozomanu Fushi no Boukensha)',
+  description: 'Rentt Faina, một mạo hiểm giả hạng đồng, bị một con rồng ăn thịt và tỉnh dậy trong hình dạng một bộ xương.',
+  country: 'Nhật',
+  plot: 'Rentt Faina là một mạo hiểm giả hạng đồng đã dành 10 năm để rèn luyện kỹ năng của mình. Trong một lần thám hiểm mê cung, anh bị một con rồng ăn thịt và tỉnh dậy trong hình dạng một bộ xương. Với khả năng "Tiến hóa hiện hữu", anh bắt đầu hành trình tiến hóa từ Skeleton thành Ghoul, và cuối cùng là Vampire để lấy lại hình dạng con người và tiếp tục ước mơ trở thành mạo hiểm giả hạng Mithril.',
+  worldSetting: 'Một thế giới fantasy có hệ thống mạo hiểm giả, mê cung và quái vật. Sức mạnh dựa trên các kỹ năng (Skill) và ma pháp. Rentt sở hữu khả năng hấp thụ linh hồn của quái vật để tiến hóa.',
+  characters: [
+    { name: 'Rentt Faina', role: 'Nhân vật chính', age: '25 (???)', description: 'Mạo hiểm giả bất tử. Kiên trì, nhân hậu và cực kỳ am hiểu về mê cung. Luôn nỗ lực để tiến hóa và bảo vệ mọi người.' },
+    { name: 'Lorraine Vivie', role: 'Nữ chính / Đồng minh', age: '25', description: 'Một nữ học giả và pháp sư tài ba, bạn thân của Rentt. Xinh đẹp, thông minh và là người đầu tiên giúp đỡ Rentt sau khi anh trở thành bất tử.' },
+    { name: 'Sheila Ibarss', role: 'Hỗ trợ / Nữ chính', age: '20', description: 'Tiếp tân tại Guild mạo hiểm giả thành phố Maalt, người luôn quan tâm và giúp đỡ Rentt.' },
+    { name: 'Rina Rupaage', role: 'Hỗ trợ / Nữ chính', age: '18', description: 'Một mạo hiểm giả trẻ tuổi được Rentt cứu thoát khỏi mê cung. Luôn ngưỡng mộ và đi theo Rentt.' },
+    { name: 'Alize', role: 'Hỗ trợ', age: '10', description: 'Một cô bé mồ côi được Rentt cứu và sau này trở thành em gái nuôi của anh.' },
+    { name: 'Wolf', role: 'Đồng minh', age: '30+', description: 'Một mạo hiểm giả hạng bạc, chiến binh dũng mãnh và là bạn của Rentt.' },
+    { name: 'Ryze Tancrede', role: 'Đồng minh', age: '30+', description: 'Một mạo hiểm giả hạng bạc, chuyên gia về do thám và là bạn của Rentt.' },
+    { name: 'Laura', role: 'Hỗ trợ', age: '25+', description: 'Một nữ mạo hiểm giả có khả năng trị thương, người đã giúp đỡ Rentt trong các trận chiến.' },
+    { name: 'The Guild Master of Maalt', role: 'Nhân vật quan trọng', age: '50+', description: 'Người đứng đầu Guild mạo hiểm giả, luôn kinh ngạc trước sự tiến bộ của Rentt.' },
+    { name: 'The Dragon', role: 'Đối thủ', age: '???', description: 'Thực thể đã ăn thịt Rentt, khởi đầu cho hành trình bất tử của anh.' },
+    { name: 'Vampire Lord', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thực thể mạnh mẽ ban đầu đối đầu với Rentt nhưng sau đó nể phục sức mạnh của anh.' },
+    { name: 'Lich', role: 'Đối thủ', age: '???', description: 'Một ác ma cấp cao trong mê cung, kẻ thù đáng gờm của Rentt.' },
+    { name: 'Greater Demon', role: 'Đối thủ', age: '???', description: 'Một quái vật mạnh mẽ trong mê cung, thử thách lớn cho Rentt ở giai đoạn đầu.' },
+    { name: 'Skeleton Knight', role: 'Đối thủ', age: '???', description: 'Một chiến binh bất tử mạnh mẽ trong mê cung, người đã thử thách Rentt.' },
+    { name: 'Ghoul Leader', role: 'Đối thủ', age: '???', description: 'Lãnh đạo của bộ tộc Ghoul, kẻ thù của Rentt trong giai đoạn tiến hóa.' },
+    { name: 'Adventurer 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong nhóm mạo hiểm giả, luôn tin tưởng và bảo vệ Rentt.' },
+    { name: 'Adventurer 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về ma pháp phòng thủ.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán trang bị, người đã cung cấp cho Rentt những vật phẩm cần thiết.' },
+    { name: 'Rentt (Kiếp trước)', role: 'Ký ức', age: '25', description: 'Hình bóng của mạo hiểm giả bình thường luôn nhắc nhở Rentt về mục tiêu của mình.' },
+    { name: 'Maalt Citizen 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Rentt cứu sống, luôn biết ơn và ủng hộ anh.' },
+    { name: 'The Vampire Queen', role: 'Đồng minh / Đối thủ', age: '500+', description: 'Nữ hoàng của loài ma cà rồng, người đã giúp Rentt hiểu rõ hơn về bản chất của sự bất tử.' },
+    { name: 'Isaac', role: 'Đối thủ', age: '28', description: 'Một mạo hiểm giả hạng vàng kiêu ngạo, luôn tìm cách gây khó dễ cho Rentt.' },
+    { name: 'Old Man Morse', role: 'Hỗ trợ', age: '75', description: 'Một chuyên gia về cổ vật, người đã giúp Rentt giải mã những bí ẩn trong mê cung.' },
+    { name: 'The Saintess', role: 'Đồng minh', age: '19', description: 'Thánh nữ của giáo hội, người có khả năng thanh tẩy nhưng lại chọn cách tin tưởng Rentt.' },
+    { name: 'The Skeleton King', role: 'Boss', age: '???', description: 'Vị vua của các bộ xương trong tầng sâu nhất của mê cung, đối thủ lớn nhất của Rentt.' },
+    { name: 'The Maalt Guard Captain', role: 'Đồng minh', age: '35', description: 'Chỉ huy đội lính gác thành phố Maalt, người luôn tin tưởng vào lòng chính trực của Rentt.' },
+    { name: 'The Underground Informant', role: 'Hỗ trợ', age: '???', description: 'Một nhân vật bí ẩn cung cấp cho Rentt những thông tin về các quái vật hiếm và mê cung chưa được khám phá.' },
+    { name: 'The Traveling Alchemist', role: 'Hỗ trợ', age: '45', description: 'Một nhà giả kim lang thang, người đã giúp Rentt chế tạo ra những loại thuốc giúp che giấu mùi tử khí.' },
+    { name: 'The Village Priest', role: 'Hỗ trợ', age: '60+', description: 'Linh mục của một ngôi làng nhỏ, người đã ban phúc lành cho Rentt và giúp anh giữ vững nhân tính.' },
+    { name: 'The Aspiring Adventurer', role: 'Hỗ trợ', age: '15', description: 'Một thiếu niên mới vào nghề, người coi Rentt là hình mẫu lý tưởng để phấn đấu.' }
+  ]
+};

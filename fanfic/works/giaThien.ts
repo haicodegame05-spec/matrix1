@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const giaThien: FanficWork = {
+  id: 'gia-thien',
+  title: 'Già Thiên',
+  description: 'Diệp Phàm cùng nhóm bạn bị Cửu Long Lôi Quan đưa tới một thế giới tu tiên huyền bí, bắt đầu hành trình khám phá bí mật của vũ trụ.',
+  country: 'Trung',
+  plot: 'Diệp Phàm và các bạn học cũ bị một cỗ quan tài kéo bởi chín con rồng đưa từ Trái Đất đến Bắc Đẩu Tinh Vực. Tại đây, anh phát hiện ra mình sở hữu Hoang Cổ Thánh Thể - một loại thể chất cực mạnh nhưng bị nguyền rủa. Diệp Phàm phải chiến đấu với các thế lực cổ xưa, khám phá các bí cảnh và tìm đường trở về nhà, đồng thời vươn tới đỉnh cao của con đường tu luyện.',
+  worldSetting: 'Thế giới tu tiên rộng lớn với các tinh vực khác nhau. Hệ thống tu luyện: Luân Hồi Hải, Mệnh Tuyền, Thần Kiều, Bỉ Ngạn (Khổ Hải), Đạo Cung, Tứ Cực, Hóa Long, Tiên Đài. Các thế lực lớn bao gồm Hoang Cổ Thế Gia, Thánh Địa và các Thái Cổ Sinh Vật.',
+  characters: [
+    { name: 'Diệp Phàm', role: 'Nhân vật chính', age: '20', description: 'Sở hữu Hoang Cổ Thánh Thể, thông minh, quyết đoán và có ý chí bất khuất. Sau này trở thành Diệp Thiên Đế thống trị vạn cổ.' },
+    { name: 'Hắc Cẩu (Hắc Hoàng)', role: 'Bạn đồng hành', age: '1000+', description: 'Một con chó đen to lớn, tham lam, tinh quái, sở hữu kiến thức uyên bác về trận pháp và là "đại hắc thủ" đứng sau nhiều chuyện.' },
+    { name: 'Cơ Tử Nguyệt', role: 'Nữ chính', age: '18', description: 'Tiểu thư của Cơ gia, sở hữu Nguyên Linh Thể, xinh đẹp, lém lỉnh, luôn đồng hành và ủng hộ Diệp Phàm hết lòng.' },
+    { name: 'Bàng Bác', role: 'Bạn thân', age: '20', description: 'Bạn thân từ Trái Đất của Diệp Phàm, sở hữu dòng máu Yêu tộc mạnh mẽ, luôn sát cánh chiến đấu và là người anh em vào sinh ra tử.' },
+    { name: 'Nhan Như Ngọc', role: 'Đồng minh', age: '20', description: 'Công chúa của Yêu tộc, sở hữu vẻ đẹp tuyệt thế, tính cách thanh cao và là người giữ gìn di sản của Yêu Đế.' },
+    { name: 'Đoạn Đức', role: 'Đồng minh / Đối thủ', age: '1000+', description: 'Một đạo sĩ chuyên đào mộ, bí ẩn, đầy thủ đoạn và có số kiếp luân hồi kỳ lạ, luôn tìm cách "hố" Diệp Phàm.' },
+    { name: 'Hoa Vân Phi', role: 'Đối thủ', age: '22', description: 'Một thiên tài bi kịch, bị ép buộc tu luyện Thôn Phệ Ma Công, luôn khao khát thoát khỏi số phận bị sắp đặt.' },
+    { name: 'Lý Tiểu Mạn', role: 'Người cũ / Đối thủ', age: '20', description: 'Bạn gái cũ của Diệp Phàm từ Trái Đất, có tính cách phức tạp và con đường tu luyện đầy trắc trở.' },
+    { name: 'Tần Dao', role: 'Tình cảm', age: '20', description: 'Một nữ tu sĩ Yêu tộc quyến rũ, có mối quan hệ tình cảm ngắn ngủi nhưng sâu đậm với Diệp Phàm.' },
+    { name: 'Diệp Đồng', role: 'Đệ tử', age: '10', description: 'Đệ tử của Diệp Phàm, sở hữu Thái Dương Thể, tiềm năng vô hạn và rất kính trọng sư phụ.' },
+    { name: 'Ngoan Nhân Đại Đế', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Nữ đế tài hoa nhất lịch sử, người đã tạo ra Thôn Phệ Ma Công và chờ đợi sự trở lại của anh trai mình qua muôn vàn kiếp luân hồi.' },
+    { name: 'Vô Thủy Đại Đế', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Vị đại đế vô địch với câu nói "Tiên lộ tận đầu thùy vi phong, nhất kiến Vô Thủy đạo thành không", người trấn giữ bình yên cho nhân loại.' },
+    { name: 'Thanh Đế', role: 'Thực thể tối cao', age: '10000+', description: 'Vị đại đế duy nhất của Yêu tộc trong thời đại hậu hoang cổ, hiện thân của một đóa sen xanh giữa vạn cổ.' },
+    { name: 'Cơ Hạo Nguyệt', role: 'Đối thủ / Đồng minh', age: '22', description: 'Anh trai của Cơ Tử Nguyệt, sở hữu Thần Thể, tính cách kiêu ngạo nhưng rất yêu thương em gái.' },
+    { name: 'Khương Thái Hư', role: 'Người dẫn dắt', age: '4000+', description: 'Thần Vương của Khương gia, một người hào hiệp, chính trực, đã truyền thụ Đấu Chữ Bí cho Diệp Phàm.' },
+    { name: 'Khương Dật Phi', role: 'Đồng minh', age: '22', description: 'Thiên tài của Khương gia, một người điềm tĩnh, sâu sắc và luôn hỗ trợ Diệp Phàm trong những lúc khó khăn.' },
+    { name: 'Diêu Hi', role: 'Đồng minh / Đối thủ', age: '20', description: 'Thánh nữ của Dao Trì Thánh Địa, xinh đẹp tuyệt trần và có mối quan hệ giao hảo với Diệp Phàm.' },
+    { name: 'An Diệu Y', role: 'Tình cảm', age: '20', description: 'Truyền nhân của Diệu Dục Am, một nữ tử thông minh, sắc sảo và dành tình cảm chân thành cho Diệp Phàm.' },
+    { name: 'Vương Đằng', role: 'Đối thủ', age: '24', description: 'Kẻ tự xưng là có tư chất của Đại đế, sở hữu truyền thừa của loạn cổ đại đế, đối thủ lớn của Diệp Phàm ở giai đoạn trung kỳ.' },
+    { name: 'Kim Sí Bằng Vương', role: 'Đối thủ', age: '20', description: 'Thiên tài của tộc Kim Sí Đại Bàng, tính cách ngông cuồng, luôn muốn so tài cao thấp với Diệp Phàm.' },
+    { name: 'Thái Dương Thánh Hoàng', role: 'Tiền bối / Đại đế', age: 'Ancient', description: 'Vị đại đế sáng tạo ra Thái Dương Kinh, người đã bảo vệ nhân tộc trong thời đại tăm tối nhất.' },
+    { name: 'Thái Âm Thánh Hoàng', role: 'Tiền bối / Đại đế', age: 'Ancient', description: 'Vị đại đế sáng tạo ra Thái Âm Kinh, người đã cùng Thái Dương Thánh Hoàng lập nên nền móng cho tu luyện nhân tộc.' },
+    { name: 'Hằng Vũ Đại Đế', role: 'Tiền bối / Đại đế', age: 'Ancient', description: 'Vị đại đế của Khương gia, người đã rèn đúc nên Hằng Vũ Lô và để lại di sản vô giá cho con cháu.' },
+    { name: 'Hư Không Đại Đế', role: 'Tiền bối / Đại đế', age: 'Ancient', description: 'Vị đại đế của Cơ gia, người đã chiến đấu đến hơi thở cuối cùng để bảo vệ nhân loại khỏi sự xâm lược của ngoại tộc.' },
+    { name: 'Thanh Đế (Phân thân)', role: 'Bí ẩn', age: 'Unknown', description: 'Một phần linh hồn của Thanh Đế luôn quan sát và dẫn dắt các thế hệ sau này.' },
+    { name: 'Lão Phong Tử', role: 'Người dẫn dắt', age: 'Unknown', description: 'Một vị đại năng điên điên khùng khùng nhưng sở hữu sức mạnh kinh người, người đã truyền thụ cho Diệp Phàm nhiều bí thuật.' },
+    { name: 'Vệ Tiệp', role: 'Đồng minh', age: 'Unknown', description: 'Một thiên tài của học viện Thiên Phủ, người đã cùng Diệp Phàm khám phá nhiều bí cảnh cổ xưa.' },
+    { name: 'Lâm Giai', role: 'Bạn học cũ', age: '20', description: 'Một trong những người bạn từ Trái Đất của Diệp Phàm, có tính cách thực dụng và con đường tu luyện riêng biệt.' },
+    { name: 'Lý Nhược Ngu', role: 'Người dẫn dắt', age: 'Unknown', description: 'Chủ nhân của Chuyết Phong, một người hiền lành, giản dị nhưng sở hữu tâm cảnh vô cùng thâm hậu.' },
+    { name: 'Thái Cổ Vương', role: 'Phản diện chính', age: 'Ancient', description: 'Các thực thể mạnh mẽ từ thời đại Thái Cổ luôn tìm cách thống trị thế giới và tiêu diệt nhân tộc.' }
+  ]
+};

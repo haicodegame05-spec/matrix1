@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const reincarnatedAsASword: FanficWork = {
+  id: 'reincarnated-as-a-sword',
+  title: 'Chuyển Sinh Thành Kiếm (Tensei Shitara Ken Deshita)',
+  description: 'Một thanh niên chuyển sinh thành một thanh kiếm ma pháp và gặp gỡ Fran, một cô bé tộc Mèo Đen.',
+  country: 'Nhật',
+  plot: 'Một thanh niên bị tai nạn và chuyển sinh thành một thanh kiếm ma pháp ở dị giới. Anh bị mắc kẹt trong một vùng đất hoang dã cho đến khi gặp Fran, một cô bé nô lệ thuộc tộc Mèo Đen. Fran đặt tên cho anh là "Sư phụ" (Shishou). Cả hai cùng nhau hành trình để giúp Fran tiến hóa và khám phá thế giới, đồng thời đối mặt với những kẻ thù mạnh mẽ và những bí ẩn về nguồn gốc của thanh kiếm.',
+  worldSetting: 'Một thế giới fantasy nơi ma pháp và quái vật tồn tại. Sức mạnh dựa trên các cấp độ (Level) và kỹ năng (Skill). "Sư phụ" có khả năng hấp thụ ma thạch của quái vật để tăng cường sức mạnh và chia sẻ kỹ năng cho Fran.',
+  characters: [
+    { name: 'Sư phụ (Shishou)', role: 'Nhân vật chính', age: '???', description: 'Thanh kiếm ma pháp chuyển sinh. Thông minh, bảo vệ Fran hết mực và sở hữu vô số kỹ năng ma pháp.' },
+    { name: 'Fran', role: 'Nhân vật chính', age: '12', description: 'Một cô bé thuộc tộc Mèo Đen, dũng cảm và kiên cường. Luôn nỗ lực để tiến hóa và bảo vệ Sư phụ.' },
+    { name: 'Urushi', role: 'Thuộc hạ / Thú cưỡi', age: '???', description: 'Một con sói bóng tối (Shadow Wolf) được Sư phụ triệu hồi. Trung thành và cực kỳ nhanh nhẹn.' },
+    { name: 'Amanda', role: 'Sư phụ / Đồng minh', age: '100+', description: 'Một mạo hiểm giả cấp A thuộc tộc Half-Elf, biệt danh "Thánh mẫu của trẻ em". Rất yêu quý Fran.' },
+    { name: 'Nell', role: 'Hỗ trợ', age: '25+', description: 'Tiếp tân tại Guild mạo hiểm giả thành phố Alessa, người luôn giúp đỡ Fran trong các thủ tục.' },
+    { name: 'Klimt', role: 'Đồng minh', age: '50+', description: 'Hội trưởng Guild mạo hiểm giả Alessa, một pháp sư tài ba và công bằng.' },
+    { name: 'Garrus', role: 'Hỗ trợ', age: '50+', description: 'Thợ rèn huyền thoại thuộc tộc Dwarf, người đã giúp Sư phụ bảo trì và nâng cấp vỏ kiếm.' },
+    { name: 'Donadrond', role: 'Đồng minh', age: '40+', description: 'Một mạo hiểm giả cấp B thuộc tộc Oni, chiến binh dũng mãnh và là bạn của Fran.' },
+    { name: 'Eustace', role: 'Đồng minh', age: '30+', description: 'Một mạo hiểm giả cấp cao, người đã cùng Fran thực hiện một số nhiệm vụ quan trọng.' },
+    { name: 'Gallus', role: 'Hỗ trợ', age: '50+', description: 'Thợ rèn tài giỏi, người đã cung cấp cho Fran những trang bị cần thiết.' },
+    { name: 'The King of Seedrun', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua của vương quốc Seedrun, người đã ra lệnh cho Fran thực hiện các nhiệm vụ quan trọng.' },
+    { name: 'August Alland', role: 'Phản diện', age: '25+', description: 'Một quý tộc tham lam và độc ác, kẻ thù của Fran trong giai đoạn đầu.' },
+    { name: 'Jean le Vengeur', role: 'Đối thủ / Đồng minh', age: '30+', description: 'Một pháp sư triệu hồi xác sống mạnh mẽ, ban đầu đối đầu với Fran nhưng sau đó nể phục cô.' },
+    { name: 'Aul', role: 'Hỗ trợ', age: '20+', description: 'Một nữ mạo hiểm giả có khả năng trị thương, người đã giúp đỡ Fran trong các trận chiến.' },
+    { name: 'Mylord', role: 'Hỗ trợ', age: '???', description: 'Một thực thể bí ẩn liên quan đến nguồn gốc của Sư phụ, luôn dõi theo hành trình của anh.' },
+    { name: 'Lich', role: 'Đối thủ', age: '???', description: 'Một ác ma cấp cao trong mê cung, kẻ thù đáng gờm của Fran và Sư phụ.' },
+    { name: 'Greater Demon', role: 'Đối thủ', age: '???', description: 'Một quái vật mạnh mẽ trong mê cung, thử thách lớn cho Fran ở giai đoạn đầu.' },
+    { name: 'Black Cat Tribe Elder', role: 'Linh hồn', age: '???', description: 'Linh hồn của tổ tiên tộc Mèo Đen, người đã truyền lại ý chí cho Fran.' },
+    { name: 'Adventurer 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong nhóm mạo hiểm giả, luôn tin tưởng và bảo vệ Fran.' },
+    { name: 'Adventurer 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về ma pháp phòng thủ.' },
+    { name: 'Dias', role: 'Đồng minh', age: '50+', description: 'Hội trưởng Guild mạo hiểm giả thành phố Ulmutt, một người vui vẻ nhưng cực kỳ mạnh mẽ.' },
+    { name: 'Colbert', role: 'Đồng minh', age: '30+', description: 'Mạo hiểm giả cấp A với biệt danh "Thiết Trảo", một chiến binh dũng mãnh và chính trực.' },
+    { name: 'Fermus', role: 'Đồng minh', age: '40+', description: 'Mạo hiểm giả cấp A sử dụng tơ ma thuật, một bậc thầy về điều khiển và trói buộc.' },
+    { name: 'Forund', role: 'Đồng minh', age: '35+', description: 'Mạo hiểm giả cấp A với biệt danh "Bách Kiếm", có khả năng điều khiển nhiều thanh kiếm cùng lúc.' },
+    { name: 'Arasbella', role: 'Hỗ trợ', age: '28', description: 'Một nhà giả kim tài ba, người đã giúp Fran chế tạo các loại thuốc hồi phục đặc biệt.' },
+    { name: 'Gamud', role: 'Đồng minh', age: '55+', description: 'Hội trưởng Guild mạo hiểm giả thành phố Barba, một chiến binh kỳ cựu.' },
+    { name: 'Mea', role: 'Đồng minh', age: '16', description: 'Công chúa của vương quốc Thú Nhân, một chiến binh dũng cảm và là bạn thân của Fran.' },
+    { name: 'Quat', role: 'Hỗ trợ', age: '???', description: 'Linh thú đồng hành của Mea, một con chim ưng khổng lồ với tốc độ cực nhanh.' },
+    { name: 'Rig', role: 'Hỗ trợ', age: '18', description: 'Học trò của thợ rèn Garrus, người luôn nỗ lực học hỏi để rèn ra những thanh kiếm tuyệt phẩm.' },
+    { name: 'Zos', role: 'Phản diện', age: '30+', description: 'Một chiến binh tàn bạo thuộc tộc Mèo Xanh, kẻ thù không đội trời chung của tộc Mèo Đen.' }
+  ]
+};

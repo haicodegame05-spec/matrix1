@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const toaruIndex: FanficWork = {
+  id: 'toaru-index',
+  title: 'Toaru Majutsu no Index (A Certain Magical Index)',
+  description: 'Câu chuyện về Kamijou Touma và cuộc xung đột giữa thế giới Khoa học (Espers) và thế giới Ma thuật (Magicians).',
+  country: 'Nhật',
+  plot: 'Kamijou Touma là một học sinh trung học tại Thành phố Học viện - nơi công nghệ phát triển vượt bậc và 80% cư dân là các siêu năng lực gia (Espers). Touma sở hữu "Imagine Breaker" ở tay phải, có khả năng vô hiệu hóa mọi năng lực siêu nhiên nhưng cũng khiến anh cực kỳ xui xẻo. Cuộc đời anh thay đổi khi gặp Index, một nữ tu sĩ nắm giữ 103.000 cuốn sách ma thuật cấm, đẩy anh vào tâm điểm của cuộc chiến giữa Khoa học và Ma thuật.',
+  worldSetting: 'Thành phố Học viện (Academy City) tại Nhật Bản, một siêu đô thị công nghệ cao tách biệt với thế giới bên ngoài.',
+  characters: [
+    { name: 'Kamijou Touma', role: 'Nhân vật chính', age: '16', description: 'Một học sinh trung học có lòng nghĩa hiệp cao cả. Tay phải của anh sở hữu Imagine Breaker, thứ có thể xóa sổ mọi phép thuật hay siêu năng lực.' },
+    { name: 'Index Librorum Prohibitorum', role: 'Nữ chính', age: '14-15', description: 'Một nữ tu sĩ trẻ thuộc tổ chức Necessarius, người ghi nhớ 103.000 cuốn sách ma thuật cấm. Cô có tâm hồn ăn uống mãnh liệt và luôn đi cùng Touma.' },
+    { name: 'Misaka Mikoto', role: 'Nữ chính / Esper', age: '14', description: 'Siêu năng lực gia cấp 5 (Level 5) đứng thứ ba của thành phố, được mệnh danh là "Railgun" nhờ khả năng điều khiển điện từ cực mạnh.' },
+    { name: 'Accelerator', role: 'Nhân vật chính / Phản anh hùng', age: '16', description: 'Siêu năng lực gia cấp 5 mạnh nhất thành phố, có khả năng điều khiển mọi vectơ. Anh từng là phản diện nhưng sau đó trở thành người bảo vệ cho Last Order.' },
+    { name: 'Hamazura Shiage', role: 'Nhân vật chính', age: '17', description: 'Một cựu thành viên của tổ chức tội phạm Skill-Out, một người bình thường (Level 0) nhưng đã đánh bại nhiều đối thủ mạnh nhờ sự kiên trì và may mắn.' },
+    { name: 'Stiyl Magnus', role: 'Đồng minh / Pháp sư', age: '14 (ngoại hình 20+)', description: 'Một pháp sư tài năng chuyên về ma thuật lửa và chữ rune. Anh là cộng sự của Index và luôn nỗ lực bảo vệ cô.' },
+    { name: 'Kanzaki Kaori', role: 'Đồng minh / Pháp sư', age: '18', description: 'Một trong số ít "Thánh nhân" (Saints) trên thế giới, sở hữu sức mạnh thể chất và tốc độ vượt xa con người bình thường.' },
+    { name: 'Shokuhou Misaki', role: 'Nữ chính / Esper', age: '14', description: 'Siêu năng lực gia cấp 5 đứng thứ năm, được gọi là "Mental Out" với khả năng điều khiển tâm trí con người.' },
+    { name: 'Last Order', role: 'Nhân vật quan trọng', age: '10 (ngoại hình)', description: 'Bản sao thứ 20.001 của Misaka Mikoto, đóng vai trò là trung tâm điều khiển mạng lưới Misaka. Cô là người đã thay đổi Accelerator.' },
+    { name: 'Tsuchimikado Motoharu', role: 'Đồng minh / Gián điệp', age: '17', description: 'Bạn thân của Touma, một gián điệp đa năng phục vụ cho cả Academy City và Necessarius. Anh là một pháp sư hiếm hoi có thể sử dụng siêu năng lực.' },
+    { name: 'Aleister Crowley', role: 'Nhân vật quan trọng / Lãnh đạo', age: 'Unknown', description: 'Người sáng lập và là Tổng giám đốc của Academy City, một pháp sư huyền thoại đã từ bỏ ma thuật để theo đuổi khoa học.' },
+    { name: 'Othinus', role: 'Phản diện / Đồng minh', age: 'Ancient', description: 'Một Ma Thần (Magic God) với sức mạnh có thể thay đổi thực tại. Cô từng là kẻ thù lớn nhất của Touma trước khi trở thành người bạn đồng hành thu nhỏ của anh.' },
+    { name: 'Shirai Kuroko', role: 'Esper / Đồng minh', age: '13', description: 'Hậu bối và là bạn cùng phòng của Mikoto, một siêu năng lực gia cấp 4 (Level 4) với khả năng dịch chuyển tức thời (Teleport).' },
+    { name: 'Uiharu Kazari', role: 'Esper / Đồng minh', age: '13', description: 'Thành viên của Judgment, một siêu năng lực gia cấp 1 với khả năng giữ nhiệt độ vật thể, nhưng cực kỳ giỏi về tin học.' },
+    { name: 'Saten Ruiko', role: 'Esper / Đồng minh', age: '13', description: 'Bạn thân của Uiharu, một Level 0 luôn khao khát có năng lực nhưng bù lại cô có trực giác tuyệt vời và là chuyên gia về các lời đồn đô thị.' },
+    { name: 'Mugino Shizuri', role: 'Esper / Phản diện', age: '17', description: 'Siêu năng lực gia cấp 5 đứng thứ tư, lãnh đạo tổ chức ITEM, có khả năng bắn ra các tia nguyên tử hủy diệt (Meltdowner).' },
+    { name: 'Kakine Teitoku', role: 'Esper / Phản diện', age: '17', description: 'Siêu năng lực gia cấp 5 đứng thứ hai, lãnh đạo tổ chức SCHOOL, có khả năng tạo ra và điều khiển "Vật chất tối" (Dark Matter).' },
+    { name: 'Sogita Gunha', role: 'Esper / Đồng minh', age: '16', description: 'Siêu năng lực gia cấp 5 đứng thứ bảy, một "Gemstone" với sức mạnh không thể giải thích bằng khoa học, luôn hành động theo "bản lĩnh" (Guts).' },
+    { name: 'Aisa Himegami', role: 'Nhân vật quan trọng', age: '16', description: 'Một cô gái sở hữu năng lực "Deep Blood" có thể thu hút và tiêu diệt ma cà rồng, hiện đang sống tại nhà Touma.' },
+    { name: 'Komoe Tsukuyomi', role: 'Giáo viên', age: 'Unknown (trông như 12)', description: 'Giáo viên chủ nhiệm của Touma, mặc dù có ngoại hình trẻ con nhưng cô là một người trưởng thành và rất quan tâm đến học sinh.' },
+    { name: 'Aiho Yomikawa', role: 'Anti-Skill', age: '20+', description: 'Một sĩ quan của Anti-Skill, bạn thân của Komoe và là người giám hộ cho Accelerator và Last Order.' },
+    { name: 'Heaven Canceller', role: 'Bác sĩ', age: 'Unknown', description: 'Vị bác sĩ tài ba với khuôn mặt giống ếch, người đã nhiều lần cứu mạng Touma và Accelerator bằng y học tiên tiến.' },
+    { name: 'Laura Stuart', role: 'Lãnh đạo', age: 'Unknown', description: 'Tổng giám mục của Necessarius, một người phụ nữ xảo quyệt với mái tóc vàng cực dài, luôn đứng sau các âm mưu chính trị ma thuật.' },
+    { name: 'Fiamma of the Right', role: 'Phản diện', age: '20+', description: 'Thành viên mạnh nhất của "Hữu Phương Chi Tọa" (God\'s Right Seat), kẻ âm mưu tái cấu trúc thế giới bằng sức mạnh của Thánh Kinh.' },
+    { name: 'Vento of the Front', role: 'Phản diện', age: '20+', description: 'Thành viên của God\'s Right Seat, sở hữu "Divine Punishment" có thể làm bất tỉnh bất kỳ ai có ác ý với cô.' },
+    { name: 'Acqua of the Back', role: 'Phản diện / Đồng minh', age: '30+', description: 'Một Thánh nhân và cũng là thành viên của God\'s Right Seat, sở hữu sức mạnh thể chất và ma thuật nước vô song.' },
+    { name: 'Misaka Worst', role: 'Esper / Đối thủ', age: '16 (ngoại hình)', description: 'Bản sao cấp cao của Misaka Mikoto được tạo ra để tiêu diệt Accelerator, sở hữu tính cách độc ác và năng lực điện từ mạnh mẽ.' },
+    { name: 'Frenda Seivelun', role: 'Esper / Đối thủ', age: '15', description: 'Thành viên của ITEM, chuyên gia về chất nổ và bẫy, có tính cách vui vẻ nhưng sẵn sàng phản bội để sinh tồn.' },
+    { name: 'Thor', role: 'Pháp sư / Đối thủ', age: '17', description: 'Thành viên của tổ chức ma thuật Gremlin, sở hữu sức mạnh của thần sấm Thor và luôn tìm kiếm những trận chiến kịch tính.' },
+    { name: 'Leivinia Birdway', role: 'Pháp sư', age: '12', description: 'Lãnh đạo của tổ chức ma thuật Dawn-colored Sunlight, một thiên tài ma thuật trẻ tuổi với tính cách kiêu ngạo.' },
+    { name: 'Kamijou Touya', role: 'Gia đình', age: '40+', description: 'Cha của Touma, một người đàn ông bình thường nhưng vô tình gây ra thảm họa "Angel Fall" do thói quen sưu tầm bùa may mắn.' }
+  ]
+};

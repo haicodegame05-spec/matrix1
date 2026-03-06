@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const vuDongCanKhon: FanficWork = {
+  id: 'vu-dong-can-khon',
+  title: 'Vũ Động Càn Khôn',
+  description: 'Lâm Động, một thiếu niên gia tộc sa sút, nhờ một viên Thạch Phù huyền bí mà vươn lên đỉnh cao võ đạo.',
+  country: 'Trung',
+  plot: 'Lâm Động là một thiếu niên bình thường của Lâm gia, một gia tộc nhỏ bé và đang sa sút. Trong một lần tình cờ, anh nhặt được một viên Thạch Phù bí ẩn có khả năng hoàn thiện võ học và tinh luyện dược liệu. Với ý chí kiên cường và sự giúp đỡ của linh hồn Tiểu Điêu bên trong Thạch Phù, Lâm Động bắt đầu hành trình trả thù cho cha và bảo vệ gia tộc, cuối cùng trở thành Võ Tổ trấn áp dị ma.',
+  worldSetting: 'Thế giới Thiên Huyền Đại Lục nơi Nguyên Lực và Tinh Thần Lực là căn bản của tu luyện. Hệ thống cấp bậc: Thôi Thể, Địa Nguyên, Thiên Nguyên, Nguyên Đan, Tạo Hóa, Niết Bàn, Sinh Tử, Luân Hồi, Tổ Cảnh. Các thế lực lớn bao gồm Bát Đại Siêu Cấp Tông Phái và các vương triều.',
+  characters: [
+    { name: 'Lâm Động', role: 'Nhân vật chính', age: '25', description: 'Kiên cường, trọng tình nghĩa, sở hữu Đại Tổ Thạch Phù và nhiều Tổ Phù mạnh mẽ. Sau này trở thành Võ Tổ trấn áp dị ma.' },
+    { name: 'Tiểu Điêu (Lâm Điêu)', role: 'Người dẫn dắt / Anh em', age: '1000+', description: 'Linh hồn của Thiên Yêu Điêu tộc, thông minh, ngạo mạn nhưng cực kỳ trung thành và là người dẫn dắt Lâm Động.' },
+    { name: 'Lăng Thanh Trúc', role: 'Nữ chính', age: '22', description: 'Tiên tử của Cửu Thiên Thái Thanh Cung, xinh đẹp thoát tục, có mối lương duyên sâu đậm và là người vợ đầu tiên của Lâm Động.' },
+    { name: 'Ứng Hoan Hoan', role: 'Nữ chính', age: '20', description: 'Tiểu công chúa của Đạo Tông, tính cách hoạt bát, sau này thức tỉnh linh hồn Băng Chủ để bảo vệ Lâm Động và hy sinh vì anh.' },
+    { name: 'Tiểu Viêm (Lâm Viêm)', role: 'Anh em', age: '???', description: 'Một con Hỏa Mãng Hổ được Lâm Động nuôi dưỡng, sau này hóa hình thành người, sở hữu sức mạnh thể chất kinh người và sự trung thành tuyệt đối.' },
+    { name: 'Lâm Lang Thiên', role: 'Đối thủ', age: '24', description: 'Thiên tài của Lâm thị nội tộc, người đã gây ra bi kịch cho gia đình Lâm Động và là đối thủ lớn nhất của anh trong giai đoạn đầu.' },
+    { name: 'Lâm Chấn Thiên', role: 'Gia đình', age: '60', description: 'Ông nội của Lâm Động, người luôn lo lắng và bảo vệ gia đình trước những sóng gió.' },
+    { name: 'Lâm Tiêu', role: 'Gia đình', age: '40', description: 'Cha của Lâm Động, từng là thiên tài của gia đình nhưng bị Lâm Lang Thiên phế bỏ, là động lực lớn nhất để Lâm Động tu luyện.' },
+    { name: 'Lâm Khả Nhi', role: 'Đồng minh', age: '18', description: 'Thiên tài của Lâm thị nội tộc, một cô gái thông minh, xinh đẹp và luôn có cái nhìn thiện cảm với Lâm Động.' },
+    { name: 'Thanh Đàn', role: 'Em gái', age: '16', description: 'Em gái nuôi của Lâm Động, sở hữu Âm Sát Thể cực mạnh, sau này trở thành Điện chủ của Bóng Tối Điện.' },
+    { name: 'Ứng Huyền Tử', role: 'Người dẫn dắt', age: '50', description: 'Chưởng môn của Đạo Tông, cha của Ứng Hoan Hoan, một người chính trực và luôn bảo vệ Lâm Động.' },
+    { name: 'Nguyên Môn Tam Chưởng Giáo', role: 'Phản diện', age: '50+', description: 'Ba vị chưởng giáo của Nguyên Môn, những kẻ mưu mô, tàn ác và là kẻ thù lớn nhất của Lâm Động tại Đông Huyền Vực.' },
+    { name: 'Dị Ma Hoàng', role: 'Phản diện chính', age: 'Vĩnh cửu', description: 'Kẻ cầm đầu quân đoàn dị ma, mục tiêu cuối cùng mà Lâm Động phải tiêu diệt để bảo vệ thế giới.' },
+    { name: 'Phù Tổ', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Vị đại năng cổ xưa đã hy sinh để phong ấn dị ma, người đã tạo ra các Tổ Phù và Thạch Phù.' },
+    { name: 'Nham Sư', role: 'Người dẫn dắt', age: '55', description: 'Hội trưởng Hội Phù Sư tại Viêm Thành, người đã hướng dẫn Lâm Động những bước đầu tiên về Tinh Thần Lực.' },
+    { name: 'Liễu Nghiên', role: 'Gia đình', age: '38', description: 'Mẹ của Lâm Động, người phụ nữ hiền hậu luôn lo lắng và chăm sóc cho gia đình.' },
+    { name: 'Lâm Mang', role: 'Gia đình', age: '42', description: 'Bác của Lâm Động, một người bộc trực và luôn hết lòng vì sự phát triển của gia tộc.' },
+    { name: 'Lâm Khẳng', role: 'Gia đình', age: '40', description: 'Chú của Lâm Động, người có tính cách điềm tĩnh và luôn đưa ra những lời khuyên sáng suốt.' },
+    { name: 'Lâm Hồng', role: 'Gia đình', age: '20', description: 'Anh họ của Lâm Động, ban đầu có sự cạnh tranh nhưng sau đó đã nể phục và hỗ trợ anh.' },
+    { name: 'Lâm Sơn', role: 'Gia đình', age: '19', description: 'Em họ của Lâm Động, một thiếu niên đầy nhiệt huyết luôn lấy Lâm Động làm tấm gương phấn đấu.' },
+    { name: 'Mạc Lăng', role: 'Đồng minh', age: '22', description: 'Hoàng tử của Đại Yến Vương Triều, một người thông minh và là bạn đồng hành của Lâm Động trong các cuộc thi đấu.' },
+    { name: 'Đỗ Vân', role: 'Đồng minh', age: '23', description: 'Thiên tài của một vương triều khác, người đã cùng Lâm Động trải qua nhiều thử thách tại Bách Chiến Vực.' },
+    { name: 'Man Sơn', role: 'Đồng minh', age: '24', description: 'Một chiến binh mạnh mẽ với sức mạnh vật lý phi thường, người bạn trung thành của Lâm Động.' },
+    { name: 'Lâm Phạn', role: 'Lãnh đạo', age: '55', description: 'Tộc trưởng của Lâm thị nội tộc, người đã công nhận tài năng của Lâm Động và giúp anh khôi phục vị thế gia đình.' },
+    { name: 'Lâm Mục', role: 'Lãnh đạo', age: '58', description: 'Một vị trưởng lão uy tín của Lâm thị, người luôn công bằng và chính trực trong các vấn đề gia tộc.' },
+    { name: 'Lâm Khô', role: 'Lãnh đạo', age: '60', description: 'Một vị trưởng lão cao cấp của Lâm thị, người sở hữu sức mạnh Nguyên Lực đỉnh cao.' },
+    { name: 'Lâm Tuyết', role: 'Nhân vật phụ', age: '18', description: 'Một nữ đệ tử xinh đẹp của Lâm thị, người luôn ngưỡng mộ và thầm thương trộm nhớ Lâm Động.' },
+    { name: 'Lâm Trần', role: 'Nhân vật phụ', age: '20', description: 'Một thiên tài trẻ tuổi của Lâm thị, người luôn nỗ lực để vượt qua cái bóng của Lâm Lang Thiên.' },
+    { name: 'Đại Yến Hoàng Đế', role: 'Lãnh đạo', age: '50', description: 'Người đứng đầu Đại Yến Vương Triều, một vị minh quân luôn tìm cách bảo vệ đất nước khỏi sự xâm lược.' },
+    { name: 'Bách Chiến Vực Trưởng Lão', role: 'Hỗ trợ', age: '65', description: 'Một vị tiền bối uyên bác, người đã chỉ dạy cho Lâm Động nhiều bí kíp về chiến thuật và sinh tồn.' }
+  ]
+};

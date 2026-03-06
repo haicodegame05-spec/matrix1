@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const riderDecade: FanficWork = {
+  id: 'rider-decade',
+  title: 'Kamen Rider Decade',
+  description: 'Kẻ hủy diệt các thế giới - Kadoya Tsukasa du hành qua các thế giới Kamen Rider để cứu vãn sự sụp đổ của đa vũ trụ.',
+  country: 'Nhật',
+  plot: 'Các thế giới Kamen Rider đang dần hòa nhập và sụp đổ. Kadoya Tsukasa, một thanh niên mất trí nhớ với khả năng chụp ảnh kỳ lạ, trở thành Kamen Rider Decade. Anh được giao nhiệm vụ du hành qua 9 thế giới của các Rider tiền bối để ngăn chặn sự hủy diệt, dù anh bị coi là "Kẻ hủy diệt" của mọi thế giới.',
+  worldSetting: 'Đa vũ trụ nơi mỗi Kamen Rider (từ Kuuga đến Kiva) tồn tại trong một thế giới riêng biệt. Decade có khả năng sử dụng thẻ bài để biến thân thành các Rider khác.',
+  characters: [
+    { name: 'Kadoya Tsukasa (Kamen Rider Decade)', role: 'Nhân vật chính', age: '20', description: 'Kẻ hủy diệt các thế giới, một nhiếp ảnh gia tự phụ nhưng có trái tim ấm áp. Anh chiến đấu để tìm lại vị trí của mình trong vũ trụ.' },
+    { name: 'Hikari Natsumi', role: 'Nữ chính', age: '19', description: 'Cháu gái của chủ tiệm ảnh Hikari, người luôn đi cùng và kiềm chế Tsukasa bằng chiêu "Tiếu huyệt".' },
+    { name: 'Onodera Yusuke (Kamen Rider Kuuga)', role: 'Đồng minh', age: '21', description: 'Kamen Rider Kuuga của thế giới song song, một thanh niên nhiệt huyết và là người bạn đồng hành trung thành của Tsukasa.' },
+    { name: 'Kaito Daiki (Kamen Rider Diend)', role: 'Đối thủ / Đồng minh', age: '21', description: 'Một tên trộm kho báu xuyên không gian, luôn tìm cách chiếm đoạt các báu vật của các thế giới Rider.' },
+    { name: 'Hikari Eijiro', role: 'Hỗ trợ', age: '65', description: 'Chủ tiệm ảnh Hikari, người sở hữu bức màn du hành qua các thế giới. Ông có thân phận bí ẩn là Shinigami Hakase.' },
+    { name: 'Kivala', role: 'Hỗ trợ', age: 'Unknown', description: 'Một sinh vật nhỏ thuộc tộc Kivat, người giúp đỡ Natsumi và sau này biến cô thành Kamen Rider Kivala.' },
+    { name: 'Narutaki', role: 'Phản diện / Bí ẩn', age: 'Unknown', description: 'Kẻ luôn xuất hiện và hét lên "Onore Dikeido!" (Khốn kiếp Decade!), tin rằng Tsukasa là mầm mống của sự hủy diệt.' },
+    { name: 'Guy (Apollo Geist)', role: 'Phản diện', age: 'Unknown', description: 'Đại diện của tổ chức Dai-Shocker, kẻ săn lùng Decade qua các thế giới.' },
+    { name: 'Kamen Rider Kuuga (Original)', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider đầu tiên của thời đại Heisei xuất hiện trong giấc mơ của Natsumi.' },
+    { name: 'Kamen Rider Agito', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider của thế giới Agito mà Tsukasa ghé thăm.' },
+    { name: 'Kamen Rider Ryuki', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider của thế giới gương soi.' },
+    { name: 'Kamen Rider Faiz', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider sử dụng công nghệ điện thoại của tập đoàn Smart Brain.' },
+    { name: 'Kamen Rider Blade', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider sử dụng sức mạnh của các lá bài Undead.' },
+    { name: 'Kamen Rider Hibiki', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider sử dụng âm nhạc để tiêu diệt quái vật Makamou.' },
+    { name: 'Kamen Rider Kabuto', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider sở hữu tốc độ Clock Up thần sầu.' },
+    { name: 'Kamen Rider Den-O', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider du hành thời gian trên con tàu DenLiner.' },
+    { name: 'Kamen Rider Kiva', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider mang dòng máu ma cà rồng Fangire.' },
+    { name: 'Momotaros', role: 'Đồng minh (Imagin)', age: 'Unknown', description: 'Linh hồn Imagin nóng nảy nhưng trượng nghĩa, thường xuyên nhập vào Tsukasa.' },
+    { name: 'Urataros', role: 'Đồng minh (Imagin)', age: 'Unknown', description: 'Linh hồn Imagin đào hoa và dối trá.' },
+    { name: 'Kintaros', role: 'Đồng minh (Imagin)', age: 'Unknown', description: 'Linh hồn Imagin mạnh mẽ và hay ngủ gật.' },
+    { name: 'Ryutararos', role: 'Đồng minh (Imagin)', age: 'Unknown', description: 'Linh hồn Imagin tinh nghịch thích nhảy múa.' },
+    { name: 'Sieg', role: 'Đồng minh (Imagin)', age: 'Unknown', description: 'Linh hồn Imagin kiêu sa với phong cách quý tộc.' },
+    { name: 'Wataru Kurenai', role: 'Tiền bối / Người dẫn dắt', age: 'Unknown', description: 'Kamen Rider Kiva gốc, người xuất hiện ở đầu phim để cảnh báo Tsukasa.' },
+    { name: 'Dai-Shocker Soldiers', role: 'Phản diện', age: 'N/A', description: 'Đội quân lính lác của tổ chức tội ác đa vũ trụ.' },
+    { name: 'Chinomanako', role: 'Phản diện', age: 'Unknown', description: 'Quái vật Gedoushu đã đánh cắp thiết bị biến thân của Diend.' },
+    { name: 'Kamen Rider Abyss', role: 'Đối thủ', age: 'Unknown', description: 'Rider giả mạo xuất hiện trong thế giới Ryuki.' },
+    { name: 'Kamen Rider Dark Kiva', role: 'Đối thủ', age: 'Unknown', description: 'Sức mạnh bóng tối đối đầu với Decade.' },
+    { name: 'Ten道 Souji (Alternative)', role: 'Tiền bối', age: 'Unknown', description: 'Kamen Rider Kabuto của thế giới song song.' },
+    { name: 'Inui Takumi (Alternative)', role: 'Tiền bối', age: 'Unknown', description: 'Kamen Rider Faiz của thế giới song song.' },
+    { name: 'Kamen Rider Amazon', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider hoang dã xuất hiện trong hành trình của Decade.' },
+    { name: 'Kamen Rider Black', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider huyền thoại thời Showa xuất hiện hỗ trợ Tsukasa.' }
+  ]
+};

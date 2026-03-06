@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const secondLifeRanker: FanficWork = {
+  id: 'second-life-ranker',
+  title: 'Xếp Hạng Sống Lại (Second Life Ranker)',
+  description: 'Yeon-woo bước vào Tòa Tháp của các vị thần để tìm kiếm sự thật về cái chết của người em trai sinh đôi.',
+  country: 'Hàn',
+  plot: 'Yeon-woo nhận được chiếc đồng hồ bỏ túi của người em trai đã mất tích 5 năm trước và phát hiện ra em mình đã bị phản bội trong Tòa Tháp Obelisk. Với nhật ký của em trai, Yeon-woo bước vào tòa tháp với danh tính bí ẩn, sử dụng kiến thức và sức mạnh của mình để trả thù và vươn tới đỉnh cao.',
+  worldSetting: 'Tòa Tháp Obelisk, nơi các vị thần và quỷ dữ quan sát những người leo tháp. Hệ thống thăng cấp khốc liệt với các phần thưởng và kỹ năng thần thánh.',
+  characters: [
+    { name: 'Cha Yeon-woo (Cain)', role: 'Nhân vật chính', description: 'Lạnh lùng, quyết đoán, sở hữu đôi mắt của rồng và đôi cánh của ác quỷ. Luôn đi trước đối thủ một bước.' },
+    { name: 'Cha Jeong-woo', role: 'Anh em', description: 'Em trai sinh đôi của Yeon-woo, người đã để lại nhật ký và sức mạnh cho anh trai mình.' },
+    { name: 'Edora', role: 'Nữ chính / Đồng minh', description: 'Công chúa của tộc Độc Giác, sở hữu đôi mắt thấu thị và là đồng đội tin cậy của Yeon-woo.' },
+    { name: 'Phante', role: 'Đồng minh', description: 'Anh trai của Edora, một chiến binh mạnh mẽ với tính cách nóng nảy nhưng rất nể phục Yeon-woo.' },
+    { name: 'Shanon', role: 'Cấp dưới', description: 'Linh hồn của một kiếm sĩ bậc thầy bị Yeon-woo thu phục, thường xuyên đưa ra những lời khuyên hữu ích.' },
+    { name: 'Allforone', role: 'Phản diện', description: 'Người mạnh nhất tòa tháp, kẻ canh giữ tầng 77 và là mục tiêu cuối cùng của mọi người leo tháp.' },
+    { name: 'Galliard', role: 'Người dẫn dắt / Đồng minh', description: 'Cựu kỵ sĩ của tộc Rồng, người đã dạy cho Yeon-woo những kỹ năng sinh tồn và chiến đấu đỉnh cao.' },
+    { name: 'Brahm', role: 'Đồng minh', description: 'Một trong những người bạn cũ của Jeong-woo, một pháp sư tài ba và là người giúp đỡ Yeon-woo rất nhiều.' },
+    { name: 'Hanryeong', role: 'Cấp dưới', description: 'Linh hồn của một võ sư mạnh mẽ, một trong những thuộc hạ trung thành nhất và là thanh kiếm của Yeon-woo.' },
+    { name: 'Rebecca', role: 'Thần linh / Hỗ trợ', description: 'Nữ thần của sự báo thù, người đã ban phước và bảo hộ cho Yeon-woo trong suốt hành trình của anh.' },
+    { name: 'Creutz', role: 'Đồng minh', description: 'Một kỵ sĩ dũng cảm, người đồng hành cùng Yeon-woo trong các trận chiến quan trọng chống lại các thế lực thù địch.' },
+    { name: 'Kahn', role: 'Đồng minh', description: 'Một kiếm sĩ tài năng, bạn thân của Doyle, người đã cùng Yeon-woo trải qua nhiều thử thách ở các tầng thấp.' },
+    { name: 'Doyle', role: 'Đồng minh', description: 'Một pháp sư triệu hồi, người có khả năng điều khiển các linh hồn và hỗ trợ nhóm một cách hiệu quả.' },
+    { name: 'Victoria', role: 'Đồng minh', description: 'Nữ pháp sư mạnh mẽ, chuyên gia về ma thuật cổ xưa, người đã giúp Yeon-woo giải mã nhiều bí mật của tòa tháp.' },
+    { name: 'Kindred', role: 'Phản diện', description: 'Một trong những lãnh đạo của Elohim, kẻ luôn tìm cách tiêu diệt Yeon-woo và chiếm đoạt sức mạnh của anh.' },
+    { name: 'Aether', role: 'Phản diện', description: 'Một thiên tài của Elohim, đối thủ truyền kiếp của Jeong-woo và sau này là của Yeon-woo.' },
+    { name: 'Hemera', role: 'Phản diện', description: 'Nữ thần của ánh sáng ban ngày, một thực thể mạnh mẽ luôn quan sát và can thiệp vào vận mệnh của người leo tháp.' },
+    { name: 'Zeus', role: 'Thần linh', description: 'Vị thần tối cao của Olympus, người có ảnh hưởng lớn đến các sự kiện diễn ra trong tòa tháp.' },
+    { name: 'Poseidon', role: 'Thần linh', description: 'Vị thần của biển cả, một trong những thực thể mạnh mẽ luôn tìm cách thử thách Yeon-woo.' },
+    { name: 'Hades', role: 'Thần linh', description: 'Vị thần của cõi âm, người có mối liên kết đặc biệt với sức mạnh bóng tối của Yeon-woo.' },
+    { name: 'Athena', role: 'Thần linh / Hỗ trợ', description: 'Nữ thần của trí tuệ và chiến tranh, người thường xuyên ban phước và chỉ dẫn cho Yeon-woo.' },
+    { name: 'Hermes', role: 'Thần linh / Hỗ trợ', description: 'Vị thần của sự đưa tin và trộm cắp, người luôn quan tâm và giúp đỡ Yeon-woo một cách âm thầm.' },
+    { name: 'Ares', role: 'Thần linh', description: 'Vị thần của chiến tranh tàn khốc, kẻ luôn khao khát những trận chiến đẫm máu trong tòa tháp.' },
+    { name: 'Apollo', role: 'Thần linh', description: 'Vị thần của ánh sáng và nghệ thuật, người sở hữu sức mạnh tiên tri và cung thuật đỉnh cao.' },
+    { name: 'Artemis', role: 'Thần linh', description: 'Nữ thần của săn bắn, người luôn bảo vệ những thợ săn tài năng trong tòa tháp.' },
+    { name: 'Hephaestus', role: 'Thần linh / Hỗ trợ', description: 'Vị thần của thợ rèn, người đã giúp Yeon-woo nâng cấp và rèn những trang bị thần thánh.' },
+    { name: 'Hestia', role: 'Thần linh', description: 'Nữ thần của gia đình và ngọn lửa ấm áp, người mang lại sự bình yên cho tâm hồn của Yeon-woo.' },
+    { name: 'Demeter', role: 'Thần linh', description: 'Nữ thần của nông nghiệp, người duy trì sự sống và nguồn lực trong các tầng của tòa tháp.' },
+    { name: 'Dionysus', role: 'Thần linh', description: 'Vị thần của rượu và sự cuồng nhiệt, người luôn mang lại những bất ngờ thú vị cho hành trình của Yeon-woo.' },
+    { name: 'Aphrodite', role: 'Thần linh', description: 'Nữ thần của tình yêu và sắc đẹp, người có khả năng mê hoặc và thao túng tâm trí của kẻ thù.' }
+  ]
+};

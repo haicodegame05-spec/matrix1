@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const greatMage4000Years: FanficWork = {
+  id: 'great-mage-4000-years',
+  title: 'Đại Pháp Sư Trở Lại Sau 4000 Năm (The Great Mage Returns After 4000 Years)',
+  description: 'Lucas Trowman, đại pháp sư mạnh nhất lịch sử, bị phong ấn bởi các Á thần và trở lại sau 4000 năm trong thân xác của một học sinh yếu ớt.',
+  country: 'Hàn',
+  plot: 'Lucas Trowman bị các Á thần (Demigods) phản bội và phong ấn vào cõi hư vô. 4000 năm sau, linh hồn ông nhập vào Frey Blake, một học sinh bị coi là rác rưởi của học viện ma pháp. Với kiến thức và kinh nghiệm của một đại pháp sư, Lucas bắt đầu hành trình lấy lại sức mạnh và tiêu diệt các Á thần để giải phóng nhân loại.',
+  worldSetting: 'Thế giới ma pháp nơi các Á thần cai trị từ trong bóng tối. Hệ thống ma pháp chia thành các cấp bậc từ 1 đến 9 sao, và cảnh giới cao hơn là Tuyệt Đối Giả.',
+  characters: [
+    { name: 'Lucas Trowman (Frey Blake)', role: 'Nhân vật chính', age: '4000+', description: 'Đại pháp sư 9 sao, thông thái, lạnh lùng và sở hữu ý chí bất khuất chống lại thần linh, người dẫn dắt nhân loại thoát khỏi xiềng xích của Á thần.' },
+    { name: 'Isabelle', role: 'Đồng minh', age: '19', description: 'Công chúa của vương quốc, một pháp sư tài năng, dũng cảm và là một trong những người đầu tiên tin tưởng vào Frey.' },
+    { name: 'Snow', role: 'Đồng minh', age: '100+', description: 'Nữ vương của tộc Tiên (Elf), một chiến binh mạnh mẽ, kiêu ngạo nhưng rất trung thành với Lucas.' },
+    { name: 'Lord', role: 'Phản diện', age: '10000+', description: 'Lãnh đạo của các Á thần, thực thể quyền năng nhất, kẻ coi nhân loại là sâu bọ và là kẻ thù lớn nhất của Lucas.' },
+    { name: 'Iris Philarion', role: 'Đồng minh / Đối thủ', age: '4000+', description: 'Người bạn cũ của Lucas từ 4000 năm trước, sở hữu sức mạnh bóng tối, có mối quan hệ phức tạp và đầy đau thương với ông.' },
+    { name: 'Beniang Argento', role: 'Đồng minh', age: '20', description: 'Thủ lĩnh của Trowman Rings, một pháp sư trẻ tuổi đầy nhiệt huyết và luôn nỗ lực để khôi phục vinh quang của tổ chức.' },
+    { name: 'Nix', role: 'Đồng minh', age: '20', description: 'Một pháp sư hệ hỏa mạnh mẽ, có tính cách thẳng thắn và là một trong những trụ cột của nhóm Lucas.' },
+    { name: 'Ricky', role: 'Á thần / Đồng minh', age: '1000+', description: 'Một Á thần hiếm hoi đứng về phía nhân loại, giúp đỡ Lucas vì lý tưởng riêng của mình.' },
+    { name: 'Sheryl Roland', role: 'Đồng minh', age: '18', description: 'Một pháp sư thiên tài trẻ tuổi, luôn ngưỡng mộ và học hỏi từ Lucas.' },
+    { name: 'Heinz Blake', role: 'Gia đình / Đối thủ', age: '40', description: 'Cha của Frey Blake, một người đàn ông quyền lực nhưng lạnh lùng, có mối quan hệ căng thẳng với con trai mình.' },
+    { name: 'Schweiser Strow', role: 'Đồng minh', age: '4000+', description: 'Một trong bốn người bạn đồng hành của Lucas từ 4000 năm trước, một thiên tài về ma pháp trận và nghiên cứu.' },
+    { name: 'Kasajin', role: 'Đồng minh', age: '4000+', description: 'Vua nắm đấm, người bạn đồng hành mạnh mẽ của Lucas, sở hữu sức mạnh thể chất áp đảo.' },
+    { name: 'Lucid', role: 'Đồng minh', age: '4000+', description: 'Kiếm thánh huyền thoại, người bạn đồng hành đã sát cánh cùng Lucas trong cuộc chiến đầu tiên chống lại Á thần.' },
+    { name: 'Odi', role: 'Đồng minh', age: '20', description: 'Một pháp sư trẻ tuổi đầy tiềm năng, người đã đồng hành cùng Lucas trong nhiều nhiệm vụ nguy hiểm.' },
+    { name: 'Camille', role: 'Đồng minh', age: '25', description: 'Một chiến binh mạnh mẽ thuộc giáo hội, người đã hỗ trợ Lucas trong việc thanh trừng các thế lực tà ác.' },
+    { name: 'Nozdog', role: 'Phản diện', age: '???', description: 'Một trong những Á thần mạnh nhất, đại diện cho cái chết và sự mục nát, kẻ thù không đội trời chung của Lucas.' },
+    { name: 'Agni', role: 'Phản diện', age: '???', description: 'Á thần của lửa, sở hữu sức mạnh thiêu rụi mọi thứ và tính cách nóng nảy, tàn bạo.' },
+    { name: 'Leyrin', role: 'Phản diện', age: '???', description: 'Nữ Á thần của gió, xảo quyệt và luôn tìm cách thao túng các quốc gia loài người.' },
+    { name: 'Ananta', role: 'Phản diện', age: '???', description: 'Á thần của đất, sở hữu sức mạnh phòng ngự tuyệt đối và khả năng điều khiển địa hình.' },
+    { name: 'Demigod', role: 'Chủng tộc', age: 'N/A', description: 'Những thực thể tự xưng là thần, cai trị thế giới bằng sức mạnh áp đảo và coi nhân loại là công cụ.' },
+    { name: 'Charles Roland', role: 'Đồng minh', age: '50', description: 'Cha của Sheryl Roland, một pháp sư cấp cao luôn ủng hộ và bảo vệ Lucas khỏi các âm mưu chính trị.' },
+    { name: 'Ivan', role: 'Đồng minh', age: '22', description: 'Một chiến binh dũng cảm, người đã cùng Lucas chiến đấu chống lại các quái vật do Á thần tạo ra.' },
+    { name: 'Lich (Mikhail)', role: 'Đối thủ / Đồng minh', age: '500+', description: 'Một pháp sư đã biến mình thành Lich để tìm kiếm sự bất tử, sau này bị Lucas thu phục và hỗ trợ kiến thức cổ xưa.' },
+    { name: 'Hải Long (Sea Dragon)', role: 'Thú triệu hồi', age: 'Ancient', description: 'Một sinh vật biển khổng lồ được Lucas thuần hóa, phục vụ như một phương tiện di chuyển và chiến đấu trên biển.' },
+    { name: 'Đại Pháp Sư (Tiền bối)', role: 'Bí ẩn', age: 'Ancient', description: 'Người đã sáng tạo ra hệ thống ma pháp 9 sao, để lại nhiều di sản mà Lucas đã kế thừa.' },
+    { name: 'Nữ Thần (Gaia)', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Ý chí của thế giới, người đã ban phước cho Lucas và dẫn dắt ông trong cuộc chiến chống lại các Á thần.' },
+    { name: 'Kẻ Phản Bội', role: 'Phản diện', age: '4000+', description: 'Một trong những người bạn cũ của Lucas đã phản bội ông để đổi lấy sự trường sinh từ các Á thần.' },
+    { name: 'Vua (Vương quốc Luan)', role: 'Đồng minh', age: '55', description: 'Vị vua chính trực của vương quốc Luan, người đã cung cấp tài nguyên và quân đội cho cuộc kháng chiến của Lucas.' },
+    { name: 'Thánh Nữ (Giáo hội)', role: 'Hỗ trợ', age: '20', description: 'Một cô gái có khả năng chữa trị thần kỳ, người đã cứu sống nhiều đồng đội của Lucas trong các trận chiến.' },
+    { name: 'Chiến Binh Rồng', role: 'Đồng minh', age: 'Unknown', description: 'Một chiến binh mang dòng máu rồng, sở hữu sức mạnh thể chất và khả năng kháng ma pháp vượt trội.' }
+  ]
+};

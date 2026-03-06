@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const ngaDucPhongThien: FanficWork = {
+  id: 'nga-duc-phong-thien',
+  title: 'Ngã Dục Phong Thiên',
+  description: 'Mạnh Hạo, một thư sinh nghèo, tình cờ bước vào con đường tu tiên và thề sẽ phong ấn cả bầu trời.',
+  country: 'Trung',
+  plot: 'Mạnh Hạo là một thư sinh thi trượt nhiều lần, tình cờ bị bắt cóc vào Kháo Sơn Tông. Từ một người chỉ muốn kiếm tiền, anh dần khám phá ra bí mật về thân thế của mình và sự tồn tại của Cửu Sơn Hải. Với tính cách "thích tiền như mạng" nhưng cũng rất trọng tình nghĩa, Mạnh Hạo bước lên con đường tu tiên đầy màu sắc và những trận chiến kinh thiên động địa.',
+  worldSetting: 'Thế giới Cửu Sơn Hải với những quy luật cổ xưa và bí ẩn. Hệ thống tu luyện: Ngưng Khí, Trúc Cơ, Kết Đan, Nguyên Anh, Hóa Thần, Anh Biến, Vấn Đỉnh... cho đến Tiên cảnh, Cổ cảnh và Đạo cảnh.',
+  characters: [
+    { name: 'Mạnh Hạo', role: 'Nhân vật chính', age: '1000+', description: 'Thư sinh tu tiên, thông minh, lém lỉnh, cực kỳ yêu tiền nhưng cũng rất quyết đoán và mạnh mẽ. Sau này trở thành Đệ Cửu Sơn Hải Chủ.' },
+    { name: 'Hứa Thanh', role: 'Nữ chính', age: '500+', description: 'Sư tỷ của Mạnh Hạo tại Kháo Sơn Tông, người con gái anh yêu nhất, tính cách dịu dàng nhưng kiên cường.' },
+    { name: 'Anh Vũ', role: 'Bạn đồng hành', age: 'Vĩnh cửu', description: 'Một con vẹt kỳ quái, thô tục và đầy bí ẩn, luôn đi cùng Mạnh Hạo và gây ra nhiều chuyện hài hước, thực chất là một thực thể cổ xưa.' },
+    { name: 'Bì Đống', role: 'Bạn đồng hành', age: 'Vĩnh cửu', description: 'Một sinh vật hình cái chuông, thích lải nhải về đạo lý và là "oan gia" của Anh Vũ, có khả năng phòng ngự tuyệt đối.' },
+    { name: 'Sở Ngọc Yên', role: 'Đồng minh / Đối thủ', age: '200+', description: 'Thiên kiêu của Đan Đông Phái, có mối quan hệ phức tạp và nhiều duyên nợ với Mạnh Hạo, sau này trở thành một trong những người phụ nữ quan trọng.' },
+    { name: 'Kháo Sơn Lão Tổ', role: 'Người dẫn dắt / Đối thủ', age: '2000+', description: 'Vị tổ sư bí ẩn của Kháo Sơn Tông, thực chất là một con rùa khổng lồ cõng cả tông môn, luôn tìm cách "hố" Mạnh Hạo.' },
+    { name: 'Đan Quỷ', role: 'Người dẫn dắt', age: '1000+', description: 'Sư phụ của Mạnh Hạo về luyện đan, một người chính trực và hết lòng bảo vệ đệ tử.' },
+    { name: 'Mạnh Lệ', role: 'Gia đình', age: '1000+', description: 'Cha của Mạnh Hạo, một người đàn ông mạnh mẽ và bí ẩn, luôn âm thầm bảo vệ con trai.' },
+    { name: 'Phương Tú Phong', role: 'Gia đình', age: '1000+', description: 'Mẹ của Mạnh Hạo, người đã dành cả đời để chờ đợi và yêu thương anh.' },
+    { name: 'Phương Vệ', role: 'Đối thủ', age: '22', description: 'Thiên tài của Phương gia, đối thủ lớn của Mạnh Hạo trong việc tranh giành vị trí tộc trưởng và tài nguyên.' },
+    { name: 'Lý Chủ', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Vị chủ nhân của Đệ Cửu Sơn Hải, người đã để lại nhiều truyền thừa và bí mật cho Mạnh Hạo khám phá.' },
+    { name: 'Hải Đông Khanh', role: 'Đồng minh', age: '500+', description: 'Một vị đại năng ở Sơn Hải Giới, người đã cùng Mạnh Hạo chiến đấu chống lại các thế lực ngoại lai.' },
+    { name: 'Chí Tôn (Lục Bách)', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Kẻ thù lớn nhất của Sơn Hải Giới, đại diện cho sự hủy diệt và bóng tối.' },
+    { name: 'Tiểu Bảo', role: 'Bạn đồng hành', age: '???', description: 'Một sinh vật nhỏ bé đáng yêu được Mạnh Hạo nhận nuôi, mang trong mình sức mạnh tiềm ẩn.' },
+    { name: 'Đạo Phương', role: 'Đối thủ', age: '2000+', description: 'Một vị đại năng cổ xưa, luôn tìm cách ngăn cản Mạnh Hạo đạt tới đỉnh cao tu luyện.' },
+    { name: 'Lý Phú Quý (Fatty)', role: 'Bạn thân', age: '20+', description: 'Người bạn thân thiết nhất của Mạnh Hạo từ thời còn ở Kháo Sơn Tông, tính cách hài hước và rất trung thành.' },
+    { name: 'Vương Hữu Tài', role: 'Bạn đồng môn', age: '22', description: 'Một đệ tử của Kháo Sơn Tông, người đã cùng Mạnh Hạo trải qua những ngày đầu tu luyện gian khó.' },
+    { name: 'Thượng Quan Tu', role: 'Phản diện', age: '100+', description: 'Một trưởng lão của Kháo Sơn Tông, kẻ luôn tìm cách hãm hại Mạnh Hạo để đoạt lấy bảo vật.' },
+    { name: 'Hàn Tuyết San', role: 'Đồng minh', age: '100+', description: 'Nữ tử của Hàn Tuyết tộc, người đã giúp Mạnh Hạo trong hành trình tại Bắc Địa.' },
+    { name: 'Chu Á', role: 'Đồng minh', age: '150+', description: 'Một nữ tu sĩ tài năng, người đã cùng Mạnh Hạo khám phá nhiều bí cảnh cổ xưa.' },
+    { name: 'Phương Mộc', role: 'Danh tính giả', age: '???', description: 'Danh tính của Mạnh Hạo khi gia nhập Đan Đông Phái, một thiên tài luyện đan khiến cả giới tu chân nể phục.' },
+    { name: 'Triệu Hải', role: 'Nhân vật phụ', age: '25', description: 'Một đệ tử ngoại môn của Kháo Sơn Tông, luôn ngưỡng mộ và lấy Mạnh Hạo làm tấm gương phấn đấu.' },
+    { name: 'Đinh Tín', role: 'Nhân vật phụ', age: '24', description: 'Một chiến binh dũng cảm, người đã hy sinh để bảo vệ tông môn trong các trận chiến ác liệt.' },
+    { name: 'Tôn Hải', role: 'Nhân vật phụ', age: '26', description: 'Một người lữ hành đã đi qua nhiều đại lục, cung cấp cho Mạnh Hạo nhiều thông tin quý giá.' },
+    { name: 'Đổng Hải', role: 'Nhân vật phụ', age: '23', description: 'Một đệ tử của Phương gia, người luôn nỗ lực để khẳng định vị thế của mình trong gia tộc.' },
+    { name: 'Trần Gia', role: 'Nhân vật phụ', age: '22', description: 'Một nữ tu sĩ xinh đẹp, người đã thầm thương trộm nhớ Mạnh Hạo từ lâu.' },
+    { name: 'Ngô Gia', role: 'Nhân vật phụ', age: '21', description: 'Một thiên tài về trận pháp, người đã giúp Mạnh Hạo giải mã nhiều cấm chế phức tạp.' },
+    { name: 'Trịnh Gia', role: 'Nhân vật phụ', age: '20', description: 'Một thiếu niên đầy nhiệt huyết, người luôn tin tưởng vào sự lãnh đạo của Mạnh Hạo.' },
+    { name: 'Chu Gia', role: 'Nhân vật phụ', age: '19', description: 'Một đệ tử trẻ tuổi của Sơn Hải Giới, người mang trong mình hy vọng về một tương lai tươi sáng.' },
+    { name: 'Tần Gia', role: 'Nhân vật phụ', age: '18', description: 'Một chiến binh nhỏ tuổi nhưng dũng cảm, luôn sẵn sàng chiến đấu bảo vệ quê hương.' }
+  ]
+};

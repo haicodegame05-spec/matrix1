@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const mangHoangKy: FanficWork = {
+  id: 'mang-hoang-ky',
+  title: 'Mãng Hoang Kỷ',
+  description: 'Kỷ Ninh, một thiếu niên mang theo ký ức kiếp trước, bắt đầu hành trình tu luyện từ một bộ lạc nhỏ đến khi trở thành đại năng vũ trụ.',
+  country: 'Trung',
+  plot: 'Kỷ Ninh sinh ra trong một gia đình quyền thế của bộ lạc Kỷ thị ở Mãng Hoang Đại Lục. Với tư chất thiên bẩm và sự nỗ lực không ngừng, anh vượt qua vô số thử thách, từ việc bảo vệ bộ lạc đến việc tham gia các cuộc chiến tầm cỡ vũ trụ. Hành trình của Kỷ Ninh là sự kết hợp giữa kiếm đạo đỉnh cao và những ngộ nhận về quy luật của vũ trụ.',
+  worldSetting: 'Thế giới tu tiên rộng lớn với các cấp bậc: Hậu Thiên, Tiên Thiên, Tử Phủ, Vạn Tượng, Nguyên Thần, Địa Tiên, Thiên Tiên, Chân Tiên, Tổ Tiên, Thế Giới Cảnh... và các cảnh giới cao hơn như Đạo Quân, Đế Quân, Chí Tôn.',
+  characters: [
+    { name: 'Kỷ Ninh', role: 'Nhân vật chính', age: '1000+', description: 'Thiên tài kiếm đạo, sở hữu ý chí kiên định và lòng trung thành tuyệt đối với gia đình và sư môn. Sau này trở thành Hỗn Độn Vũ Trụ Chủ.' },
+    { name: 'Dư Vi', role: 'Nữ chính', age: '500+', description: 'Sư tỷ và là vợ của Kỷ Ninh, một nữ tử dịu dàng nhưng cũng rất kiên cường trong tu luyện, đã hy sinh và được Kỷ Ninh hồi sinh.' },
+    { name: 'Điện Tài Tiên Nhân', role: 'Người dẫn dắt', age: '1000+', description: 'Người thầy đầu tiên dẫn dắt Kỷ Ninh vào con đường kiếm đạo đỉnh cao tại Hắc Bạch Học Cung, một người chính trực và tận tâm.' },
+    { name: 'Bạch Thúc', role: 'Bạn đồng hành', age: '1000+', description: 'Một con chó trắng linh thiêng, người bạn đồng hành trung thành từ thuở nhỏ của Kỷ Ninh, mang trong mình huyết mạch thần thú.' },
+    { name: 'Tiểu Hà', role: 'Bạn đồng hành', age: '???', description: 'Một linh hồn rồng, người bạn và cũng là trợ thủ đắc lực của Kỷ Ninh trong nhiều trận chiến, tính cách hoạt bát.' },
+    { name: 'Bồ Đề Lão Tổ', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Vị đại năng bí ẩn đã nhận Kỷ Ninh làm đồ đệ và dạy anh những bí pháp tối cao, là một trong những thực thể mạnh nhất Tam Giới.' },
+    { name: 'Kỷ Nhất Xuyên', role: 'Gia đình', age: '45', description: 'Cha của Kỷ Ninh, một chiến binh dũng cảm của Kỷ thị, người đã truyền dạy những kỹ năng chiến đấu đầu tiên cho anh.' },
+    { name: 'Uất Trì Tuyết', role: 'Gia đình', age: '40', description: 'Mẹ của Kỷ Ninh, một người phụ nữ dịu dàng, xuất thân từ một gia tộc lớn và luôn yêu thương con trai hết mực.' },
+    { name: 'Kỷ Minh Nguyệt', role: 'Con gái', age: '100+', description: 'Con gái của Kỷ Ninh và Dư Vi, thừa hưởng thiên phú kiếm đạo của cha và sự dịu dàng của mẹ.' },
+    { name: 'Mộc Tử Sóc', role: 'Bạn thân', age: '500+', description: 'Người bạn thân thiết của Kỷ Ninh tại Hắc Bạch Học Cung, một thiên tài về rối và ma pháp trận.' },
+    { name: 'Cửu Liên', role: 'Tình cảm', age: '200+', description: 'Một nữ tử xinh đẹp có mối quan hệ tình cảm ngắn ngủi với Kỷ Ninh ở giai đoạn đầu, nhưng con đường của họ đã rẽ sang hai hướng khác nhau.' },
+    { name: 'Hỗn Độn Thành Chủ', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Vị đại năng thống trị Hỗn Độn Thành, người đã chỉ dẫn Kỷ Ninh trong hành trình vươn ra ngoài vũ trụ.' },
+    { name: 'Vô Gian Môn Chủ', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Kẻ thù lớn nhất của Tam Giới, người đứng sau cuộc chiến tàn khốc đe dọa sự tồn vong của mọi sinh linh.' },
+    { name: 'Tâm Ma chi chủ', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Một thực thể tà ác chuyên thao túng tâm trí con người, kẻ thù truyền kiếp của Bồ Đề Lão Tổ.' },
+    { name: 'Kiếm Linh (Bắc Hồng)', role: 'Bạn đồng hành', age: 'Vĩnh cửu', description: 'Linh hồn của thanh kiếm Bắc Hồng, người đã đồng hành và giúp Kỷ Ninh ngộ ra những chân lý tối cao của kiếm đạo.' },
+    { name: 'Kỷ Cửu Hỏa', role: 'Lãnh đạo', age: '100+', description: 'Tộc trưởng của Kỷ thị, một người lãnh đạo sáng suốt luôn đặt lợi ích của bộ lạc lên hàng đầu.' },
+    { name: 'Kỷ Phụ', role: 'Lãnh đạo', age: '100+', description: 'Một vị trưởng lão uy tín của Kỷ thị, người đã hỗ trợ Kỷ Ninh trong những ngày đầu tu luyện.' },
+    { name: 'Kỷ Hạo', role: 'Gia đình', age: '20+', description: 'Anh họ của Kỷ Ninh, một chiến binh dũng cảm luôn nỗ lực để bảo vệ bộ lạc.' },
+    { name: 'Kỷ Hồng', role: 'Gia đình', age: '18+', description: 'Em họ của Kỷ Ninh, xinh đẹp và có khiếu về ma pháp trận, luôn ngưỡng mộ anh trai mình.' },
+    { name: 'Thanh Hà', role: 'Đồng minh', age: '200+', description: 'Một nữ tu sĩ tài năng tại Hắc Bạch Học Cung, người đã cùng Kỷ Ninh khám phá nhiều bí cảnh.' },
+    { name: 'Lôi Phong', role: 'Đồng minh', age: '300+', description: 'Một chiến binh hệ lôi mạnh mẽ, người đã sát cánh cùng Kỷ Ninh trong các trận chiến chống lại Vô Gian Môn.' },
+    { name: 'Thủy Linh', role: 'Đồng minh', age: '250+', description: 'Nữ pháp sư hệ thủy, có khả năng điều khiển nước và hỗ trợ hồi phục cho đồng đội.' },
+    { name: 'Hỏa Diệm', role: 'Đồng minh', age: '350+', description: 'Chiến sĩ hệ hỏa, luôn mang lại sự bùng nổ trong các trận chiến giáp lá cà.' },
+    { name: 'Mộc Lan', role: 'Đồng minh', age: '280+', description: 'Nữ chiến sĩ sở hữu kỹ năng hệ mộc, có khả năng khống chế kẻ thù bằng dây leo.' },
+    { name: 'Thổ Lực', role: 'Đồng minh', age: '400+', description: 'Chiến sĩ hệ thổ, người tạo ra các rào chắn phòng ngự vững chắc cho đồng đội.' },
+    { name: 'Phong Vân', role: 'Đồng minh', age: '320+', description: 'Sát thủ hệ phong, sở hữu tốc độ và khả năng ám sát đỉnh cao.' },
+    { name: 'Quang Minh', role: 'Đồng minh', age: '500+', description: 'Mục sư hệ quang, người mang lại hy vọng và sự chữa lành cho các chiến sĩ.' },
+    { name: 'Hắc Am', role: 'Đồng minh', age: '450+', description: 'Sát thủ hệ ám, kẻ thầm lặng tiêu diệt những mục tiêu quan trọng của kẻ thù.' },
+    { name: 'Không Gian', role: 'Đồng minh', age: '600+', description: 'Người chơi sở hữu kỹ năng không gian hiếm có, giúp đội di chuyển linh hoạt và thoát hiểm.' },
+    { name: 'Thời Gian', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Thực thể thần bí nắm giữ chìa khóa của thời gian, người giám sát các dòng thời gian trong vũ trụ.' }
+  ]
+};

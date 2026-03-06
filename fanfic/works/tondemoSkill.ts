@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tondemoSkill: FanficWork = {
+  id: 'tondemo-skill',
+  title: 'Nấu Ăn Ở Dị Giới (Campfire Cooking in Another World)',
+  description: 'Mukoda Tsuyoshi, một nhân viên văn phòng chuyển sinh với kỹ năng "Siêu thị trực tuyến" kỳ lạ.',
+  country: 'Nhật',
+  plot: 'Mukoda Tsuyoshi bị triệu hồi đến dị giới cùng với ba anh hùng khác. Tuy nhiên, kỹ năng của anh chỉ là "Siêu thị trực tuyến", một kỹ năng bị coi là vô dụng trong chiến đấu. Mukoda quyết định rời khỏi vương quốc và bắt đầu hành trình du ngoạn dị giới. Nhờ tài nấu nướng và các nguyên liệu hiện đại từ siêu thị, anh đã thu phục được Fenrir huyền thoại và Slime ma pháp làm thuộc hạ.',
+  worldSetting: 'Một thế giới fantasy cổ điển với quái vật, mạo hiểm giả và các vị thần. Sức mạnh dựa trên các cấp độ (Level) và kỹ năng đặc biệt. Mukoda có thể mua bất kỳ thứ gì từ siêu thị Nhật Bản hiện đại bằng tiền dị giới.',
+  characters: [
+    { name: 'Mukoda Tsuyoshi', role: 'Nhân vật chính', age: '27', description: 'Một nhân viên văn phòng hiền lành, nhút nhát nhưng nấu ăn cực ngon. Luôn lo lắng về chi phí sinh hoạt và an toàn của bản thân.' },
+    { name: 'Fel', role: 'Thuộc hạ / Thần thú', age: '1000+', description: 'Một Fenrir huyền thoại, cực kỳ mạnh mẽ và kiêu ngạo. Trở thành thuộc hạ của Mukoda chỉ vì... đồ ăn quá ngon.' },
+    { name: 'Sui', role: 'Thuộc hạ / Thú cưng', age: '???', description: 'Một Slime ma pháp cực kỳ đáng yêu và trung thành. Có khả năng tiêu hóa mọi thứ và chiến đấu rất mạnh mẽ.' },
+    { name: 'Dora-chan', role: 'Thuộc hạ / Thần thú', age: '???', description: 'Một con rồng nhỏ (Pixie Dragon) cực kỳ nhanh nhẹn và mạnh mẽ. Cũng bị thu phục bởi tài nấu nướng của Mukoda.' },
+    { name: 'Ninrir', role: 'Nữ thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Nữ thần Gió, cực kỳ thích đồ ngọt từ Nhật Bản. Luôn ban phúc lành cho Mukoda để đổi lấy bánh kẹo.' },
+    { name: 'Agni', role: 'Nữ thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Nữ thần Lửa, thích rượu và các món ăn cay nồng từ siêu thị của Mukoda.' },
+    { name: 'Kishar', role: 'Nữ thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Nữ thần Đất, thích các sản phẩm làm đẹp và chăm sóc da từ thế giới hiện đại.' },
+    { name: 'Rusalka', role: 'Nữ thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Nữ thần Nước, thích các món ăn từ hải sản và đồ uống giải khát.' },
+    { name: 'Hephaestus', role: 'Nam thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Thần Rèn, thích các loại bia và đồ nhắm từ Nhật Bản.' },
+    { name: 'Vahagn', role: 'Nam thần / Hỗ trợ', age: 'Vĩnh cửu', description: 'Thần Chiến tranh, thích các loại rượu mạnh và thịt nướng.' },
+    { name: 'Lambert', role: 'Đồng minh', age: '40+', description: 'Chủ một cửa hàng buôn bán lớn, người đã giúp Mukoda tiêu thụ các sản phẩm từ dị giới và thế giới hiện đại.' },
+    { name: 'Marie', role: 'Đồng minh', age: '35+', description: 'Vợ của Lambert, người rất yêu thích các sản phẩm làm đẹp mà Mukoda cung cấp.' },
+    { name: 'Guild Master', role: 'Nhân vật quan trọng', age: '50+', description: 'Người đứng đầu Guild mạo hiểm giả tại thành phố Mukoda đang ở, luôn kinh ngạc trước sức mạnh của Fel và Sui.' },
+    { name: 'Iron Will Party Member 1', role: 'Đồng minh', age: '25+', description: 'Thành viên của nhóm mạo hiểm giả Iron Will, những người đầu tiên hộ tống Mukoda.' },
+    { name: 'Iron Will Party Member 2', role: 'Đồng minh', age: '25+', description: 'Thành viên khác của nhóm Iron Will, chuyên về ma pháp phòng thủ.' },
+    { name: 'The King of Reijseger', role: 'Phản diện', age: '55+', description: 'Vị vua đã triệu hồi Mukoda, tham lam và muốn lợi dụng các anh hùng cho mục đích chiến tranh.' },
+    { name: 'Hero 1 (Kaito)', role: 'Anh hùng', age: '17', description: 'Một trong ba anh hùng được triệu hồi cùng Mukoda, nhiệt huyết nhưng đôi khi quá ngây thơ.' },
+    { name: 'Hero 2 (Kanako)', role: 'Anh hùng', age: '17', description: 'Nữ anh hùng được triệu hồi, sở hữu ma pháp ánh sáng mạnh mẽ.' },
+    { name: 'Hero 3 (Shota)', role: 'Anh hùng', age: '17', description: 'Anh hùng thứ ba, chuyên về kiếm thuật và sức mạnh thể chất.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán gia vị, người đã cung cấp cho Mukoda những nguyên liệu dị giới độc đáo.' },
+    { name: 'The Goddess of Creation', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Vị thần tối cao đã ban cho Mukoda kỹ năng Siêu thị trực tuyến, luôn âm thầm ủng hộ anh.' },
+    { name: 'The Merchant King', role: 'Đồng minh', age: '50', description: 'Người đứng đầu hiệp hội thương nhân, đối tác kinh doanh lớn nhất của Mukoda.' },
+    { name: 'Elsa', role: 'Hỗ trợ', age: '22', description: 'Một nữ mạo hiểm giả dũng cảm, người đã giúp Mukoda thu thập các nguyên liệu hiếm từ quái vật.' },
+    { name: 'The Dragon Emperor', role: 'Đồng minh', age: '5000+', description: 'Hoàng đế của loài rồng, người đã mời Mukoda đến nấu ăn cho bữa tiệc của mình.' },
+    { name: 'The Evil Duke', role: 'Phản diện', age: '48', description: 'Kẻ đang âm mưu chiếm đoạt kỹ năng của Mukoda để làm giàu bất chính.' },
+    { name: 'The Royal Chef', role: 'Đối thủ / Đồng minh', age: '45', description: 'Đầu bếp trưởng của hoàng gia, người ban đầu thách thức Mukoda nhưng sau đó đã bái anh làm sư phụ.' },
+    { name: 'The Beastman Merchant', role: 'Hỗ trợ', age: '35', description: 'Một thương nhân tộc người thú, người cung cấp cho Mukoda những loại thịt quái vật tươi ngon nhất.' },
+    { name: 'The Forest Nymph', role: 'Hỗ trợ', age: '???', description: 'Một tiên nữ rừng xanh, người đã giúp Mukoda tìm thấy những loại thảo mộc và gia vị quý hiếm.' },
+    { name: 'The Traveling Knight', role: 'Đồng minh', age: '28', description: 'Một hiệp sĩ lang thang, người đã bảo vệ xe hàng của Mukoda khỏi bọn cướp đường.' },
+    { name: 'The Village Child', role: 'Hỗ trợ', age: '10', description: 'Một cậu bé tại ngôi làng Mukoda ghé thăm, người luôn mong chờ được thưởng thức những món ăn của anh.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thuyHu: FanficWork = {
+  id: 'thuy-hu',
+  title: 'Thủy Hử',
+  description: '108 anh hùng Lương Sơn Bạc tập hợp để chống lại sự thối nát của triều đình nhà Tống.',
+  country: 'Trung',
+  plot: 'Cuối thời Bắc Tống, triều đình mục nát, gian thần lộng hành. 108 anh hùng từ mọi tầng lớp xã hội bị dồn vào đường cùng, tập hợp tại Lương Sơn Bạc dưới sự lãnh đạo của Tống Giang. Họ "thế thiên hành đạo", bảo vệ dân nghèo và chống lại quân đội triều đình. Tuy nhiên, sau khi được chiêu an, họ phải tham gia các cuộc chiến chinh phạt và chịu kết cục bi thảm.',
+  worldSetting: 'Thế giới lịch sử quân sự Trung Hoa thời Bắc Tống. Các anh hùng sở hữu sức mạnh phi thường, kỹ năng chiến đấu điêu luyện và lòng nghĩa hiệp.',
+  characters: [
+    { name: 'Tống Giang', role: 'Nhân vật chính', age: '40+', description: 'Cập Thời Vũ, thủ lĩnh Lương Sơn Bạc. Nhân hậu, trọng nghĩa khinh tài, luôn hướng về triều đình.' },
+    { name: 'Lâm Xung', role: 'Hỗ trợ', age: '35+', description: 'Báo Tử Đầu, giáo đầu 80 vạn cấm quân. Võ nghệ cao cường, bị hãm hại đến mức phải lên Lương Sơn.' },
+    { name: 'Võ Tòng', role: 'Hỗ trợ', age: '30+', description: 'Hành Giả, dũng mãnh vô song, tay không đánh hổ trên núi Cảnh Dương. Nghĩa khí ngút trời.' },
+    { name: 'Lỗ Trí Thâm', role: 'Hỗ trợ', age: '40+', description: 'Hoa Hòa Thượng, sức mạnh kinh người, nhổ bật gốc cây dương liễu. Tính tình bộc trực, ghét ác như thù.' },
+    { name: 'Ngô Dụng', role: 'Quân sư', age: '35+', description: 'Trí Đa Tinh, mưu lược như thần, người bày mưu tính kế cho mọi hoạt động của Lương Sơn.' },
+    { name: 'Lý Quỳ', role: 'Hỗ trợ', age: '30+', description: 'Hắc Toàn Phong, hung hăng, thô lỗ nhưng trung thành tuyệt đối với Tống Giang. Sử dụng đôi búa sắt.' },
+    { name: 'Yến Thanh', role: 'Hỗ trợ', age: '25+', description: 'Lãng Tử, tài hoa vẹn toàn, giỏi võ nghệ, âm nhạc và ngoại giao. Đệ tử trung thành của Lư Tuấn Nghĩa.' },
+    { name: 'Lư Tuấn Nghĩa', role: 'Hỗ trợ', age: '40+', description: 'Ngọc Kỳ Lân, đệ nhất cao thủ Lương Sơn, giàu có và đức độ.' },
+    { name: 'Hỗ Tam Nương', role: 'Hỗ trợ', age: '20+', description: 'Nhất Trượng Thanh, nữ tướng xinh đẹp và dũng cảm, sử dụng đôi kiếm bạc.' },
+    { name: 'Cao Cầu', role: 'Phản diện', age: '50+', description: 'Thái úy triều đình, gian thần hiểm độc, kẻ thù số một của các anh hùng Lương Sơn.' },
+    { name: 'Công Tôn Thắng', role: 'Quân sư / Pháp sư', age: '40+', description: 'Nhập Vân Long, đạo sĩ có phép thuật hô phong hoán vũ, một trong những trụ cột tâm linh của Lương Sơn.' },
+    { name: 'Quan Thắng', role: 'Hỗ trợ', age: '40+', description: 'Đại Đao, hậu duệ của Quan Vũ, võ nghệ cao cường, sử dụng Thanh Long Yển Nguyệt Đao.' },
+    { name: 'Tần Minh', role: 'Hỗ trợ', age: '35+', description: 'Tích Lịch Hỏa, tính tình nóng nảy như lửa, sử dụng Lang Nha Bổng dũng mãnh vô song.' },
+    { name: 'Hô Diên Chước', role: 'Hỗ trợ', age: '45+', description: 'Song Roi, danh tướng triều đình quy thuận Lương Sơn, nổi tiếng với đội quân thiết giáp liên hoàn mã.' },
+    { name: 'Hoa Vinh', role: 'Hỗ trợ', age: '25+', description: 'Tiểu Quảng Hoa, thần tiễn của Lương Sơn, bách bộ xuyên dương, trung thành tuyệt đối với Tống Giang.' },
+    { name: 'Sài Tiến', role: 'Hỗ trợ', age: '35+', description: 'Tiểu Toàn Phong, hậu duệ của hoàng tộc nhà Hậu Chu, giàu có và luôn giúp đỡ các anh hùng hào kiệt.' },
+    { name: 'Chu Đồng', role: 'Hỗ trợ', age: '35+', description: 'Mỹ Nhiêm Công, người có bộ râu đẹp giống Quan Vũ, tính tình chính trực và trọng nghĩa khí.' },
+    { name: 'Lôi Hoành', role: 'Hỗ trợ', age: '35+', description: 'Sáp Sí Hổ, đô đầu huyện Vận Thành, võ nghệ cao cường và có khả năng nhảy xa phi thường.' },
+    { name: 'Lý Tuấn', role: 'Hỗ trợ / Thủy quân', age: '35+', description: 'Hỗn Giang Long, thủ lĩnh thủy quân Lương Sơn, sau này trở thành vua của nước Xiêm La.' },
+    { name: 'Trương Thuận', role: 'Hỗ trợ / Thủy quân', age: '30+', description: 'Lãng Lý Bạch Điều, bơi lội cực giỏi, có thể ở dưới nước nhiều ngày liền.' },
+    { name: 'Nguyễn Tiểu Thất', role: 'Hỗ trợ / Thủy quân', age: '25+', description: 'Hoạt Diêm La, em út nhà họ Nguyễn, tính tình phóng khoáng và dũng cảm trên sông nước.' },
+    { name: 'Dương Chí', role: 'Hỗ trợ', age: '35+', description: 'Thanh Diện Thú, hậu duệ của Dương Gia Tướng, võ nghệ cao cường nhưng cuộc đời gặp nhiều trắc trở.' },
+    { name: 'Thạch Tú', role: 'Hỗ trợ', age: '25+', description: 'Phanh Mệnh Tam Lang, liều mạng vì nghĩa, người anh em kết nghĩa của Dương Hùng.' },
+    { name: 'Giải Trân', role: 'Hỗ trợ', age: '30+', description: 'Lưỡng Đầu Xà, thợ săn hổ tài ba, sử dụng cương xoa điêu luyện.' },
+    { name: 'Giải Bảo', role: 'Hỗ trợ', age: '28', description: 'Song Vĩ Hạt, em trai của Giải Trân, cùng anh trai lập nhiều công lao trong các trận đánh rừng núi.' },
+    { name: 'Cố Đại Tẩu', role: 'Hỗ trợ', age: '35+', description: 'Mẫu Đại Trùng, nữ anh hùng mạnh mẽ, nóng tính và rất giỏi võ nghệ.' },
+    { name: 'Tôn Nhị Nương', role: 'Hỗ trợ', age: '35+', description: 'Mẫu Dạ Xoa, chủ quán rượu trên núi Thập Ác, người phụ nữ sắc sảo và quyết đoán.' },
+    { name: 'Sử Tiến', role: 'Hỗ trợ', age: '22+', description: 'Cửu Văn Long, thiếu gia nhà giàu đam mê võ nghệ, trên người xăm hình 9 con rồng oai phong.' },
+    { name: 'Lưu Đường', role: 'Hỗ trợ', age: '30+', description: 'Xích Phát Quỷ, dũng sĩ tóc đỏ, một trong những người đầu tiên tham gia cướp lễ vật mừng thọ.' },
+    { name: 'An Đạo Toàn', role: 'Hỗ trợ / Thần y', age: '40+', description: 'Thần Y, người chữa khỏi bệnh cho Tống Giang và các anh hùng Lương Sơn trong những lúc nguy kịch.' }
+  ]
+};

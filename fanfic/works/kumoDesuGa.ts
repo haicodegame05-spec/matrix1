@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const kumoDesuGa: FanficWork = {
+  id: 'kumo-desu-ga',
+  title: 'So I\'m a Spider, So What? (Kumo desu ga, Nani ka?)',
+  description: 'Câu chuyện về một nữ sinh trung học bị tái sinh thành một con nhện trong một mê cung nguy hiểm.',
+  country: 'Nhật',
+  plot: 'Trong một sự kiện bí ẩn mang tên "Thảm họa", một lớp học trung học bị nổ tung và tất cả học sinh bị tái sinh vào một thế giới giả tưởng. Kumoko - một nữ sinh trung học bình thường - bị tái sinh thành một con nhện nhỏ trong Mê cung Elroe - nơi nguy hiểm nhất thế giới. Cô phải sử dụng trí tuệ và sự kiên trì của mình để sinh tồn, thăng cấp và tiến hóa để trở nên mạnh mẽ hơn.',
+  worldSetting: 'Thế giới giả tưởng với hệ thống thăng cấp, kỹ năng và ma thuật. Một bối cảnh đầy rẫy những nguy hiểm và sự tàn khốc của thực tại.',
+  characters: [
+    { name: 'Kumoko (Shiraori)', role: 'Nhân vật chính', age: 'Unknown', description: 'Một nữ sinh trung học bị tái sinh thành một con nhện nhỏ (Small Lesser Taratect) trong Mê cung Elroe. Cô sở hữu ý chí sinh tồn mãnh liệt, trí tuệ sắc bén và khả năng thăng cấp, tiến hóa thần tốc để trở thành một thực thể thần thánh.' },
+    { name: 'Schlain Zagan Analeit (Shun)', role: 'Nhân vật chính / Anh hùng', age: '15-18', description: 'Tên thật là Yamada Shunsuke, bị tái sinh thành hoàng tử thứ tư của vương quốc Analeit. Anh là một anh hùng chính trực, luôn tin tưởng vào lý tưởng bảo vệ mọi người nhưng đôi khi lại quá ngây thơ trước sự tàn khốc của thế giới.' },
+    { name: 'Karnatia Seri Anabald (Katia)', role: 'Nữ chính / Đồng minh', age: '15-18', description: 'Tên thật là Ooshima Kanata, bạn thân của Shun ở kiếp trước. Anh bị tái sinh thành một cô gái xinh đẹp và phải đấu tranh với sự thay đổi về giới tính cũng như tình cảm dành cho Shun.' },
+    { name: 'Feirune (Fei)', role: 'Đồng minh / Rồng', age: '15-18', description: 'Tên thật là Shinohara Mirei, kẻ từng bắt nạt Kumoko ở kiếp trước. Cô bị tái sinh thành một con rồng đất và sau đó tiến hóa thành Quang Long. Cô luôn hối hận về quá khứ và nỗ lực bảo vệ Shun.' },
+    { name: 'Filimøs Harrifenas (Oka)', role: 'Người dẫn dắt / Giáo viên', age: '20+', description: 'Giáo viên chủ nhiệm của lớp học, bị tái sinh thành con gái của tộc trưởng tộc Tiên. Cô sở hữu kỹ năng "Danh sách học sinh" và luôn cố gắng bảo vệ các học sinh của mình khỏi những mối đe dọa từ thế giới mới.' },
+    { name: 'Ariel', role: 'Lãnh đạo / Ma Vương', age: 'Ancient', description: 'Ma Vương hiện tại và là Thủy tổ của loài nhện. Cô là một trong những thực thể mạnh nhất thế giới, ban đầu là kẻ thù nhưng sau đó trở thành đồng minh và người bạn thân thiết của Kumoko.' },
+    { name: 'Güliedistodiez (Gülie)', role: 'Thực thể thần bí / Thần', age: 'Ancient', description: 'Một vị thần rồng đen cai quản thế giới. Anh luôn cố gắng duy trì sự cân bằng của hệ thống và bảo vệ hành tinh khỏi sự sụp đổ, dù phải đưa ra những quyết định đau đớn.' },
+    { name: 'Sophia Keren', role: 'Đồng minh / Ma cà rồng', age: '15', description: 'Một học sinh bị tái sinh thành con gái của một gia đình quý tộc và trở thành Chân tổ Ma cà rồng. Cô được Kumoko và Ariel nuôi dưỡng, trở thành một chiến binh mạnh mẽ với tính cách có phần lệch lạc.' },
+    { name: 'Wrath', role: 'Đối thủ / Đồng minh', age: '18', description: 'Tên thật là Sasajima Kyouya, bị tái sinh thành một con yêu tinh (Goblin) và sau đó tiến hóa thành Quỷ nhân. Anh sở hữu kỹ năng "Phẫn nộ" và mang trong mình nỗi đau mất mát to lớn.' },
+    { name: 'Potimas Harrifenas', role: 'Phản diện chính', age: 'Ancient', description: 'Tộc trưởng tộc Tiên và là cha của Oka. Lão là một kẻ ích kỷ, tàn nhẫn, luôn tìm kiếm sự bất tử thông qua công nghệ cổ đại và là mối đe dọa lớn nhất đối với sự tồn vong của thế giới.' },
+    { name: 'D (Thượng đế)', role: 'Thực thể thần bí', age: 'Ancient', description: 'Một thực thể tự xưng là "Thần Giải Trí" và là người chịu trách nhiệm cho việc tái sinh của cả lớp học. Cô là một kẻ bí ẩn, quyền năng và luôn quan sát thế giới như một trò chơi thú vị.' },
+    { name: 'Hugo Bando Rabigun', role: 'Phản diện / Đối thủ', age: '18', description: 'Tên thật là Natsume Kengo, bị tái sinh thành hoàng tử của đế quốc Renxandt. Hắn là một kẻ kiêu ngạo, đố kỵ với Shun và đã bị Potimas thao túng để gây ra chiến tranh.' },
+    { name: 'Hyrince Quince', role: 'Đồng minh', age: '25+', description: 'Một chiến binh dũng cảm trong nhóm của Anh hùng đời trước, người đã sống sót và hỗ trợ Shun.' },
+    { name: 'Anna', role: 'Hỗ trợ', age: '20+', description: 'Một nữ pháp sư thuộc tộc Half-Elf, người đã chăm sóc Shun và Katia từ khi họ còn nhỏ.' },
+    { name: 'Ronandt Orozoi', role: 'Sư phụ / Đồng minh', age: '80+', description: 'Pháp sư mạnh nhất vương quốc Analeit, người đã dạy ma pháp cho các học sinh chuyển sinh.' },
+    { name: 'Sajin (Kusama Shinobu)', role: 'Đối thủ / Đồng minh', age: '18', description: 'Một học sinh bị tái sinh thành ninja của Giáo hội, chuyên về do thám và ám sát.' },
+    { name: 'Kunihiko Tagawa', role: 'Đồng minh', age: '18', description: 'Một học sinh bị tái sinh thành mạo hiểm giả, chiến binh dũng mãnh và là bạn của Shun.' },
+    { name: 'Asaka Kushitani', role: 'Đồng minh', age: '18', description: 'Một học sinh bị tái sinh thành mạo hiểm giả, bạn đồng hành của Kunihiko.' },
+    { name: 'Meido (Thượng đế)', role: 'Thực thể thần bí', age: 'Ancient', description: 'Một vị thần cấp cao hơn D, người luôn cố gắng đưa D trở lại làm việc.' },
+    { name: 'Dustin L61', role: 'Lãnh đạo / Giáo hoàng', age: 'Ancient', description: 'Giáo hoàng của Giáo hội Thần Ngôn, người đã sống qua nhiều kiếp luân hồi để bảo vệ nhân loại bằng mọi giá.' },
+    { name: 'Bloe Phiercas', role: 'Đồng minh', age: '20+', description: 'Một trong các quân đoàn trưởng của quân đội Ma vương, người có tính cách thẳng thắn và trung thành với Ariel.' },
+    { name: 'Agner Phiercas', role: 'Đồng minh', age: '50+', description: 'Một quân đoàn trưởng kỳ cựu của quân đội Ma vương, người sở hữu trí tuệ và kinh nghiệm chiến trường phong phú.' },
+    { name: 'Balto Phiercas', role: 'Hỗ trợ', age: '30+', description: 'Trợ lý đắc lực của Ma vương Ariel, người chịu trách nhiệm quản lý các công việc hành chính của quân đội Ma vương.' },
+    { name: 'Sanatoria', role: 'Đồng minh', age: '25+', description: 'Một quân đoàn trưởng của quân đội Ma vương, chuyên về do thám và thu thập thông tin.' },
+    { name: 'Kogou', role: 'Đồng minh', age: '30+', description: 'Một quân đoàn trưởng khổng lồ của quân đội Ma vương, sở hữu sức mạnh thể chất phi thường.' },
+    { name: 'Merazophis', role: 'Đồng minh / Ma cà rồng', age: '30+', description: 'Người hầu trung thành của Sophia, người đã trở thành ma cà rồng để bảo vệ cô chủ của mình.' },
+    { name: 'Wald', role: 'Đối thủ', age: '20+', description: 'Một sĩ quan trong quân đội Ma vương, người luôn đố kỵ với sức mạnh của Sophia.' },
+    { name: 'Sue (Seles Analeit)', role: 'Gia đình', age: '15', description: 'Em gái cùng cha khác mẹ của Shun, một cô bé có tình cảm đặc biệt và có phần cực đoan dành cho anh trai mình.' },
+    { name: 'Leston Zagan Analeit', role: 'Gia đình', age: '20+', description: 'Hoàng tử thứ ba của vương quốc Analeit, người luôn ủng hộ Shun và Katia.' },
+    { name: 'Cylis Zagan Analeit', role: 'Đối thủ', age: '22', description: 'Hoàng tử thứ nhất của vương quốc Analeit, người luôn tìm cách loại bỏ Shun để giành ngai vàng.' }
+  ]
+};

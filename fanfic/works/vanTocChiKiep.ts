@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const vanTocChiKiep: FanficWork = {
+  id: 'van-toc-chi-kiep',
+  title: 'Vạn Tộc Chi Kiếp',
+  description: 'Tô Vũ, một thiếu niên mang theo thù hận, bước vào cuộc chiến giữa vạn tộc để tìm kiếm sự thật và bảo vệ nhân tộc.',
+  country: 'Trung',
+  plot: 'Trong một thế giới mà nhân tộc bị vạn tộc vây hãm, Tô Vũ phát hiện ra mình có khả năng hấp thụ và sử dụng kỹ năng của các chủng tộc khác thông qua một cuốn sổ bí ẩn. Anh bắt đầu hành trình từ một học sinh bình thường đến khi trở thành vị hoàng đế dẫn dắt nhân tộc vượt qua kiếp nạn diệt vong.',
+  worldSetting: 'Thế giới đa chủng tộc với các cảnh giới tu luyện dựa trên nguyên khí và tinh thần lực. Các thế lực lớn tranh giành quyền kiểm soát các "Chư Thiên Vạn Giới".',
+  characters: [
+    { name: 'Tô Vũ', role: 'Nhân vật chính', description: 'Thông minh, mưu mẹo, có phần tàn nhẫn với kẻ thù nhưng cực kỳ trung thành với nhân tộc. Là một thiên tài về nghiên cứu và chiến đấu.' },
+    { name: 'Liễu Văn Ngạn', role: 'Người hướng dẫn', description: 'Người thầy đã dạy cho Tô Vũ về văn minh sư và tinh thần lực, có ảnh hưởng lớn đến tư duy của anh.' },
+    { name: 'Hạ Long Vũ', role: 'Lãnh đạo / Đồng minh', description: 'Một vị tướng quân mạnh mẽ của nhân tộc, biểu tượng của sức mạnh và lòng dũng cảm.' },
+    { name: 'Bạch Phong', role: 'Người hướng dẫn', description: 'Một nhà nghiên cứu điên rồ nhưng thiên tài, người đã giúp Tô Vũ khám phá ra nhiều bí mật về vạn tộc.' },
+    { name: 'Vạn Thiên Thánh', role: 'Lãnh đạo / Đồng minh', description: 'Phủ trưởng của học viện, một người bí ẩn với những kế hoạch vĩ mô để bảo vệ nhân tộc.' },
+    { name: 'Chu Phá Long', role: 'Đồng minh', description: 'Một thiên tài võ đạo, người bạn và cũng là đối thủ cạnh tranh lành mạnh của Tô Vũ.' },
+    { name: 'Trần Hạo', role: 'Đồng minh', description: 'Bạn thân từ nhỏ của Tô Vũ, một chiến binh cục mịch nhưng vô cùng trung thành.' },
+    { name: 'Ngô Gia', role: 'Đồng minh', description: 'Sư tỷ của Tô Vũ, một văn minh sư tài năng và luôn bảo vệ sư đệ.' },
+    { name: 'Hạ Ngọc Văn', role: 'Đồng minh', description: 'Thiên tài của Hạ gia, ban đầu đối đầu nhưng sau đó nể phục và hợp tác với Tô Vũ.' },
+    { name: 'Chu Thiên Đạo', role: 'Lãnh đạo', description: 'Phủ chủ của Đại Chu phủ, một lão cáo già mưu mô luôn tìm cách tối đa hóa lợi ích cho nhân tộc.' },
+    { name: 'Hồ Hiển Thăng', role: 'Đồng minh', description: 'Một vị tướng quân dày dạn kinh nghiệm, người đã dạy cho Tô Vũ nhiều bài học về chiến trường.' },
+    { name: 'Tô Long', role: 'Gia đình', description: 'Cha của Tô Vũ, một chiến binh dũng cảm của nhân tộc, người đã hy sinh để bảo vệ biên cương.' },
+    { name: 'Hạ Hổ Vưu', role: 'Đồng minh', description: 'Con trai của Hạ Long Vũ, một thiếu niên thông minh, mưu mẹo và là bạn đồng hành đắc lực của Tô Vũ.' },
+    { name: 'Chu Minh', role: 'Đồng minh', description: 'Một thiên tài của Đại Chu phủ, người luôn nỗ lực để vượt qua Tô Vũ trong các cuộc thi đấu.' },
+    { name: 'Vạn Thiên Thánh\'s Apprentice', role: 'Hỗ trợ', description: 'Một văn minh sư trẻ tuổi, người đã giúp Tô Vũ giải mã nhiều bí mật về tinh thần lực.' },
+    { name: 'Thần Vương', role: 'Phản diện', description: 'Lãnh đạo tối cao của Thần tộc, kẻ luôn âm mưu nô dịch nhân tộc và các chủng tộc khác.' },
+    { name: 'Ma Vương', role: 'Phản diện', description: 'Vị vua tàn bạo của Ma tộc, kẻ thù truyền kiếp của nhân tộc trong các cuộc chiến vạn tộc.' },
+    { name: 'Long Vương', role: 'Phản diện / Đồng minh', description: 'Người đứng đầu Long tộc, một thực thể mạnh mẽ luôn tìm cách tối đa hóa lợi ích cho chủng tộc mình.' },
+    { name: 'Phượng Hoàng Nữ Vương', role: 'Nhân vật quan trọng', description: 'Lãnh đạo của Phượng tộc, xinh đẹp và quyền năng, có mối quan hệ phức tạp với nhân tộc.' },
+    { name: 'Linh Vương', role: 'Hỗ trợ', description: 'Vị vua của Linh tộc, người đã giúp Tô Vũ thấu hiểu sức mạnh của nguyên khí tự nhiên.' },
+    { name: 'Thú Vương', role: 'Phản diện', description: 'Lãnh đạo của Thú tộc, kẻ sở hữu sức mạnh vật lý đáng sợ và bản tính hung hãn.' },
+    { name: 'Trùng Hậu', role: 'Phản diện', description: 'Nữ hoàng của Trùng tộc, kẻ có khả năng triệu hồi hàng vạn binh đoàn côn trùng tàn phá thế giới.' },
+    { name: 'Vong Linh Vương', role: 'Phản diện', description: 'Kẻ thống trị cõi chết, âm mưu biến toàn bộ Chư Thiên Vạn Giới thành vùng đất của người chết.' },
+    { name: 'Cơ Giới Vương', role: 'Phản diện', description: 'Lãnh đạo của Cơ Giới tộc, một thực thể trí tuệ nhân tạo luôn tìm cách logic hóa vũ trụ.' },
+    { name: 'Hư Không Vương', role: 'Bí ẩn', age: 'Unknown', description: 'Thực thể bí ẩn thống trị không gian hư không, người giám sát các cánh cổng giới diện.' },
+    { name: 'Tinh Vương', role: 'Hỗ trợ', description: 'Vị vua của Tinh tộc, người dẫn dắt Tô Vũ thấu hiểu sức mạnh của các vì sao.' },
+    { name: 'Thái Dương Vương', role: 'Lãnh đạo', description: 'Vị vua của Nhật tộc, người mang lại ánh sáng và sức mạnh hỏa lực cho liên minh vạn tộc.' },
+    { name: 'Thái Âm Nữ Vương', role: 'Lãnh đạo', description: 'Nữ vương của Nguyệt tộc, người sở hữu sức mạnh băng giá và khả năng thao túng bóng đêm.' },
+    { name: 'Thời Gian Vương', role: 'Huyền thoại', description: 'Vị thần của thời gian trong truyền thuyết, người nắm giữ chìa khóa để thay đổi vận mệnh vũ trụ.' },
+    { name: 'Nhân Tộc Chiến Sĩ Y', role: 'Nhân vật phụ', description: 'Một chiến binh dũng cảm luôn lấy Tô Vũ làm tấm gương để phấn đấu bảo vệ nhân tộc.' }
+  ]
+};

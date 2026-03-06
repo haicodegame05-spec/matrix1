@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const novelsExtra: FanficWork = {
+  id: 'novels-extra',
+  title: 'Nhân Vật Phụ Của Tiểu Thuyết (The Novel\'s Extra)',
+  description: 'Kim Hajin bỗng nhiên bị đưa vào chính cuốn tiểu thuyết mà mình đang viết, nhưng dưới hình dạng một nhân vật phụ mờ nhạt không hề có trong kịch bản.',
+  country: 'Hàn',
+  plot: 'Kim Hajin tỉnh dậy trong thế giới của cuốn tiểu thuyết "Sự trở lại của anh hùng" do chính mình sáng tác. Tuy nhiên, anh không phải là nhân vật chính mà chỉ là một "nhân vật phụ" với tài năng cực thấp. Sử dụng kiến thức về cốt truyện và một hệ thống "máy tính xách tay" bí ẩn, Hajin phải tìm cách sinh tồn và thay đổi cái kết bi thảm của thế giới này.',
+  worldSetting: 'Thế giới hiện đại kết hợp ma pháp và công nghệ, nơi con người chiến đấu với quái vật thông qua các Học viện Anh hùng.',
+  characters: [
+    { name: 'Kim Hajin', role: 'Nhân vật chính', description: 'Sử dụng súng trong một thế giới ưu tiên kiếm và ma pháp, sở hữu kỹ năng "Quan sát" và khả năng thay đổi thực tại thông qua máy tính xách tay.' },
+    { name: 'Kim Suho', role: 'Anh hùng / Đồng minh', description: 'Nhân vật chính của cuốn tiểu thuyết gốc, biểu tượng của chính nghĩa và sức mạnh, người bạn thân thiết của Hajin.' },
+    { name: 'Chae Nayun', role: 'Nữ chính / Đối thủ', description: 'Một tiểu thư kiêu ngạo nhưng tài năng, có mối quan hệ phức tạp và đầy duyên nợ với Hajin.' },
+    { name: 'Rachel', role: 'Nữ chính', description: 'Công chúa của vương quốc Anh, xinh đẹp và lạnh lùng, được Hajin giúp đỡ và dần nảy sinh tình cảm.' },
+    { name: 'Boss (Li Fen)', role: 'Đồng minh', description: 'Thủ lĩnh của tổ chức Chameleon Troupe, một người phụ nữ mạnh mẽ và bí ẩn, coi Hajin là thành viên quan trọng.' },
+    { name: 'Evandel', role: 'Hỗ trợ', description: 'Một sinh vật nhân tạo được Hajin nuôi dưỡng như con gái, sở hữu năng lực triệu hồi mạnh mẽ.' },
+    { name: 'Yoo Yeonha', role: 'Nữ chính / Đồng minh', description: 'Thiên tài kinh doanh và tình báo, người đã xây dựng đế chế thông tin hỗ trợ Hajin từ bóng tối.' },
+    { name: 'Jain', role: 'Đồng minh', description: 'Thành viên Chameleon Troupe, bậc thầy về cải trang và thâm nhập, luôn hoàn thành nhiệm vụ một cách hoàn hảo.' },
+    { name: 'Khalifa', role: 'Đồng minh', description: 'Thành viên Chameleon Troupe, chuyên gia về không gian và dịch chuyển, giúp nhóm di chuyển linh hoạt.' },
+    { name: 'Yi Jiyoon', role: 'Đồng minh', description: 'Nữ cung thủ tài năng, bạn học của Hajin tại Cube, luôn hỗ trợ anh trong các trận chiến học đường.' },
+    { name: 'Kim Horak', role: 'Đối thủ / Đồng minh', description: 'Một chiến binh mạnh mẽ, ban đầu là đối thủ nhưng sau đó đã bị thu phục bởi tài năng của Hajin.' },
+    { name: 'Droon', role: 'Đồng minh', description: 'Thành viên của Chameleon Troupe, một cậu bé có khả năng điều khiển các loại quái vật và sinh vật huyền bí.' },
+    { name: 'Setryn', role: 'Đồng minh', description: 'Thành viên của Chameleon Troupe, chuyên gia về ám sát và sử dụng các loại độc dược nguy hiểm.' },
+    { name: 'Cheok Jung-gyeong', role: 'Đồng minh', description: 'Thành viên mạnh nhất về sức mạnh vật lý của Chameleon Troupe, một chiến binh cuồng nhiệt luôn tìm kiếm đối thủ xứng tầm.' },
+    { name: 'Kaita', role: 'Đồng minh', description: 'Thành viên của Chameleon Troupe, một sát thủ lạnh lùng với kỹ năng sử dụng dao điêu luyện.' },
+    { name: 'Aileen', role: 'Anh hùng / Đồng minh', description: 'Một trong những anh hùng mạnh nhất thế giới, bậc thầy về ngôn linh (Spirit Speech), người thường xuyên hợp tác với Hajin.' },
+    { name: 'Shin Jonghak', role: 'Đối thủ / Thiên tài', description: 'Người thừa kế của tập đoàn Shin-myung, một thiên tài kiêu ngạo luôn coi Kim Suho là đối thủ lớn nhất.' },
+    { name: 'Yun Seung-ah', role: 'Anh hùng / Đồng minh', description: 'Được mệnh danh là "Thánh nữ kiếm thuật", lãnh đạo của hiệp hội anh hùng và là người ủng hộ Kim Suho.' },
+    { name: 'Chae Joo-chul', role: 'Nhân vật quan trọng', age: '70+', description: 'Ông nội của Chae Nayun, một trong những người quyền lực nhất thế giới với tâm địa khó lường.' },
+    { name: 'Chae Jinyoon', role: 'Nhân vật quan trọng', description: 'Anh trai của Chae Nayun, người đã hy sinh trong một sự kiện bi thảm, là nguồn cơn của nhiều mâu thuẫn trong truyện.' },
+    { name: 'Sahyuk', role: 'Đối thủ / Phản diện', description: 'Một thực thể mạnh mẽ đến từ thế giới khác, luôn tìm cách tiêu diệt Hajin và chiếm đoạt sức mạnh của anh.' },
+    { name: 'Wicked', role: 'Phản diện', description: 'Thủ lĩnh của một tổ chức tội phạm ma pháp, kẻ luôn đối đầu với Chameleon Troupe và các anh hùng.' },
+    { name: 'Baal', role: 'Đại ác ma', description: 'Một trong những thực thể tà ác nhất, mục tiêu cuối cùng mà các anh hùng phải tiêu diệt để bảo vệ thế giới.' },
+    { name: 'Leraje', role: 'Đại ác ma / Đồng minh', description: 'Một đại ác ma có tính cách kỳ lạ, sau này trở thành đồng minh bất ngờ của Hajin.' },
+    { name: 'Vassago', role: 'Đại ác ma', description: 'Ác ma chuyên về tri thức và thông tin, kẻ luôn âm mưu thao túng vận mệnh của nhân loại.' },
+    { name: 'Belial', role: 'Đại ác ma', description: 'Ác ma của sự dối trá và ảo ảnh, kẻ đã gây ra nhiều thảm kịch cho các anh hùng trẻ tuổi.' },
+    { name: 'Kim Young-jin', role: 'Anh hùng / Đối thủ', description: 'Một anh hùng tài năng luôn cạnh tranh vị trí dẫn đầu với Kim Suho tại Cube.' },
+    { name: 'Chae Shin-hyuk', role: 'Nhân vật quan trọng', description: 'Cha của Chae Nayun, người luôn cố gắng bảo vệ gia đình mình khỏi những âm mưu chính trị.' },
+    { name: 'Cube Instructor', role: 'Hỗ trợ', description: 'Giảng viên tại học viện Cube, người đã nhận ra tiềm năng khác biệt của Kim Hajin.' },
+    { name: 'Evandel\'s Spirit', role: 'Hỗ trợ', description: 'Linh hồn bảo hộ được Evandel triệu hồi, luôn trung thành bảo vệ cô bé và Hajin.' }
+  ]
+};

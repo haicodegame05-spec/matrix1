@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const spiceAndWolf: FanficWork = {
+  id: 'spice-and-wolf',
+  title: 'Spice and Wolf (Ookami to Koushinryou)',
+  description: 'Câu chuyện về thương gia Kraft Lawrence và nữ thần sói Holo trong hành trình buôn bán và tìm kiếm quê hương Yoitsu.',
+  country: 'Nhật',
+  plot: 'Kraft Lawrence, một thương gia du hành 25 tuổi, tình cờ gặp Holo - một nữ thần sói 600 tuổi đã bảo hộ mùa màng cho ngôi làng Pasloe trong nhiều thế kỷ. Khi người dân dần quên đi sự hiện diện của mình, Holo quyết định cùng Lawrence đi về phương Bắc để tìm lại quê hương Yoitsu. Trên hành trình, họ cùng nhau trải qua những cuộc giao dịch kinh doanh đầy mưu mẹo, những âm mưu kinh tế phức tạp và dần nảy sinh tình cảm sâu sắc.',
+  worldSetting: 'Một thế giới giả tưởng mang đậm phong cách Châu Âu thời Trung cổ, nơi kinh tế, tôn giáo và các truyền thuyết cổ xưa đan xen.',
+  characters: [
+    { name: 'Kraft Lawrence', role: 'Nhân vật chính', age: '25', description: 'Một thương gia du hành thông minh, thực dụng nhưng có trái tim ấm áp. Anh luôn mơ ước tích góp đủ tiền để mở một cửa hàng cố định.' },
+    { name: 'Holo (Nữ thần sói)', role: 'Nữ chính', age: '600+', description: 'Một nữ thần sói xinh đẹp với đôi tai và chiếc đuôi sói. Cô rất thông minh, sắc sảo, thích uống rượu và ăn táo, luôn tự gọi mình là "Holo Thông Thái".' },
+    { name: 'Norah Arendt', role: 'Hỗ trợ / Đồng minh', age: '18', description: 'Một nữ chăn cừu trẻ tuổi sống tại thành phố Rubinheigen. Cô có khả năng điều khiển bầy cừu tuyệt vời và đã giúp Lawrence trong một phi vụ buôn lậu vàng đầy nguy hiểm.' },
+    { name: 'Eve Bolan', role: 'Đối thủ / Đồng minh', age: '20+', description: 'Một nữ thương gia bí ẩn, sắc sảo và đầy tham vọng. Cô là một đối thủ kinh doanh đáng gờm của Lawrence nhưng cũng có những lúc hợp tác cùng anh.' },
+    { name: 'Diana Rubens', role: 'Hỗ trợ / Nhà nghiên cứu', age: 'Unknown', description: 'Một nhà nghiên cứu biên niên sử sống tại thành phố Kumersun. Cô sở hữu kho kiến thức khổng lồ về các truyền thuyết cổ xưa và là người cung cấp thông tin về Yoitsu cho Lawrence.' },
+    { name: 'Fermi Amarti', role: 'Đối thủ', age: '17', description: 'Một thương gia trẻ tuổi đầy triển vọng, người đã thầm yêu Holo và thách thức Lawrence trong một cuộc giao dịch thủy ngân đầy kịch tính.' },
+    { name: 'Col', role: 'Đồng minh / Học trò', age: '12', description: 'Một cậu bé thông minh, ham học hỏi, người đã gia nhập hành trình của Lawrence và Holo để học cách trở thành một thương gia chân chính.' },
+    { name: 'Zheren', role: 'Phản diện / Thương gia', age: '30+', description: 'Một thương gia lừa đảo đã dụ dỗ Lawrence vào một phi vụ tiền tệ giả mạo, khởi đầu cho những rắc rối lớn của anh.' },
+    { name: 'Rigolo', role: 'Hỗ trợ', age: '35+', description: 'Trợ lý của Diana Rubens, một người đàn ông điềm tĩnh và tỉ mỉ, giúp Lawrence trong việc tìm kiếm các tài liệu cổ.' },
+    { name: 'Batos', role: 'Đồng minh', age: '40+', description: 'Một thương gia béo tốt, người rất yêu thích các loại bánh mì và đã cung cấp những thông tin quan trọng cho Lawrence tại thành phố Kumersun.' },
+    { name: 'Hans Remerio', role: 'Đối thủ / Đồng minh', age: '45+', description: 'Người đứng đầu công ty Remerio, một thương gia đang gặp khó khăn và đã tham gia vào phi vụ buôn lậu vàng cùng Lawrence.' },
+    { name: 'Marten Lieber', role: 'Hỗ trợ', age: '30+', description: 'Một thương gia tại thành phố Lenos, người đã giúp Lawrence trong các cuộc giao dịch lông thú phức tạp.' },
+    { name: 'Elsa Schunke', role: 'Hỗ trợ', age: '17', description: 'Con gái của linh mục tại ngôi làng Tereo, một cô gái sùng đạo và đã giúp Holo trong một tình huống khó khăn.' },
+    { name: 'Myuri (Con gái)', role: 'Nhân vật chính (Hậu truyện)', age: '13', description: 'Con gái của Lawrence và Holo, một cô bé sói nghịch ngợm, thông minh và khao khát những chuyến phiêu lưu như cha mẹ mình.' },
+    { name: 'Hugues', role: 'Đồng minh', age: '30+', description: 'Một thương gia giàu kinh nghiệm, bạn cũ của Lawrence, người luôn đưa ra những lời khuyên kinh doanh sắc sảo.' },
+    { name: 'Girolamo', role: 'Đối thủ', age: '40+', description: 'Một thương gia quyền lực tại thành phố Lenos, chuyên gia về thị trường lông thú và là một tay chơi kinh tế lão luyện.' },
+    { name: 'Philon', role: 'Hỗ trợ', age: '35+', description: 'Một chủ tiệm tạp hóa tốt bụng, người đã giúp Lawrence và Holo tìm chỗ nghỉ chân và cung cấp thông tin địa phương.' },
+    { name: 'Weiz', role: 'Đồng minh', age: '28', description: 'Một thương gia trẻ tuổi chuyên buôn bán đồ trang sức, người có con mắt tinh tường trong việc định giá đá quý.' },
+    { name: 'Landusa', role: 'Đối thủ', age: '45+', description: 'Một đại diện của hội thương gia đối địch, luôn tìm cách gây khó dễ cho các hoạt động buôn bán của Lawrence.' },
+    { name: 'Kahl', role: 'Hỗ trợ', age: '50+', description: 'Một người thợ rèn lành nghề, người đã sửa chữa các vật dụng cho Lawrence và chia sẻ những câu chuyện về vùng đất phía Bắc.' },
+    { name: 'Fran', role: 'Đồng minh', age: '22', description: 'Một nữ thương gia chuyên về thảo dược, người đã dạy cho Holo một vài bí quyết về các loại cây thuốc.' },
+    { name: 'Luard', role: 'Hỗ trợ', age: '38', description: 'Một người đánh xe ngựa trung thành, người đã giúp vận chuyển hàng hóa cho Lawrence trong những chuyến đi dài.' },
+    { name: 'Klass', role: 'Đồng minh', age: '40+', description: 'Một thương gia rượu vang, người thường xuyên cung cấp những loại rượu ngon nhất cho Holo thưởng thức.' },
+    { name: 'Le Roi', role: 'Đồng minh', age: '30+', description: 'Một thương gia trẻ tuổi, bạn của Lawrence, người có kiến thức sâu rộng về thị trường kim loại quý.' },
+    { name: 'Enba', role: 'Hỗ trợ', age: '45+', description: 'Một thương gia tại thành phố Lenos, người nắm giữ nhiều thông tin về các tuyến đường buôn bán phía Bắc.' },
+    { name: 'Kieman', role: 'Hỗ trợ', age: '40+', description: 'Thư ký của hội thương gia tại Lenos, một người tỉ mỉ và luôn giúp Lawrence trong các thủ tục giấy tờ.' },
+    { name: 'Myuri (Sói trắng)', role: 'Đồng minh', age: 'Unknown', description: 'Một người bạn cũ của Holo từ Yoitsu, người đã xuất hiện trong các truyền thuyết cổ xưa về vùng đất tuyết.' },
+    { name: 'Yarei', role: 'Nhân vật phụ', age: '28', description: 'Một thanh niên tại làng Pasloe, người đại diện cho thế hệ mới dần quên đi sự bảo hộ của Holo.' },
+    { name: 'Chloe', role: 'Nhân vật phụ', age: '18', description: 'Một cô gái trẻ tại làng Pasloe, người từng có tình cảm với Lawrence và là người thúc đẩy anh bắt đầu hành trình cùng Holo.' },
+    { name: 'Totten', role: 'Học giả', age: '50+', description: 'Một nhà nghiên cứu văn hóa dân gian, người luôn khao khát tìm chứng cứ về sự tồn tại của các vị thần sói.' }
+  ]
+};

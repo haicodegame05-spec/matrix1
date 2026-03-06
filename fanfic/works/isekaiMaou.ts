@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const isekaiMaou: FanficWork = {
+  id: 'isekai-maou',
+  title: 'Dị Giới Ma Vương Và Thiếu Nữ Triệu Hồi (How Not to Summon a Demon Lord)',
+  description: 'Sakamoto Takuma, một game thủ MMORPG "Cross Reverie", bị triệu hồi sang dị giới với tư cách là Ma vương Diablo.',
+  country: 'Nhật',
+  plot: 'Sakamoto Takuma, một game thủ cực kỳ mạnh mẽ trong Cross Reverie, bị triệu hồi sang một thế giới khác bởi hai cô gái là Shera và Rem. Tuy nhiên, do kỹ năng phản xạ ma pháp của anh, vòng cổ nô lệ đã quay ngược lại và biến hai cô gái thành nô lệ của anh. Takuma quyết định đóng vai Ma vương Diablo để che giấu sự thiếu tự tin trong giao tiếp của mình và bắt đầu cuộc hành trình giải cứu thế giới khỏi các Ma vương thực sự.',
+  worldSetting: 'Một thế giới fantasy có hệ thống cấp độ và ma pháp giống như trò chơi Cross Reverie. Diablo sở hữu các trang bị và ma pháp tối thượng của một Ma vương cấp 150.',
+  characters: [
+    { name: 'Diablo (Sakamoto Takuma)', role: 'Nhân vật chính', age: '30 (150)', description: 'Game thủ chuyển sinh, Ma vương bạo chúa. Mạnh mẽ nhưng cực kỳ nhát gái và thiếu tự tin trong giao tiếp.' },
+    { name: 'Shera L. Greenwood', role: 'Nữ chính / Harem', age: '18', description: 'Công chúa tộc Elf, sở hữu thân hình bốc lửa và ma pháp cung thuật mạnh mẽ. Tính tình ngây thơ và vui vẻ.' },
+    { name: 'Rem Galleu', role: 'Nữ chính / Harem', age: '18', description: 'Một cô gái thuộc tộc Pantherian, mang trong mình linh hồn của Ma vương Krebskulm. Trầm lặng, thông minh và dũng cảm.' },
+    { name: 'Alicia Cristela', role: 'Hỗ trợ / Đối thủ', age: '20+', description: 'Một hiệp sĩ hoàng gia xinh đẹp, ban đầu giúp đỡ Diablo nhưng sau đó bộc lộ những âm mưu đen tối.' },
+    { name: 'Sylvie', role: 'Hỗ trợ', age: '25+', description: 'Chủ Guild mạo hiểm giả tại thành phố Faltra. Thông minh, quyến rũ và luôn quan tâm đến Diablo.' },
+    { name: 'Edelgard', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một nữ kỵ binh thuộc Ma tộc, trung thành với Ma vương Krebskulm. Sau này trở thành đồng minh của Diablo.' },
+    { name: 'Klem (Krebskulm)', role: 'Ma Vương / Hỗ trợ', age: '???', description: 'Ma vương thực sự bị phong ấn trong Rem, sau khi thức tỉnh lại mang hình dáng một cô bé thích ăn bánh quy.' },
+    { name: 'Lumachina Weselia', role: 'Nữ chính / Harem', age: '18', description: 'Thánh nữ của Giáo hội, sở hữu ma pháp ánh sáng mạnh mẽ. Luôn tin tưởng và tôn thờ Diablo như một vị thần.' },
+    { name: 'Rose', role: 'Thuộc hạ / Harem', age: '???', description: 'Một Magimatic Maid (người hầu ma pháp) bảo vệ hầm ngục của Diablo. Trung thành tuyệt đối và cực kỳ mạnh mẽ.' },
+    { name: 'Horn', role: 'Hỗ trợ', age: '15', description: 'Một mạo hiểm giả trẻ tuổi thuộc tộc Pantherian, chuyên về do thám và bẫy.' },
+    { name: 'Fanis Laminitus', role: 'Nhân vật quan trọng', age: '25+', description: 'Lãnh chúa thành phố Zircon Tower, một người phụ nữ mạnh mẽ và quyết đoán.' },
+    { name: 'Galford', role: 'Đối thủ', age: '45+', description: 'Lãnh chúa thành phố Faltra, một chiến binh mạnh mẽ nhưng có những âm mưu chính trị phức tạp.' },
+    { name: 'Keera L. Greenwood', role: 'Phản diện', age: '20+', description: 'Anh trai của Shera, một kẻ biến thái và tàn bạo, muốn chiếm đoạt em gái mình.' },
+    { name: 'Emile Bichelberger', role: 'Đồng minh', age: '25+', description: 'Một mạo hiểm giả tự xưng là "người bảo vệ phụ nữ", luôn giúp đỡ Diablo trong các trận chiến.' },
+    { name: 'Celestine Baudelaire', role: 'Hỗ trợ', age: '20+', description: 'Đội trưởng đội cận vệ của giáo hội, người bảo vệ Rem và Shera.' },
+    { name: 'Mei', role: 'Hỗ trợ', age: '20+', description: 'Chủ quán trọ nơi Diablo và nhóm của anh thường xuyên lui tới.' },
+    { name: 'Sadam', role: 'Phản diện', age: '40+', description: 'Một hồng y giáo chủ tham lam và độc ác, kẻ thù của Lumachina.' },
+    { name: 'Modinaram', role: 'Phản diện', age: '???', description: 'Một Ma vương mạnh mẽ khác, đối thủ lớn của Diablo trong giai đoạn sau.' },
+    { name: 'Gê-rô', role: 'Đối thủ', age: '???', description: 'Một chiến binh Ma tộc mạnh mẽ, phục vụ dưới trướng Modinaram.' },
+    { name: 'The King of Lyferia', role: 'Nhân vật quan trọng', age: '55+', description: 'Vị vua của vương quốc nơi Diablo đang ở, người luôn lo lắng về sự trỗi dậy của các Ma vương.' },
+    { name: 'Tria', role: 'Hỗ trợ', age: '20+', description: 'Một nữ tu sĩ phục vụ dưới quyền Lumachina, người luôn lo lắng cho sự an nguy của Thánh nữ.' },
+    { name: 'Babaron', role: 'Phản diện', age: '???', description: 'Một trong những Ma vương cổ đại, kẻ luôn tìm cách hồi sinh các thế lực hắc ám.' },
+    { name: 'Enki', role: 'Phản diện', age: '???', description: 'Một chiến binh Ma tộc mạnh mẽ, sở hữu sức mạnh thể chất áp đảo.' },
+    { name: 'Solami', role: 'Hỗ trợ', age: '???', description: 'Một tinh linh ma pháp, người cung cấp nhiều kiến thức về thế giới cho Diablo.' },
+    { name: 'Gilles', role: 'Phản diện', age: '30+', description: 'Một pháp sư hắc ám, kẻ đã gây ra nhiều vụ rắc rối tại thành phố Faltra.' },
+    { name: 'Vân Vân', role: 'Hỗ trợ', age: '18', description: 'Một cô gái thuộc tộc Pantherian, bạn của Rem, người luôn giúp đỡ nhóm trong việc thu thập thông tin.' },
+    { name: 'Lãnh chúa Greenwood', role: 'Gia đình', age: '50+', description: 'Cha của Shera và Keera, quốc vương của tộc Elf, người luôn lo lắng cho tương lai của vương quốc.' },
+    { name: 'Hoàng hậu Greenwood', role: 'Gia đình', age: '45+', description: 'Mẹ của Shera, một người phụ nữ hiền hậu và yêu thương con cái.' },
+    { name: 'Đội trưởng đội cận vệ Faltra', role: 'Hỗ trợ', age: '35+', description: 'Một chiến binh dũng cảm, người chịu trách nhiệm bảo vệ an ninh cho thành phố Faltra.' },
+    { name: 'Thương nhân hắc ám', role: 'Đối thủ', age: '40+', description: 'Một kẻ buôn bán các vật phẩm cấm, thường xuyên gây ra rắc rối cho Diablo.' }
+  ]
+};

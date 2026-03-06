@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const shieldHero: FanficWork = {
+  id: 'shield-hero',
+  title: 'Sự Trỗi Dậy của Khiên Hiệp Sĩ (The Rising of the Shield Hero)',
+  description: 'Naofumi Iwatani bị triệu hồi đến thế giới khác làm Khiên Hiệp Sĩ, nhưng bị phản bội và phải tự mình vươn lên từ con số không.',
+  country: 'Nhật',
+  plot: 'Naofumi bị triệu hồi cùng ba người khác để trở thành Tứ Đại Hiệp Sĩ cứu thế giới. Tuy nhiên, vì là Khiên Hiệp Sĩ, anh bị khinh miệt và bị công chúa phản bội, vu oan. Mất hết lòng tin vào con người, Naofumi phải mua nô lệ làm đồng đội và chiến đấu để bảo vệ thế giới khỏi các "Đợt sóng" hủy diệt.',
+  worldSetting: 'Thế giới kỳ ảo với hệ thống cấp độ và kỹ năng như trò chơi điện tử. Naofumi phải đối mặt với sự thù ghét của tôn giáo và chính trị tại vương quốc Melromarc.',
+  characters: [
+    { name: 'Naofumi Iwatani', role: 'Nhân vật chính', description: 'Khiên Hiệp Sĩ, ban đầu hiền lành nhưng sau đó trở nên lạnh lùng và thực dụng. Sở hữu những chiếc khiên với năng lực đa dạng.' },
+    { name: 'Raphtalia', role: 'Nữ chính / Đồng minh', description: 'Một á nhân tộc Tanuki, nô lệ đầu tiên và là thanh kiếm trung thành nhất của Naofumi.' },
+    { name: 'Filo', role: 'Bạn đồng hành', description: 'Một con chim Filolial có khả năng hóa thành người, cực kỳ ham ăn và yêu quý Naofumi.' },
+    { name: 'Melty Q Melromarc', role: 'Đồng minh', description: 'Nhị công chúa của vương quốc, người duy nhất trong hoàng tộc ban đầu đứng về phía Naofumi.' },
+    { name: 'Malty (Myne)', role: 'Phản diện', description: 'Đại công chúa, kẻ đã phản bội và vu oan cho Naofumi, khởi nguồn cho mọi đau khổ của anh.' },
+    { name: 'Fitoria', role: 'Hỗ trợ', description: 'Nữ vương của loài Filolial, một thực thể cổ xưa bảo vệ thế giới khỏi các đợt sóng.' },
+    { name: 'Motoyasu Kitamura', role: 'Đối thủ / Đồng minh', description: 'Thương Hiệp Sĩ, một người chính trực nhưng quá ngây thơ và dễ bị thao túng bởi kẻ xấu.' },
+    { name: 'Ren Amaki', role: 'Đối thủ / Đồng minh', description: 'Kiếm Hiệp Sĩ, một người lạnh lùng và thích hành động đơn độc, luôn tìm kiếm sức mạnh cá nhân.' },
+    { name: 'Itsuki Kawasumi', role: 'Đối thủ / Đồng minh', description: 'Cung Hiệp Sĩ, một người luôn tin vào chính nghĩa của bản thân nhưng lại quá kiêu ngạo và thiếu thực tế.' },
+    { name: 'Mirellia Q Melromarc', role: 'Đồng minh / Nữ hoàng', description: 'Nữ hoàng của Melromarc, người duy nhất có quyền lực thực sự và luôn âm thầm ủng hộ Naofumi.' },
+    { name: 'Glass', role: 'Đối thủ / Đồng minh', description: 'Một thực thể từ thế giới khác, đối thủ mạnh mẽ của Naofumi trong các đợt sóng, chiến đấu vì thế giới của mình.' },
+    { name: 'L\'Arc Berg', role: 'Đối thủ / Đồng minh', description: 'Hiệp sĩ Lưỡi hái từ thế giới khác, một người phóng khoáng và mạnh mẽ, ban đầu là đối thủ nhưng sau đó là đồng minh của Naofumi.' },
+    { name: 'Therese Alexandrite', role: 'Đồng minh', description: 'Bạn đồng hành của L\'Arc, sử dụng sức mạnh của các loại đá quý để hỗ trợ chiến đấu.' },
+    { name: 'Rishia Ivyred', role: 'Đồng minh', description: 'Một nữ hiệp sĩ nhút nhát nhưng có tiềm năng ma pháp cực lớn, sau khi bị Cung Hiệp Sĩ ruồng bỏ đã gia nhập nhóm Naofumi.' },
+    { name: 'Kizuna Kazayama', role: 'Đồng minh', description: 'Hiệp sĩ Săn bắn từ thế giới của Glass, một cô gái lạc quan và là người bạn thân thiết của Naofumi.' },
+    { name: 'Ost Horai', role: 'Nhân vật quan trọng', description: 'Thực thể đại diện cho Linh Quy, người đã hy sinh để giúp Naofumi ngăn chặn thảm họa diệt vong.' },
+    { name: 'Eclair Seaetto', role: 'Đồng minh', description: 'Nữ hiệp sĩ tài năng, con gái của lãnh chúa vùng Seaetto, người đã huấn luyện kiếm thuật cho Raphtalia và quân đội của Naofumi.' },
+    { name: 'Elrasla Grallon', role: 'Sư phụ', description: 'Bậc thầy của môn phái Biến ảo vô song, người đã dạy cho Naofumi và đồng đội cách điều khiển khí.' },
+    { name: 'Keel', role: 'Đồng minh', description: 'Bạn thuở nhỏ của Raphtalia, một á nhân tộc chó luôn nỗ lực để bảo vệ ngôi làng của mình.' },
+    { name: 'Sadeena', role: 'Đồng minh', description: 'Một á nhân tộc cá kình mạnh mẽ, người chị tinh thần của Raphtalia và là một chiến binh thủy chiến xuất sắc.' },
+    { name: 'Shildina', role: 'Đồng minh', description: 'Em gái của Sadeena, một pháp sư tài năng chuyên về các loại bùa chú và ma pháp cổ xưa.' },
+    { name: 'Wyndia', role: 'Đồng minh', description: 'Một cô gái có khả năng giao tiếp và điều khiển rồng, người đã giúp Naofumi nuôi dưỡng các linh thú.' },
+    { name: 'Ratotille Anthreya', role: 'Hỗ trợ', description: 'Một nhà nghiên cứu sinh vật học thiên tài, người giúp Naofumi lai tạo và nâng cấp sức mạnh cho các loài quái vật triệu hồi.' },
+    { name: 'Atla', role: 'Đồng minh', description: 'Một cô gái tộc hổ mù lòa nhưng sở hữu khả năng cảm nhận khí cực nhạy bén, dành tình cảm đặc biệt cho Naofumi.' },
+    { name: 'Fohl', role: 'Đồng minh', description: 'Anh trai của Atla, một chiến binh tộc hổ mạnh mẽ, luôn bảo vệ em gái mình một cách thái quá.' },
+    { name: 'S\'yne Lokk', role: 'Đồng minh', description: 'Hiệp sĩ May vá từ một thế giới đã bị hủy diệt, người thầm lặng hỗ trợ Naofumi bằng các trang bị đặc biệt.' },
+    { name: 'Aultcray Melromarc XXXII (Trash)', role: 'Phản diện / Đồng minh', description: 'Vua của Melromarc, người ban đầu căm ghét Naofumi nhưng sau đó đã hối lỗi và hỗ trợ anh chống lại kẻ thù chung.' },
+    { name: 'Kyo Ethnina', role: 'Phản diện', description: 'Hiệp sĩ Sách từ thế giới của Glass, một kẻ xảo quyệt và là nguyên nhân gây ra nhiều thảm kịch.' },
+    { name: 'Takt Alsahorn Faubrey', role: 'Phản diện', description: 'Hiệp sĩ Roi, một kẻ kiêu ngạo âm mưu thống trị thế giới bằng cách cướp đoạt vũ khí huyền thoại.' },
+    { name: 'Pope Balmus', role: 'Phản diện', description: 'Giáo hoàng của Tam Anh Giáo, kẻ chủ mưu đứng sau việc vu oan cho Naofumi nhằm củng cố quyền lực tôn giáo.' }
+  ]
+};

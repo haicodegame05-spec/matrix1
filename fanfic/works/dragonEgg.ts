@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const dragonEgg: FanficWork = {
+  id: 'dragon-egg',
+  title: 'Chuyển Sinh Thành Trứng Rồng (Tensei Shitara Dragon no Tamago Datta)',
+  description: 'Một thanh niên tỉnh dậy trong một khu rừng dị giới dưới hình dạng một quả trứng rồng.',
+  country: 'Nhật',
+  plot: 'Một thanh niên tỉnh dậy trong một khu rừng xa lạ và nhận ra mình đã trở thành một quả trứng rồng. Với hệ thống hỗ trợ trong đầu, anh bắt đầu hành trình sinh tồn, chiến đấu với các quái vật khác để thăng cấp và tiến hóa. Từ một quả trứng nhỏ bé, anh tiến hóa thành các loài rồng mạnh mẽ khác nhau, đồng thời khám phá những bí ẩn về thế giới này và mục đích của sự chuyển sinh của mình.',
+  worldSetting: 'Một thế giới fantasy có hệ thống cấp độ, kỹ năng và tiến hóa giống như trò chơi điện tử. Sức mạnh dựa trên các ma thạch và kinh nghiệm thu được từ việc đánh bại quái vật.',
+  characters: [
+    { name: 'Irushia (Trứng Rồng)', role: 'Nhân vật chính', age: '???', description: 'Thanh niên chuyển sinh thành trứng rồng. Thông minh, kiên trì và luôn nỗ lực để tiến hóa thành loài rồng mạnh nhất. Có trái tim nhân hậu.' },
+    { name: 'Adon', role: 'Đồng minh / Thú cưỡi', age: '???', description: 'Một con quái vật được Irushia cứu và trở thành bạn đồng hành trung thành.' },
+    { name: 'Nina', role: 'Nữ chính / Đồng minh', age: '18', description: 'Một cô gái mạo hiểm giả hiền lành, người đầu tiên kết bạn với Irushia dưới hình dạng rồng.' },
+    { name: 'Ballad', role: 'Đối thủ', age: '???', description: 'Một con rồng mạnh mẽ khác, đối thủ lớn của Irushia trong giai đoạn đầu.' },
+    { name: 'The Voice of God', role: 'Hỗ trợ / Bí ẩn', age: 'Vĩnh cửu', description: 'Hệ thống hỗ trợ trong đầu Irushia, cung cấp thông tin và hướng dẫn anh tiến hóa.' },
+    { name: 'Miria', role: 'Hỗ trợ', age: '20', description: 'Một nữ pháp sư tài ba, người đã giúp đỡ Irushia trong các trận chiến.' },
+    { name: 'The Hero', role: 'Đối thủ', age: '20+', description: 'Một anh hùng nhân loại cố gắng tiêu diệt Irushia vì coi anh là mối đe dọa.' },
+    { name: 'Demon King', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thực thể cai trị thế giới, ban đầu đối đầu với Irushia nhưng sau đó nể phục sức mạnh của anh.' },
+    { name: 'Dragon King', role: 'Người dẫn dắt', age: '???', description: 'Vị vua của loài rồng, người đã truyền lại kiến thức và sức mạnh cho Irushia.' },
+    { name: 'Adventurer 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong nhóm mạo hiểm giả, luôn tin tưởng và bảo vệ Irushia.' },
+    { name: 'Adventurer 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về ma pháp phòng thủ.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán vật phẩm ma pháp, người đã cung cấp cho Irushia những nguyên liệu cần thiết.' },
+    { name: 'Irushia (Kiếp trước)', role: 'Ký ức', age: '20+', description: 'Hình bóng của thanh niên bình thường luôn nhắc nhở Irushia về nhân tính.' },
+    { name: 'Villager 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Irushia cứu sống, luôn biết ơn và ủng hộ anh.' },
+    { name: 'Villager 2', role: 'Hỗ trợ', age: '30+', description: 'Thành viên khác trong cộng đồng, người đã giúp Irushia lan tỏa kiến thức.' },
+    { name: 'Monster 1', role: 'Đối thủ', age: '???', description: 'Một quái vật mạnh mẽ trong rừng, luôn tìm cách tấn công Irushia.' },
+    { name: 'Monster 2', role: 'Đối thủ', age: '???', description: 'Thành viên khác trong đội quân quái vật, chuyên về tấn công tầm xa.' },
+    { name: 'Spirit 1', role: 'Hỗ trợ', age: '???', description: 'Một tinh linh rừng xanh, người đã giúp đỡ Irushia trong việc điều khiển ma pháp.' },
+    { name: 'Spirit 2', role: 'Hỗ trợ', age: '???', description: 'Tinh linh nước, người đã cung cấp nguồn nước sạch và hỗ trợ trị thương.' },
+    { name: 'Ancient Dragon', role: 'Linh hồn', age: 'Ancient', description: 'Linh hồn của một con rồng cổ đại, người đã truyền lại ý chí cho Irushia.' },
+    { name: 'Ancient Dragon Queen', role: 'Người dẫn dắt', age: '5000+', description: 'Nữ hoàng rồng cổ đại, người nắm giữ bí mật về sự tiến hóa tối thượng.' },
+    { name: 'Zeke', role: 'Đối thủ', age: '22', description: 'Một thợ săn rồng khét tiếng, người đã thề sẽ lấy đầu Irushia.' },
+    { name: 'Lia', role: 'Hỗ trợ', age: '16', description: 'Một cô bé mồ côi được Irushia cứu, sau này trở thành người chăm sóc cho các quái vật nhỏ.' },
+    { name: 'The Shadow Monarch', role: 'Phản diện', age: '???', description: 'Thực thể bóng tối đang âm mưu nuốt chửng thế giới, kẻ thù cuối cùng của Irushia.' },
+    { name: 'Old Man Haku', role: 'Hỗ trợ', age: '70', description: 'Một ẩn sĩ sống trong rừng, người đã dạy Irushia cách giao tiếp với thiên nhiên.' },
+    { name: 'The Dragon Priestess', role: 'Hỗ trợ', age: '19', description: 'Người đứng đầu đền thờ rồng, người tin rằng Irushia là vị cứu tinh trong truyền thuyết.' },
+    { name: 'The Goblin King', role: 'Đối thủ / Đồng minh', age: '???', description: 'Thủ lĩnh của tộc Goblin, ban đầu tấn công Irushia nhưng sau đó đã quy phục sức mạnh của anh.' },
+    { name: 'The Ice Dragon', role: 'Đối thủ', age: '???', description: 'Một con rồng cổ đại cai trị vùng núi tuyết, thử thách lớn về sức mạnh ma pháp băng cho Irushia.' },
+    { name: 'The Forest Guardian', role: 'Đồng minh', age: '???', description: 'Một thực thể thực vật khổng lồ bảo vệ khu rừng, người đã trao cho Irushia những kỹ năng hồi phục đặc biệt.' },
+    { name: 'The Wandering Scholar', role: 'Hỗ trợ', age: '35', description: 'Một nhà nghiên cứu quái vật, người đã giúp Irushia hiểu rõ hơn về các nhánh tiến hóa của mình.' }
+  ]
+};

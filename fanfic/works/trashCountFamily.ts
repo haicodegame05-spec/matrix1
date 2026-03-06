@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const trashCountFamily: FanficWork = {
+  id: 'trash-count-family',
+  title: 'Lựu Đạn Của Gia Đình Bá Tước (Trash of the Count\'s Family)',
+  description: 'Kim Rok Soo xuyên không vào một cuốn tiểu thuyết và trở thành Cale Henituse - một tên công tử rác rưởi của gia đình bá tước.',
+  country: 'Hàn',
+  plot: 'Kim Rok Soo tỉnh dậy trong thân xác của Cale Henituse, một nhân vật phụ phản diện bị nhân vật chính đánh nhừ tử trong chương đầu của cuốn tiểu thuyết "Sự ra đời của một anh hùng". Để tránh số phận bi thảm và tận hưởng cuộc sống an nhàn, Cale quyết định thu thập các "Sức mạnh cổ đại" và vô tình tập hợp xung quanh mình những đồng đội cực kỳ mạnh mẽ, từ rồng, anh hùng cho đến các vị thần.',
+  worldSetting: 'Thế giới kỳ ảo phương Tây với ma pháp, kiếm sĩ và các chủng tộc đa dạng. Cale sử dụng kiến thức về cốt truyện để thay đổi vận mệnh của lục địa.',
+  characters: [
+    { name: 'Cale Henituse (Kim Rok Soo)', role: 'Nhân vật chính', description: 'Thông minh, xảo quyệt, luôn miệng nói muốn sống an nhàn nhưng lại liên tục cứu thế giới. Sở hữu nhiều sức mạnh cổ đại.' },
+    { name: 'Raon Miru', role: 'Bạn đồng hành', description: 'Một con rồng đen nhỏ bé nhưng cực kỳ mạnh mẽ, coi Cale là người quan trọng nhất thế giới.' },
+    { name: 'Choi Han', role: 'Anh hùng / Đồng minh', description: 'Nhân vật chính của cuốn tiểu thuyết gốc, một kiếm sĩ bậc thầy với quá khứ đau thương, cực kỳ trung thành với Cale.' },
+    { name: 'Ron Molan', role: 'Cấp dưới', description: 'Quản gia của Cale, một sát thủ lão luyện với nụ cười hiền hậu nhưng đầy sát khí.' },
+    { name: 'Beacrox Molan', role: 'Cấp dưới', description: 'Con trai của Ron, một đầu bếp tài ba và cũng là một chuyên gia tra tấn cực kỳ sạch sẽ.' },
+    { name: 'Alver Crossman', role: 'Đồng minh', description: 'Thế tử của vương quốc Roan, một người thông minh và đầy tham vọng, là đối tác chiến lược của Cale.' },
+    { name: 'Rosalyn', role: 'Đồng minh', description: 'Cựu công chúa và là một ma pháp sư thiên tài, người đã từ bỏ ngai vàng để theo đuổi ma pháp và hỗ trợ Cale.' },
+    { name: 'Lock', role: 'Bạn đồng hành', description: 'Một thiếu niên thuộc tộc Sói, ban đầu nhút nhát nhưng sau này trở thành một chiến binh dũng mãnh bảo vệ gia đình Cale.' },
+    { name: 'Eruhaben', role: 'Người dẫn dắt', description: 'Một con Rồng Vàng cổ đại đã sống hàng nghìn năm, ban đầu định nghỉ hưu nhưng lại bị Cale kéo vào những rắc rối cứu thế giới.' },
+    { name: 'On', role: 'Bạn đồng hành', description: 'Chị cả trong cặp song sinh tộc Mèo, có khả năng điều khiển sương mù, luôn điềm tĩnh và quan tâm đến Raon.' },
+    { name: 'Hong', role: 'Bạn đồng hành', description: 'Em trai trong cặp song sinh tộc Mèo, có khả năng sử dụng độc tố, tính tình tinh nghịch và rất thích ăn ngon.' },
+    { name: 'Mary', role: 'Đồng minh', description: 'Một tử linh sư sống trong thành phố ngầm, có cơ thể đầy sẹo nhưng trái tim thuần khiết, sở hữu sức mạnh ma thuật hắc ám đáng sợ.' },
+    { name: 'Bud Illis', role: 'Đồng minh', description: 'Vua lính đánh thuê, một người yêu rượu và có khả năng đánh hơi ma lực, là nguồn cung cấp thông tin quan trọng cho Cale.' },
+    { name: 'Deruth Henituse', role: 'Phụ thân', description: 'Cha của Cale, một người cha yêu thương con cái hết mực và luôn cố gắng bảo vệ gia đình.' },
+    { name: 'Violan Henituse', role: 'Mẹ kế', description: 'Mẹ kế của Cale, một người phụ nữ mạnh mẽ và quyết đoán, quản lý gia đình Henituse một cách nghiêm túc.' },
+    { name: 'Basen Henituse', role: 'Em trai', description: 'Em trai cùng cha khác mẹ của Cale, rất ngưỡng mộ anh trai mình và luôn nỗ lực để trở thành người thừa kế xứng đáng.' },
+    { name: 'Lily Henituse', role: 'Em gái', description: 'Em gái út của Cale, có thiên phú kiếm thuật và luôn muốn bảo vệ anh trai mình.' },
+    { name: 'Hans', role: 'Hỗ trợ', description: 'Phó quản gia của gia đình Henituse, cực kỳ yêu thích mèo và là người chăm sóc các con vật của Cale.' },
+    { name: 'Paseton', role: 'Đồng minh', description: 'Thành viên tộc Cá Voi, một người hiền lành nhưng kiên cường, đã được Cale cứu mạng.' },
+    { name: 'Witira', role: 'Đồng minh', description: 'Công chúa tộc Cá Voi, một chiến binh mạnh mẽ với sức mạnh đại dương, là đồng minh tin cậy của Cale.' },
+    { name: 'Shickler', role: 'Đồng minh', description: 'Vua tộc Cá Voi, cha của Witira và Paseton, một vị vua uy nghiêm và đầy quyền lực.' },
+    { name: 'Pendrick', role: 'Hỗ trợ', description: 'Một yêu tinh (Elf) có khả năng chữa trị, luôn ngưỡng mộ sự thông minh và lòng tốt của Cale.' },
+    { name: 'Gashan', role: 'Đồng minh', description: 'Thủ lĩnh tộc Hổ, một thầy cúng có khả năng giao tiếp với thiên nhiên và dự đoán tương lai.' },
+    { name: 'Litana', role: 'Đồng minh', description: 'Nữ vương của rừng rậm phía Nam, người đã mang ơn Cale sau khi anh giúp dập tắt đám cháy rừng.' },
+    { name: 'Tasha', role: 'Đồng minh', description: 'Một Dark Elf mạnh mẽ, là dì của Alver Crossman và là người trung gian giữa Cale và các Dark Elf.' },
+    { name: 'Glenn Pohe', role: 'Đồng minh', description: 'Bạn thân của Bud Illis, một ma pháp sư tài năng luôn phải đi dọn dẹp rắc rối cho Bud.' },
+    { name: 'White Star', role: 'Phản diện', description: 'Kẻ thù lớn nhất của Cale, một kẻ bất tử luôn âm mưu trở thành thần và hủy diệt thế giới.' },
+    { name: 'Taylor Stan', role: 'Đồng minh', description: 'Con trai cả của gia tộc Stan, người đã vượt qua nghịch cảnh nhờ sự giúp đỡ của Cale.' },
+    { name: 'Cage', role: 'Đồng minh', description: 'Nữ linh mục của Thần Chết, bạn thân của Taylor Stan, có tính cách phóng khoáng và không thích các quy tắc.' },
+    { name: 'Mueller', role: 'Hỗ trợ', description: 'Một người thuộc tộc Người Lùn lai Chuột, thiên tài về kiến trúc và cơ khí, người đã xây dựng lâu đài cho Cale.' }
+  ]
+};

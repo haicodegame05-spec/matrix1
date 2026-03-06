@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const killTheHero: FanficWork = {
+  id: 'kill-the-hero',
+  title: 'Tiêu Diệt Anh Hùng (Kill the Hero)',
+  description: 'Kim Woo-jin bị phản bội bởi chính người anh hùng mà anh tôn thờ, và được quay ngược thời gian để thực hiện cuộc trả thù.',
+  country: 'Hàn',
+  plot: 'Trong một thế giới bị hầm ngục xâm chiếm, Lee Se-jun là vị anh hùng cứu thế giới. Tuy nhiên, anh ta thực chất là một kẻ đạo đức giả đã sát hại những đồng đội trung thành nhất, trong đó có Kim Woo-jin. Sau khi chết, Woo-jin quay lại quá khứ với mục tiêu duy nhất: trở nên mạnh mẽ hơn bất kỳ ai để tiêu diệt "vị anh hùng" giả tạo kia.',
+  worldSetting: 'Thế giới hiện đại với hệ thống hầm ngục và người thức tỉnh. Kim Woo-jin sử dụng kiến thức từ tương lai để chiếm đoạt các vật phẩm và kỹ năng mạnh nhất.',
+  characters: [
+    { name: 'Kim Woo-jin', role: 'Nhân vật chính', age: '27', description: 'Lạnh lùng, tàn nhẫn và cực kỳ mưu mô. Sở hữu kỹ năng triệu hồi xác sống và khả năng sử dụng độc bậc thầy, luôn đi trước kẻ thù một bước.' },
+    { name: 'Lee Se-jun', role: 'Phản diện', age: '35', description: 'Vị anh hùng của nhân loại nhưng thực chất là một kẻ tham vọng, sẵn sàng hy sinh tất cả đồng đội để đạt được sự bất tử và quyền lực.' },
+    { name: 'Lee Jin-ah', role: 'Đồng minh', age: '25', description: 'Một người thức tỉnh với khả năng phòng ngự và hồi phục kinh người, tính cách bộc trực, ham ăn và là lá chắn tin cậy của Woo-jin.' },
+    { name: 'Isaac Ivanov', role: 'Bí danh', age: '27', description: 'Danh tính giả mà Kim Woo-jin sử dụng để gây dựng thanh thế quốc tế, được biết đến như một thợ săn thiên tài từ Nga.' },
+    { name: 'Park Shin-hye', role: 'Phản diện', age: '30', description: 'Cánh tay phải của Lee Se-jun, một người phụ nữ thông minh, tàn nhẫn và quản lý mọi hoạt động ngầm của Guild Messiah.' },
+    { name: 'Hệ thống', role: 'Hỗ trợ', age: '???', description: 'Cơ chế trò chơi hóa thế giới, cung cấp các nhiệm vụ, kỹ năng và phần thưởng giúp Woo-jin thăng tiến sức mạnh.' },
+    { name: 'Kim Mi-hye', role: 'Đối thủ', age: '25', description: 'Một thợ săn tài năng thuộc Guild Messiah, luôn nghi ngờ về thân phận thật sự của Isaac Ivanov.' },
+    { name: 'Oh Se-chan', role: 'Hỗ trợ', age: '40', description: 'Một nhà môi giới thông tin bí ẩn, người cung cấp các vật phẩm và tin tức tình báo quan trọng cho Woo-jin.' },
+    { name: 'Johann Georg', role: 'Đối thủ', age: '45', description: 'Thủ lĩnh của một Guild lớn tại châu Âu, một chiến binh mạnh mẽ nhưng thường xuyên bị Woo-jin xoay như chong chóng.' },
+    { name: 'Spas', role: 'Triệu hồi', age: '???', description: 'Một trong những chiến binh xương mạnh nhất được Woo-jin triệu hồi, sở hữu kỹ năng chiến đấu điêu luyện.' },
+    { name: 'Park Yong-wan', role: 'Đối thủ / Đồng minh', age: '45', description: 'Một thợ săn tham lam và quyền lực, người ban đầu là đối thủ nhưng sau đó bị Woo-jin thao túng để phục vụ mục đích của mình.' },
+    { name: 'Kim Woo-jin\'s Sister', role: 'Gia đình', age: 'Đã mất', description: 'Nguồn động lực lớn nhất của Woo-jin, cái chết của cô trong kiếp trước là lý do khiến anh quyết tâm tiêu diệt Lee Se-jun.' },
+    { name: 'The Great One', role: 'Thực thể', age: 'Cổ xưa', description: 'Một thực thể thần thánh đứng sau hệ thống, người đã ban cho Woo-jin cơ hội quay ngược thời gian.' },
+    { name: 'Skeleton Knight', role: 'Triệu hồi', age: '???', description: 'Chiến binh xương cấp cao với bộ giáp nặng, là lá chắn vững chắc cho Woo-jin trong các hầm ngục.' },
+    { name: 'Skeleton Mage', role: 'Triệu hồi', age: '???', description: 'Pháp sư xương có khả năng sử dụng các phép thuật hắc ám và gây sát thương diện rộng.' },
+    { name: 'Skeleton Archer', role: 'Triệu hồi', age: '???', description: 'Xạ thủ xương với độ chính xác tuyệt đối, hỗ trợ hỏa lực từ xa cho Woo-jin.' },
+    { name: 'Lich', role: 'Triệu hồi', age: '???', description: 'Một thực thể bất tử mạnh mẽ được Woo-jin triệu hồi để điều khiển đội quân xương của mình.' },
+    { name: 'Death Knight', role: 'Triệu hồi', age: '???', description: 'Kỵ sĩ cái chết với sức mạnh hủy diệt, là át chủ bài của Woo-jin trong các trận chiến quan trọng.' },
+    { name: 'Kunlun Guild Leader', role: 'Lãnh đạo', age: '50', description: 'Người đứng đầu Guild Kunlun tại Trung Quốc, một trong những thế lực lớn nhất thế giới luôn dè chừng Messiah Guild.' },
+    { name: 'Victoria', role: 'Đồng minh', age: '28', description: 'Nữ thợ săn hàng đầu của Nga, người đã hợp tác với Isaac Ivanov (Woo-jin) trong nhiều chiến dịch quốc tế.' },
+    { name: 'Ivan', role: 'Đồng minh', age: '30', description: 'Chiến binh dũng mãnh của Nga, một người bạn đáng tin cậy của Isaac Ivanov trên chiến trường.' },
+    { name: 'Messiah Guild PR Manager', role: 'Hỗ trợ', age: '35', description: 'Người chịu trách nhiệm xây dựng hình ảnh "vị cứu tinh" cho Lee Se-jun trước công chúng.' },
+    { name: 'The Black Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Một thương nhân bí ẩn trong hầm ngục, chuyên cung cấp các vật phẩm huyền thoại với giá cắt cổ.' },
+    { name: 'Dungeon Boss - Dragon', role: 'Phản diện', age: 'Cổ xưa', description: 'Mối đe dọa lớn nhất trong các hầm ngục cấp cao, mục tiêu mà Woo-jin phải chinh phục để thăng tiến sức mạnh.' },
+    { name: 'The White Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Đối thủ cạnh tranh của Thương nhân Đen, chuyên về các vật phẩm phòng ngự và hồi phục.' },
+    { name: 'The Gray Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Thương nhân trung lập cung cấp thông tin và các vật phẩm tiện ích cho thợ săn.' },
+    { name: 'The Red Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Chuyên cung cấp các vật phẩm tăng cường sức mạnh tấn công và bùa chú chiến đấu.' },
+    { name: 'The Blue Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Chuyên cung cấp các vật phẩm tăng cường ma pháp và hồi phục năng lượng.' },
+    { name: 'Survivor of Messiah', role: 'Nhân vật phụ', age: '30', description: 'Một thợ săn may mắn thoát khỏi sự thanh trừng của Lee Se-jun, người nắm giữ những bí mật đen tối của Guild.' },
+    { name: 'Messiah Guard', role: 'Đối thủ', age: '25', description: 'Đội quân tinh nhuệ bảo vệ Lee Se-jun, luôn sẵn sàng tiêu diệt bất kỳ ai đe dọa đến chủ nhân của mình.' }
+  ]
+};

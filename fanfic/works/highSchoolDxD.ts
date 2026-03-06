@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const highSchoolDxD: FanficWork = {
+  id: 'high-school-dxd',
+  title: 'High School DxD',
+  description: 'Câu chuyện về Hyoudou Issei và cuộc hành trình trở thành "Vua Harem" trong thế giới của các ác quỷ, thiên thần và thiên thần sa ngã.',
+  country: 'Nhật',
+  plot: 'Hyoudou Issei, một học sinh trung học biến thái, bị giết bởi bạn gái đầu tiên của mình - một thiên thần sa ngã. Anh được Rias Gremory, một ác quỷ xinh đẹp, hồi sinh thành nô lệ ác quỷ của cô. Issei phát hiện ra mình sở hữu Boosted Gear - một trong 13 Long Cụ (Sacred Gears) cực mạnh chứa linh hồn của Xích Long Thần Đế Ddraig. Anh bắt đầu cuộc sống mới đầy nguy hiểm và những cô gái xinh đẹp bao quanh.',
+  worldSetting: 'Thành phố Kuoh, Nhật Bản hiện đại, nơi các thế lực siêu nhiên như Ác quỷ, Thiên thần và Thiên thần sa ngã cùng tồn tại bí mật.',
+  characters: [
+    { name: 'Hyoudou Issei', role: 'Nhân vật chính', age: '17', description: 'Một học sinh trung học biến thái nhưng có trái tim dũng cảm. Anh sở hữu Boosted Gear và luôn nỗ lực để trở thành một ác quỷ cấp cao và xây dựng Harem của riêng mình.' },
+    { name: 'Rias Gremory', role: 'Nữ chính / Lãnh đạo', age: '18', description: 'Công chúa của gia tộc Gremory danh giá, một ác quỷ cấp cao với mái tóc đỏ rực rỡ. Cô là chủ nhân của Issei và luôn yêu thương, bảo vệ anh.' },
+    { name: 'Himejima Akeno', role: 'Nữ chính / Hỗ trợ', age: '18', description: 'Phó chủ tịch Câu lạc bộ Nghiên cứu Huyền bí, một ác quỷ lai thiên thần sa ngã. Cô có tính cách quyến rũ, đôi khi tàn nhẫn và điều khiển sấm sét.' },
+    { name: 'Asia Argento', role: 'Nữ chính / Hỗ trợ', age: '16', description: 'Một cựu nữ tu sĩ dịu dàng, sở hữu Sacred Gear "Twilight Healing" có khả năng chữa lành mọi vết thương. Cô coi Issei là người quan trọng nhất đời mình.' },
+    { name: 'Toujou Koneko', role: 'Nữ chính / Hỗ trợ', age: '15', description: 'Một Nekomata nhỏ nhắn với sức mạnh thể chất phi thường. Cô ban đầu ghét sự biến thái của Issei nhưng dần dần nảy sinh tình cảm với anh.' },
+    { name: 'Kiba Yuuto', role: 'Bạn thân / Đồng minh', age: '17', description: 'Một kiếm sĩ tài ba sở hữu Sacred Gear "Sword Birth". Anh là người sống sót sau dự án Thánh Kiếm và coi Issei là người anh em thân thiết.' },
+    { name: 'Xenovia Quarta', role: 'Nữ chính / Đồng minh', age: '17', description: 'Một cựu hiệp sĩ của Giáo hội, người sử dụng thanh thánh kiếm Durandal. Cô gia nhập gia đình Rias sau khi phát hiện ra sự thật về Chúa.' },
+    { name: 'Irina Shidou', role: 'Nữ chính / Đồng minh', age: '17', description: 'Bạn thuở nhỏ của Issei, một thiên thần phục vụ dưới quyền Michael. Cô luôn tràn đầy năng lượng và có niềm tin mãnh liệt vào đức tin.' },
+    { name: 'Gasper Vladi', role: 'Đồng minh', age: '16 (ngoại hình)', description: 'Một ma cà rồng lai ác quỷ nhút nhát, sở hữu Sacred Gear "Forbidden Balor View" có khả năng dừng thời gian.' },
+    { name: 'Rossweisse', role: 'Nữ chính / Đồng minh', age: '20+', description: 'Một Valkyrie từng phục vụ Odin, sau đó trở thành ác quỷ dưới quyền Rias. Cô là một chuyên gia về ma thuật Bắc Âu.' },
+    { name: 'Vali Lucifer', role: 'Đối thủ / Phản anh hùng', age: '18', description: 'Hậu duệ của Lucifer nguyên thủy và là người sở hữu Divine Dividing - linh hồn của Bạch Long Hoàng Albion. Anh là đối thủ định mệnh của Issei.' },
+    { name: 'Azazel', role: 'Người dẫn dắt / Lãnh đạo', age: 'Ancient', description: 'Lãnh đạo của các Thiên thần sa ngã, một nhà nghiên cứu Sacred Gear thiên tài và là cố vấn cho nhóm của Issei.' },
+    { name: 'Michael', role: 'Lãnh đạo / Thiên thần', age: 'Ancient', description: 'Người đứng đầu các Thiên thần sau cái chết của Chúa, một người nhân từ luôn mong muốn hòa bình giữa ba thế lực.' },
+    { name: 'Sirzechs Lucifer', role: 'Lãnh đạo / Ác quỷ', age: 'Unknown', description: 'Anh trai của Rias và là một trong bốn Ma Vương hiện tại, sở hữu sức mạnh hủy diệt cực lớn và rất yêu chiều em gái.' },
+    { name: 'Serafall Leviathan', role: 'Lãnh đạo / Ác quỷ', age: 'Unknown', description: 'Một trong bốn Ma Vương, chị gái của Sona Sitri. Cô có tính cách trẻ con, yêu thích cosplay nhưng sở hữu ma pháp băng cực mạnh.' },
+    { name: 'Sona Sitri', role: 'Đối thủ / Đồng minh', age: '18', description: 'Chủ tịch Hội học sinh và là bạn thân của Rias. Cô là một ác quỷ thông minh, giỏi chiến thuật và luôn cạnh tranh công bằng với Rias.' },
+    { name: 'Ravel Phenex', role: 'Nữ chính / Hỗ trợ', age: '15', description: 'Em gái của Raiser Phenex, sau này trở thành quân sư và là một trong những người yêu Issei sâu đậm.' },
+    { name: 'Ddraig', role: 'Linh hồn / Người dẫn dắt', age: 'Ancient', description: 'Xích Long Thần Đế bị phong ấn trong Boosted Gear của Issei. Ông là người bạn đồng hành và luôn hướng dẫn Issei sử dụng sức mạnh rồng.' },
+    { name: 'Albion', role: 'Linh hồn / Đối thủ', age: 'Ancient', description: 'Bạch Long Hoàng bị phong ấn trong Divine Dividing của Vali. Ông là đối thủ truyền kiếp của Ddraig qua nhiều thế hệ.' },
+    { name: 'Ophis', role: 'Thần / Nhân vật quan trọng', age: 'Ancient', description: 'Vô Hạn Long Thần, một trong những tồn tại mạnh nhất thế giới. Cô có vẻ ngoài của một bé gái và luôn tìm kiếm sự yên tĩnh.' },
+    { name: 'Great Red', role: 'Thần / Nhân vật quan trọng', age: 'Ancient', description: 'Chân Long Thần Đế, thực thể mạnh nhất tồn tại trong Khe nứt Chiều không gian, được mệnh danh là "Rồng của các loài Rồng".' },
+    { name: 'Grayfia Lucifuge', role: 'Hỗ trợ', age: 'Unknown', description: 'Vợ của Sirzechs và là nữ hầu trưởng của gia tộc Gremory. Cô là một ác quỷ cực kỳ mạnh mẽ và nghiêm túc.' },
+    { name: 'Raiser Phenex', role: 'Phản diện / Đối thủ', age: '20+', description: 'Một ác quỷ cao quý từ gia tộc Phenex, sở hữu khả năng bất tử. Hắn từng là hôn phu bị ép buộc của Rias.' },
+    { name: 'Saji Genshirou', role: 'Đối thủ / Đồng minh', age: '17', description: 'Thành viên của Hội học sinh dưới quyền Sona, sở hữu Sacred Gear chứa linh hồn của Vritra - một trong năm Long Vương.' },
+    { name: 'Kuroka', role: 'Nữ chính / Đối thủ', age: '20+', description: 'Chị gái của Koneko, một Nekomata đào tẩu bị coi là tội phạm cấp SS. Cô gia nhập nhóm của Vali.' },
+    { name: 'Le Fay Pendragon', role: 'Đồng minh', age: '15', description: 'Hậu duệ của Vua Arthur và Morgan le Fay, một phù thủy tài năng trong nhóm của Vali.' },
+    { name: 'Bikou', role: 'Đối thủ / Đồng minh', age: 'Unknown', description: 'Hậu duệ của Tề Thiên Đại Thánh Tôn Ngộ Không, một chiến binh mạnh mẽ trong nhóm của Vali.' },
+    { name: 'Arthur Pendragon', role: 'Đối thủ / Đồng minh', age: '20+', description: 'Hậu duệ của Vua Arthur và là người sở hữu Thánh Kiếm thực sự Excalibur Ruler. Anh là thành viên mạnh nhất trong nhóm của Vali.' },
+    { name: 'Cao Cao', role: 'Phản diện', age: '20+', description: 'Lãnh đạo của Nhóm Anh Hùng thuộc Khaos Brigade, hậu duệ của Tào Tháo và sở hữu Long Cụ mạnh nhất True Longinus.' },
+    { name: 'Georg', role: 'Phản diện', age: '20+', description: 'Hậu duệ của Faust, một pháp sư tài ba trong Nhóm Anh Hùng, sở hữu Long Cụ Dimension Lost.' }
+  ]
+};

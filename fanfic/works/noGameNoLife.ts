@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const noGameNoLife: FanficWork = {
+  id: 'no-game-no-life',
+  title: 'Không Có Trò Chơi, Không Có Cuộc Đời (No Game No Life)',
+  description: 'Hai anh em Sora và Shiro, những game thủ thiên tài, bị đưa đến một thế giới nơi mọi thứ đều được quyết định bằng trò chơi.',
+  country: 'Nhật',
+  plot: 'Sora và Shiro là hai anh em "người sống tách biệt" đứng sau huyền thoại game mang tên "Trống Không". Họ được thần trò chơi Tet đưa đến thế giới Disboard, nơi bạo lực bị cấm và mọi tranh chấp đều phải giải quyết bằng trò chơi. Với trí tuệ siêu phàm, họ quyết tâm chinh phục 16 chủng tộc để thách đấu với Tet.',
+  worldSetting: 'Thế giới Disboard với 10 điều ước tối thượng của thần Tet. Có 16 chủng tộc (Exceed) xếp hạng theo năng lực ma pháp.',
+  characters: [
+    { name: 'Sora', role: 'Nhân vật chính', description: 'Anh trai, thiên tài về tâm lý học và chiến thuật, cực kỳ giỏi trong việc đọc suy nghĩ đối thủ.' },
+    { name: 'Shiro', role: 'Nhân vật chính', description: 'Em gái, thiên tài về tính toán và logic, có khả năng xử lý thông tin như một siêu máy tính.' },
+    { name: 'Stephanie Dola', role: 'Đồng minh', description: 'Cháu gái của cố vương Imanity, dù thường xuyên thua cuộc trước anh em Sora nhưng rất trung thành và hỗ trợ họ quản lý đất nước.' },
+    { name: 'Jibril', role: 'Đồng minh', description: 'Thuộc tộc Flügel (Thiên dực), cực kỳ mạnh mẽ và khao khát kiến thức, sau khi thua cuộc đã trở thành thuộc hạ của Sora và Shiro.' },
+    { name: 'Tet', role: 'Hỗ trợ / Phản diện', description: 'Vị thần tối cao của Disboard, người đã đưa hai anh em đến thế giới này để tìm kiếm một đối thủ xứng tầm.' },
+    { name: 'Izuna Hatsuse', role: 'Đồng minh', description: 'Một cô bé thuộc tộc Warbeast (Thú nhân), sở hữu khả năng thể chất vượt trội và giác quan nhạy bén.' },
+    { name: 'Miko', role: 'Lãnh đạo', description: 'Đại diện tối cao của tộc Warbeast, một người phụ nữ quyền lực với khả năng thấu thị và trí tuệ sắc sảo.' },
+    { name: 'Azriel', role: 'Đối thủ / Đồng minh', description: 'Thành viên đầu tiên của tộc Flügel, chị cả của Jibril, người có tính cách khá kỳ quặc nhưng sở hữu sức mạnh kinh khủng.' },
+    { name: 'Kurami Zell', role: 'Đối thủ / Đồng minh', description: 'Một cô gái Imanity thông minh, ban đầu là gián điệp cho tộc Elf nhưng sau đó đã hợp tác với Sora và Shiro.' },
+    { name: 'Fil Nilvalen', role: 'Đồng minh', description: 'Một tiểu thư tộc Elf, bạn thân và là cộng sự đắc lực của Kurami Zell, sở hữu ma pháp mạnh mẽ.' },
+    { name: 'Plum', role: 'Đồng minh', description: 'Thành viên cuối cùng của tộc Dhampir, một chàng trai có vẻ ngoài nữ tính, chuyên gia về ảo thuật và lừa đảo.' },
+    { name: 'Holou', role: 'Thực thể thần bí', description: 'Một Old Deus (Cựu thần) đại diện cho sự nghi ngờ, có hình dáng một cô bé và sở hữu tri thức vô tận.' },
+    { name: 'Ino Hatsuse', role: 'Hỗ trợ', description: 'Ông nội của Izuna, một quan chức cấp cao của tộc Warbeast, người luôn lo lắng cho tương lai của dân tộc mình.' },
+    { name: 'Couronne Dola', role: 'Nhân vật lịch sử', description: 'Tổ tiên của Stephanie Dola, người đã sát cánh cùng Riku trong cuộc chiến cổ đại để bảo vệ Imanity.' },
+    { name: 'Riku Dola', role: 'Nhân vật chính (Tiền truyện)', description: 'Lãnh đạo của con người trong cuộc chiến cổ đại, một chiến lược gia thiên tài đã hy sinh để mang lại hòa bình cho Disboard.' },
+    { name: 'Schwi Dola', role: 'Nhân vật chính (Tiền truyện)', description: 'Một Ex-machina đã bị trục xuất vì cố gắng hiểu về trái tim con người, người đã yêu và hy sinh cùng Riku.' },
+    { name: 'Corone Dola', role: 'Nhân vật lịch sử', description: 'Chị gái của Riku, người đã giúp đỡ anh trong việc thành lập liên minh các chủng tộc.' },
+    { name: 'Think Nirvalen', role: 'Nhân vật lịch sử', description: 'Tổ tiên của Fil Nilvalen, một thiên tài tộc Elf đã tạo ra nhiều ma pháp trận vĩ đại.' },
+    { name: 'Artosh', role: 'Thực thể thần bí', description: 'Vị thần chiến tranh, người đã tạo ra tộc Flügel và là một trong những Old Deus mạnh nhất.' },
+    { name: 'Kainas', role: 'Thực thể thần bí', description: 'Vị thần của thiên nhiên, người đã tạo ra tộc Elf.' },
+    { name: 'Okein', role: 'Thực thể thần bí', description: 'Vị thần của rèn đúc, người đã tạo ra tộc Dwarf.' },
+    { name: 'Lyla Loreleia', role: 'Lãnh đạo', description: 'Nữ hoàng của tộc Seiren, người sở hữu vẻ đẹp mê hồn và giọng hát có thể điều khiển tâm trí.' },
+    { name: 'Amira', role: 'Đồng minh', description: 'Một chiến binh tộc Dhampir, người đã giúp đỡ Sora và Shiro trong cuộc chiến chống lại tộc Seiren.' },
+    { name: 'Giel', role: 'Đối thủ', description: 'Một đại diện của tộc Dwarf, người sở hữu kỹ nghệ rèn đúc bậc thầy và vũ khí ma pháp tối tân.' },
+    { name: 'Einzig', role: 'Lãnh đạo', description: 'Đại diện của tộc Ex-machina, người sở hữu trí tuệ tập thể và khả năng phân tích vô hạn.' },
+    { name: 'Clammy\'s Father', role: 'Gia đình', description: 'Một quý tộc Imanity, người đã truyền dạy cho Clammy những bài học về sinh tồn.' },
+    { name: 'Fil\'s Mother', role: 'Gia đình', description: 'Một nữ pháp sư tộc Elf cao quý, người luôn lo lắng cho sự an nguy của con gái mình.' },
+    { name: 'Jibril\'s Creator', role: 'Thực thể thần bí', description: 'Một Old Deus đã tạo ra Jibril với mục đích trở thành vũ khí tối thượng.' },
+    { name: 'Tet\'s Assistant', role: 'Hỗ trợ', description: 'Một thực thể bí ẩn giúp Tet quản lý các trò chơi trong Disboard.' },
+    { name: 'Imanity King', role: 'Lãnh đạo', description: 'Vị vua quá cố của Imanity, người đã đặt niềm tin vào sự trỗi dậy của nhân loại.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const danmachi: FanficWork = {
+  id: 'danmachi',
+  title: 'DanMachi - Có sai lầm không khi tìm kiếm tình yêu trong hầm ngục?',
+  description: 'Bell Cranel, một mạo hiểm giả trẻ tuổi, khao khát trở nên mạnh mẽ để đứng cạnh người mình ngưỡng mộ trong thành phố mê cung Orario.',
+  country: 'Nhật',
+  plot: 'Bell Cranel là thành viên duy nhất của Hestia Familia. Sau khi được cứu bởi kiếm sĩ tài ba Aiz Wallenstein, cậu thức tỉnh kỹ năng "Liaris Freese" giúp tăng trưởng thần tốc dựa trên ý chí. Bell bắt đầu hành trình khám phá Dungeon, đối mặt với các quái vật nguy hiểm và những âm mưu của các vị thần tại Orario.',
+  worldSetting: 'Thành phố Orario nằm trên một mê cung khổng lồ gọi là Dungeon. Các vị thần sống cùng con người và ban tặng "Phước lành" (Falna) để họ thăng cấp sức mạnh.',
+  characters: [
+    { name: 'Bell Cranel', role: 'Nhân vật chính', age: '14', description: 'Hiền lành, dũng cảm và có tốc độ thăng cấp nhanh nhất lịch sử Orario. Sở hữu kỹ năng Liaris Freese giúp tăng trưởng dựa trên tình cảm.' },
+    { name: 'Hestia', role: 'Nữ thần', age: '1000+', description: 'Nữ thần của Bell, rất yêu quý và luôn bảo vệ cậu, dù cô thường bị coi là "Nữ thần nghèo khổ".' },
+    { name: 'Aiz Wallenstein', role: 'Nữ chính / Người dẫn dắt', age: '16', description: 'Được gọi là "Kiếm Công Chúa", người mạnh nhất Loki Familia và là mục tiêu phấn đấu của Bell.' },
+    { name: 'Lilliruca Arde', role: 'Đồng minh', age: '15', description: 'Một người hỗ trợ thuộc tộc Pallum, ban đầu lừa dối Bell nhưng sau đó trở thành đồng đội trung thành và là nhà chiến thuật của nhóm.' },
+    { name: 'Welf Crozzo', role: 'Đồng minh', age: '17', description: 'Một thợ rèn tài năng có khả năng chế tạo ma kiếm, người bạn thân thiết và đáng tin cậy của Bell.' },
+    { name: 'Hermes', role: 'Vị thần / Hỗ trợ', age: '1000+', description: 'Vị thần đưa tin, luôn quan sát và âm thầm giúp đỡ Bell vì những mục đích bí ẩn của riêng mình.' },
+    { name: 'Ryuu Lion', role: 'Đồng minh', age: '21', description: 'Cựu mạo hiểm giả cấp cao của Astraea Familia, hiện làm việc tại quán rượu, là một chiến binh mạnh mẽ với quá khứ đau thương.' },
+    { name: 'Freya', role: 'Nữ thần / Phản diện', age: '1000+', description: 'Nữ thần sắc đẹp, người bị ám ảnh bởi linh hồn thuần khiết của Bell và luôn tìm cách chiếm đoạt cậu bằng mọi giá.' },
+    { name: 'Loki', role: 'Nữ thần', age: '1000+', description: 'Nữ thần đứng đầu Loki Familia, đối thủ cạnh tranh của Hestia và là người dẫn dắt Aiz.' },
+    { name: 'Finn Deimne', role: 'Đồng minh', age: '42', description: 'Đoàn trưởng Loki Familia, một Pallum thông thái và là nhà chiến thuật tài ba nhất Orario.' },
+    { name: 'Riveria Ljos Alf', role: 'Đồng minh', age: '99', description: 'Pháp sư mạnh nhất Orario, công chúa của tộc Tiên, người đóng vai trò như mẹ của Aiz.' },
+    { name: 'Gareth Landrock', role: 'Đồng minh', age: '56', description: 'Một người lùn mạnh mẽ, một trong ba trụ cột của Loki Familia với sức phòng ngự kinh người.' },
+    { name: 'Tiona Hiryute', role: 'Đồng minh', age: '17', description: 'Một Amazon vui vẻ, mạnh mẽ, luôn ngưỡng mộ những câu chuyện anh hùng và rất quý mến Bell.' },
+    { name: 'Tione Hiryute', role: 'Đồng minh', age: '17', description: 'Chị em sinh đôi của Tiona, tính cách nóng nảy và cuồng nhiệt trong tình yêu dành cho Finn.' },
+    { name: 'Bete Loga', role: 'Đối thủ / Đồng minh', age: '22', description: 'Một người sói kiêu ngạo, thường xuyên mỉa mai Bell nhưng thực chất là để thúc đẩy cậu mạnh mẽ hơn.' },
+    { name: 'Ottar', role: 'Đối thủ', age: '32', description: 'Mạo hiểm giả cấp 7 duy nhất tại Orario, đoàn trưởng Freya Familia, biểu tượng của sức mạnh tuyệt đối.' },
+    { name: 'Syr Flover', role: 'Nhân vật quan trọng', age: '18', description: 'Nữ phục vụ tại quán rượu, người thường xuyên tặng cơm hộp cho Bell, mang trong mình một bí mật lớn.' },
+    { name: 'Eina Tulle', role: 'Người dẫn dắt', age: '19', description: 'Cố vấn tại Guild, người luôn lo lắng và hướng dẫn Bell những kiến thức cần thiết để sinh tồn trong Dungeon.' },
+    { name: 'Mikoto Yamato', role: 'Đồng minh', age: '16', description: 'Thành viên của Take-Mikazuchi Familia, sau này gia nhập Hestia Familia để giúp đỡ Bell.' },
+    { name: 'Haruhime Sanjouno', role: 'Nữ chính', age: '16', description: 'Một cô gái tộc cáo có khả năng tăng cấp tạm thời cho đồng đội, được Bell cứu khỏi khu phố đèn đỏ.' },
+    { name: 'Take-Mikazuchi', role: 'Vị thần', age: '1000+', description: 'Vị thần của Mikoto, một vị thần võ thuật chính trực và là bạn thân của Hestia.' },
+    { name: 'Miach', role: 'Vị thần', age: '1000+', description: 'Vị thần của Naaza, người điều hành một tiệm thuốc nhỏ và luôn giúp đỡ Bell khi cậu gặp khó khăn.' },
+    { name: 'Naaza Erithuis', role: 'Hỗ trợ', age: '18', description: 'Một nữ nhân thú thuộc Miach Familia, người chế tạo thuốc và là bạn của Bell.' },
+    { name: 'Hephaestus', role: 'Nữ thần', age: '1000+', description: 'Nữ thần thợ rèn, người đã rèn ra con dao Hestia cho Bell và là bạn thân của Hestia.' },
+    { name: 'Tsubaki Collbrande', role: 'Hỗ trợ', age: '20+', description: 'Đoàn trưởng Hephaestus Familia, một thợ rèn bậc thầy với sức mạnh chiến đấu đáng nể.' },
+    { name: 'Astraea', role: 'Nữ thần', age: '1000+', description: 'Nữ thần công lý, người dẫn dắt Astraea Familia mà Ryuu từng tham gia.' },
+    { name: 'Ouranos', role: 'Vị thần', age: '1000+', description: 'Vị thần tối cao của Guild, người duy trì sự ổn định của Dungeon thông qua lời cầu nguyện.' },
+    { name: 'Fels', role: 'Hỗ trợ', age: '800+', description: 'Một pháp sư bất tử phục vụ Ouranos, người luôn ẩn mình trong bộ áo choàng đen.' },
+    { name: 'Dionysus', role: 'Vị thần', age: '1000+', description: 'Vị thần rượu vang, người đứng sau nhiều sự kiện bí ẩn tại Orario.' },
+    { name: 'Filvis Challia', role: 'Đồng minh', age: '20+', description: 'Một nữ tu sĩ thuộc tộc Tiên, người có quá khứ đau thương và là bạn của Lefiya.' }
+  ]
+};

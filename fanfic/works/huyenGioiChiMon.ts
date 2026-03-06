@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const huyenGioiChiMon: FanficWork = {
+  id: 'huyen-gioi-chi-mon',
+  title: 'Huyền Giới Chi Môn',
+  description: 'Thạch Mục, một thiếu niên bình thường, nhờ một viên ngọc bí ẩn mà có khả năng xuyên qua các giới diện khác nhau.',
+  country: 'Trung',
+  plot: 'Thạch Mục tình cờ nhận được một viên ngọc cho phép anh nhìn thấy và xuyên qua các cánh cổng dẫn đến các thế giới khác. Anh bắt đầu hành trình tu luyện, khám phá các bí cảnh và tham gia vào cuộc chiến giữa các tộc người, yêu và thần để bảo vệ thế giới của mình.',
+  worldSetting: 'Thế giới tiên hiệp rộng lớn với nhiều giới diện và chủng tộc. Hệ thống tu luyện dựa trên linh lực và huyết mạch.',
+  characters: [
+    { name: 'Thạch Mục', role: 'Nhân vật chính', age: '16', description: 'Kiên cường, dũng cảm, sở hữu khả năng xuyên giới diện và sức mạnh thể chất phi thường nhờ viên ngọc bí ẩn.' },
+    { name: 'Chung Tú', role: 'Nữ chính', age: '16', description: 'Thanh mai trúc mã của Thạch Mục, xinh đẹp, dịu dàng và luôn là nguồn động lực lớn nhất của anh.' },
+    { name: 'Thải Nhi', role: 'Bạn đồng hành', age: '???', description: 'Một con vẹt thông minh, biết nói, có khả năng trinh sát tuyệt vời và tính cách khá lém lỉnh.' },
+    { name: 'Yên La', role: 'Nữ chính / Đồng minh', age: '???', description: 'Một nữ tử bí ẩn đến từ giới diện khác, sở hữu sức mạnh thần bí và có mối liên kết định mệnh với Thạch Mục.' },
+    { name: 'Bạch Hồng', role: 'Người dẫn dắt', age: '50', description: 'Người thầy đã dẫn dắt Thạch Mục vào con đường tu luyện, dạy anh nhiều kỹ năng quan trọng và đạo lý làm người.' },
+    { name: 'Minh Vương', role: 'Phản diện', age: '1000+', description: 'Kẻ thống trị của một giới diện hắc ám, âm mưu xâm chiếm các thế giới khác và là kẻ thù lớn nhất của Thạch Mục.' },
+    { name: 'Kim Tiểu Sai', role: 'Đồng minh', age: '18', description: 'Một nữ tử mạnh mẽ, giỏi về kiếm thuật, là bạn đồng hành đáng tin cậy của Thạch Mục trong nhiều cuộc phiêu lưu.' },
+    { name: 'Liễu Ngạn', role: 'Đối thủ', age: '20', description: 'Một thiên tài cùng thế hệ, ban đầu là đối thủ cạnh tranh nhưng sau đó có sự tôn trọng lẫn nhau với Thạch Mục.' },
+    { name: 'Tây Môn Tuyết', role: 'Đồng minh', age: '22', description: 'Một nữ tu sĩ tài năng, giỏi về trận pháp và y thuật, giúp đỡ nhóm Thạch Mục rất nhiều.' },
+    { name: 'Triệu Tiễn', role: 'Đối thủ', age: '20', description: 'Một kẻ kiêu ngạo, luôn tìm cách gây khó dễ cho Thạch Mục nhưng thường xuyên thất bại.' },
+    { name: 'Thạch Phá Thiên', role: 'Gia đình', age: '45+', description: 'Cha của Thạch Mục, một chiến binh dũng cảm luôn tự hào về sự trưởng thành của con trai mình.' },
+    { name: 'Thanh Lan Thánh Nữ', role: 'Nhân vật quan trọng', age: '25+', description: 'Người đứng đầu một giáo phái lớn, sở hữu vẻ đẹp thoát tục và sức mạnh ma pháp đỉnh cao.' },
+    { name: 'Lục Khôn', role: 'Đồng minh', age: '40+', description: 'Một cao thủ luyện thể, người đã chia sẻ nhiều kinh nghiệm quý báu về việc rèn luyện thân thể cho Thạch Mục.' },
+    { name: 'Kim Viên', role: 'Thực thể', age: 'Unknown', description: 'Một linh hồn khỉ vàng cổ xưa trú ngụ trong viên ngọc, người dẫn dắt Thạch Mục khám phá sức mạnh tiềm ẩn.' },
+    { name: 'Triệu Trầm', role: 'Phản diện', age: '50+', description: 'Một trưởng lão tham lam luôn âm mưu chiếm đoạt viên ngọc bí ẩn của Thạch Mục.' },
+    { name: 'Liễu Ngạn\'s Master', role: 'Hỗ trợ', age: '60+', description: 'Một vị tiền bối uyên bác, người đã nhận ra tài năng của Thạch Mục và âm thầm bảo vệ anh.' },
+    { name: 'Thanh Lan Giáo Chủ', role: 'Lãnh đạo', age: '100+', description: 'Người đứng đầu Thanh Lan Thánh Địa, một vị đại năng sở hữu sức mạnh xoay chuyển càn khôn.' },
+    { name: 'Minh Vương\'s General', role: 'Phản diện', age: 'Unknown', description: 'Một vị tướng quân tàn bạo dưới trướng Minh Vương, chuyên dẫn quân xâm lược các giới diện.' },
+    { name: 'Spirit of the Pearl', role: 'Hỗ trợ', age: 'Cổ xưa', description: 'Ý chí của viên ngọc bí ẩn, thỉnh thoảng hiện ra để cảnh báo Thạch Mục về những nguy hiểm sắp tới.' },
+    { name: 'Mysterious Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Một người bán những vật phẩm quý hiếm từ các giới diện khác nhau, luôn xuất hiện vào những lúc Thạch Mục cần nhất.' },
+    { name: 'Rogue Cultivator C', role: 'Nhân vật phụ', age: '30', description: 'Một tu sĩ tự do, người đã cùng Thạch Mục trải qua nhiều thử thách trong các bí cảnh.' },
+    { name: 'Beast Tamer D', role: 'Đồng minh', age: '25', description: 'Một chuyên gia về thuần phục linh thú, giúp Thạch Mục hiểu rõ hơn về các loài quái vật trong giới diện.' },
+    { name: 'Sword Master E', role: 'Sư phụ', age: '50+', description: 'Một bậc thầy về kiếm đạo, người đã dạy Thạch Mục những chiêu thức kiếm thuật tinh diệu.' },
+    { name: 'Formation Master F', role: 'Hỗ trợ', age: '40+', description: 'Chuyên gia về trận pháp, người giúp Thạch Mục giải mã các cánh cổng giới diện phức tạp.' },
+    { name: 'Demon King of Underworld', role: 'Phản diện', age: 'Unknown', description: 'Một thực thể tà ác thống trị cõi u minh, luôn tìm cách mở rộng lãnh địa sang các giới diện khác.' },
+    { name: 'Goddess of Heavens', role: 'Nhân vật quan trọng', age: 'Unknown', description: 'Một vị thần linh cao quý, người duy trì sự cân bằng giữa các giới diện.' },
+    { name: 'Thạch Hải', role: 'Gia đình', age: '20', description: 'Anh họ của Thạch Mục, ban đầu có sự đố kỵ nhưng sau đó đã hòa giải và ủng hộ anh.' },
+    { name: 'Thạch Ngọc', role: 'Gia đình', age: '18', description: 'Em họ của Thạch Mục, một cô gái thông minh và luôn ngưỡng mộ người anh của mình.' },
+    { name: 'Ancient Guardian G', role: 'Hỗ trợ', age: 'Cổ xưa', description: 'Thực thể bảo vệ các bí cảnh cổ xưa, người thử thách lòng dũng cảm và trí tuệ của Thạch Mục.' },
+    { name: 'Inter-dimensional Traveler', role: 'Bí ẩn', age: 'Unknown', description: 'Một người lữ hành bí ẩn đã đi qua hàng ngàn giới diện, cung cấp cho Thạch Mục cái nhìn toàn cảnh về vũ trụ.' }
+  ]
+};

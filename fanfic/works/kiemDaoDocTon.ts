@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const kiemDaoDocTon: FanficWork = {
+  id: 'kiem-dao-doc-ton',
+  title: 'Kiếm Đạo Độc Tôn',
+  description: 'Diệp Trần, một thiếu niên bình thường, nhờ ý chí kiên cường và ngộ tính thiên bẩm mà trở thành đệ nhất kiếm thủ.',
+  country: 'Trung',
+  plot: 'Diệp Trần xuyên không vào thân xác một đệ tử ngoại môn của Lưu Vân Tông. Với linh hồn mạnh mẽ, anh sở hữu ngộ tính kinh người, cho phép anh thấu hiểu mọi loại kiếm pháp chỉ trong nháy mắt. Diệp Trần bắt đầu hành trình thách thức các thiên tài kiếm đạo và vươn tới đỉnh cao của kiếm đạo độc tôn.',
+  worldSetting: 'Chân Linh Đại Lục nơi kiếm đạo là tối thượng. Hệ thống tu luyện: Luyện Khí, Ngưng Chân, Bão Nguyên, Địa Ảnh, Thiên Hải, Sinh Tử... và các cảnh giới kiếm ý.',
+  characters: [
+    { name: 'Diệp Trần', role: 'Nhân vật chính', age: '15', description: 'Điềm tĩnh, tập trung cao độ vào kiếm đạo, sở hữu ngộ tính và kiếm ý vô song, người chinh phục đỉnh cao kiếm đạo.' },
+    { name: 'Tuyết Không', role: 'Nữ chính', age: '18', description: 'Nữ tử xinh đẹp, tài năng, là người bạn đời và đồng đội trung thành, luôn sát cánh cùng Diệp Trần.' },
+    { name: 'Mộ Dung Khuynh Thành', role: 'Nữ chính', age: '18', description: 'Thiên tài của Ma tộc, xinh đẹp, mạnh mẽ và có mối quan hệ sâu đậm, đầy trắc trở với Diệp Trần.' },
+    { name: 'Lưu Vân Tông Chủ', role: 'Người dẫn dắt', age: '50', description: 'Người đã nhìn ra tài năng của Diệp Trần, hỗ trợ anh trong giai đoạn đầu và là người thầy đáng kính.' },
+    { name: 'Kiếm Thánh', role: 'Đối thủ / Người dẫn dắt', age: '100+', description: 'Một vị tiền bối kiếm đạo vĩ đại, người truyền thụ nhiều kinh nghiệm quý báu và là mục tiêu để Diệp Trần vượt qua.' },
+    { name: 'Độc Cô Tuyệt', role: 'Đối thủ', age: '20', description: 'Một thiên tài kiếm đạo khác, đối thủ lớn nhất của Diệp Trần trong cuộc đua tới vị trí đệ nhất.' },
+    { name: 'Lâm Kỳ', role: 'Đồng minh', age: '18', description: 'Một người bạn thân thiết, luôn ủng hộ và cùng Diệp Trần vượt qua nhiều thử thách.' },
+    { name: 'Từ Tĩnh', role: 'Đồng minh', age: '18', description: 'Một nữ kiếm sĩ tài năng, có tính cách kiên cường và là một phần quan trọng trong hành trình của Diệp Trần.' },
+    { name: 'Diệp Hải', role: 'Gia đình', age: '40', description: 'Cha của Diệp Trần, người luôn tin tưởng và tự hào về những thành tựu của con trai mình.' },
+    { name: 'Diệp Gia', role: 'Gia đình', age: '15', description: 'Em gái của Diệp Trần, xinh đẹp và luôn ngưỡng mộ anh trai mình.' },
+    { name: 'Thanh Liên Kiếm Thánh', role: 'Huyền thoại', age: '500+', description: 'Một vị tiền bối kiếm đạo vĩ đại, người đã sáng tạo ra Thanh Liên Kiếm Pháp lừng lẫy.' },
+    { name: 'Hư Không Kiếm Thánh', role: 'Huyền thoại', age: '500+', description: 'Bậc thầy về không gian kiếm đạo, người đã truyền lại những bí kíp về không gian cho Diệp Trần.' },
+    { name: 'Ma Vương', role: 'Phản diện', age: '1000+', description: 'Kẻ thống trị Ma tộc, âm mưu xâm chiếm Chân Linh Đại Lục và là kẻ thù lớn nhất của nhân loại.' },
+    { name: 'Thiên Ma', role: 'Phản diện', age: 'Unknown', description: 'Thực thể tà ác cổ xưa, nguồn gốc của mọi tai ương trên đại lục.' },
+    { name: 'Diệp Thiên', role: 'Gia đình', age: '20', description: 'Anh họ của Diệp Trần, ban đầu có sự đố kỵ nhưng sau đó đã bị tài năng của Diệp Trần thuyết phục.' },
+    { name: 'Diệp Đường', role: 'Gia đình', age: '18', description: 'Một thiên tài khác của Diệp gia, người luôn nỗ lực để đuổi kịp bước chân của Diệp Trần.' },
+    { name: 'Diệp Phượng', role: 'Gia đình', age: '18', description: 'Em họ của Diệp Trần, một cô gái thông minh và có khiếu về luyện dược.' },
+    { name: 'Lưu Vân Đại Trưởng Lão', role: 'Lãnh đạo', age: '60+', description: 'Người quản lý các vấn đề nội bộ của Lưu Vân Tông, ban đầu có sự khắt khe nhưng sau đó rất ủng hộ Diệp Trần.' },
+    { name: 'Thiên Ma Tướng', role: 'Phản diện', age: 'Unknown', description: 'Vị tướng quân mạnh nhất dưới trướng Ma Vương, chuyên dẫn quân tấn công các tông môn nhân loại.' },
+    { name: 'Sword Spirit of Starry Sky', role: 'Hỗ trợ', age: 'Cổ xưa', description: 'Linh hồn của thanh kiếm Tinh Không, người dẫn dắt Diệp Trần thấu hiểu tinh tú kiếm ý.' },
+    { name: 'Mysterious Sword Merchant', role: 'Thương nhân', age: 'Unknown', description: 'Người bán những thanh kiếm huyền thoại và các bí kíp kiếm đạo quý hiếm.' },
+    { name: 'Rogue Swordsman H', role: 'Nhân vật phụ', age: '30', description: 'Một kiếm sĩ tự do, người đã cùng Diệp Trần trải qua nhiều trận chiến sinh tử.' },
+    { name: 'Beast Master I', role: 'Đồng minh', age: '25', description: 'Một chuyên gia về linh thú, giúp Diệp Trần thu phục những thú cưỡi mạnh mẽ.' },
+    { name: 'Formation Master J', role: 'Hỗ trợ', age: '40+', description: 'Chuyên gia về kiếm trận, người giúp Diệp Trần nâng cao khả năng tác chiến diện rộng.' },
+    { name: 'Ancient Sword Guardian K', role: 'Hỗ trợ', age: 'Cổ xưa', description: 'Thực thể bảo vệ các di tích kiếm đạo cổ xưa, người thử thách ý chí của Diệp Trần.' },
+    { name: 'Inter-continental Traveler L', role: 'Bí ẩn', age: 'Unknown', description: 'Một người lữ hành đã đi qua nhiều đại lục, cung cấp cho Diệp Trần thông tin về các thiên tài thế giới.' },
+    { name: 'Lưu Vân Tông Đệ Tử M', role: 'Nhân vật phụ', age: '16', description: 'Một đệ tử ngoại môn luôn lấy Diệp Trần làm tấm gương để phấn đấu.' },
+    { name: 'Ma Tộc Thánh Nữ N', role: 'Nhân vật quan trọng', age: '18', description: 'Một nữ tử Ma tộc có tâm hồn lương thiện, người đã giúp đỡ Diệp Trần trong những lúc nguy nan.' },
+    { name: 'Heavenly Sword Emperor O', role: 'Huyền thoại', age: 'Unknown', description: 'Vị hoàng đế kiếm đạo trong truyền thuyết, người đã đạt đến cảnh giới tối cao của kiếm đạo độc tôn.' },
+    { name: 'Sword God of Chaos P', role: 'Bí ẩn', age: 'Unknown', description: 'Một thực thể thần bí đại diện cho sự hỗn loạn của kiếm đạo, người thử thách tâm tính của Diệp Trần.' }
+  ]
+};

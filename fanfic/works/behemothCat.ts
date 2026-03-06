@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const behemothCat: FanficWork = {
+  id: 'behemoth-cat',
+  title: 'Behemoth S-Rank Nhưng Bị Nhầm Là Mèo (Behemoth Cat)',
+  description: 'Một hiệp sĩ chuyển sinh thành một con Behemoth cấp S, nhưng lại bị một cô bé Elf nhầm là mèo và nhận nuôi.',
+  country: 'Nhật',
+  plot: 'Một hiệp sĩ dũng cảm hy sinh trong trận chiến và chuyển sinh thành một con Behemoth - quái vật cấp S mạnh nhất thế giới. Tuy nhiên, khi còn nhỏ, anh trông giống hệt một con mèo đen đáng yêu. Aria, một cô bé Elf mạo hiểm giả, đã nhầm anh là mèo và nhận nuôi. Anh quyết định sống như một con mèo cưng để bảo vệ Aria, đồng thời âm thầm tiêu diệt mọi mối đe dọa đến cô bằng sức mạnh kinh hồn của mình.',
+  worldSetting: 'Một thế giới fantasy nơi quái vật được phân loại từ F đến S. Aria là một mạo hiểm giả trẻ tuổi đang nỗ lực rèn luyện. Behemoth sở hữu sức mạnh thể chất và ma pháp vô địch.',
+  characters: [
+    { name: 'Tama (Behemoth)', role: 'Nhân vật chính', age: '???', description: 'Hiệp sĩ chuyển sinh thành Behemoth cấp S. Thông minh, dũng cảm và cực kỳ bảo vệ Aria. Luôn đóng vai mèo cưng.' },
+    { name: 'Aria', role: 'Nữ chính / Chủ nhân', age: '16', description: 'Một cô bé Elf mạo hiểm giả hiền lành và dũng cảm. Rất yêu quý Tama và luôn chăm sóc anh hết mực.' },
+    { name: 'Vulcan', role: 'Đồng minh / Nữ chính', age: '18', description: 'Một nữ chiến binh thuộc tộc người thú, bạn thân của Aria. Mạnh mẽ, thẳng thắn và rất giỏi võ nghệ.' },
+    { name: 'Stella', role: 'Đồng minh / Nữ chính', age: '18', description: 'Một nữ pháp sư tài ba, bạn thân của Aria. Xinh đẹp, thông minh và chuyên về ma pháp hỗ trợ.' },
+    { name: 'Lily', role: 'Hỗ trợ', age: '20', description: 'Tiếp tân tại Guild mạo hiểm giả, người luôn giúp đỡ nhóm của Aria trong các nhiệm vụ.' },
+    { name: 'The Guild Master', role: 'Nhân vật quan trọng', age: '50+', description: 'Người đứng đầu Guild mạo hiểm giả, luôn kinh ngạc trước sự may mắn của Aria.' },
+    { name: 'Demon Lord', role: 'Đối thủ', age: '???', description: 'Một thực thể cai trị thế giới, kẻ thù truyền kiếp của các hiệp sĩ.' },
+    { name: 'S-Rank Monster 1', role: 'Đối thủ', age: '???', description: 'Một quái vật cấp S khác, đối thủ lớn của Tama trong giai đoạn đầu.' },
+    { name: 'S-Rank Monster 2', role: 'Đối thủ', age: '???', description: 'Thành viên khác trong hội quái vật cấp S, chuyên về ma pháp bóng tối.' },
+    { name: 'Elf Elder', role: 'Hỗ trợ', age: '500+', description: 'Vị trưởng lão thông thái của tộc Elf, người nắm giữ nhiều bí mật cổ đại.' },
+    { name: 'Knight 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong đội hiệp sĩ, luôn tin tưởng và bảo vệ Aria.' },
+    { name: 'Knight 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong đội hiệp sĩ, chuyên về ma pháp phòng thủ.' },
+    { name: 'Adventurer 1', role: 'Hỗ trợ', age: '25+', description: 'Một mạo hiểm giả cấp cao, người đã giúp đỡ Aria trong các nhiệm vụ.' },
+    { name: 'Adventurer 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về do thám.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán trang bị, người đã cung cấp cho Aria những vật phẩm cần thiết.' },
+    { name: 'Tama (Kiếp trước)', role: 'Ký ức', age: '25', description: 'Hình bóng của hiệp sĩ dũng cảm luôn nhắc nhở Tama về danh dự và trách nhiệm.' },
+    { name: 'Villager 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Aria cứu sống, luôn biết ơn và ủng hộ cô.' },
+    { name: 'Villager 2', role: 'Hỗ trợ', age: '30+', description: 'Thành viên khác trong cộng đồng, người đã giúp Aria lan tỏa kiến thức.' },
+    { name: 'Monster 1', role: 'Đối thủ', age: '???', description: 'Một quái vật mạnh mẽ trong rừng, luôn tìm cách tấn công Aria.' },
+    { name: 'Monster 2', role: 'Đối thủ', age: '???', description: 'Thành viên khác trong đội quân quái vật, chuyên về tấn công tầm xa.' },
+    { name: 'Aria\'s Mother', role: 'Gia đình', age: '40', description: 'Một nữ Elf hiền hậu, người đã truyền dạy cho Aria những kỹ năng sinh tồn cơ bản.' },
+    { name: 'The Dragon King', role: 'Boss', age: '1000+', description: 'Vị vua của loài rồng, người đã nhận ra sức mạnh tiềm ẩn của Tama và thách thức anh.' },
+    { name: 'Mina', role: 'Đối thủ / Nữ chính', age: '17', description: 'Một nữ mạo hiểm giả thiên tài, luôn coi Aria là đối thủ lớn nhất của mình.' },
+    { name: 'Goro', role: 'Hỗ trợ', age: '30', description: 'Một thợ rèn người lùn, người đã chế tạo ra những trang bị đặc biệt cho Tama dưới hình dạng mèo.' },
+    { name: 'The Goddess of Reincarnation', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Vị thần đã cho Tama cơ hội thứ hai, luôn âm thầm quan sát hành trình của anh.' },
+    { name: 'The Royal Knight Commander', role: 'Đối thủ / Đồng minh', age: '40', description: 'Chỉ huy đội kỵ sĩ hoàng gia, người luôn tìm kiếm tung tích của hiệp sĩ đã hy sinh.' },
+    { name: 'The Forest Dryad', role: 'Hỗ trợ', age: '???', description: 'Một tinh linh cây sống trong rừng sâu, người đã giúp Tama che giấu tung tích khỏi các quái vật săn mồi.' },
+    { name: 'The Traveling Merchant', role: 'Hỗ trợ', age: '35', description: 'Một thương nhân chuyên buôn bán các loại thảo mộc hiếm, người đã cung cấp cho Aria những nguyên liệu để chăm sóc Tama.' },
+    { name: 'The Village Elder', role: 'Hỗ trợ', age: '70+', description: 'Trưởng làng nơi Aria sinh sống, người luôn tin vào những điềm lành mà Tama mang lại.' },
+    { name: 'The Shadow Assassin', role: 'Phản diện', age: '28', description: 'Một sát thủ bóng đêm được phái đến để bắt giữ Aria vì thân phận Elf đặc biệt của cô.' }
+  ]
+};

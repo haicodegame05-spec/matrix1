@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const arifureta: FanficWork = {
+  id: 'arifureta',
+  title: 'Arifureta: From Commonplace to World\'s Strongest',
+  description: 'Câu chuyện về Nagumo Hajime và cuộc hành trình từ một học sinh yếu nhất trở thành kẻ mạnh nhất sau khi bị phản bội.',
+  country: 'Nhật',
+  plot: 'Nagumo Hajime, một học sinh trung học bình thường, bị triệu hồi đến thế giới Tortus cùng với cả lớp học. Trong khi các bạn khác đều có những năng lực chiến đấu mạnh mẽ, Hajime chỉ sở hữu nghề nghiệp "Biến đổi sư" (Synergist) - một nghề nghiệp hỗ trợ bị coi là yếu nhất. Trong một lần thám hiểm mê cung, anh bị một người bạn phản bội và rơi xuống vực sâu tăm tối. Tại đây, Hajime phải đấu tranh sinh tồn, ăn thịt quái vật để thăng cấp và gặp gỡ Yue - một ma cà rồng bị giam cầm.',
+  worldSetting: 'Thế giới giả tưởng Tortus với hệ thống thăng cấp, kỹ năng và ma thuật. Một bối cảnh đầy rẫy những nguy hiểm và sự tàn khốc của thực tại.',
+  characters: [
+    { name: 'Nagumo Hajime', role: 'Nhân vật chính', age: '17', description: 'Một học sinh trung học bị phản bội, sau đó trở thành một chiến binh tàn nhẫn, thực dụng và sở hữu sức mạnh áp đảo. Anh là một bậc thầy về chế tạo vũ khí hiện đại kết hợp với ma thuật.' },
+    { name: 'Yue', role: 'Nữ chính / Ma cà rồng', age: '300+', description: 'Công chúa ma cà rồng bị giam cầm trong mê cung Orcus. Cô có vẻ ngoài của một cô bé 12 tuổi nhưng sở hữu ma thuật cổ đại cực mạnh và là người quan trọng nhất đối với Hajime.' },
+    { name: 'Shia Haulia', role: 'Nữ chính / Đồng minh', age: '16', description: 'Một cô gái tộc Thỏ (Rabbit-man) sở hữu năng lực nhìn thấy tương lai. Cô có tính cách năng động, lạc quan và luôn bảo vệ đồng đội bằng chiếc búa khổng lồ Druk.' },
+    { name: 'Tio Klarus', role: 'Nữ chính / Đồng minh', age: '500+', description: 'Công chúa của tộc Rồng (Dragon-man), một pháp sư mạnh mẽ có khả năng biến hình thành rồng đen. Cô có tính cách kỳ lạ (M) và luôn trung thành với Hajime.' },
+    { name: 'Shiraori Kaori', role: 'Nữ chính / Đồng minh', age: '17', description: 'Bạn cùng lớp của Hajime, người luôn thầm yêu anh. Cô là một nữ tu sĩ tài giỏi với khả năng hồi phục và bảo hộ tuyệt vời.' },
+    { name: 'Amanogawa Kouki', role: 'Đối thủ / Anh hùng', age: '17', description: 'Anh hùng của lớp học, một người chính trực nhưng lại quá ngây thơ và kiêu ngạo. Anh luôn coi Hajime là kẻ xấu vì phương pháp chiến đấu tàn nhẫn của anh.' },
+    { name: 'Yaegashi Shizuku', role: 'Nữ chính / Đồng minh', age: '17', description: 'Bạn thân của Kaori, một nữ kiếm sĩ tài ba sở hữu thanh kiếm ma thuật đen. Cô là người thực tế nhất trong nhóm anh hùng và luôn quan tâm đến Hajime.' },
+    { name: 'Hiyama Daisuke', role: 'Phản diện / Đối thủ', age: '17', description: 'Kẻ đã phản bội Hajime trong mê cung vì lòng đố kỵ. Hắn sau này trở thành tay sai của các vị thần để chống lại Hajime.' },
+    { name: 'Myu', role: 'Gia đình / Hỗ trợ', age: '4', description: 'Một cô bé tộc Người Cá (Mermaid) được Hajime cứu thoát khỏi bọn buôn người. Cô coi Hajime là cha và là người duy nhất có thể làm dịu đi sự tàn nhẫn của anh.' },
+    { name: 'Ehalt', role: 'Phản diện chính / Thần', age: 'Ancient', description: 'Vị thần tối cao của Tortus, kẻ đã triệu hồi lớp học để giải trí cho bản thân bằng cách gây ra chiến tranh và sự khổ đau.' },
+    { name: 'Liliana S. B. Heiligh', role: 'Nữ chính / Công chúa', age: '17', description: 'Công chúa của vương quốc Heiligh, một cô gái thông minh, nhân hậu và luôn lo lắng cho thần dân của mình. Cô sau này gia nhập nhóm của Hajime.' },
+    { name: 'Meld Loggins', role: 'Đồng minh / Hiệp sĩ', age: '30+', description: 'Đội trưởng đội hiệp sĩ vương quốc Heiligh, người đã huấn luyện lớp học của Hajime. Ông là một chiến binh dũng cảm và chính trực.' },
+    { name: 'Freid Bagwa', role: 'Phản diện / Chỉ huy', age: '???', description: 'Chỉ huy quân đội ma tộc, một kẻ cuồng tín phục vụ Ehalt và là đối thủ đáng gờm của Hajime trên chiến trường.' },
+    { name: 'Aiko Hatayama', role: 'Hỗ trợ / Giáo viên', age: '25', description: 'Giáo viên chủ nhiệm của lớp Hajime, sở hữu nghề nghiệp "Nông dân" (Farmer). Cô luôn cố gắng bảo vệ học sinh của mình khỏi sự tàn khốc của thế giới này.' },
+    { name: 'Noint', role: 'Phản diện / Tông đồ', age: '???', description: 'Tông đồ của Ehalt, một thực thể vô cảm với sức mạnh chiến đấu kinh khủng, được phái đến để tiêu diệt Hajime.' },
+    { name: 'Cam Haulia', role: 'Đồng minh / Tộc trưởng', age: '40+', description: 'Cha của Shia và là tộc trưởng tộc Haulia. Dưới sự huấn luyện của Hajime, ông trở thành một sát thủ tàn nhẫn và quyết đoán.' },
+    { name: 'Mikhail', role: 'Phản diện / Anh hùng', age: '17', description: 'Một trong những học sinh bị triệu hồi, sở hữu sức mạnh của một anh hùng nhưng lại bị thao túng bởi ma tộc.' },
+    { name: 'Suzu Taniguchi', role: 'Đồng minh / Học sinh', age: '17', description: 'Bạn cùng lớp của Hajime, một cô gái năng động sở hữu ma thuật kết giới mạnh mẽ. Cô luôn cố gắng giữ tinh thần lạc quan cho cả nhóm.' },
+    { name: 'Ryutarou Sakagami', role: 'Đồng minh / Học sinh', age: '17', description: 'Bạn thân của Kouki, một võ sĩ dũng cảm sở hữu sức mạnh thể chất phi thường và ma thuật cường hóa.' },
+    { name: 'Eri Nakamura', role: 'Phản diện / Kẻ phản bội', age: '17', description: 'Một học sinh lớp Hajime, kẻ đã phản bội và sát hại nhiều bạn học để hồi sinh người mình yêu bằng ma thuật chiêu hồn.' },
+    { name: 'Oscar Orcus', role: 'Nhân vật lịch sử / Giải phóng giả', age: 'Ancient', description: 'Một trong bảy Giải phóng giả cổ đại, người đã tạo ra mê cung Orcus và để lại truyền thừa ma thuật cổ đại cho Hajime.' },
+    { name: 'Miledi Reisen', role: 'Nhân vật lịch sử / Giải phóng giả', age: 'Ancient', description: 'Thủ lĩnh của các Giải phóng giả, một cô gái tinh quái sở hữu ma thuật trọng lực. Cô vẫn tồn tại dưới dạng một con golem khổng lồ.' },
+    { name: 'Meiru Melusine', role: 'Nhân vật lịch sử / Giải phóng giả', age: 'Ancient', description: 'Giải phóng giả thuộc tộc Người Cá, người đã tạo ra mê cung dưới đáy biển và sở hữu ma thuật phục hồi cổ đại.' },
+    { name: 'Naiz Gruen', role: 'Nhân vật lịch sử / Giải phóng giả', age: 'Ancient', description: 'Giải phóng giả sở hữu ma thuật không gian, người đã tạo ra mê cung núi lửa Gruen.' },
+    { name: 'Haltina', role: 'Nhân vật lịch sử / Giải phóng giả', age: 'Ancient', description: 'Giải phóng giả thuộc tộc Á nhân, người đã tạo ra mê cung rừng rậm Haltina và sở hữu ma thuật tinh thần cổ đại.' },
+    { name: 'Lyutilla', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một nữ chiến binh ma tộc mạnh mẽ, người đã thách thức Hajime và sau đó nể phục sức mạnh của anh.' },
+    { name: 'The Haulia Tribe Warrior', role: 'Đồng minh', age: '20+', description: 'Một chiến binh xuất sắc của tộc Haulia, người đã được Hajime huấn luyện thành một sát thủ bóng đêm.' },
+    { name: 'The Heiligh King', role: 'Nhân vật quan trọng', age: '50+', description: 'Vua của vương quốc Heiligh, người ban đầu tin tưởng vào các vị thần nhưng sau đó đã nhận ra sự thật tàn khốc.' },
+    { name: 'The Labyrinth Guardian', role: 'Đối thủ', age: '???', description: 'Thực thể bảo vệ tầng sâu nhất của mê cung Orcus, thử thách cuối cùng của Hajime trước khi gặp Yue.' },
+    { name: 'The Traveling Merchant', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân can đảm, người đã giúp Hajime tiêu thụ các sản phẩm cơ khí và cung cấp thông tin về thế giới Tortus.' }
+  ]
+};

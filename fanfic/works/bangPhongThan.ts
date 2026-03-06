@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const bangPhongThan: FanficWork = {
+  id: 'bang-phong-than',
+  title: 'Bảng Phong Thần',
+  description: 'Cuộc chiến giữa nhà Thương và nhà Chu, nơi các vị tiên nhân và thần thánh tham chiến để định đoạt vận mệnh thiên hạ.',
+  country: 'Trung',
+  plot: 'Trụ Vương hoang dâm vô đạo, xúc phạm Nữ Oa Nương Nương, khiến nhà Thương đi vào con đường diệt vong. Khương Tử Nha vâng lệnh Nguyên Thủy Thiên Tôn xuống núi phò tá nhà Chu, tập hợp các anh hùng và tiên nhân để đánh bại quân đội của Trụ Vương và các triệt giáo tiên nhân đứng sau. Kết thúc cuộc chiến, những người tử trận có công sẽ được phong thần trên Bảng Phong Thần.',
+  worldSetting: 'Thế giới thần thoại Trung Hoa cổ đại, nơi Tiên, Thần, Người và Yêu quái cùng tồn tại. Hai giáo phái lớn là Xiển Giáo (phò Chu) và Triệt Giáo (phò Thương) đối đầu quyết liệt bằng các pháp bảo và trận pháp kinh thiên động địa.',
+  characters: [
+    { name: 'Khương Tử Nha', role: 'Nhân vật chính', age: '80+', description: 'Thừa tướng nhà Chu, đệ tử Xiển Giáo, người nắm giữ Bảng Phong Thần và Đả Thần Tiên. Trí tuệ siêu phàm, lòng kiên trì sắt đá.' },
+    { name: 'Na Tra', role: 'Hỗ trợ', age: '10+', description: 'Linh Châu Tử chuyển thế, đệ tử Thái Ất Chân Nhân. Thân xác bằng hoa sen, sở hữu Càn Khôn Quyển, Hỗn Thiên Lăng và Phong Hỏa Luân. Tính tình nóng nảy nhưng dũng cảm.' },
+    { name: 'Dương Tiễn', role: 'Hỗ trợ', age: '20+', description: 'Nhị Lang Thần, đệ tử Ngọc Đỉnh Chân Nhân. Sở hữu Tam Nhãn, 72 phép biến hóa và Hao Thiên Khuyển. Là chiến thần mạnh nhất của quân đội nhà Chu.' },
+    { name: 'Trụ Vương', role: 'Phản diện', age: '40+', description: 'Vị vua cuối cùng của nhà Thương, ban đầu anh minh nhưng sau bị Đắc Kỷ mê hoặc trở nên tàn bạo, hoang dâm.' },
+    { name: 'Tô Đắc Kỷ', role: 'Phản diện', age: '20+', description: 'Hồ ly tinh chín đuôi nhập xác, vâng lệnh Nữ Oa đến làm loạn nhà Thương. Xinh đẹp tuyệt trần nhưng tâm địa độc ác, thâm hiểm.' },
+    { name: 'Lôi Chấn Tử', role: 'Hỗ trợ', age: '15+', description: 'Con nuôi của Văn Vương, đệ tử Vân Trung Tử. Có đôi cánh sấm sét, sử dụng thiết bổng, là dũng tướng trên không của nhà Chu.' },
+    { name: 'Thân Công Báo', role: 'Phản diện', age: '80+', description: 'Sư đệ của Khương Tử Nha nhưng phản bội Xiển Giáo, luôn tìm cách mời các tiên nhân Triệt Giáo xuống núi giúp Trụ Vương chống lại nhà Chu.' },
+    { name: 'Văn Trọng', role: 'Đối thủ', age: '100+', description: 'Thái sư nhà Thương, đệ tử Kim Linh Thánh Mẫu. Trung quân ái quốc, sở hữu đôi roi vàng và con mắt thứ ba nhìn thấu thật giả.' },
+    { name: 'Nữ Oa Nương Nương', role: 'Thần thánh', age: 'Vĩnh cửu', description: 'Thượng cổ đại thần, người đã tạo ra loài người và là người khởi đầu cho cuộc chiến phong thần để trừng phạt Trụ Vương.' },
+    { name: 'Lý Tịnh', role: 'Hỗ trợ', age: '50+', description: 'Thác Tháp Lý Thiên Vương, cha của Na Tra, Kim Tra và Mộc Tra. Một vị tướng trung thành và nghiêm khắc.' },
+    { name: 'Kim Tra', role: 'Hỗ trợ', age: '20+', description: 'Con trai cả của Lý Tịnh, đệ tử Văn Thù Quảng Pháp Thiên Tôn. Sử dụng Độn Long Trụ.' },
+    { name: 'Mộc Tra', role: 'Hỗ trợ', age: '18+', description: 'Con trai thứ hai của Lý Tịnh, đệ tử Phổ Hiền Chân Nhân. Sử dụng Ngô Câu Kiếm.' },
+    { name: 'Thổ Hành Tôn', role: 'Hỗ trợ', age: '???', description: 'Đệ tử Cụ Lưu Tôn, có khả năng độn thổ cực giỏi. Tuy thấp bé nhưng võ công cao cường.' },
+    { name: 'Đặng Thiền Ngọc', role: 'Hỗ trợ', age: '20', description: 'Vợ của Thổ Hành Tôn, nữ tướng dũng cảm với tài ném Ngũ Sắc Thạch bách phát bách trúng.' },
+    { name: 'Hoàng Phi Hổ', role: 'Đồng minh', age: '45', description: 'Võ Thành Vương nhà Thương, sau phản Thương phò Chu. Một chiến tướng dũng mãnh và trọng nghĩa khí.' },
+    { name: 'Hoàng Thiên Hóa', role: 'Hỗ trợ', age: '18', description: 'Con trai Hoàng Phi Hổ, đệ tử Thanh Hư Đạo Đức Chân Nhân. Sử dụng Mạc Tà Bảo Kiếm và Hỏa Long Tiêu.' },
+    { name: 'Cơ Phát', role: 'Lãnh đạo', age: '30+', description: 'Chu Vũ Vương, vị vua sáng lập nhà Chu, người trực tiếp lãnh đạo cuộc chiến lật đổ Trụ Vương.' },
+    { name: 'Cơ Xương', role: 'Lãnh đạo', age: '80+', description: 'Chu Văn Vương, cha của Cơ Phát, người nổi tiếng với lòng nhân đức và khả năng bói toán Chu Dịch.' },
+    { name: 'Thái Ất Chân Nhân', role: 'Sư phụ', age: '1000+', description: 'Một trong Thập Nhị Kim Tiên, sư phụ của Na Tra, người đã dùng hoa sen hồi sinh đệ tử.' },
+    { name: 'Ngọc Đỉnh Chân Nhân', role: 'Sư phụ', age: '1000+', description: 'Sư phụ của Dương Tiễn, người tinh thông 72 phép biến hóa và là mưu sĩ quan trọng của Xiển Giáo.' },
+    { name: 'Vân Trung Tử', role: 'Sư phụ', age: '1000+', description: 'Tiên nhân núi Chung Nam, sư phụ của Lôi Chấn Tử, người nổi tiếng với tài chế tạo pháp bảo.' },
+    { name: 'Triệu Công Minh', role: 'Đối thủ', age: '1000+', description: 'Tiên nhân Triệt Giáo mạnh mẽ, sở hữu 24 viên Định Hải Thần Châu, sau này được phong làm Thần Tài.' },
+    { name: 'Vân Tiêu Nương Nương', role: 'Đối thủ', age: '1000+', description: 'Chị cả trong Tam Tiêu, sở hữu Hỗn Nguyên Kim Đấu và Cửu Khúc Hoàng Hà Trận kinh điển.' },
+    { name: 'Thông Thiên Giáo Chủ', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Chủ nhân Triệt Giáo, sở hữu Tru Tiên Kiếm Trận, người đã đối đầu với cả bốn vị thánh nhân.' },
+    { name: 'Nguyên Thủy Thiên Tôn', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Chủ nhân Xiển Giáo, một trong Tam Thanh, người đứng sau kế hoạch Phong Thần.' },
+    { name: 'Thái Thượng Lão Quân', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Đại sư huynh của Tam Thanh, người luôn giữ thái độ trung lập nhưng đã ra tay giúp đỡ nhà Chu.' },
+    { name: 'Lục Áp Đạo Nhân', role: 'Bí ẩn', age: '???', description: 'Vị tiên nhân lai lịch bất minh, sở hữu Trảm Tiên Phi Đao và Đinh Đầu Thất Tiễn Thư vô cùng đáng sợ.' },
+    { name: 'Khổng Tuyên', role: 'Đối thủ', age: 'Ancient', description: 'Đại tướng nhà Thương, sở hữu Ngũ Sắc Thần Quang có thể thu mọi pháp bảo, là một trong những kẻ thù mạnh nhất của nhà Chu.' },
+    { name: 'Quỳnh Tiêu Nương Nương', role: 'Đối thủ', age: '1000+', description: 'Một trong Tam Tiêu, em gái của Vân Tiêu, người đã cùng các chị em lập nên Cửu Khúc Hoàng Hà Trận.' },
+    { name: 'Bích Tiêu Nương Nương', role: 'Đối thủ', age: '1000+', description: 'Em út trong Tam Tiêu, tính cách nóng nảy và dũng cảm, luôn sát cánh cùng các chị trong cuộc chiến.' }
+  ]
+};

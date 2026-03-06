@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const haruhi: FanficWork = {
+  id: 'haruhi',
+  title: 'The Melancholy of Haruhi Suzumiya (Suzumiya Haruhi no Yuuutsu)',
+  description: 'Câu chuyện về Kyon và cuộc gặp gỡ với Haruhi Suzumiya - một cô gái có khả năng thay đổi thực tại mà không hề hay biết.',
+  country: 'Nhật',
+  plot: 'Kyon, một học sinh trung học bình thường, bị Haruhi Suzumiya - một cô gái lập dị luôn tìm kiếm người ngoài hành tinh, người du hành thời gian và siêu năng lực gia - ép gia nhập Câu lạc bộ SOS. Kyon phát hiện ra rằng những thành viên khác của câu lạc bộ thực chất là những thực thể siêu nhiên được cử đến để quan sát Haruhi, người sở hữu sức mạnh thần thánh có thể thay đổi cả thế giới theo ý muốn của mình.',
+  worldSetting: 'Thành phố Nishinomiya, Nhật Bản hiện đại, nơi các hiện tượng siêu nhiên và khoa học viễn tưởng đan xen dưới sự quan sát của các tổ chức bí mật.',
+  characters: [
+    { name: 'Kyon', role: 'Nhân vật chính / Người kể chuyện', age: '16', description: 'Một học sinh trung học bình thường, thực dụng và luôn hoài nghi. Anh là người duy nhất có thể kiềm chế Haruhi và là cầu nối giữa cô với thế giới thực.' },
+    { name: 'Suzumiya Haruhi', role: 'Nữ chính / Lãnh đạo', age: '16', description: 'Người sáng lập Câu lạc bộ SOS, một cô gái năng động, độc đoán và luôn tràn đầy năng lượng. Cô sở hữu sức mạnh thay đổi thực tại nhưng hoàn toàn không hay biết về điều đó.' },
+    { name: 'Nagato Yuki', role: 'Nữ chính / Người ngoài hành tinh', age: 'Unknown', description: 'Một "Giao diện Hình người" được tạo ra bởi Thực thể Tư tưởng Tích hợp Dữ liệu. Cô là một cô gái trầm lặng, ham đọc sách và sở hữu khả năng thao túng dữ liệu thực tại cực mạnh.' },
+    { name: 'Asahina Mikuru', role: 'Nữ chính / Người du hành thời gian', age: '16 (ngoại hình)', description: 'Một cô gái xinh đẹp, nhút nhát đến từ tương lai. Cô bị Haruhi ép gia nhập câu lạc bộ và thường xuyên phải mặc những bộ trang phục kỳ lạ để làm "linh vật".' },
+    { name: 'Koizumi Itsuki', role: 'Đồng minh / Siêu năng lực gia', age: '16', description: 'Một siêu năng lực gia thuộc tổ chức "Cơ quan". Anh luôn mỉm cười, lịch thiệp và có khả năng chiến đấu trong các "Không gian Kín" do Haruhi tạo ra.' },
+    { name: 'Asakura Ryoko', role: 'Phản diện / Người ngoài hành tinh', age: '16 (ngoại hình)', description: 'Một Giao diện Hình người khác, ban đầu là lớp trưởng mẫu mực nhưng sau đó bộc lộ bản chất tàn nhẫn và âm mưu sát hại Kyon để quan sát phản ứng của Haruhi.' },
+    { name: 'Tsuruya', role: 'Hỗ trợ / Bạn bè', age: '17', description: 'Bạn thân của Mikuru, một cô gái năng động, giàu có và luôn tràn đầy năng lượng. Cô dường như biết nhiều hơn những gì mình thể hiện.' },
+    { name: 'Taniguchi', role: 'Bạn bè', age: '16', description: 'Bạn cùng lớp của Kyon, một chàng trai ồn ào, hay khoe khoang và luôn tìm cách để được các cô gái chú ý.' },
+    { name: 'Kunikida', role: 'Bạn bè', age: '16', description: 'Bạn cùng lớp của Kyon, một chàng trai điềm tĩnh, thông minh và thường xuyên trêu chọc Kyon về mối quan hệ với Haruhi.' },
+    { name: 'Kyon no Imouto (Em gái Kyon)', role: 'Gia đình', age: '10', description: 'Em gái của Kyon, một cô bé hiền lành, năng động và luôn gọi Kyon bằng biệt danh của anh.' },
+    { name: 'Computer Society President', role: 'Hỗ trợ', age: '17', description: 'Chủ tịch câu lạc bộ máy tính, người thường xuyên bị Haruhi tống tiền và chiếm dụng phòng câu lạc bộ.' },
+    { name: 'Emiri Kimidori', role: 'Hỗ trợ / Người ngoài hành tinh', age: 'Unknown', description: 'Một Giao diện Hình người khác, thường đóng vai trò là người quan sát thầm lặng và hỗ trợ Nagato.' },
+    { name: 'Kuyoh Suwano', role: 'Đối thủ / Người ngoài hành tinh', age: 'Unknown', description: 'Một Giao diện Hình người thuộc phe đối địch với Nagato, có tính cách kỳ quặc và sức mạnh đáng sợ.' },
+    { name: 'Fujiwara', role: 'Đối thủ / Người du hành thời gian', age: '18', description: 'Một người du hành thời gian từ phe đối lập với Mikuru, luôn tìm cách thay đổi lịch sử theo ý mình.' },
+    { name: 'Yasumi Watauase', role: 'Bí ẩn', age: '14', description: 'Một cô bé bí ẩn xuất hiện trong câu lạc bộ SOS, thực chất là một mảnh linh hồn của Haruhi.' },
+    { name: 'Shamisen', role: 'Thú cưng / Bí ẩn', age: 'Unknown', description: 'Chú mèo tam thể của Kyon, người đã có khả năng nói tiếng người trong một thời gian ngắn do sức mạnh của Haruhi.' },
+    { name: 'Okabe', role: 'Giáo viên', age: '40+', description: 'Giáo viên chủ nhiệm của Kyon và Haruhi, một người đàn ông nghiêm khắc nhưng luôn phải đau đầu vì những trò quậy phá của Haruhi.' },
+    { name: 'Enomoto', role: 'Bạn bè', age: '17', description: 'Thành viên ban nhạc ENOZ cùng với Tsuruya, một cô gái năng động và đam mê âm nhạc.' },
+    { name: 'Nakanishi', role: 'Bạn bè', age: '17', description: 'Thành viên ban nhạc ENOZ, người chơi guitar chính với phong cách biểu diễn đầy nhiệt huyết.' },
+    { name: 'Mizuho Okajima', role: 'Bạn bè', age: '17', description: 'Thành viên ban nhạc ENOZ, tay trống tài năng luôn giữ nhịp cho cả đội.' },
+    { name: 'Sonou Mori', role: 'Hỗ trợ / Siêu năng lực gia', age: '25+', description: 'Thành viên của "Cơ quan", thường đóng vai trò là người giúp việc hoặc nhân viên hỗ trợ cho Koizumi.' },
+    { name: 'Keiichi Tamaru', role: 'Hỗ trợ / Siêu năng lực gia', age: '40+', description: 'Thành viên cấp cao của "Cơ quan", người thường xuyên xuất hiện trong các kế hoạch bảo vệ Haruhi.' },
+    { name: 'Yutaka Tamaru', role: 'Hỗ trợ / Siêu năng lực gia', age: '35+', description: 'Em trai của Keiichi, một thành viên khác của "Cơ quan" với khả năng quan sát và phân tích tình hình nhạy bén.' },
+    { name: 'Arakawa', role: 'Hỗ trợ / Siêu năng lực gia', age: '50+', description: 'Thành viên lớn tuổi nhất của "Cơ quan", thường đóng vai trò là tài xế hoặc người quản gia đáng tin cậy.' },
+    { name: 'Kyon\'s Mother', role: 'Gia đình', age: '40+', description: 'Mẹ của Kyon, một người phụ nữ nội trợ điển hình luôn lo lắng cho việc học tập và tương lai của con trai.' },
+    { name: 'Sasaki', role: 'Nhân vật quan trọng', age: '16', description: 'Bạn học cũ của Kyon từ thời cấp hai, một cô gái thông minh, điềm tĩnh và có khả năng trở thành vật chủ cho sức mạnh của Haruhi.' },
+    { name: 'Kyouko Tachibana', role: 'Đối thủ / Siêu năng lực gia', age: '17', description: 'Một siêu năng lực gia thuộc tổ chức đối địch với "Cơ quan", luôn tin rằng Sasaki mới là người xứng đáng sở hữu sức mạnh thần thánh.' },
+    { name: 'Kyon\'s Father', role: 'Gia đình', age: '45+', description: 'Cha của Kyon, một nhân viên văn phòng bận rộn nhưng luôn dành thời gian cho gia đình vào cuối tuần.' },
+    { name: 'The Caveman', role: 'Bí ẩn', age: 'Cổ đại', description: 'Một thực thể xuất hiện trong giấc mơ của Haruhi, đại diện cho những mong muốn nguyên thủy về sự khám phá và phiêu lưu.' },
+    { name: 'Nakano', role: 'Bạn bè', age: '16', description: 'Bạn cùng lớp của Kyon, thường xuyên xuất hiện trong các cảnh sinh hoạt chung của lớp 1-5.' }
+  ]
+};

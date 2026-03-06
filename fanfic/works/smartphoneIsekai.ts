@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const smartphoneIsekai: FanficWork = {
+  id: 'smartphone-isekai',
+  title: 'Trong Một Thế Giới Khác Với Điện Thoại Thông Minh (In Another World With My Smartphone)',
+  description: 'Mochizuki Touya vô tình bị Thượng đế đánh chết và được chuyển sinh sang dị giới cùng chiếc điện thoại của mình.',
+  country: 'Nhật',
+  plot: 'Mochizuki Touya là một thiếu niên vô tình bị Thượng đế đánh chết bằng một tia sét nhầm lẫn. Để tạ lỗi, Thượng đế cho cậu chuyển sinh sang một thế giới fantasy với cơ thể được tăng cường sức mạnh và cho phép cậu mang theo chiếc điện thoại thông minh của mình. Với khả năng sử dụng mọi loại ma pháp và chiếc điện thoại có thể kết nối với thế giới cũ, Touya bắt đầu cuộc sống mới đầy thú vị và thu phục một dàn harem hùng hậu.',
+  worldSetting: 'Một thế giới ma pháp điển hình với các quốc gia, quái vật và các nền văn minh cổ đại. Touya sở hữu khả năng sử dụng cả 7 loại ma pháp nguyên tố và cả ma pháp vô thuộc tính hiếm có.',
+  characters: [
+    { name: 'Mochizuki Touya', role: 'Nhân vật chính', age: '16', description: 'Sở hữu sức mạnh ma pháp vô hạn và chiếc điện thoại thông minh thần thánh. Tính cách hiền lành, hay giúp đỡ người khác và cực kỳ may mắn.' },
+    { name: 'Elze Silhoueska', role: 'Nữ chính / Harem', age: '16', description: 'Một chiến binh sử dụng găng tay ma pháp, chị gái sinh đôi của Linze. Tính cách mạnh mẽ và thẳng thắn.' },
+    { name: 'Linze Silhoueska', role: 'Nữ chính / Harem', age: '16', description: 'Một nữ pháp sư sử dụng ma pháp nước, lửa và ánh sáng. Tính cách dịu dàng và nhút nhát.' },
+    { name: 'Yae Kokonoe', role: 'Nữ chính / Harem', age: '17', description: 'Một nữ samurai đến từ vương quốc Eashen. Luôn nỗ lực rèn luyện kiếm thuật và rất trung thành.' },
+    { name: 'Yumina Ernea Belfast', role: 'Nữ chính / Harem', age: '12', description: 'Công chúa của vương quốc Belfast, sở hữu đôi mắt ma pháp có thể nhìn thấu bản chất con người.' },
+    { name: 'Sushie Ernea Ortlinde', role: 'Nữ chính / Harem', age: '12', description: 'Em họ của Yumina, một cô bé năng động và luôn đi theo Touya.' },
+    { name: 'Lucia Rea Regulus', role: 'Nữ chính / Harem', age: '14', description: 'Công chúa của đế quốc Regulus, một kiếm sĩ tài ba và rất yêu Touya.' },
+    { name: 'Hildegard Minas Restia', role: 'Nữ chính / Harem', age: '15', description: 'Công chúa của vương quốc hiệp sĩ Restia, một chiến binh dũng cảm.' },
+    { name: 'Leen', role: 'Nữ chính / Harem', age: '600+', description: 'Một nữ pháp sư thuộc tộc Tiên (Elf), người đã dạy ma pháp vô thuộc tính cho Touya.' },
+    { name: 'Sakura', role: 'Nữ chính / Harem', age: '15', description: 'Một cô gái mất trí nhớ được Touya cứu, sở hữu giọng hát ma thuật tuyệt vời.' },
+    { name: 'Thượng Đế', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Vị thần tối cao đã vô tình giết chết Touya và luôn dõi theo cậu từ thế giới bên kia.' },
+    { name: 'Kohaku', role: 'Triệu hồi thú', age: '???', description: 'Bạch Đế, một trong bốn linh thú huyền thoại phục vụ Touya dưới hình dạng một con hổ trắng nhỏ.' },
+    { name: 'Sango & Kurosuke', role: 'Triệu hồi thú', age: '???', description: 'Huyền Đế, linh thú rùa và rắn phục vụ Touya.' },
+    { name: 'Kokuou', role: 'Triệu hồi thú', age: '???', description: 'Hắc Đế, linh thú ngựa đen phục vụ Touya.' },
+    { name: 'Luli', role: 'Triệu hồi thú', age: '???', description: 'Thanh Đế, linh thú rồng xanh phục vụ Touya.' },
+    { name: 'Ende', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một thiếu niên bí ẩn đến từ thế giới khác, sở hữu sức mạnh đáng gờm và có mối liên hệ với các Phrase.' },
+    { name: 'Cesca', role: 'Hỗ trợ', age: '???', description: 'Một robot sinh học (Android) quản lý vườn treo Babylon, cực kỳ trung thành với Touya.' },
+    { name: 'Flora', role: 'Hỗ trợ', age: '???', description: 'Android quản lý phòng thí nghiệm Babylon, chuyên gia về y tế và hóa học.' },
+    { name: 'Monica', role: 'Hỗ trợ', age: '???', description: 'Android quản lý xưởng sản xuất Babylon, tính cách có phần nổi loạn.' },
+    { name: 'Rosetta', role: 'Hỗ trợ', age: '???', description: 'Android quản lý xưởng chế tạo Babylon, chuyên gia về cơ khí và xây dựng.' },
+    { name: 'Shizuka', role: 'Hỗ trợ', age: '???', description: 'Android quản lý thư viện Babylon, người nắm giữ kho tàng kiến thức khổng lồ của nền văn minh cổ đại.' },
+    { name: 'Paula', role: 'Hỗ trợ', age: '???', description: 'Android quản lý nhà kho Babylon, có khả năng điều khiển các phương tiện vận chuyển.' },
+    { name: 'Lary', role: 'Hỗ trợ', age: '???', description: 'Android quản lý tháp Babylon, chuyên gia về quan sát và dự báo thời tiết.' },
+    { name: 'Alice', role: 'Hỗ trợ', age: '???', description: 'Android quản lý thành lũy Babylon, chuyên gia về phòng thủ và chiến lược quân sự.' },
+    { name: 'Tsubaki', role: 'Đồng minh', age: '25+', description: 'Thủ lĩnh đội ninja phục vụ Touya, một chiến binh tài ba và trung thành.' },
+    { name: 'Natsume', role: 'Đồng minh', age: '20+', description: 'Một nữ ninja xuất sắc dưới trướng Tsubaki, chuyên gia về thâm nhập và ám sát.' },
+    { name: 'Kousaka', role: 'Hỗ trợ', age: '45+', description: 'Quản lý hành chính của công quốc Brunhild, người giúp Touya điều hành đất nước.' },
+    { name: 'Baba', role: 'Đồng minh', age: '50+', description: 'Một trong bốn tướng quân của Brunhild, chiến binh kỳ cựu với sức mạnh thể chất phi thường.' },
+    { name: 'Yamagata', role: 'Đồng minh', age: '50+', description: 'Tướng quân của Brunhild, chuyên gia về chiến thuật và dàn trận.' },
+    { name: 'Naito', role: 'Đồng minh', age: '50+', description: 'Tướng quân của Brunhild, người chỉ huy đội kỵ binh dũng mãnh.' }
+  ]
+};

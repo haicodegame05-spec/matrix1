@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const logHorizon: FanficWork = {
+  id: 'log-horizon',
+  title: 'Log Horizon',
+  description: 'Câu chuyện về những người chơi bị mắc kẹt trong thế giới game Elder Tale và phải xây dựng một xã hội mới.',
+  country: 'Nhật',
+  plot: 'Trong một sự kiện bí ẩn mang tên "Thảm họa", hàng ngàn người chơi game Elder Tale bị mắc kẹt trong thế giới ảo. Shiroe - một chiến lược gia thông minh, thực dụng - cùng với bạn bè của mình bắt đầu hành trình xây dựng một xã hội mới, thiết lập các quy tắc và luật lệ để sinh tồn và phát triển.',
+  worldSetting: 'Thế giới game Elder Tale với hệ thống nghề nghiệp, ma thuật và quái vật. Một bối cảnh đầy rẫy những mâu thuẫn chính trị và xã hội của những người chơi.',
+  characters: [
+    { name: 'Shiroe (Kei Shirogane)', role: 'Nhân vật chính', age: '23', description: 'Một chiến lược gia thiên tài, được mệnh danh là "Ác ma đeo kính". Anh là một Enchanter cấp độ 90, người luôn tìm cách tối ưu hóa hiệu quả chiến đấu và xây dựng xã hội mới tại Akiba thông qua Hội Bàn Tròn.' },
+    { name: 'Akatsuki', role: 'Nữ chính / Sát thủ', age: '20', description: 'Một nữ sát thủ (Assassin) trung thành của Shiroe, người tự gọi mình là "nhân giả" (ninja) của anh. Cô có ngoại hình nhỏ nhắn như một đứa trẻ nhưng sở hữu kỹ năng chiến đấu đỉnh cao và tốc độ đáng kinh ngạc.' },
+    { name: 'Naotsugu', role: 'Bạn thân / Hộ vệ', age: '25', description: 'Bạn thân nhất của Shiroe từ thời nhóm Debauchery Tea Party. Anh là một Guardian dũng cảm, vui tính và luôn bảo vệ đồng đội bằng tấm khiên vững chắc. Anh có sở thích kỳ lạ là nói về "quần lót".' },
+    { name: 'Nyanta', role: 'Đồng minh / Đầu bếp', age: 'Unknown', description: 'Một người chơi tộc Người Mèo (Werecat) thuộc lớp Swashbuckler. Ông là một quý ông lịch lãm, sở hữu kỹ năng nấu nướng tuyệt vời có thể tạo ra thức ăn có hương vị thật trong thế giới game.' },
+    { name: 'Marielle', role: 'Lãnh đạo / Đồng minh', age: '28', description: 'Hội trưởng hội Crescent Moon, một Cleric năng động và hòa đồng. Cô là một trong những người đầu tiên ủng hộ kế hoạch thành lập Hội Bàn Tròn của Shiroe.' },
+    { name: 'Henrietta', role: 'Hỗ trợ / Chiến lược gia', age: '28', description: 'Thành viên cốt cán của hội Crescent Moon, một Bard thông minh và thực dụng. Cô là một kế toán tài ba, giúp Shiroe quản lý tài chính và các vấn đề hành chính của Akiba.' },
+    { name: 'Minori', role: 'Học trò / Chiến lược gia', age: '14', description: 'Một cô gái trẻ thuộc lớp Apprentice (sau này là Kannagi) được Shiroe dẫn dắt. Cô thầm ngưỡng mộ Shiroe và đang nỗ lực học hỏi cách điều phối chiến thuật từ anh.' },
+    { name: 'Tohya', role: 'Học trò / Hộ vệ', age: '14', description: 'Em trai sinh đôi của Minori, một Samurai trẻ tuổi đầy nhiệt huyết. Cậu luôn cố gắng rèn luyện để trở nên mạnh mẽ và bảo vệ chị gái mình cũng như các đồng đội.' },
+    { name: 'Krusty', role: 'Lãnh đạo / Đồng minh', age: '25', description: 'Hội trưởng hội D.P.L.C., một Guardian mạnh mẽ và kiêu kỳ. Anh là đại diện của các hội lớn trong Hội Bàn Tròn và sở hữu khả năng lãnh đạo xuất sắc trên chiến trường.' },
+    { name: 'Lenessia Erhart Cowen', role: 'Nhân vật quan trọng', age: '15', description: 'Công chúa của Liên minh các Công tước Maihama (Người Đất). Ban đầu cô là một người lười biếng nhưng đã thay đổi để trở thành cầu nối ngoại giao giữa Người Đất và các Mạo hiểm giả.' },
+    { name: 'Soujirou Seta', role: 'Đồng minh / Kiếm sĩ', age: '20', description: 'Hội trưởng hội West Wind Brigade, một Samurai tài hoa và cực kỳ đào hoa. Anh là cựu thành viên của Debauchery Tea Party và luôn tin tưởng tuyệt đối vào Shiroe.' },
+    { name: 'Kanami', role: 'Nhân vật quan trọng', age: '25+', description: 'Cựu thủ lĩnh của Debauchery Tea Party, hiện đang ở máy chủ Châu Âu. Cô là người đã truyền cảm hứng cho Shiroe và Naotsugu bắt đầu những cuộc phiêu lưu của mình.' },
+    { name: 'William Massachusetts', role: 'Đồng minh / Lãnh đạo', age: '24', description: 'Hội trưởng hội Silver Sword, một Assassin chuyên về tấn công tầm xa. Anh là một game thủ hardcore, luôn khao khát những thử thách khó khăn nhất trong game.' },
+    { name: 'Rudy (Rundelhaus Code)', role: 'Đồng minh / Pháp sư', age: '15', description: 'Một Người Đất đã trở thành Mạo hiểm giả nhờ khế ước với Shiroe. Anh là một Sorcerer kiêu hãnh nhưng rất trân trọng tình bạn với nhóm của Minori.' },
+    { name: 'Isuzu', role: 'Đồng minh / Nhạc công', age: '15', description: 'Một Bard trẻ tuổi, bạn thân của Rudy và Minori. Cô có niềm đam mê với âm nhạc và luôn dùng tiếng đàn của mình để cổ vũ tinh thần cho đồng đội.' },
+    { name: 'Michitaka', role: 'Lãnh đạo / Đồng minh', age: '30+', description: 'Hội trưởng hội Oceanic Systems, một thợ rèn (Blacksmith) tài ba. Anh là đại diện của các hội sản xuất trong Hội Bàn Tròn Akiba.' },
+    { name: 'Karasin', role: 'Lãnh đạo / Đồng minh', age: '25+', description: 'Hội trưởng hội 8th District Shopping District, một thương nhân (Merchant) nhạy bén. Anh chịu trách nhiệm về các vấn đề thương mại và hậu cần của Akiba.' },
+    { name: 'Isaac', role: 'Lãnh đạo / Đối thủ', age: '24', description: 'Hội trưởng hội Black Sword Knights, một Guardian mạnh mẽ với phong cách chiến đấu trực diện. Anh ban đầu có mâu thuẫn với Shiroe nhưng sau đó đã hợp tác vì lợi ích chung.' },
+    { name: 'Roderick', role: 'Lãnh đạo / Đồng minh', age: '28', description: 'Hội trưởng hội Roderick Firm, một học giả (Scholar) uyên bác. Anh là người đứng đầu bộ phận nghiên cứu và phát triển công nghệ mới tại Akiba.' },
+    { name: 'Woodstock W', role: 'Lãnh đạo / Đồng minh', age: '30+', description: 'Hội trưởng hội Grandeur, một chiến binh giàu kinh nghiệm. Anh đại diện cho các hội quy mô trung bình trong Hội Bàn Tròn.' },
+    { name: 'Serara', role: 'Đồng minh / Tu sĩ', age: '14', description: 'Thành viên nhỏ tuổi của hội Crescent Moon, một Druid dễ thương. Cô từng bị mắc kẹt tại Susukino và được Nyanta cứu thoát.' },
+    { name: 'Shoryu', role: 'Đồng minh / Kiếm sĩ', age: '18', description: 'Thành viên của hội Crescent Moon, một Swashbuckler nhiệt huyết luôn nỗ lực để trở nên mạnh mẽ hơn.' },
+    { name: 'Elissa', role: 'Hỗ trợ', age: '20+', description: 'Hầu gái thân cận của công chúa Lenessia, một Người Đất thông minh và luôn nhắc nhở công chúa về trách nhiệm của mình.' },
+    { name: 'Regan', role: 'Nhân vật quan trọng', age: 'Unknown', description: 'Được mệnh danh là "Hiền nhân của Hồ Miral", một Người Đất sở hữu kiến thức sâu rộng về lịch sử và bản chất của thế giới Elder Tale.' },
+    { name: 'Nureha', role: 'Phản diện / Nhân vật quan trọng', age: '20+', description: 'Hội trưởng hội Plant Hwayaden tại Minami, một Enchanter tài năng với khả năng thao túng tâm lý và sở hữu sức mạnh chính trị to lớn.' },
+    { name: 'Indicus', role: 'Phản diện', age: '25+', description: 'Cựu thành viên của Debauchery Tea Party, hiện là bộ não đằng sau Plant Hwayaden. Cô có mối thâm thù với Shiroe và luôn tìm cách phá hủy những gì anh xây dựng.' },
+    { name: 'Intix', role: 'Phản diện', age: '25+', description: 'Một thành viên cấp cao của Plant Hwayaden, người thực thi các kế hoạch đen tối của Indicus tại Minami.' },
+    { name: 'Kyo', role: 'Đối thủ', age: '20+', description: 'Một mạo hiểm giả thuộc hội Brigandia tại Susukino, kẻ đã gây rắc rối cho Serara và Nyanta trong những ngày đầu của Thảm họa.' },
+    { name: 'Demikas', role: 'Đối thủ / Đồng minh', age: '25+', description: 'Hội trưởng hội Brigandia, một Monk mạnh mẽ nhưng kiêu ngạo. Anh từng là kẻ thù của Shiroe nhưng sau đó buộc phải hợp tác trong các nhiệm vụ đột kích.' },
+    { name: 'Misa', role: 'Đồng minh', age: '15', description: 'Một thành viên trong nhóm của Minori, chuyên về hỗ trợ và hậu cần trong các chuyến phiêu lưu của nhóm trẻ.' }
+  ]
+};

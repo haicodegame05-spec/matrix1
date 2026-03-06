@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const theGioiHoanMy: FanficWork = {
+  id: 'the-gioi-hoan-my',
+  title: 'Thế Giới Hoàn Mỹ',
+  description: 'Thạch Hạo, một đứa trẻ bị cướp đi Chí Tôn Cốt, từ một ngôi làng nhỏ vươn lên trở thành Hoang Thiên Đế trấn áp vạn cổ.',
+  country: 'Trung',
+  plot: 'Thạch Hạo sinh ra đã có Chí Tôn Cốt nhưng bị người thân hãm hại cướp mất. Anh lớn lên ở Thạch Thôn, một ngôi làng hẻo lánh. Với ý chí kiên cường và sự giúp đỡ của Liễu Thần, Thạch Hạo bắt đầu hành trình tìm lại công lý, chiến đấu với các thiên tài của các đại tộc và cuối cùng là đối mặt với những thế lực hắc ám đe dọa toàn bộ vũ trụ.',
+  worldSetting: 'Thế giới cổ đại với các chủng tộc thần thoại như Chân Long, Phượng Hoàng. Hệ thống tu luyện: Bàn Huyết, Động Thiên, Hóa Linh, Minh Văn, Liệt Trận, Tôn Giả, Thần Hỏa, Chân Nhất, Thánh Nhân... cho đến Tiên Vương và Chuẩn Tiên Đế.',
+  characters: [
+    { name: 'Thạch Hạo', role: 'Nhân vật chính', age: '1000+', description: 'Biệt danh Hoang, thiên tài tuyệt thế, sở hữu sức mạnh vô song và ý chí bất khuất. Người sáng lập ra hệ thống tu luyện mới và trở thành Hoang Thiên Đế.' },
+    { name: 'Liễu Thần', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Một cây liễu thần bí, là người bảo hộ của Thạch Thôn và là người thầy dẫn dắt Thạch Hạo, thực chất là một Tiên Vương tối cao.' },
+    { name: 'Hỏa Linh Nhi', role: 'Nữ chính', age: '500+', description: 'Công chúa của Hỏa Quốc, người con gái Thạch Hạo yêu thương nhất, đã chờ đợi anh qua muôn vàn kiếp nạn.' },
+    { name: 'Vân Hi', role: 'Nữ chính', age: '500+', description: 'Thiên nữ của Thiên Nhân tộc, người đã cùng Thạch Hạo trải qua nhiều thăng trầm và là người vợ danh chính ngôn thuận của anh.' },
+    { name: 'Thạch Nghị', role: 'Đối thủ / Đồng minh', age: '22', description: 'Anh họ của Thạch Hạo, sở hữu Trùng Đồng, sau khi trải qua nhiều biến cố đã cùng Thạch Hạo chiến đấu chống lại kẻ thù chung.' },
+    { name: 'Thanh Y (Nguyệt Thiền)', role: 'Nữ chính / Đồng minh', age: '500+', description: 'Nữ tử thần bí từ Bổ Thiên Giáo, có mối quan hệ phức tạp, là một trong những người phụ nữ quan trọng nhất đời Thạch Hạo.' },
+    { name: 'Thạch Tử Lăng', role: 'Gia đình', age: '50', description: 'Cha của Thạch Hạo, một người cha thương con hết mực, đã hy sinh rất nhiều để tìm cách cứu mạng anh khi còn nhỏ.' },
+    { name: 'Tần Di Nhân', role: 'Gia đình', age: '45', description: 'Mẹ của Thạch Hạo, người luôn mang trong mình nỗi đau và tình yêu vô bờ bến dành cho đứa con trai tội nghiệp.' },
+    { name: 'Thạch Hạo (Nhỏ)', role: 'Giai đoạn đầu', age: '5', description: 'Đứa trẻ đáng yêu ở Thạch Thôn, thích uống sữa thú và luôn tràn đầy năng lượng dù mang trong mình thương tật.' },
+    { name: 'Tào Vũ Sinh', role: 'Bạn thân', age: '1000+', description: 'Một tu sĩ mập mạp, tinh quái, bạn thân của Thạch Hạo, sau này chính là Đoạn Đức trong Già Thiên.' },
+    { name: 'Thỏ Ngọc', role: 'Bạn đồng hành', age: '???', description: 'Một con thỏ thần bí, tham ăn và tinh nghịch, luôn đi cùng nhóm của Thạch Hạo.' },
+    { name: 'Độc Cô Bại Thiên', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Một vị đại năng cổ xưa, người đã để lại nhiều truyền thừa và có ảnh hưởng đến vận mệnh của thế giới.' },
+    { name: 'An Lan', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Bất Hủ Chi Vương của Dị Tộc, kẻ thù cực mạnh luôn tìm cách xâm chiếm Tiên Vực.' },
+    { name: 'Du Đà', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Một Bất Hủ Chi Vương khác, luôn sát cánh cùng An Lan trong các cuộc chiến.' },
+    { name: 'Côn Bằng', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Một trong Thập Hung cổ đại, người đã để lại truyền thừa Côn Bằng Pháp cực kỳ mạnh mẽ cho Thạch Hạo.' },
+    { name: 'Thiên Đế (Diệp Phàm)', role: 'Khách mời / Tương lai', age: 'Vĩnh cửu', description: 'Vị thiên đế từ tương lai (Già Thiên) đã xuyên không về quá khứ để hỗ trợ Thạch Hạo trong những thời khắc quyết định.' },
+    { name: 'Thạch Trung Ngọc', role: 'Đối thủ / Đồng minh', age: '22', description: 'Một thiên tài khác của Thạch tộc, người sở hữu sức mạnh thể chất phi thường và từng là đối thủ của Thạch Hạo.' },
+    { name: 'Thạch Hạo\'s Grandfather', role: 'Gia đình', age: '70', description: 'Một vị trưởng lão uy tín của Thạch tộc, người luôn yêu thương và bảo vệ Thạch Hạo.' },
+    { name: 'Thạch Hạo\'s Uncle', role: 'Gia đình', age: '45', description: 'Một chiến binh dũng cảm của Thạch tộc, người đã hy sinh để bảo vệ gia đình.' },
+    { name: 'Thạch Hạo\'s Aunt', role: 'Gia đình', age: '40', description: 'Một nữ tu sĩ hiền hậu, người đã chăm sóc Thạch Hạo trong những ngày đầu tu luyện.' },
+    { name: 'Thạch Hạo\'s Cousin', role: 'Gia đình', age: '20', description: 'Một thiếu niên đầy nhiệt huyết, người luôn lấy Thạch Hạo làm tấm gương phấn đấu.' },
+    { name: 'Thạch Hạo\'s Disciple', role: 'Đệ tử', age: '100+', description: 'Một thiên tài trẻ tuổi, người được Thạch Hạo truyền dạy nhiều bí kíp võ học.' },
+    { name: 'Thạch Hạo\'s Guard', role: 'Hỗ trợ', age: '30', description: 'Một người cận vệ trung thành, người luôn sát cánh cùng Thạch Hạo trong mọi trận chiến.' },
+    { name: 'Thạch Hạo\'s Scout', role: 'Hỗ trợ', age: '25', description: 'Một người trinh sát tài ba, người cung cấp nhiều thông tin quan trọng cho Thạch Hạo.' },
+    { name: 'Thạch Hạo\'s Healer', role: 'Hỗ trợ', age: '28', description: 'Một nữ pháp sư hệ chữa trị, người đã cứu sống Thạch Hạo nhiều lần.' },
+    { name: 'Thạch Hạo\'s Strategist', role: 'Hỗ trợ', age: '35', description: 'Một nhà chiến thuật thiên tài, người giúp Thạch Hạo lập ra nhiều kế hoạch tác chiến.' },
+    { name: 'Thạch Hạo\'s Blacksmith', role: 'Hỗ trợ', age: '40', description: 'Một thợ rèn bậc thầy, người đã chế tạo ra nhiều vũ khí mạnh mẽ cho Thạch Hạo.' },
+    { name: 'Thạch Hạo\'s Merchant', role: 'Hỗ trợ', age: '45', description: 'Một thương nhân giàu có, người cung cấp nhiều tài nguyên tu luyện cho Thạch Hạo.' },
+    { name: 'Thạch Hạo\'s Messenger', role: 'Hỗ trợ', age: '22', description: 'Một người truyền tin nhanh nhẹn, người giúp Thạch Hạo liên lạc với các đồng minh.' },
+    { name: 'Thạch Hạo\'s Servant', role: 'Hỗ trợ', age: '20', description: 'Một người hầu trung thành, người chăm sóc các công việc hằng ngày cho Thạch Hạo.' }
+  ]
+};

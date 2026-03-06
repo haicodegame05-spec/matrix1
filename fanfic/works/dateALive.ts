@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const dateALive: FanficWork = {
+  id: 'date-a-live',
+  title: 'Date A Live',
+  description: 'Câu chuyện về Itsuka Shidou và nhiệm vụ phong ấn sức mạnh của các Tinh Linh (Spirits) bằng cách khiến họ yêu mình.',
+  country: 'Nhật',
+  plot: 'Thế giới bị đe dọa bởi các trận "Không Chấn" (Spacequakes) do sự xuất hiện của các Tinh Linh - những cô gái mang sức mạnh hủy diệt. Itsuka Shidou, một học sinh trung học bình thường, phát hiện ra mình có khả năng phong ấn sức mạnh của Tinh Linh thông qua nụ hôn. Dưới sự hỗ trợ của tổ chức Ratatoskr, Shidou phải "hẹn hò" với các Tinh Linh để cứu thế giới và cứu chính họ.',
+  worldSetting: 'Thành phố Tenguu, Nhật Bản hiện đại với công nghệ chống Không Chấn tiên tiến và sự tồn tại bí mật của các Tinh Linh.',
+  characters: [
+    { name: 'Itsuka Shidou', role: 'Nhân vật chính', age: '17', description: 'Một học sinh trung học tốt bụng, sở hữu khả năng phong ấn và sử dụng sức mạnh của các Tinh Linh sau khi họ yêu anh.' },
+    { name: 'Yatogami Tohka', role: 'Nữ chính / Tinh Linh', age: 'Unknown', description: 'Tinh Linh đầu tiên Shidou gặp, mang mật danh "Princess". Cô có tính cách ngây thơ, ham ăn và sở hữu thanh kiếm khổng lồ Sandalphon.' },
+    { name: 'Tokisaki Kurumi', role: 'Phản diện / Nữ chính', age: '17 (ngoại hình)', description: 'Tinh Linh nguy hiểm nhất với mật danh "Nightmare". Cô có khả năng điều khiển thời gian thông qua thiên sứ Zafkiel và luôn mang theo súng trường, súng ngắn.' },
+    { name: 'Itsuka Kotori', role: 'Gia đình / Lãnh đạo', age: '14', description: 'Em gái của Shidou, chỉ huy của tổ chức Ratatoskr và cũng là một Tinh Linh hệ lửa với mật danh "Efreet". Cô có hai tính cách khác nhau tùy theo màu dải băng tóc.' },
+    { name: 'Tobiichi Origami', role: 'Nữ chính / Đối thủ', age: '17', description: 'Một thiên tài quân sự thuộc lực lượng AST, luôn tìm cách tiêu diệt Tinh Linh để trả thù cho cha mẹ. Sau này cô cũng trở thành một Tinh Linh với mật danh "Angel".' },
+    { name: 'Yoshino', role: 'Nữ chính / Tinh Linh', age: '13-14 (ngoại hình)', description: 'Tinh Linh nhút nhát với mật danh "Hermit". Cô luôn mang theo con rối thỏ Yoshinon và có khả năng điều khiển băng tuyết.' },
+    { name: 'Himejima Mukuro', role: 'Nữ chính / Tinh Linh', age: 'Unknown', description: 'Tinh Linh mang mật danh "Zodiac", sở hữu thiên sứ Michael có khả năng khóa và mở mọi thứ, kể cả ký ức và cảm xúc.' },
+    { name: 'Natsumi', role: 'Nữ chính / Tinh Linh', age: '13-14 (ngoại hình)', description: 'Tinh Linh mang mật danh "Witch", sở hữu khả năng biến hình và thay đổi vật chất thông qua thiên sứ Haniel.' },
+    { name: 'Yamai Kaguya', role: 'Nữ chính / Tinh Linh', age: '16-17 (ngoại hình)', description: 'Một trong hai chị em sinh đôi Yamai, mang mật danh "Berserk". Cô có tính cách năng động và điều khiển gió.' },
+    { name: 'Yamai Yuzuru', role: 'Nữ chính / Tinh Linh', age: '16-17 (ngoại hình)', description: 'Chị em sinh đôi với Kaguya, điềm tĩnh và chín chắn hơn. Cô cũng điều khiển gió và luôn nói chuyện theo phong cách đặc biệt.' },
+    { name: 'Izayoi Miku', role: 'Nữ chính / Tinh Linh', age: '17', description: 'Một thần tượng âm nhạc nổi tiếng và là Tinh Linh mang mật danh "Diva". Cô có khả năng điều khiển người khác thông qua giọng hát.' },
+    { name: 'Murasame Reine', role: 'Hỗ trợ / Nhân vật quan trọng', age: '30+', description: 'Phân tích viên của Ratatoskr, luôn trong tình trạng thiếu ngủ. Cô đóng vai trò quan trọng trong việc hướng dẫn Shidou hẹn hò.' },
+    { name: 'Honjou Nia', role: 'Nữ chính / Tinh Linh', age: 'Unknown', description: 'Tinh linh thứ 9 mang mật danh "Sister", sở hữu thiên sứ Rasiel có khả năng thấu thị mọi sự thật trên thế giới.' },
+    { name: 'Kyouno Natsumi (Adult)', role: 'Nữ chính / Tinh Linh', age: '20+ (ngoại hình)', description: 'Dạng người lớn quyến rũ của Natsumi, thể hiện sự tự tin và sức mạnh ma pháp biến hình tối thượng.' },
+    { name: 'Sonogami Rinne', role: 'Nữ chính / Tinh Linh', age: 'Unknown', description: 'Tinh linh bí ẩn xuất hiện trong Eden, mang mật danh "Ruler". Cô có tình cảm sâu đậm và luôn muốn bảo vệ Shidou.' },
+    { name: 'Arusu Maria', role: 'Hỗ trợ / Tinh Linh', age: 'Unknown', description: 'Trí tuệ nhân tạo của Ratatoskr có hình dạng tinh linh, người giúp Shidou hiểu về tình yêu và cảm xúc.' },
+    { name: 'Arusu Marina', role: 'Đối thủ / Tinh Linh', age: 'Unknown', description: 'Bản thể đối lập của Maria, mang tính cách nổi loạn và sở hữu sức mạnh bóng tối đáng sợ.' },
+    { name: 'Mayuri', role: 'Nữ chính / Tinh Linh', age: 'Unknown', description: 'Tinh linh sinh ra từ linh lực của các tinh linh khác, mang mật danh "Judgement". Cô hy sinh để bảo vệ Shidou và mọi người.' },
+    { name: 'Isaac Ray Pelham Westcott', role: 'Phản diện chính', age: '40+', description: 'Lãnh đạo của DEM Industries, kẻ muốn chiếm đoạt linh lực tinh linh để trở thành thần.' },
+    { name: 'Ellen Mira Mathers', role: 'Phản diện / Phù thủy', age: '30+', description: 'Phù thủy mạnh nhất thế giới, thuộc hạ trung thành của Westcott, luôn coi tinh linh là mục tiêu tiêu diệt.' },
+    { name: 'Kannazuki Kyouhei', role: 'Hỗ trợ', age: '28', description: 'Phó chỉ huy Ratatoskr, một thiên tài quân sự nhưng có sở thích kỳ quặc là bị Kotori mắng mỏ.' },
+    { name: 'Takamiya Mana', role: 'Gia đình / Đồng minh', age: '14', description: 'Em gái ruột của Shidou, một phù thủy tài năng của DEM sau này gia nhập Ratatoskr để bảo vệ anh trai.' },
+    { name: 'Artemisia Bell Ashcroft', role: 'Đối thủ / Phù thủy', age: '25+', description: 'Một trong những phù thủy mạnh nhất thế giới, người sở hữu kỹ năng chiến đấu và ma pháp vượt trội.' },
+    { name: 'Mio Takamiya', role: 'Tinh Linh Khởi Nguyên', age: '30+ (ngoại hình)', description: 'Tinh linh đầu tiên xuất hiện trên Trái Đất, nguồn gốc của mọi tinh linh và là người nắm giữ bí mật về sự tồn tại của họ.' },
+    { name: 'Tamae Okamine', role: 'Hỗ trợ', age: '29', description: 'Giáo viên chủ nhiệm của Shidou, một người phụ nữ hiền lành nhưng luôn lo lắng về việc mình vẫn còn độc thân.' },
+    { name: 'Ai Yamabuki', role: 'Nhân vật phụ', age: '17', description: 'Một trong ba người bạn cùng lớp của Shidou, luôn xuất hiện để bình luận về các sự kiện diễn ra trong trường.' },
+    { name: 'Mai Hakama', role: 'Nhân vật phụ', age: '17', description: 'Thành viên trong nhóm bạn của Ai, có tính cách năng động và hay trêu chọc Shidou.' },
+    { name: 'Mii Fujibakama', role: 'Nhân vật phụ', age: '17', description: 'Thành viên thứ ba trong nhóm bạn của Ai, thường xuyên cùng các bạn mình theo dõi các cuộc hẹn hò của Shidou.' },
+    { name: 'Hiroto Tonomachi', role: 'Bạn bè', age: '17', description: 'Bạn thân nhất của Shidou, một người đam mê trò chơi hẹn hò ảo và luôn đưa ra những lời khuyên kỳ quặc cho anh.' },
+    { name: 'Mikimoto Rashou', role: 'Hỗ trợ', age: '25+', description: 'Thành viên phi hành đoàn Ratatoskr, chuyên gia về phân tích dữ liệu và hỗ trợ kỹ thuật cho Fraxinus.' },
+    { name: 'Hinako Shiizaki', role: 'Hỗ trợ', age: '20+', description: 'Thành viên phi hành đoàn Ratatoskr, người luôn nhiệt tình trong việc giúp Shidou cải thiện kỹ năng hẹn hò.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thanMaHeThong: FanficWork = {
+  id: 'than-ma-he-thong',
+  title: 'Thần Ma Hệ Thống',
+  description: 'Nhạc Trọng, một thanh niên bình thường, phải chiến đấu để sinh tồn trong một thế giới bị biến thành trò chơi đầy rẫy quái vật.',
+  country: 'Trung',
+  plot: 'Thế giới bỗng nhiên biến đổi, quái vật xuất hiện khắp nơi và con người nhận được hệ thống cấp độ như trong game. Nhạc Trọng bắt đầu hành trình sinh tồn, thu thập trang bị, kỹ năng và xây dựng thế lực của riêng mình để bảo vệ những người thân yêu và tìm kiếm hy vọng cho nhân loại.',
+  worldSetting: 'Thế giới hậu tận thế mang phong cách nhập vai. Con người phải thăng cấp, học kỹ năng và đối mặt với các chủng tộc xâm lược từ không gian khác.',
+  characters: [
+    { name: 'Nhạc Trọng', role: 'Nhân vật chính', description: 'Quyết đoán, thực dụng, có khả năng lãnh đạo và ý chí sinh tồn cực mạnh.' },
+    { name: 'Trần Dao', role: 'Nữ chính', description: 'Một cô gái thông minh, mạnh mẽ, là người đồng hành và hỗ trợ đắc lực cho Nhạc Trọng.' },
+    { name: 'Kỷ Thanh Vũ', role: 'Nữ chính', description: 'Nữ kiếm sĩ tài ba, trung thành và luôn sát cánh chiến đấu cùng Nhạc Trọng.' },
+    { name: 'Bạch Tiểu Thắng', role: 'Đồng minh', description: 'Một người bạn trung thành, sở hữu kỹ năng đặc biệt hỗ trợ Nhạc Trọng trong các trận chiến.' },
+    { name: 'Diêu Ni Ni', role: 'Đồng minh', description: 'Một cô gái nhỏ nhắn nhưng sở hữu sức mạnh tinh thần to lớn, là thành viên quan trọng của đội.' },
+    { name: 'Thần Ma', role: 'Phản diện', description: 'Thực thể bí ẩn đứng sau sự biến đổi của thế giới, kẻ điều khiển trò chơi sinh tử này.' },
+    { name: 'Thái Vi', role: 'Đồng minh', description: 'Một cô gái mạnh mẽ, là một trong những thủ hạ trung thành nhất của Nhạc Trọng.' },
+    { name: 'Vương Hiểu Nam', role: 'Đồng minh', description: 'Chuyên gia về kỹ thuật và hậu cần, giúp Nhạc Trọng xây dựng căn cứ.' },
+    { name: 'Trương Huyền', role: 'Đồng minh', description: 'Một chiến binh dũng cảm, luôn tiên phong trong các trận chiến chống lại quái vật.' },
+    { name: 'Lý Quảng', role: 'Đồng minh', description: 'Xạ thủ tài ba, hỗ trợ Nhạc Trọng từ xa với độ chính xác cực cao.' },
+    { name: 'Ngụy Ninh', role: 'Phản diện', description: 'Một kẻ tham vọng, thường xuyên gây khó khăn cho Nhạc Trọng trong việc thống nhất các thế lực.' },
+    { name: 'Nhạc Vũ', role: 'Gia đình', description: 'Em gái của Nhạc Trọng, người anh luôn cố gắng bảo vệ trong thế giới đầy rẫy nguy hiểm.' },
+    { name: 'Tiểu Thanh', role: 'Thú cưng / Đồng minh', description: 'Một con rắn biến dị cực kỳ mạnh mẽ, thú cưng trung thành và là vũ khí bí mật của Nhạc Trọng.' },
+    { name: 'Tiểu Hắc', role: 'Thú cưng / Đồng minh', description: 'Một con báo đen biến dị với tốc độ kinh hồn, hỗ trợ Nhạc Trọng trong các nhiệm vụ trinh sát.' },
+    { name: 'Lưu Mị Nhi', role: 'Nữ chính', description: 'Một cô gái xinh đẹp, thông minh, người đã giúp Nhạc Trọng quản lý các vấn đề nội bộ của căn cứ.' },
+    { name: 'Trương Lệ', role: 'Đồng minh', description: 'Nữ chiến binh dũng cảm, một trong những đội trưởng tài năng dưới trướng Nhạc Trọng.' },
+    { name: 'Vương Phương', role: 'Đồng minh', description: 'Chuyên gia về y tế, người đã cứu sống nhiều chiến sĩ trong các trận chiến ác liệt.' },
+    { name: 'Lý Tĩnh', role: 'Đồng minh', description: 'Một kỵ sĩ biến dị mạnh mẽ, luôn tiên phong trong các cuộc tấn công vào sào huyệt quái vật.' },
+    { name: 'Triệu Thiên', role: 'Đồng minh', description: 'Xạ thủ bắn tỉa tài ba, người bảo vệ căn cứ từ xa với độ chính xác tuyệt đối.' },
+    { name: 'Trần Cương', role: 'Đồng minh', description: 'Chiến sĩ hạng nặng, sở hữu sức mạnh vật lý phi thường và lớp giáp kiên cố.' },
+    { name: 'Hoàng Phủ Khiêm', role: 'Đối thủ / Đồng minh', description: 'Một lãnh đạo của thế lực khác, ban đầu có sự cạnh tranh nhưng sau đó đã hợp tác với Nhạc Trọng.' },
+    { name: 'Lôi Phong', role: 'Đồng minh', description: 'Người chơi sở hữu kỹ năng hệ lôi mạnh mẽ, là hỏa lực chủ lực của đội Nhạc Trọng.' },
+    { name: 'Thủy Linh', role: 'Đồng minh', description: 'Nữ pháp sư hệ thủy, có khả năng điều khiển nước và hỗ trợ hồi phục cho đồng đội.' },
+    { name: 'Hỏa Diệm', role: 'Đồng minh', description: 'Chiến sĩ hệ hỏa, luôn mang lại sự bùng nổ trong các trận chiến giáp lá cà.' },
+    { name: 'Mộc Lan', role: 'Đồng minh', description: 'Nữ chiến sĩ sở hữu kỹ năng hệ mộc, có khả năng khống chế kẻ thù bằng dây leo.' },
+    { name: 'Thổ Lực', role: 'Đồng minh', description: 'Chiến sĩ hệ thổ, người tạo ra các rào chắn phòng ngự vững chắc cho căn cứ.' },
+    { name: 'Phong Vân', role: 'Đồng minh', description: 'Sát thủ hệ phong, sở hữu tốc độ và khả năng ám sát đỉnh cao.' },
+    { name: 'Quang Minh', role: 'Đồng minh', description: 'Mục sư hệ quang, người mang lại hy vọng và sự chữa lành cho các chiến sĩ.' },
+    { name: 'Hắc Am', role: 'Đồng minh', description: 'Sát thủ hệ ám, kẻ thầm lặng tiêu diệt những mục tiêu quan trọng của kẻ thù.' },
+    { name: 'Không Gian', role: 'Đồng minh', description: 'Người chơi sở hữu kỹ năng không gian hiếm có, giúp đội di chuyển linh hoạt và thoát hiểm.' }
+  ]
+};

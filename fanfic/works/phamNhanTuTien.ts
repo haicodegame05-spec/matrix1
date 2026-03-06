@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const phamNhanTuTien: FanficWork = {
+  id: 'pham-nhan-tu-tien',
+  title: 'Phàm Nhân Tu Tiên',
+  description: 'Hàn Lập, một thiếu niên bình thường với tư chất kém cỏi, từng bước tiến tới đỉnh cao tiên giới.',
+  country: 'Trung',
+  plot: 'Hàn Lập là một thiếu niên bình thường ở thôn quê, tình cờ gia nhập một môn phái giang hồ và phát hiện ra thế giới tu tiên. Với tư chất bình thường, anh dựa vào sự cẩn trọng, mưu trí và một chiếc bình xanh bí ẩn có khả năng thúc đẩy thảo dược để vượt qua những âm mưu tàn khốc của giới tu tiên.',
+  worldSetting: 'Giới tu tiên vô cùng tàn khốc, nơi kẻ mạnh ăn thịt kẻ yếu. Hệ thống tu luyện chia thành các cấp bậc: Luyện Khí, Trúc Cơ, Kết Đan, Nguyên Anh, Hóa Thần... Tu tiên giả cần linh căn để tu luyện, và tài nguyên (linh thạch, đan dược) là yếu tố sống còn.',
+  characters: [
+    { name: 'Hàn Lập', role: 'Nhân vật chính', age: '1000+', description: 'Biệt danh Hàn Lão Ma, cực kỳ cẩn trọng, luôn có kế hoạch rút lui, không bao giờ làm việc không có lợi. Sở hữu Chưởng Thiên Bình bí ẩn.' },
+    { name: 'Nam Cung Uyển', role: 'Nữ chính', age: '1000+', description: 'Trưởng lão của Yểm Nguyệt Tông, người vợ duy nhất của Hàn Lập, sở hữu vẻ đẹp thanh cao và tu vi thâm hậu.' },
+    { name: 'Lệ Phi Vũ', role: 'Bạn thân', age: '20', description: 'Người bạn thân thiết nhất của Hàn Lập thời còn ở giang hồ, dù không có linh căn nhưng có ý chí phi thường và để lại danh tiếng lẫy lừng.' },
+    { name: 'Nguyên Diêu', role: 'Hỗ trợ', age: '500+', description: 'Nữ tu xinh đẹp và thông minh, có nhiều duyên nợ và hỗ trợ Hàn Lập trong nhiều giai đoạn, sau này tu luyện quỷ đạo.' },
+    { name: 'Tử Linh Tiên Tử', role: 'Hỗ trợ', age: '500+', description: 'Đệ nhất mỹ nhân Loạn Tinh Hải, thông minh sắc sảo, có mối quan hệ sâu đậm với Hàn Lập và luôn nỗ lực tu luyện.' },
+    { name: 'Mặc Đại Phu', role: 'Người dẫn dắt / Phản diện', age: '50', description: 'Người thầy đầu tiên của Hàn Lập, người đã đưa anh vào con đường tu tiên nhưng cũng âm mưu đoạt xá anh.' },
+    { name: 'Lục Quán Anh', role: 'Đồng minh', age: '100+', description: 'Đệ tử của Hoàng Phong Cốc, người đã cùng Hàn Lập trải qua nhiều biến cố ở giai đoạn đầu tu luyện.' },
+    { name: 'Trần Xảo Thiến', role: 'Tình cảm', age: '100+', description: 'Sư tỷ của Hàn Lập tại Hoàng Phong Cốc, dành tình cảm đơn phương sâu đậm cho anh nhưng không có kết quả.' },
+    { name: 'Văn Đạo Nhân', role: 'Đối thủ', age: '500+', description: 'Một tu sĩ tà đạo mạnh mẽ, kẻ thù lớn của Hàn Lập trong giai đoạn ở Thiên Nam.' },
+    { name: 'Đại Diễn Thần Quân', role: 'Người dẫn dắt', age: '1000+', description: 'Linh hồn của một vị đại năng, người đã truyền thụ kiến thức về rối (khôi lỗi) cho Hàn Lập.' },
+    { name: 'Ngân Nguyệt', role: 'Bạn đồng hành', age: '1000+', description: 'Linh hồn của một con sói bạc, luôn ở bên cạnh hỗ trợ Hàn Lập và có thân phận thực sự vô cùng cao quý.' },
+    { name: 'Kim Đồng', role: 'Bạn đồng hành', age: '???', description: 'Phệ Kim Tiên, sinh vật mạnh mẽ luôn trung thành và là trợ thủ đắc lực của Hàn Lập ở Tiên Giới.' },
+    { name: 'Đề Hồn', role: 'Bạn đồng hành', age: '???', description: 'Sinh vật có khả năng khắc chế quỷ hồn, được Hàn Lập nuôi dưỡng và trở thành một chiến lực quan trọng.' },
+    { name: 'Lão Quái Vật (Hướng Chi Lễ)', role: 'Người dẫn dắt', age: '2000+', description: 'Một trong những tu sĩ Hóa Thần hiếm hoi ở Nhân Giới, người đã chỉ dẫn Hàn Lập con đường phi thăng.' },
+    { name: 'Thanh Nguyên Tử', role: 'Đồng minh', age: '3000+', description: 'Một vị đại năng ở Linh Giới, người đã truyền thụ Thanh Nguyên Kiếm Quyết cho Hàn Lập.' },
+    { name: 'Lục Sư Huynh', role: 'Phản diện', age: '100+', description: 'Kẻ thù đầu tiên của Hàn Lập trong giới tu tiên, người đã dạy cho anh bài học về sự tàn khốc của lòng người.' },
+    { name: 'Tân Như Âm', role: 'Hỗ trợ', age: '100+', description: 'Thiên tài trận pháp, người đã giúp Hàn Lập sửa chữa truyền tống trận cổ đại, mang trong mình Long Dâm Thể bi kịch.' },
+    { name: 'Tề Vân Tiêu', role: 'Hỗ trợ', age: '100+', description: 'Người yêu của Tân Như Âm, một luyện khí sư tài ba và là người bạn đáng tin cậy của Hàn Lập.' },
+    { name: 'Băng Phượng', role: 'Đồng minh', age: '2000+', description: 'Lãnh đạo của Băng Hải, một yêu tu mạnh mẽ đã cùng Hàn Lập phi thăng lên Linh Giới.' },
+    { name: 'Xa Lão Yêu', role: 'Phản diện', age: '2000+', description: 'Một trong những yêu tu mạnh nhất ở Nhân Giới, đối thủ lớn của Hàn Lập trong giai đoạn cuối ở Nhân Giới.' },
+    { name: 'Ma Quang', role: 'Bạn đồng hành', age: '???', description: 'Một ma tộc mạnh mẽ bị Hàn Lập thu phục, sau này trở thành một trong những trợ thủ đắc lực nhất của anh.' },
+    { name: 'Khôi Lỗi Vương', role: 'Đối thủ', age: '1000+', description: 'Một tu sĩ chuyên về khôi lỗi thuật, kẻ đã từng gây ra nhiều khó khăn cho Hàn Lập ở giai đoạn Kết Đan.' },
+    { name: 'Lục Dực Sương Công', role: 'Bạn đồng hành / Linh thú', age: '???', description: 'Một trong những linh thú mạnh mẽ nhất của Hàn Lập, sở hữu tốc độ và sức mạnh băng hệ đáng sợ.' },
+    { name: 'Hàn Lập (Kiếp trước)', role: 'Bí ẩn', age: 'Vĩnh cửu', description: 'Hình bóng của Hàn Lập ở những kiếp trước, người đã để lại nhiều di sản và âm mưu cho chính mình ở hiện tại.' },
+    { name: 'Cổ Ma', role: 'Phản diện chính', age: 'Ancient', description: 'Các thực thể ma tộc từ Ma Giới luôn tìm cách xâm lược và thôn tính các giới diện khác, là kẻ thù chung của tu tiên giả.' },
+    { name: 'Linh Vương', role: 'Đồng minh / Đại năng', age: 'Ancient', description: 'Lãnh đạo của Linh Tộc ở Linh Giới, một vị đại năng đã hỗ trợ Hàn Lập trong cuộc chiến chống lại Ma Tộc.' },
+    { name: 'Mạc Giản Ly', role: 'Đồng minh / Đại năng', age: 'Ancient', description: 'Một trong những vị đại năng mạnh nhất của Nhân Tộc ở Linh Giới, người đã dẫn dắt Hàn Lập trong giai đoạn đầu ở Linh Giới.' },
+    { name: 'Ngao Tiêu', role: 'Đồng minh / Đại năng', age: 'Ancient', description: 'Lãnh đạo của Yêu Tộc ở Linh Giới, người đã cùng Mạc Giản Ly bảo vệ liên minh Nhân-Yêu.' },
+    { name: 'Phạm Thánh Chân Ma', role: 'Thực thể thần bí', age: 'Ancient', description: 'Một thực thể ma đạo cổ xưa mà Hàn Lập đã kế thừa một phần sức mạnh thông qua Phạm Thánh Chân Ma Công.' },
+    { name: 'Luân Hồi Điện Chủ', role: 'Nhân vật quan trọng / Bí ẩn', age: 'Vĩnh cửu', description: 'Một thực thể tối cao ở Tiên Giới, người có mối liên hệ mật thiết với vận mệnh của Hàn Lập.' }
+  ]
+};

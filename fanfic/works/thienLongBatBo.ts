@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thienLongBatBo: FanficWork = {
+  id: 'thien-long-bat-bo',
+  title: 'Thiên Long Bát Bộ',
+  description: 'Ba anh em kết nghĩa Kiều Phong, Đoàn Dự, Hư Trúc cùng nhau phiêu bạt giang hồ, đối mặt với những ân oán tình thù và vận mệnh trớ trêu.',
+  country: 'Trung',
+  plot: 'Kiều Phong là bang chủ Cái Bang, bị vu oan là người Khiết Đan và bị đuổi khỏi bang. Đoàn Dự là hoàng tử nước Đại Lý, vô tình học được Lăng Ba Vi Bộ và Bắc Minh Thần Công. Hư Trúc là một tiểu hòa thượng Thiếu Lâm, tình cờ giải được trận pháp Trân Lung và nhận được truyền thừa của Tiêu Dao Phái. Cả ba cùng nhau chống lại những âm mưu của Mộ Dung Phục và sự tàn bạo của quân Kim.',
+  worldSetting: 'Thế giới võ hiệp Kim Dung, nơi võ công chia thành các môn phái và các đại cao thủ (Bắc Kiều Phong, Nam Mộ Dung). Giang hồ đầy rẫy những ân oán tình thù và lòng yêu nước chống lại quân Kim xâm lược.',
+  characters: [
+    { name: 'Kiều Phong', role: 'Nhân vật chính', age: '30+', description: 'Tiêu Phong, bang chủ Cái Bang, dũng mãnh, chính trực. Sử dụng Hàng Long Thập Bát Chưởng.' },
+    { name: 'Đoàn Dự', role: 'Nhân vật chính', age: '20+', description: 'Hoàng tử nước Đại Lý, thông minh, lém lỉnh. Sử dụng Lăng Ba Vi Bộ và Bắc Minh Thần Công.' },
+    { name: 'Hư Trúc', role: 'Nhân vật chính', age: '20+', description: 'Tiểu hòa thượng Thiếu Lâm, hiền lành, thật thà. Nhận được truyền thừa của Tiêu Dao Phái.' },
+    { name: 'Vương Ngữ Yên', role: 'Nữ chính', age: '18+', description: 'Xinh đẹp tuyệt trần, thông minh tuyệt đỉnh, thuộc lòng mọi võ công trong thiên hạ.' },
+    { name: 'Mộ Dung Phục', role: 'Đối thủ / Phản diện', age: '30+', description: 'Nam Mộ Dung, tham vọng phục quốc, võ công cao cường nhưng tâm địa hẹp hòi.' },
+    { name: 'A Châu', role: 'Nữ chính', age: '20+', description: 'Người yêu của Kiều Phong, xinh đẹp, dịu dàng, hy sinh bản thân để bảo vệ cha mình.' },
+    { name: 'A Tử', role: 'Đối thủ / Phản diện', age: '18+', description: 'Em gái của A Châu, độc ác, tàn nhẫn, yêu Kiều Phong một cách mù quáng.' },
+    { name: 'Đoàn Chính Thuần', role: 'Hỗ trợ', age: '50+', description: 'Trấn Nam Vương nước Đại Lý, phong lưu đa tình, có nhiều con rơi con vãi khắp giang hồ.' },
+    { name: 'Cưu Ma Trí', role: 'Đối thủ', age: '50+', description: 'Quốc sư nước Thổ Phồn, võ công cao cường nhưng tham lam, luôn muốn chiếm đoạt Lục Mạch Thần Kiếm.' },
+    { name: 'Vô Danh Thần Tăng', role: 'Hỗ trợ', age: '80+', description: 'Quét rác ở Thiếu Lâm Tự, võ công đạt đến cảnh giới tối cao, hóa giải mọi ân oán.' },
+    { name: 'Thiên Sơn Đồng Lão', role: 'Huyền thoại', age: '90+', description: 'Chủ nhân Linh Thứu Cung, võ công tuyệt thế với Bát Hoang Lục Hợp Duy Ngã Độc Tôn Công.' },
+    { name: 'Lý Thu Thủy', role: 'Huyền thoại', age: '80+', description: 'Vương phi Tây Hạ, sư muội của Thiên Sơn Đồng Lão, sở hữu vẻ đẹp không tuổi và võ công Tiểu Vô Tướng Công.' },
+    { name: 'Vô Nhai Tử', role: 'Huyền thoại', age: '90+', description: 'Chưởng môn Tiêu Dao Phái, người đã truyền thụ 70 năm công lực cho Hư Trúc.' },
+    { name: 'Đinh Xuân Thu', role: 'Phản diện', age: '60+', description: 'Tinh Tú Lão Quái, kẻ phản bội Tiêu Dao Phái, sử dụng Hóa Công Đại Pháp và các loại độc dược tàn ác.' },
+    { name: 'Tiêu Viễn Sơn', role: 'Nhân vật quan trọng', age: '60+', description: 'Cha ruột của Kiều Phong, người sống sót sau thảm kịch Nhạn Môn Quan và âm thầm trả thù suốt nhiều năm.' },
+    { name: 'Mộ Dung Bác', role: 'Phản diện', age: '60+', description: 'Cha của Mộ Dung Phục, kẻ chủ mưu gây ra thảm kịch Nhạn Môn Quan để kích động chiến tranh phục quốc.' },
+    { name: 'Đoàn Diên Khánh', role: 'Đối thủ', age: '50+', description: 'Ác Quán Mãn Doanh, đứng đầu Tứ Đại Ác Nhân, thái tử nước Đại Lý bị phế truất với võ công Nhất Dương Chỉ biến tướng.' },
+    { name: 'Diệp Nhị Nương', role: 'Đối thủ', age: '40+', description: 'Vô Ác Bất Tác, thành viên Tứ Đại Ác Nhân, mẹ ruột của Hư Trúc với quá khứ đau thương.' },
+    { name: 'Nhạc Lão Tam', role: 'Đối thủ / Đồng minh', age: '40+', description: 'Hung Thần Ác Sát, thành viên Tứ Đại Ác Nhân, sau này bái Đoàn Dự làm sư phụ.' },
+    { name: 'Vân Trung Hạc', role: 'Đối thủ', age: '35+', description: 'Cùng Hung Cực Ác, thành viên Tứ Đại Ác Nhân, kẻ dâm ô xảo quyệt.' },
+    { name: 'Mộc Uyển Thanh', role: 'Nữ chính', age: '18+', description: 'Con gái của Đoàn Chính Thuần, tính tình bướng bỉnh, luôn che mặt và thầm yêu Đoàn Dự.' },
+    { name: 'Chung Linh', role: 'Nữ chính', age: '16+', description: 'Con gái của Đoàn Chính Thuần, ngây thơ, đáng yêu, là người bạn thân thiết của Đoàn Dự.' },
+    { name: 'Khang Mẫn', role: 'Phản diện', age: '30+', description: 'Mã phu nhân, người đàn bà độc ác đã hãm hại Kiều Phong vì bị anh ngó lơ.' },
+    { name: 'Toàn Quán Thanh', role: 'Phản diện', age: '40+', description: 'Thế Diệp Hổ, trưởng lão Cái Bang xảo quyệt, kẻ đã tiếp tay cho Khang Mẫn lật đổ Kiều Phong.' },
+    { name: 'Du Thản Chi', role: 'Đối thủ', age: '20+', description: 'Thiết Đầu Nhân, con trai của Du thị song hùng, yêu A Tử mù quáng và bị cô hành hạ dã man.' },
+    { name: 'Tô Tinh Hà', role: 'Hỗ trợ', age: '60+', description: 'Thông Biện Tiên Sinh, đệ tử của Vô Nhai Tử, người bày ra trận pháp Trân Lung để tìm người kế vị.' },
+    { name: 'Khô Vinh Đại Sư', role: 'Hỗ trợ', age: '80+', description: 'Cao tăng Thiên Long Tự, người sở hữu võ công Khô Vinh Thiền cực kỳ thâm hậu.' },
+    { name: 'Đoàn Chính Minh', role: 'Hỗ trợ', age: '50+', description: 'Bảo Định Đế nước Đại Lý, bác của Đoàn Dự, một vị vua nhân từ và sáng suốt.' },
+    { name: 'Ba Thiên Thạch', role: 'Hỗ trợ', age: '40+', description: 'Tư không nước Đại Lý, một trong tứ đại hộ vệ trung thành của hoàng gia.' },
+    { name: 'Chu Đan Thần', role: 'Hỗ trợ', age: '35+', description: 'Tư mã nước Đại Lý, một trong tứ đại hộ vệ, văn võ song toàn.' }
+  ]
+};

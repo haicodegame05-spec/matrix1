@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const vanCoThanDe: FanficWork = {
+  id: 'van-co-than-de',
+  title: 'Vạn Cổ Thần Đế',
+  description: 'Trương Nhược Trần, một vị hoàng tử bị phản bội, hồi sinh sau 800 năm để tìm kiếm sự thật và báo thù.',
+  country: 'Trung',
+  plot: 'Trương Nhược Trần là con trai duy nhất của Minh Đế, bị chính vị hôn thê của mình là Trì Dao Công Chúa giết chết. 800 năm sau, anh hồi sinh trong thân xác của một thiếu niên yếu ớt. Anh bắt đầu hành trình tu luyện, khám phá những bí mật về sự phản bội của Trì Dao và sự biến mất của cha mình.',
+  worldSetting: 'Thế giới tu luyện vô cùng rộng lớn với Côn Luân Giới và nhiều đại thế giới khác. Hệ thống tu luyện chia thành: Hoàng Cực Cảnh, Huyền Cực Cảnh, Địa Cực Cảnh, Thiên Cực Cảnh, Ngư Long Cảnh, Bán Thánh, Thánh Giả, Đại Thánh, Thần Cảnh. Thời gian trôi qua 800 năm đã thay đổi hoàn toàn cục diện thế giới.',
+  characters: [
+    { name: 'Trương Nhược Trần', role: 'Nhân vật chính', age: '800+', description: 'Thái tử của Minh Đế, sở hữu Thời Không Bí Điển, tu luyện cả Thời Gian và Không Gian. Tính cách kiên nghị, trọng tình nghĩa nhưng cũng rất quyết đoán.' },
+    { name: 'Trì Dao Nữ Hoàng', role: 'Nữ chính / Đối thủ', age: '800+', description: 'Vị hôn thê đã giết Trương Nhược Trần, hiện là Nữ hoàng thống nhất Côn Luân Giới. Một nhân vật đầy mâu thuẫn với những bí mật kinh thiên động địa.' },
+    { name: 'Mộc Linh Hi', role: 'Nữ chính', age: '20+', description: 'Thánh nữ của Ma Giáo, tính tình hoạt bát, yêu Trương Nhược Trần sâu đậm và luôn ở bên cạnh anh trong những lúc khó khăn nhất.' },
+    { name: 'Lăng Phi Vũ', role: 'Hỗ trợ', age: '100+', description: 'Kiếm Thánh của Lăng Gia, vẻ đẹp lạnh lùng, kiếm pháp siêu phàm, là một trong những hồng nhan tri kỷ của Trương Nhược Trần.' },
+    { name: 'Tiểu Hắc', role: 'Bạn đồng hành', age: '1000+', description: 'Một con mèo đen thần bí (thực chất là Đồ Sát Giả), am hiểu trận pháp và luyện đan, thường xuyên gây rắc rối nhưng rất trung thành.' },
+    { name: 'Hoàng Yên Trần', role: 'Tình cảm', age: '20+', description: 'Vị hôn thê đầu tiên của Trương Nhược Trần sau khi hồi sinh, tính cách mạnh mẽ, sau này gia nhập Thiên Đình.' },
+    { name: 'Minh Đế', role: 'Phụ thân', age: '1000+', description: 'Cha của Trương Nhược Trần, một vị thần mạnh mẽ đã biến mất bí ẩn 800 năm trước.' },
+    { name: 'Khổng Lan Du', role: 'Hỗ trợ', age: '800+', description: 'Biểu muội của Trương Nhược Trần, đã chờ đợi anh suốt 800 năm và hiện là một vị Đại Thánh mạnh mẽ.' },
+    { name: 'Bạch Khanh Nhi', role: 'Nữ chính / Đối thủ', age: '100+', description: 'Thiên nữ của Thần Nữ Thập Nhị Phường, cực kỳ thông minh và xảo quyệt, có mối quan hệ yêu hận đan xen với Trương Nhược Trần.' },
+    { name: 'Kỷ Phạm Tâm', role: 'Nữ chính', age: '???', description: 'Tiên tử của Thiên Nhụy giới, bản thể là một đóa hoa thần bí, sở hữu tinh thần lực cực mạnh và luôn giúp đỡ Trương Nhược Trần.' },
+    { name: 'Diêm Chiết Tiên', role: 'Tình cảm', age: '100+', description: 'Thiên kim của Diêm La tộc, người đã sinh hạ con gái cho Trương Nhược Trần, gắn kết anh với một trong những tộc mạnh nhất Địa Ngục giới.' },
+    { name: 'La Sát Công Chúa (La Bàn)', role: 'Đồng minh', age: '100+', description: 'Công chúa của La Sát tộc, tính tình quái dị nhưng cực kỳ thông minh, thường xuyên hợp tác với Trương Nhược Trần trong các kế hoạch lớn.' },
+    { name: 'Vấn Thiên Quân', role: 'Tiền bối', age: 'Cổ xưa', description: 'Một trong những vị thần mạnh nhất lịch sử Côn Luân giới, người đã để lại nhiều di sản và truyền thừa cho Trương Nhược Trần.' },
+    { name: 'Huyết Tuyệt Chiến Thần', role: 'Người dẫn dắt', age: '1000+', description: 'Ông ngoại của Trương Nhược Trần ở Địa Ngục giới, một vị chiến thần bá đạo, luôn bảo vệ anh trước sự dòm ngó của các thế lực khác.' },
+    { name: 'Nhan Thủy Nhi', role: 'Hỗ trợ', age: '20+', description: 'Một trong những đệ tử đời đầu của Trương Nhược Trần, trung thành và nỗ lực tu luyện để gánh vác trọng trách của tông môn.' },
+    { name: 'Nguyệt Thần', role: 'Đại năng', age: 'Cổ xưa', description: 'Vị thần bảo hộ Côn Luân giới, một người phụ nữ xinh đẹp và đầy quyền năng, đã giúp đỡ Trương Nhược Trần rất nhiều.' },
+    { name: 'Thần Ngân', role: 'Đại năng', age: 'Cổ xưa', description: 'Một vị thần mạnh mẽ của Địa Ngục giới, sở hữu sức mạnh hủy diệt và là đối thủ đáng gờm.' },
+    { name: 'Diêm Vô Thần', role: 'Đối thủ', age: '100+', description: 'Thiên tài của Diêm La tộc, đối thủ định mệnh của Trương Nhược Trần, luôn cạnh tranh sòng phẳng trên con đường tu luyện.' },
+    { name: 'Ân Nguyên Thần', role: 'Đối thủ', age: '100+', description: 'Thiên tài của Thiên Đình, sở hữu thực lực mạnh mẽ và luôn tìm cách vượt qua Trương Nhược Trần.' },
+    { name: 'Trương Hồng Trần', role: 'Nhân vật quan trọng', age: '20+', description: 'Con gái của Trương Nhược Trần, thừa hưởng thiên phú và tính cách mạnh mẽ từ cha.' },
+    { name: 'Trì Côn Luân', role: 'Nhân vật quan trọng', age: '20+', description: 'Con trai của Trương Nhược Trần và Trì Dao, gánh vác vận mệnh của Côn Luân giới.' },
+    { name: 'Trì Khổng Nhạc', role: 'Nhân vật quan trọng', age: '20+', description: 'Con gái của Trương Nhược Trần và Trì Dao, một thiên tài tu luyện với trái tim thuần khiết.' },
+    { name: 'Huyết Hậu', role: 'Mẫu thân', age: '1000+', description: 'Mẹ của Trương Nhược Trần, một vị thần của Địa Ngục giới, luôn âm thầm bảo vệ con trai.' },
+    { name: 'Hoang Thiên', role: 'Đại năng', age: '1000+', description: 'Một vị đại năng của Địa Ngục giới, sở hữu sức mạnh vô song và là một trong những người mạnh nhất.' },
+    { name: 'Tuyệt Diệu Thiền Nữ', role: 'Đồng minh', age: '1000+', description: 'Một vị thần của Phật môn, sở hữu trí tuệ và sức mạnh to lớn, là đồng minh tin cậy của Trương Nhược Trần.' },
+    { name: 'Phượng Thiên', role: 'Đại năng', age: 'Cổ xưa', description: 'Vị thần tối cao của Địa Ngục giới, nắm giữ vận mệnh của hàng tỷ sinh linh.' },
+    { name: 'Hạo Thiên', role: 'Đại năng', age: 'Cổ xưa', description: 'Vị thần tối cao của Thiên Đình, người đứng đầu các vị thần bảo vệ trật tự vũ trụ.' },
+    { name: 'Lôi Phạt Thiên Tôn', role: 'Phản diện', age: 'Cổ xưa', description: 'Một vị thần tàn bạo, luôn tìm cách tiêu diệt Trương Nhược Trần và phá hủy Côn Luân giới.' },
+    { name: 'Kình Thiên', role: 'Phản diện', age: 'Cổ xưa', description: 'Một tồn tại cổ xưa đầy tham vọng, là mối đe dọa lớn đối với sự bình yên của vũ trụ.' },
+    { name: 'Thạch Cơ Nương Nương', role: 'Đồng minh', age: 'Cổ xưa', description: 'Một vị thần cổ đại với sức mạnh thần bí, đã nhiều lần giúp đỡ Trương Nhược Trần trong những tình huống hiểm nghèo.' }
+  ]
+};

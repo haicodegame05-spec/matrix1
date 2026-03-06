@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const marvelMCU: FanficWork = {
+  id: 'marvel-mcu',
+  title: 'Marvel Cinematic Universe (MCU)',
+  description: 'Thế giới của những siêu anh hùng cùng nhau bảo vệ Trái Đất và vũ trụ.',
+  country: 'Khác',
+  plot: 'Vũ trụ Marvel là nơi tập hợp những cá nhân có khả năng phi thường, từ những tỷ phú mặc giáp sắt đến những vị thần sấm sét. Họ cùng nhau thành lập biệt đội Avengers để đối đầu với những hiểm họa quy mô toàn cầu và vũ trụ, mà đỉnh điểm là cuộc chiến chống lại gã khổng lồ điên Thanos.',
+  worldSetting: 'Thế giới hiện đại nơi sự tồn tại của siêu anh hùng, người ngoài hành tinh và ma thuật là có thật. Các Viên đá Vô cực là những thực thể quyền năng nhất vũ trụ, có khả năng thay đổi thực tại.',
+  characters: [
+    { name: 'Tony Stark (Iron Man)', role: 'Anh hùng', age: '48', description: 'Tỷ phú, thiên tài, nhà từ thiện với bộ giáp công nghệ cao, linh hồn của Avengers. Anh đã hy sinh thân mình để đánh bại Thanos và cứu vũ trụ.' },
+    { name: 'Steve Rogers (Captain America)', role: 'Anh hùng', age: '100+', description: 'Biểu tượng của lòng dũng cảm và chính nghĩa, người lãnh đạo tinh thần của đội. Anh là một siêu chiến binh từ Thế chiến II với tấm khiên Vibranium không thể phá hủy.' },
+    { name: 'Thor Odinson', role: 'Anh hùng', age: '1500+', description: 'Thần Sấm từ Asgard, sở hữu búa Mjolnir (sau là Stormbreaker) và sức mạnh sấm sét mạnh mẽ. Anh đã trải qua nhiều mất mát nhưng luôn chiến đấu vì công lý.' },
+    { name: 'Natasha Romanoff (Black Widow)', role: 'Anh hùng', age: '35', description: 'Điệp viên bậc thầy, chuyên gia cận chiến và thâm nhập. Cô là một thành viên cốt cán của Avengers, luôn sẵn sàng hy sinh vì gia đình mới của mình.' },
+    { name: 'Bruce Banner (Hulk)', role: 'Anh hùng', age: '49', description: 'Nhà khoa học thiên tài bị biến thành khổng lồ xanh sức mạnh vô địch khi tức giận. Sau này anh đã học được cách kiểm soát và kết hợp trí tuệ với sức mạnh.' },
+    { name: 'Clint Barton (Hawkeye)', role: 'Anh hùng', age: '45', description: 'Xạ thủ bậc thầy với cung tên, người luôn giữ cho Avengers tỉnh táo bằng cái nhìn thực tế của mình.' },
+    { name: 'Peter Parker (Spider-Man)', role: 'Anh hùng', age: '17', description: 'Cậu thiếu niên sở hữu sức mạnh của nhện, được Tony Stark dìu dắt. Cậu luôn cố gắng cân bằng giữa cuộc sống học đường và trách nhiệm siêu anh hùng.' },
+    { name: 'Doctor Strange (Stephen Strange)', role: 'Anh hùng', age: '42', description: 'Phù thủy tối thượng, người bảo vệ thực tại và nắm giữ Viên đá Thời gian. Anh sở hữu trí tuệ siêu việt và khả năng ma thuật vô song.' },
+    { name: 'T\'Challa (Black Panther)', role: 'Anh hùng', age: '35', description: 'Vua của Wakanda, sở hữu bộ giáp Vibranium và sức mạnh từ Tâm Hình Thảo. Anh là một nhà lãnh đạo anh minh và chiến binh dũng cảm.' },
+    { name: 'Wanda Maximoff (Scarlet Witch)', role: 'Anh hùng / Nhân vật phức tạp', age: '28', description: 'Sở hữu ma thuật hỗn mang cực kỳ mạnh mẽ, có khả năng thay đổi thực tại. Cô đã trải qua nhiều bi kịch và luôn tìm kiếm hạnh phúc cho riêng mình.' },
+    { name: 'Vision', role: 'Anh hùng', age: '3', description: 'Một thực thể nhân tạo được tạo ra từ J.A.R.V.I.S., Ultron và Viên đá Tâm trí. Anh sở hữu trí tuệ nhân tạo siêu việt và lòng trắc ẩn sâu sắc.' },
+    { name: 'Sam Wilson (Falcon / Captain America mới)', role: 'Anh hùng', age: '40', description: 'Cựu quân nhân với đôi cánh công nghệ cao, người bạn trung thành của Steve Rogers và là người kế thừa danh hiệu Captain America.' },
+    { name: 'Bucky Barnes (Winter Soldier)', role: 'Anh hùng / Nhân vật phức tạp', age: '100+', description: 'Người bạn thân nhất của Steve Rogers, từng bị Hydra tẩy não thành sát thủ nhưng đã tìm lại được chính mình.' },
+    { name: 'Loki Laufeyson', role: 'Phản diện / Anh hùng', age: '1500+', description: 'Thần Lừa lọc, em trai của Thor. Anh là một nhân vật phức tạp, luôn dao động giữa cái ác và cái thiện, cuối cùng đã tìm thấy mục đích sống của mình.' },
+    { name: 'Thanos', role: 'Phản diện chính', age: 'Ancient', description: 'Gã khổng lồ điên với lý tưởng xóa sổ một nửa sự sống vũ trụ để lập lại cân bằng. Hắn sở hữu Găng tay Vô cực và là mối đe dọa lớn nhất mà Avengers từng đối mặt.' },
+    { name: 'Carol Danvers (Captain Marvel)', role: 'Anh hùng', age: '50+ (ngoại hình 30)', description: 'Một trong những siêu anh hùng mạnh nhất vũ trụ với năng lực hấp thụ và phóng năng lượng cực lớn.' },
+    { name: 'Scott Lang (Ant-Man)', role: 'Anh hùng', age: '40', description: 'Một tên trộm hoàn lương sở hữu bộ giáp có khả năng thay đổi kích thước, đóng vai trò quan trọng trong việc du hành thời gian.' },
+    { name: 'Hope van Dyne (Wasp)', role: 'Anh hùng', age: '38', description: 'Con gái của Hank Pym, sở hữu bộ giáp Wasp với khả năng bay và thu nhỏ, là cộng sự đắc lực của Ant-Man.' },
+    { name: 'Nick Fury', role: 'Lãnh đạo / Hỗ trợ', age: '70', description: 'Cựu giám đốc S.H.I.E.L.D., người đã thành lập biệt đội Avengers và luôn âm thầm điều phối các hoạt động bảo vệ Trái Đất.' },
+    { name: 'Maria Hill', role: 'Hỗ trợ', age: '38', description: 'Cánh tay phải của Nick Fury, một điệp viên tài ba và trung thành của S.H.I.E.L.D.' },
+    { name: 'Phil Coulson', role: 'Hỗ trợ', age: '48', description: 'Một điệp viên tận tụy của S.H.I.E.L.D., người hâm mộ cuồng nhiệt của Captain America và là chất xúc tác để Avengers đoàn kết.' },
+    { name: 'Wong', role: 'Anh hùng / Hỗ trợ', age: '45', description: 'Thư viện trưởng của Kamar-Taj và là người bạn đồng hành tin cậy của Doctor Strange, sở hữu kiến thức ma thuật uyên thâm.' },
+    { name: 'Nebula', role: 'Anh hùng / Nhân vật phức tạp', age: 'Unknown', description: 'Con gái nuôi của Thanos, từng là kẻ thù nhưng đã cải tà quy chính và gia nhập Guardians of the Galaxy.' },
+    { name: 'Gamora', role: 'Anh hùng', age: 'Unknown', description: 'Con gái nuôi của Thanos, nữ chiến binh nguy hiểm nhất thiên hà và là thành viên cốt cán của Guardians of the Galaxy.' },
+    { name: 'Star-Lord (Peter Quill)', role: 'Anh hùng', age: '38', description: 'Thủ lĩnh của Guardians of the Galaxy, một kẻ phiêu lưu hài hước và yêu âm nhạc, người mang trong mình dòng máu Celestial.' },
+    { name: 'Drax the Destroyer', role: 'Anh hùng', age: 'Unknown', description: 'Một chiến binh mạnh mẽ với lòng thù hận sâu sắc dành cho Thanos, thành viên của Guardians of the Galaxy.' },
+    { name: 'Rocket Raccoon', role: 'Anh hùng', age: 'Unknown', description: 'Một con gấu mèo bị biến đổi gen với trí tuệ siêu việt và kỹ năng chế tạo vũ khí đỉnh cao.' },
+    { name: 'Groot', role: 'Anh hùng', age: 'Unknown', description: 'Một sinh vật hình cây với khả năng tái sinh và sức mạnh thể chất lớn, người bạn thân nhất của Rocket.' },
+    { name: 'Mantis', role: 'Anh hùng', age: 'Unknown', description: 'Một thực thể có khả năng thấu cảm và điều khiển cảm xúc, thành viên của Guardians of the Galaxy.' },
+    { name: 'Ultron', role: 'Phản diện', age: '1', description: 'Một trí tuệ nhân tạo tàn ác được tạo ra bởi Tony Stark và Bruce Banner, kẻ muốn xóa sổ nhân loại để lập lại trật tự.' }
+  ]
+};

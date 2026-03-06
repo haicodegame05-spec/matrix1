@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const youjoSenki: FanficWork = {
+  id: 'youjo-senki',
+  title: 'The Saga of Tanya the Evil (Youjo Senki)',
+  description: 'Câu chuyện về một nhân viên văn phòng Nhật Bản hiện đại bị tái sinh thành một cô bé pháp sư trong một thế giới chiến tranh tàn khốc.',
+  country: 'Nhật',
+  plot: 'Một nhân viên văn phòng vô thần, thực dụng bị một thực thể tự xưng là "Thượng đế" (Being X) đẩy vào một thế giới song song đang trong cuộc chiến tranh thế giới thứ nhất. Tái sinh dưới hình hài Tanya Degurechaff - một cô bé mồ côi sở hữu năng khiếu ma pháp vượt trội - cô gia nhập quân đội Đế quốc và trở thành một chỉ huy tàn nhẫn, quyết tâm leo lên đỉnh cao quyền lực để thách thức Being X.',
+  worldSetting: 'Một thế giới song song tương tự Châu Âu đầu thế kỷ 20, nơi ma pháp được sử dụng như một vũ khí quân sự hiện đại kết hợp với súng đạn và máy bay.',
+  characters: [
+    { name: 'Tanya von Degurechaff', role: 'Nhân vật chính', age: '9-13', description: 'Một cô bé nhỏ nhắn với đôi mắt xanh lạnh lùng, thực chất là linh hồn của một nhân viên văn phòng Nhật Bản hiện đại bị tái sinh. Cô là một thiên tài quân sự tàn nhẫn, thực dụng, luôn tìm cách tối ưu hóa hiệu quả chiến đấu để thách thức thực thể Being X.' },
+    { name: 'Viktoriya Ivanovna Serebryakov (Visha)', role: 'Nữ chính / Hỗ trợ', age: '17', description: 'Cấp dưới trung thành và là trợ lý thân cận của Tanya. Cô là một pháp sư bay tài giỏi, người duy nhất có thể chịu đựng được tính cách khắc nghiệt của Tanya và luôn chăm sóc chu đáo cho chỉ huy của mình.' },
+    { name: 'Hans von Zettour', role: 'Lãnh đạo / Chiến lược gia', age: '50+', description: 'Phó giám đốc Cục tác chiến của Đế quốc. Ông là một nhà quân sự thông thái, thực dụng, người đã nhận ra giá trị chiến lược của Tanya và sử dụng cô như một mũi nhọn để thay đổi cục diện cuộc chiến.' },
+    { name: 'Kurt von Rudersdorf', role: 'Lãnh đạo / Chỉ huy', age: '50+', description: 'Giám đốc Cục tác chiến, bạn thân của Zettour. Ông là một vị tướng nóng tính, quyết đoán, luôn ủng hộ các kế hoạch tấn công táo bao và tin tưởng vào sức mạnh quân sự tuyệt đối của Đế quốc.' },
+    { name: 'Erich von Rerugen', role: 'Hỗ trợ / Đối thủ', age: '30+', description: 'Một sĩ quan quân đội luôn cảm thấy kinh hãi trước bản tính tàn nhẫn và sự điên rồ ẩn sau vẻ ngoài trẻ con của Tanya. Anh luôn lo ngại rằng Tanya sẽ trở thành một mối nguy hiểm cho chính Đế quốc.' },
+    { name: 'Matheus Johann Weiss', role: 'Đồng minh / Chỉ huy phó', age: '25+', description: 'Chỉ huy phó của Tiểu đoàn Pháp sư Không quân 203 dưới quyền Tanya. Anh là một sĩ quan mẫu mực, điềm tĩnh và luôn hoàn thành xuất sắc các nhiệm vụ được giao.' },
+    { name: 'Mary Sioux', role: 'Phản diện / Đối thủ', age: '14', description: 'Con gái của Anson Sue, một pháp sư của Liên minh Entente. Cô sở hữu sức mạnh ma pháp khổng lồ được Being X ban cho để tiêu diệt Tanya, người mà cô coi là ác quỷ đã sát hại cha mình.' },
+    { name: 'Anson Sue', role: 'Đối thủ', age: '40+', description: 'Một sĩ quan cao cấp của Liên minh Entente, người đã chiến đấu dũng cảm chống lại sự xâm lược của Đế quốc và là một trong những đối thủ lớn đầu tiên của Tanya trên chiến trường.' },
+    { name: 'Being X', role: 'Thực thể thần bí', age: 'Ancient', description: 'Một thực thể tự xưng là Thượng đế, kẻ đã đẩy linh hồn của nhân viên văn phòng vào thế giới chiến tranh này để bắt anh ta phải thừa nhận đức tin thông qua nỗi khổ cực.' },
+    { name: 'Isaac Dustin Drake', role: 'Đối thủ / Đồng minh', age: '20+', description: 'Một sĩ quan pháp sư của Vương quốc Liên hiệp, người thường xuyên đối đầu với tiểu đoàn của Tanya. Anh là một chiến binh dũng cảm với cái nhìn thực tế về cuộc chiến.' },
+    { name: 'Severin Bientot', role: 'Đối thủ', age: '40+', description: 'Một chỉ huy của Cộng hòa Francois, người đã lãnh đạo các chiến dịch chống lại Đế quốc và là một đối thủ chiến thuật của Tanya.' },
+    { name: 'Pierre Michel de Lugo', role: 'Đối thủ', age: '45+', description: 'Một tướng lĩnh cao cấp của Cộng hòa Francois, người kiên quyết chống lại sự bành trướng của Đế quốc đến cùng.' },
+    { name: 'William Douglas Drake', role: 'Đối thủ', age: '50+', description: 'Chú của Isaac, một sĩ quan cấp cao trong quân đội Vương quốc Liên hiệp, người có tầm nhìn chiến lược sâu rộng.' },
+    { name: 'General von Romel', role: 'Đồng minh', age: '40+', description: 'Một chỉ huy tài ba của Đế quốc tại mặt trận phía Nam, người có phong cách chiến đấu táo bạo và được Tanya nể trọng.' },
+    { name: 'Joseph Dzhugashvili', role: 'Phản diện', age: '50+', description: 'Lãnh đạo tối cao của Liên bang, một kẻ độc tài tàn nhẫn và là mối đe dọa lớn nhất đối với sự tồn vong của Đế quốc.' },
+    { name: 'Loria', role: 'Phản diện', age: '40+', description: 'Người đứng đầu cơ quan an ninh của Liên bang, một kẻ biến thái với nỗi ám ảnh bệnh hoạn dành cho Tanya.' },
+    { name: 'Vooren Grantz', role: 'Đồng minh', age: '20+', description: 'Một thành viên trẻ tuổi của Tiểu đoàn 203, người luôn nỗ lực để theo kịp các tiêu chuẩn khắc nghiệt của Tanya.' },
+    { name: 'Willibald Koenig', role: 'Đồng minh', age: '25+', description: 'Sĩ quan pháp sư thuộc Tiểu đoàn 203, một chiến binh dày dạn kinh nghiệm và cực kỳ đáng tin cậy.' },
+    { name: 'Rainer Neumann', role: 'Đồng minh', age: '25+', description: 'Một thành viên chủ chốt khác của Tiểu đoàn 203, chuyên gia về trinh sát và hỗ trợ hỏa lực.' },
+    { name: 'Tishia Schulze', role: 'Đồng minh', age: '20+', description: 'Nữ pháp sư thuộc Tiểu đoàn 203, người có khả năng phối hợp tác chiến tuyệt vời cùng Visha.' },
+    { name: 'Mikel', role: 'Đối thủ', age: '30+', description: 'Một phi công pháp sư tài năng của Liên bang, người đã nhiều lần sống sót sau các cuộc đụng độ với Tanya.' },
+    { name: 'Andrew', role: 'Hỗ trợ', age: '45+', description: 'Một phóng viên chiến trường của Vương quốc Liên hiệp, người đã ghi lại những khoảnh khắc chân thực nhất về cuộc chiến.' },
+    { name: 'Elya', role: 'Đối thủ', age: '19', description: 'Nữ pháp sư trẻ của Liên bang, người chiến đấu với lòng căm thù sục sôi đối với quân xâm lược Đế quốc.' },
+    { name: 'Kurst von Walldorf', role: 'Hỗ trợ', age: '35+', description: 'Một sĩ quan hậu cần tận tụy của Đế quốc, người đảm bảo tiểu đoàn của Tanya luôn được cung cấp đầy đủ trang thiết bị.' },
+    { name: 'Rhiner', role: 'Đồng minh', age: '24', description: 'Thành viên của Tiểu đoàn 203, nổi tiếng với khả năng chịu đựng và tinh thần chiến đấu bền bỉ.' },
+    { name: 'The Imperial Scientist', role: 'Hỗ trợ', age: '50+', description: 'Nhà khoa học điên rồ đã chế tạo ra lõi ma thuật Type 95, công cụ giúp Tanya thi triển những phép thuật cấp thần.' },
+    { name: 'The Logistics Officer', role: 'Hỗ trợ', age: '40+', description: 'Một sĩ quan hậu cần luôn đau đầu với những yêu cầu trang thiết bị đặc biệt của tiểu đoàn Tanya.' },
+    { name: 'The Enemy Sniper', role: 'Đối thủ', age: '22', description: 'Một tay súng bắn tỉa tài ba của Liên minh Entente, người đã suýt chút nữa lấy mạng Tanya trong một trận phục kích.' },
+    { name: 'The War Orphan', role: 'Nhân vật phụ', age: '7', description: 'Một đứa trẻ mồ côi tại vùng chiến sự, người đã khơi dậy một chút lòng trắc ẩn hiếm hoi trong tâm hồn Tanya.' },
+    { name: 'The Military Police Captain', role: 'Đối thủ / Đồng minh', age: '38', description: 'Chỉ huy hiến binh quân đội, người luôn theo dõi sát sao các hoạt động của Tanya để đảm bảo kỷ luật quân đội.' }
+  ]
+};

@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const riderZiO: FanficWork = {
+  id: 'rider-zi-o',
+  title: 'Kamen Rider Zi-O',
+  description: 'Ma vương thời gian - Tokiwa Sougo chiến đấu để trở thành vị vua tốt bụng nhất, ngăn chặn tương lai đen tối của Ohma Zi-O.',
+  country: 'Nhật',
+  plot: 'Năm 2018, Tokiwa Sougo, một học sinh trung học mơ ước trở thành vua, gặp gỡ Tsukuyomi và Geiz đến từ năm 2068. Họ cảnh báo rằng anh sẽ trở thành Ohma Zi-O - ma vương tàn bạo cai trị thế giới. Sougo quyết định trở thành Kamen Rider Zi-O, thu thập các Ridewatch chứa sức mạnh của các Heisei Rider để thay đổi định mệnh và trở thành một vị vua nhân từ.',
+  worldSetting: 'Thế giới hiện đại nơi thời gian có thể bị thao túng bởi các Time Jacker. Zi-O có khả năng sử dụng sức mạnh của tất cả các Kamen Rider thời Heisei.',
+  characters: [
+    { name: 'Tokiwa Sougo (Kamen Rider Zi-O)', role: 'Nhân vật chính', age: '18', description: 'Một chàng trai lạc quan với ước mơ trở thành vua. Anh chiến đấu để chứng minh mình có thể trở thành một vị vua tốt bụng thay vì ma vương tàn ác.' },
+    { name: 'Myokoin Geiz (Kamen Rider Geiz)', role: 'Đối thủ / Đồng minh', age: '18', description: 'Chiến binh đến từ tương lai với mục tiêu tiêu diệt Sougo trước khi anh trở thành Ohma Zi-O. Sau này anh trở thành người bạn thân thiết nhất của Sougo.' },
+    { name: 'Tsukuyomi (Kamen Rider Tsukuyomi)', role: 'Nữ chính', age: '18', description: 'Cô gái đến từ tương lai để hướng dẫn Sougo. Cô sở hữu sức mạnh ngưng đọng thời gian và sau này cũng trở thành một Rider.' },
+    { name: 'Woz (Black Woz / Kamen Rider Woz)', role: 'Người dẫn dắt / Hỗ trợ', age: 'Unknown', description: 'Kẻ luôn cầm cuốn sách "Ma vương giáng lâm lục" và hô vang "Iwae!" mỗi khi Sougo đạt được sức mạnh mới.' },
+    { name: 'White Woz (Kamen Rider Woz)', role: 'Đối thủ / Hỗ trợ', age: 'Unknown', description: 'Woz đến từ một tương lai khác nơi Geiz tiêu diệt Zi-O. Anh sở hữu cuốn sổ tương lai có thể hiện thực hóa mọi điều viết vào.' },
+    { name: 'Ohma Zi-O', role: 'Phản diện / Tương lai', age: '68', description: 'Hình dạng tương lai tàn bạo của Sougo, người sở hữu sức mạnh tuyệt đối của tất cả các Rider.' },
+    { name: 'Heure', role: 'Phản diện (Time Jacker)', age: 'Unknown', description: 'Thành viên trẻ tuổi của Time Jacker, chuyên tạo ra các Another Rider để thay thế lịch sử.' },
+    { name: 'Ora', role: 'Phản diện (Time Jacker)', age: 'Unknown', description: 'Nữ thành viên quyến rũ của Time Jacker với khả năng ngưng đọng thời gian.' },
+    { name: 'Swwartz', role: 'Phản diện chính (Time Jacker)', age: 'Unknown', description: 'Kẻ cầm đầu Time Jacker, anh trai của Tsukuyomi, kẻ âm mưu cướp đoạt sức mạnh của các Rider để trở thành vua.' },
+    { name: 'Tokiwa Junichiro', role: 'Gia đình / Hỗ trợ', age: '50', description: 'Ông chú của Sougo, chủ tiệm sửa chữa đồng hồ Kujigojido. Ông luôn ủng hộ Sougo và có tài sửa chữa mọi thứ, kể cả Ridewatch.' },
+    { name: 'Kamen Rider Build (Kiryu Sento)', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider đầu tiên trao Ridewatch cho Sougo.' },
+    { name: 'Kamen Rider Ex-Aid (Houjou Emu)', role: 'Tiền bối', age: 'Unknown', description: 'Bác sĩ thiên tài xuất hiện trong hành trình của Zi-O.' },
+    { name: 'Kamen Rider Fourze (Kisaragi Gentaro)', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider của tình bạn xuất hiện dưới dạng Another Fourze.' },
+    { name: 'Kamen Rider OOO (Hino Eiji)', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider lãng tử xuất hiện hỗ trợ Sougo.' },
+    { name: 'Kamen Rider Gaim (Kazuraba Kouta)', role: 'Tiền bối', age: 'Unknown', description: 'Vị thần khởi nguyên xuất hiện để chỉ dẫn cho Sougo.' },
+    { name: 'Kamen Rider Ghost (Tenkuji Takeru)', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider linh hồn xuất hiện trong sự kiện Another Ghost.' },
+    { name: 'Kamen Rider Decade (Kadoya Tsukasa)', role: 'Đồng minh / Đối thủ', age: 'Unknown', description: 'Vị Rider du hành thế giới xuất hiện với vai trò quan trọng trong việc định hình sức mạnh của Zi-O.' },
+    { name: 'Kamen Rider Diend (Kaito Daiki)', role: 'Đối thủ', age: 'Unknown', description: 'Tên trộm kho báu xuất hiện để lấy cắp các Ridewatch.' },
+    { name: 'Kamen Rider Quiz', role: 'Rider tương lai', age: 'Unknown', description: 'Vị Rider đến từ năm 2040.' },
+    { name: 'Kamen Rider Shinobi', role: 'Rider tương lai', age: 'Unknown', description: 'Vị Rider ninja đến từ năm 2022.' },
+    { name: 'Kamen Rider Kikai', role: 'Rider tương lai', age: 'Unknown', description: 'Vị Rider robot đến từ năm 2121.' },
+    { name: 'Another Riders', role: 'Phản diện', age: 'N/A', description: 'Các phiên bản quái vật của các Kamen Rider do Time Jacker tạo ra.' },
+    { name: 'Kamen Rider Aqua', role: 'Tiền bối', age: 'Unknown', description: 'Vị Rider nước xuất hiện hỗ trợ nhóm Sougo.' },
+    { name: 'Kamen Rider Eternal', role: 'Đối thủ (Movie)', age: 'Unknown', description: 'Sức mạnh bóng tối trỗi dậy từ quá khứ.' },
+    { name: 'Kamen Rider Barlckxs', role: 'Phản diện (Movie)', age: 'Unknown', description: 'Kẻ cầm đầu tổ chức Quartzer muốn xóa sổ lịch sử Heisei.' },
+    { name: 'Kamen Rider Zonjis', role: 'Phản diện (Movie)', age: 'Unknown', description: 'Thành viên của tổ chức Quartzer.' },
+    { name: 'Kamen Rider Zamonas', role: 'Phản diện (Movie)', age: 'Unknown', description: 'Thành viên của tổ chức Quartzer.' },
+    { name: 'Kasshin', role: 'Phản diện', age: 'N/A', description: 'Robot chiến đấu trung thành của Ohma Zi-O.' },
+    { name: 'Kamen Rider Geiz Majesty', role: 'Hình dạng tối thượng', age: '18', description: 'Sức mạnh tổng hợp của các Rider phụ dành cho Geiz.' },
+    { name: 'Kamen Rider Tsukuyomi (Future)', role: 'Nữ chính', age: 'Unknown', description: 'Tsukuyomi khi thức tỉnh sức mạnh Rider để ngăn chặn anh trai mình.' },
+    { name: 'Grand Zi-O', role: 'Hình dạng tối thượng', age: '18', description: 'Trạng thái Sougo sử dụng sức mạnh của tất cả 20 Heisei Rider.' }
+  ]
+};

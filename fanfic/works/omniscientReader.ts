@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const omniscientReader: FanficWork = {
+  id: 'omniscient-reader',
+  title: 'Omniscient Reader\'s Viewpoint',
+  description: 'Kim Dokja, người duy nhất biết được kết thúc của thế giới khi tiểu thuyết trở thành hiện thực.',
+  country: 'Hàn',
+  plot: 'Kim Dokja là một nhân viên văn phòng bình thường, người duy nhất đọc hết bộ tiểu thuyết "Ba cách để sống sót trong một thế giới đổ nát". Khi chương cuối cùng được đăng tải, thế giới thực bắt đầu biến đổi theo đúng kịch bản của tiểu thuyết. Với kiến thức về tương lai, Dokja phải tìm cách sống sót và thay đổi kết cục của thế giới.',
+  worldSetting: 'Thế giới bị biến thành một trò chơi sinh tồn do các "Chòm Sao" (Constellations) theo dõi. Con người phải thực hiện các nhiệm vụ (Scenarios) để nhận được phần thưởng và sự bảo hộ từ các Chòm Sao.',
+  characters: [
+    { name: 'Kim Dokja', role: 'Nhân vật chính', description: 'Độc giả duy nhất biết toàn bộ nội dung tiểu thuyết, thông minh, mưu mẹo và luôn hy sinh vì đồng đội.' },
+    { name: 'Yoo Joonghyuk', role: 'Nhân vật chính của tiểu thuyết', description: 'Nhân vật chính của tiểu thuyết gốc, một "Hồi quy giả" mạnh mẽ nhưng lạnh lùng và đầy hoài nghi.' },
+    { name: 'Han Sooyoung', role: 'Hỗ trợ / Tác giả', description: 'Một tác giả tài năng, sắc sảo và là đồng minh quan trọng nhất của Dokja.' },
+    { name: 'Shin Yoosung', role: 'Đồng minh', age: '12', description: 'Đứa trẻ có khả năng thuần hóa quái vật, được Dokja cứu thoát khỏi số phận bi thảm và trở thành một trong những người quan trọng nhất đối với anh.' },
+    { name: 'Lee Gilyoung', role: 'Đồng minh', age: '11', description: 'Cậu bé có khả năng giao tiếp và điều khiển côn trùng, rất bám Dokja và luôn coi anh như người anh trai thực sự.' },
+    { name: 'Lee Jihye', role: 'Đồng minh', age: '17', description: 'Đệ tử của Yoo Joonghyuk, một kiếm sĩ tài năng với khả năng triệu hồi tàu chiến ma quái trên chiến trường.' },
+    { name: 'Uriel', role: 'Chòm Sao', age: '???', description: 'Ác Quỷ Như Ngọn Lửa, một Chòm Sao thuộc phe thiện, là fan cuồng nhiệt của mối quan hệ giữa Dokja và Joonghyuk.' },
+    { name: 'Tề Thiên Đại Thánh', role: 'Chòm Sao', age: '???', description: 'Tù Nhân Của Vòng Kim Cô, một Chòm Sao cực kỳ mạnh mẽ, luôn theo dõi và ủng hộ Dokja bằng những món quà giá trị.' },
+    { name: 'Kẻ Mưu Phản Bí Mật', role: 'Chòm Sao', age: '???', description: 'Một Chòm Sao bí ẩn với sức mạnh không tưởng, luôn quan sát Dokja với một mục đích chưa rõ ràng.' },
+    { name: 'Gong Pildu', role: 'Đồng minh', age: '45+', description: 'Chủ nhân của Pháo Đài Vũ Trang, ban đầu là một kẻ ích kỷ nhưng sau đó đã trở thành lá chắn phòng thủ kiên cố cho nhóm của Dokja.' },
+    { name: 'Persephone', role: 'Chòm Sao', age: '???', description: 'Nữ Hoàng Của Mùa Xuân Đen Tối, người nhận Dokja làm con nuôi và luôn dành cho anh sự ưu ái đặc biệt trong các kịch bản.' },
+    { name: 'Hades', role: 'Chòm Sao', age: '???', description: 'Cha Của Sự Giàu Có, vị vua của Địa Ngục, người sở hữu sức mạnh uy nghiêm và là chỗ dựa vững chắc cho Dokja.' },
+    { name: 'Yoo Sangah', role: 'Hỗ trợ', description: 'Đồng nghiệp của Dokja, thông minh, điềm tĩnh và có khả năng ngôn ngữ xuất sắc.' },
+    { name: 'Jung Heewon', role: 'Hỗ trợ', description: 'Thẩm phán của sự hủy diệt, một chiến binh mạnh mẽ với ý chí bảo vệ công lý.' },
+    { name: 'Lee Hyunsung', role: 'Hỗ trợ', description: 'Cựu quân nhân trung thành, đóng vai trò là lá chắn vững chắc cho nhóm.' },
+    { name: 'Jang Hayoung', role: 'Đồng minh', description: 'Được mệnh danh là "Vua của những người siêu việt", một thiếu niên xinh đẹp với khả năng giao tiếp vạn giới.' },
+    { name: 'Lee Seolhwa', role: 'Đồng minh / Y sĩ', description: 'Một y sĩ tài năng, người đã cứu sống nhiều thành viên trong nhóm và có tình cảm đặc biệt với Yoo Joonghyuk.' },
+    { name: 'Han Myungoh', role: 'Nhân vật phụ', description: 'Cấp trên cũ của Dokja, ban đầu là một kẻ hèn nhát nhưng sau đó đã trải qua nhiều biến cố kỳ lạ.' },
+    { name: 'Anna Croft', role: 'Đối thủ / Đồng minh', description: 'Một nhà tiên tri người Mỹ, người luôn tìm cách thay đổi tương lai theo ý mình và thường xuyên đối đầu với Dokja.' },
+    { name: 'Selena Kim', role: 'Đồng minh', description: 'Một anh hùng người Mỹ mạnh mẽ, người đã cùng Dokja chiến đấu trong các kịch bản quốc tế.' },
+    { name: 'Iris Vladimirovna', role: 'Đối thủ / Đồng minh', description: 'Một anh hùng người Nga với sức mạnh băng giá, ban đầu là đối thủ nhưng sau đó đã nể phục Dokja.' },
+    { name: 'Fei Hu', role: 'Đồng minh', description: 'Một anh hùng người Trung Quốc, người đã cùng Dokja hợp tác trong các nhiệm vụ quan trọng.' },
+    { name: 'Surya', role: 'Chòm Sao', description: 'Thần Mặt Trời tối cao, một Chòm Sao quyền năng luôn quan sát hành trình của Dokja.' },
+    { name: 'Indra', role: 'Chòm Sao', description: 'Vua của các vị thần, một thực thể mạnh mẽ luôn tìm cách thử thách ý chí của Dokja.' },
+    { name: 'Vritra', role: 'Chòm Sao', description: 'Hắc Long của sự hủy diệt, một Chòm Sao tà ác luôn âm mưu tàn phá thế giới.' },
+    { name: 'Michael', role: 'Chòm Sao', description: 'Tổng lãnh thiên thần của sự công lý, người duy trì trật tự trong các kịch bản thiên giới.' },
+    { name: 'Gabriel', role: 'Chòm Sao', description: 'Thiên thần của sự đưa tin, người thường xuyên xuất hiện để thông báo các nhiệm vụ mới.' },
+    { name: 'Raphael', role: 'Chòm Sao', description: 'Thiên thần của sự chữa lành, người đã ban phước cho các y sĩ trong nhóm Dokja.' },
+    { name: 'Metatron', role: 'Chòm Sao', description: 'Người chép sử của thiên giới, một thực thể uyên bác nắm giữ mọi bí mật của vũ trụ.' },
+    { name: 'The Oldest Dream', role: 'Thực thể', description: 'Ý chí tối cao đứng sau toàn bộ kịch bản, mục tiêu cuối cùng mà Dokja phải đối mặt.' }
+  ]
+};

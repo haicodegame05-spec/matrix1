@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tsukiMichi: FanficWork = {
+  id: 'tsuki-michi',
+  title: 'Nguyệt Đạo Dị Giới (Tsukimichi: Moonlit Fantasy)',
+  description: 'Misumi Makoto bị cha mẹ "bán" cho Nữ thần dị giới, nhưng lại bị Nữ thần vứt bỏ vì... quá xấu xí.',
+  country: 'Nhật',
+  plot: 'Misumi Makoto là một học sinh trung học bình thường, nhưng do giao kèo của cha mẹ với Nữ thần, cậu bị đưa đến dị giới. Tuy nhiên, Nữ thần chê cậu xấu xí và ném cậu xuống tận cùng thế giới. Tại đây, Makoto thức tỉnh sức mạnh kinh hồn và bắt đầu xây dựng vương quốc của riêng mình cùng các thuộc hạ là rồng, nhện và các á nhân.',
+  worldSetting: 'Một thế giới nơi Nữ thần cực kỳ thiên vị những người đẹp (Hyuman). Makoto bị coi là quái vật vì ngoại hình "bình thường" của mình. Sức mạnh trong thế giới này dựa trên Mana và các giao ước với tinh linh hoặc các thực thể mạnh mẽ.',
+  characters: [
+    { name: 'Misumi Makoto', role: 'Nhân vật chính', age: '17', description: 'Sở hữu lượng Mana khổng lồ vượt xa cả Nữ thần. Tính tình hiền lành nhưng cực kỳ quyết đoán và tàn nhẫn khi cần thiết.' },
+    { name: 'Tomoe', role: 'Thuộc hạ / Nữ chính', age: '1000+', description: 'Vốn là Thượng Long Shin, sau khi lập khế ước với Makoto trở thành một mỹ nhân tóc xanh. Nghiện phim samurai và văn hóa Nhật Bản.' },
+    { name: 'Mio', role: 'Thuộc hạ / Nữ chính', age: '???', description: 'Vốn là thảm họa "Nhện đen tai ương", sau khi lập khế ước trở thành mỹ nhân tóc đen. Cực kỳ ham ăn và yêu Makoto điên cuồng.' },
+    { name: 'Shiki', role: 'Thuộc hạ', age: '???', description: 'Vốn là một Lich, sau khi lập khế ước trở thành một quản gia lịch lãm. Chuyên gia về ma pháp và nghiên cứu.' },
+    { name: 'Tamaki', role: 'Thuộc hạ', age: '???', description: 'Người hầu thứ tư của Makoto, một thực thể bí ẩn với sức mạnh đáng sợ và lòng trung thành tuyệt đối.' },
+    { name: 'Emma', role: 'Đồng minh', age: '20+', description: 'Con gái tộc trưởng tộc Heo vùng cao, người đầu tiên Makoto cứu và là quản lý hành chính của vương quốc Asora.' },
+    { name: 'Beren', role: 'Đồng minh', age: '100+', description: 'Thợ rèn tài giỏi thuộc tộc Elder Dwarf, người chế tạo trang bị cho quân đội của Makoto.' },
+    { name: 'Nữ Thần', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Vị thần cai trị thế giới, cực kỳ nông cạn và thiên vị cái đẹp. Kẻ thù gián tiếp của Makoto.' },
+    { name: 'Tsukuyomi', role: 'Người dẫn dắt', age: 'Vĩnh cửu', description: 'Nguyệt Thần của Nhật Bản, người đã ban phúc lành cho Makoto trước khi cậu bị Nữ Thần vứt bỏ.' },
+    { name: 'Hibiki Senpai', role: 'Anh hùng', age: '18', description: 'Một trong hai anh hùng được Nữ Thần triệu hồi, đàn chị cùng trường của Makoto. Có lý tưởng cao đẹp nhưng đôi khi quá ngây thơ.' },
+    { name: 'Tomoki', role: 'Anh hùng', age: '16', description: 'Anh hùng thứ hai, sở hữu đôi mắt mê hoặc. Tính cách kiêu ngạo, ích kỷ và coi thường người khác.' },
+    { name: 'Sofia Bulga', role: 'Đối thủ', age: '20+', description: 'Sát long nhân mạnh nhất thế giới, kẻ thù truyền kiếp của các loài rồng và từng đối đầu sinh tử với Makoto.' },
+    { name: 'Lancer (Mitsurugi)', role: 'Đối thủ', age: '???', description: 'Thượng Long cộng sự của Sofia, sở hữu sức mạnh kiếm thuật và ma pháp đáng gờm.' },
+    { name: 'Root', role: 'Nhân vật quan trọng', age: '10000+', description: 'Vua của các loài rồng, người sáng lập hệ thống Guild mạo hiểm giả. Có tính cách biến thái và rất quan tâm đến Makoto.' },
+    { name: 'Rona', role: 'Đối thủ / Đồng minh', age: '???', description: 'Một trong bốn tướng quân của Ma Vương quân, chuyên gia về tình báo và thâm nhập.' },
+    { name: 'Zef', role: 'Ma Vương', age: '???', description: 'Lãnh đạo của Ma tộc, một nhà cầm quân tài ba đang dẫn dắt Ma tộc chống lại sự áp bức của Nữ Thần.' },
+    { name: 'Eris', role: 'Hỗ trợ', age: '???', description: 'Một trong hai chị em Forest Oni phục vụ Makoto, tính cách lười biếng nhưng chiến đấu rất cừ.' },
+    { name: 'Akua', role: 'Hỗ trợ', age: '???', description: 'Chị em của Eris, nghiêm túc và tận tụy hơn, luôn lo lắng cho công việc của vương quốc.' },
+    { name: 'Lime Latte', role: 'Đồng minh', age: '25+', description: 'Cựu mạo hiểm giả cấp cao, sau này trở thành điệp viên trung thành của công ty Kuzunoha do Makoto điều hành.' },
+    { name: 'Mondo', role: 'Đồng minh', age: '???', description: 'Tộc trưởng tộc Forest Oni, một chiến binh mạnh mẽ bảo vệ biên giới vương quốc Asora.' },
+    { name: 'Patrick Rembrandt', role: 'Đồng minh', age: '40+', description: 'Một thương nhân giàu có và quyền lực tại thành phố Tsige, đối tác kinh doanh quan trọng của Makoto.' },
+    { name: 'Morris', role: 'Hỗ trợ', age: '50+', description: 'Quản gia trung thành của gia đình Rembrandt, người hỗ trợ đắc lực cho Makoto trong các công việc tại Tsige.' },
+    { name: 'Sif Rembrandt', role: 'Học trò', age: '16', description: 'Con gái lớn của Rembrandt, một pháp sư tài năng và là học trò của Makoto tại học viện Rotsgard.' },
+    { name: 'Yuno Rembrandt', role: 'Học trò', age: '14', description: 'Con gái út của Rembrandt, năng động và luôn ngưỡng mộ sức mạnh của Makoto.' },
+    { name: 'Jin Rohan', role: 'Học trò', age: '17', description: 'Một học sinh nghèo nhưng nỗ lực, được Makoto chỉ dạy và trở thành một chiến binh mạnh mẽ.' },
+    { name: 'Amelia Hopless', role: 'Học trò', age: '17', description: 'Một tiểu thư quý tộc sa sút, học trò của Makoto với thiên phú về ma pháp phong ấn.' },
+    { name: 'Misura Kasura', role: 'Học trò', age: '18', description: 'Học sinh to lớn với khả năng phòng thủ tuyệt vời, luôn bảo vệ bạn bè trong nhóm học trò của Makoto.' },
+    { name: 'Daena Severus', role: 'Học trò', age: '17', description: 'Học sinh chuyên về tốc độ và ám sát, được Makoto huấn luyện các kỹ thuật chiến đấu thực dụng.' },
+    { name: 'Izumo Ikusa', role: 'Học trò', age: '16', description: 'Một thiên tài về ma pháp trận, người luôn tìm cách tối ưu hóa các phép thuật dưới sự hướng dẫn của Makoto.' },
+    { name: 'Abeno Haruka', role: 'Học trò', age: '17', description: 'Nữ học sinh bí ẩn với khả năng cảm nhận Mana nhạy bén, một trong những học trò ưu tú nhất của Makoto.' }
+  ]
+};

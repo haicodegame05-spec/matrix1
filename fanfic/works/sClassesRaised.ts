@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const sClassesRaised: FanficWork = {
+  id: 's-classes-raised',
+  title: 'Những Hạng S Tôi Đã Nuôi Dưỡng (The S-Classes That I Raised)',
+  description: 'Han Yu-jin, một người thức tỉnh hạng F, quay ngược thời gian để bảo vệ em trai mình và vô tình trở thành "người nuôi dưỡng" các hạng S.',
+  country: 'Hàn',
+  plot: 'Han Yu-jin luôn cảm thấy tội lỗi vì đã kéo lùi người em trai thiên tài hạng S của mình. Sau khi em trai hy sinh để cứu anh, Yu-jin nhận được cơ hội quay lại quá khứ. Với kỹ năng "Người nuôi dưỡng hoàn hảo", anh quyết tâm sống một cuộc đời bình lặng và hỗ trợ em trai, nhưng cuối cùng lại thu phục được hàng loạt những kẻ mạnh nhất thế giới về dưới trướng.',
+  worldSetting: 'Thế giới hiện đại nơi các hầm ngục và người thức tỉnh tồn tại. Hệ thống xếp hạng từ F đến S dựa trên sức mạnh và kỹ năng.',
+  characters: [
+    { name: 'Han Yu-jin', role: 'Nhân vật chính', description: 'Hạng F nhưng sở hữu kỹ năng hỗ trợ bá đạo, cực kỳ yêu thương em trai và có khả năng "thuần hóa" những hạng S khó tính nhất.' },
+    { name: 'Han Yu-hyun', role: 'Anh em / Đồng minh', description: 'Em trai của Yu-jin, một hạng S hệ Hỏa cực mạnh, luôn bảo vệ anh trai mình một cách thái quá.' },
+    { name: 'Sung Hyun-jae', role: 'Đồng minh / Đối thủ', description: 'Hội trưởng hội Seseong, người mạnh nhất Hàn Quốc, luôn quan tâm và tìm cách trêu chọc Yu-jin.' },
+    { name: 'Park Ye-rim', role: 'Đồng minh', description: 'Một cô gái trẻ được Yu-jin nuôi dưỡng thành hạng S hệ Băng, coi anh như người thân duy nhất.' },
+    { name: 'Peace', role: 'Bạn đồng hành', description: 'Một con quái vật cấp S được Yu-jin nuôi dưỡng từ nhỏ, cực kỳ trung thành và mạnh mẽ.' },
+    { name: 'Moon Hyun-ah', role: 'Đồng minh', description: 'Hội trưởng hội Breaker, một hạng S mạnh mẽ và phóng khoáng, là đồng minh tin cậy của Yu-jin.' },
+    { name: 'Noah Luivire', role: 'Đồng minh', description: 'Một hạng S hệ Rồng, ban đầu bị ám ảnh bởi chị gái nhưng sau đó được Yu-jin "thuần hóa".' },
+    { name: 'Riette Luivire', role: 'Đồng minh', description: 'Chị gái của Noah, một hạng S cực kỳ hiếu chiến và điên rồ, luôn tìm kiếm sự kích thích.' },
+    { name: 'Kim Sung-han', role: 'Đồng minh', description: 'Một hạng A được Yu-jin nâng cấp lên hạng S, là vệ sĩ trung thành nhất của anh.' },
+    { name: 'Myeong-woo', role: 'Đồng minh', description: 'Một người thức tỉnh hạng F được Yu-jin giúp đỡ trở thành thợ rèn thần thoại cấp S.' },
+    { name: 'Chirpie', role: 'Bạn đồng hành', description: 'Một con chim quái vật nhỏ bé nhưng sở hữu kỹ năng đặc biệt, là thú cưng đáng yêu của Yu-jin.' },
+    { name: 'Kang So-young', role: 'Đồng minh', description: 'Thành viên của hội Breaker, một hạng A tài năng và là người đam mê rồng cuồng nhiệt.' },
+    { name: 'Blue', role: 'Bạn đồng hành', description: 'Một con Griffin cấp S được Yu-jin nuôi dưỡng, sở hữu tốc độ bay cực nhanh và khả năng chiến đấu trên không.' },
+    { name: 'Velver', role: 'Bạn đồng hành', description: 'Một con rồng nhỏ được Yu-jin chăm sóc, có khả năng phun lửa và hỗ trợ nhóm trong các trận chiến.' },
+    { name: 'Comet', role: 'Bạn đồng hành', description: 'Một con rồng hệ lôi mạnh mẽ, người bạn đồng hành trung thành của Kang So-young.' },
+    { name: 'Blackie', role: 'Bạn đồng hành', description: 'Một con rồng hệ bóng tối bí ẩn, có khả năng ẩn mình và tấn công bất ngờ.' },
+    { name: 'Whitey', role: 'Bạn đồng hành', description: 'Một con rồng hệ ánh sáng, sở hữu kỹ năng hồi phục và bảo vệ đồng đội.' },
+    { name: 'Greenie', role: 'Bạn đồng hành', description: 'Một con rồng hệ mộc, có khả năng điều khiển thực vật và tạo ra các rào chắn tự nhiên.' },
+    { name: 'Goldie', role: 'Bạn đồng hành', description: 'Một con rồng hệ kim loại, sở hữu lớp vảy cứng cáp và sức mạnh vật lý lớn.' },
+    { name: 'Silverie', role: 'Bạn đồng hành', description: 'Một con rồng hệ băng, có khả năng đóng băng kẻ thù và tạo ra các cơn bão tuyết.' },
+    { name: 'Pinkie', role: 'Bạn đồng hành', description: 'Một con rồng hệ ảo ảnh, có khả năng tạo ra các hình ảnh giả để đánh lừa kẻ thù.' },
+    { name: 'Purpley', role: 'Bạn đồng hành', description: 'Một con rồng hệ độc, sở hữu hơi thở mang độc tố mạnh mẽ.' },
+    { name: 'Orangey', role: 'Bạn đồng hành', description: 'Một con rồng hệ đất, có khả năng gây ra các trận động đất và điều khiển đá.' },
+    { name: 'Browny', role: 'Bạn đồng hành', description: 'Một con rồng hệ gió, sở hữu tốc độ bay và khả năng tạo ra các cơn lốc xoáy.' },
+    { name: 'Grayie', role: 'Bạn đồng hành', description: 'Một con rồng hệ sương mù, có khả năng tạo ra các màn sương dày đặc để che mắt kẻ thù.' },
+    { name: 'Darkie', role: 'Bạn đồng hành', description: 'Một con rồng hệ trọng lực, có khả năng điều khiển trọng lực xung quanh mục tiêu.' },
+    { name: 'Lightie', role: 'Bạn đồng hành', description: 'Một con rồng hệ âm thanh, sở hữu tiếng gầm có sức công phá lớn.' },
+    { name: 'Rainbowy', role: 'Bạn đồng hành', description: 'Một con rồng đa hệ hiếm có, sở hữu sức mạnh tổng hợp của nhiều nguyên tố.' },
+    { name: 'Sparky', role: 'Bạn đồng hành', description: 'Một con rồng hệ điện, có khả năng phóng ra các tia sét mạnh mẽ.' },
+    { name: 'Frosty', role: 'Bạn đồng hành', description: 'Một con rồng hệ sương giá, có khả năng làm giảm nhiệt độ môi trường xung quanh.' }
+  ]
+};

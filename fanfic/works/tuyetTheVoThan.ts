@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tuyetTheVoThan: FanficWork = {
+  id: 'tuyet-the-vo-than',
+  title: 'Tuyệt Thế Võ Thần',
+  description: 'Lâm Phong, một sinh viên hiện đại xuyên không về thế giới võ đạo, dùng ý chí bất khuất để chinh phục đỉnh cao.',
+  country: 'Trung',
+  plot: 'Lâm Phong xuyên không vào thân xác một đệ tử ngoại môn bị coi thường của Vân Hải Tông. Với linh hồn mạnh mẽ và sự giúp đỡ của Cửu Long Linh Nhi, anh bắt đầu hành trình tu luyện đầy gian nan, vượt qua sự khinh miệt của kẻ mạnh và dần trở thành vị thần thống trị cả vũ trụ.',
+  worldSetting: 'Thế giới Cửu Tiêu Đại Lục nơi võ hồn quyết định thiên phú. Hệ thống tu luyện: Khí Vũ Cảnh, Linh Vũ Cảnh, Huyền Vũ Cảnh, Thiên Vũ Cảnh, Tôn Vũ Cảnh, Vũ Hoàng, Vũ Thánh, Vũ Đế, Thần Cảnh.',
+  characters: [
+    { name: 'Lâm Phong', role: 'Nhân vật chính', description: 'Quyết đoán, sát phạt, sở hữu song sinh võ hồn và ý chí chiến đấu cực kỳ mãnh liệt.' },
+    { name: 'Mộng Tình', role: 'Nữ chính', description: 'Nữ tử thần bí xinh đẹp tuyệt trần, luôn ở bên cạnh bảo vệ và ủng hộ Lâm Phong từ những ngày đầu.' },
+    { name: 'Đường U U', role: 'Nữ chính', description: 'Thiên tài của Long Sơn Đế Quốc, có tính cách mạnh mẽ và là một trong những người vợ của Lâm Phong.' },
+    { name: 'Thu Nguyệt Tâm', role: 'Nữ chính', description: 'Sở hữu bát hoang thể chất, có mối quan hệ sâu đậm và cùng Lâm Phong trải qua nhiều sinh tử.' },
+    { name: 'Đại Lực Thần Ma', role: 'Đồng minh', description: 'Một chiến binh mạnh mẽ, người anh em trung thành luôn sát cánh cùng Lâm Phong trong các trận chiến.' },
+    { name: 'Cửu Long Linh Nhi', role: 'Hỗ trợ', description: 'Linh hồn cư ngụ trong võ hồn của Lâm Phong, dẫn dắt và hỗ trợ anh trong quá trình tu luyện.' },
+    { name: 'Lâm Hải', role: 'Cha', description: 'Cha của Lâm Phong, một người cha nghiêm khắc nhưng luôn yêu thương và bảo vệ con trai.' },
+    { name: 'Vân Phi Dương', role: 'Đồng minh', description: 'Một thiên tài kiếm đạo, người bạn và cũng là đối thủ xứng tầm của Lâm Phong.' },
+    { name: 'Thanh Phượng', role: 'Đồng minh', description: 'Một yêu thú mạnh mẽ hóa hình người, trung thành tuyệt đối với Lâm Phong.' },
+    { name: 'Hầu Thanh Lâm', role: 'Đồng minh', description: 'Nhị sư huynh của Lâm Phong, người đã dạy anh nhiều về đạo nghĩa và kiếm thuật.' },
+    { name: 'Thiên Si', role: 'Đồng minh', description: 'Đại sư huynh của Lâm Phong, một người trầm mặc nhưng sở hữu sức mạnh kinh người.' },
+    { name: 'Nhược Hi', role: 'Nữ chính', description: 'Em gái của Lâm Phong, xinh đẹp, dịu dàng và luôn là nguồn động lực để anh phấn đấu.' },
+    { name: 'Tuyết Bích', role: 'Nữ chính', description: 'Một nữ tử tài năng, người đã cùng Lâm Phong trải qua nhiều biến cố và có tình cảm sâu đậm.' },
+    { name: 'Lâm Hải\'s Wife', role: 'Gia đình', description: 'Mẹ của Lâm Phong, người phụ nữ hiền hậu luôn mong mỏi sự bình an cho gia đình.' },
+    { name: 'Vũ Thần', role: 'Phản diện', description: 'Một trong những thực thể mạnh nhất Cửu Tiêu, kẻ luôn âm mưu thống trị toàn bộ đại lục.' },
+    { name: 'Ma Thần', role: 'Phản diện', description: 'Kẻ đứng đầu ma tộc, đối thủ truyền kiếp của nhân loại và là kẻ thù lớn nhất của Lâm Phong.' },
+    { name: 'Yêu Thần', role: 'Phản diện / Đồng minh', description: 'Vị vua của yêu tộc, người có mối quan hệ phức tạp và đầy duyên nợ với Lâm Phong.' },
+    { name: 'Thần Vương', role: 'Lãnh đạo', description: 'Người duy trì trật tự của Thần Giới, một vị đại năng sở hữu sức mạnh vô biên.' },
+    { name: 'Thần Đế', role: 'Lãnh đạo', description: 'Vị hoàng đế tối cao của các thần linh, người giám sát hành trình tu luyện của Lâm Phong.' },
+    { name: 'Thần Thánh', role: 'Hỗ trợ', description: 'Một vị tiền bối uyên bác, người đã truyền thụ nhiều bí kíp võ đạo cho Lâm Phong.' },
+    { name: 'Thần Tiên', role: 'Hỗ trợ', description: 'Nữ thần của sự thanh cao, người đã giúp Lâm Phong thanh lọc tâm hồn và nâng cao cảnh giới.' },
+    { name: 'Thần Ma Tướng', role: 'Phản diện', description: 'Vị tướng quân mạnh nhất dưới trướng Ma Thần, chuyên dẫn quân xâm lược các tông môn.' },
+    { name: 'Thần Yêu Tướng', role: 'Phản diện', description: 'Vị tướng quân mạnh nhất của yêu tộc, kẻ sở hữu sức mạnh vật lý đáng sợ.' },
+    { name: 'Thần Nhân', role: 'Hỗ trợ', description: 'Một vị tiền bối của nhân loại, người luôn âm thầm bảo vệ Lâm Phong khỏi những âm mưu tà ác.' },
+    { name: 'Thần Linh', role: 'Thực thể', description: 'Ý chí của vũ trụ, người luôn thử thách lòng dũng cảm và trí tuệ của Lâm Phong.' },
+    { name: 'Thần Khí Linh', role: 'Hỗ trợ', description: 'Linh hồn của các thần khí cổ xưa, người dẫn dắt Lâm Phong thấu hiểu sức mạnh của vũ khí.' },
+    { name: 'Thần Pháp Sư', role: 'Hỗ trợ', description: 'Bậc thầy về ma pháp cổ xưa, người giúp Lâm Phong nâng cao khả năng tác chiến diện rộng.' },
+    { name: 'Thần Trận Sư', role: 'Hỗ trợ', description: 'Chuyên gia về trận pháp, người giúp Lâm Phong giải mã các cấm chế cổ xưa.' },
+    { name: 'Thần Đan Sư', role: 'Hỗ trợ', description: 'Bậc thầy về luyện dược, người cung cấp những linh đan diệu dược cho hành trình của Lâm Phong.' },
+    { name: 'Thần Khí Sư', role: 'Hỗ trợ', description: 'Bậc thầy về rèn đúc thần khí, người giúp Lâm Phong nâng cấp trang bị lên tầm cao mới.' }
+  ]
+};

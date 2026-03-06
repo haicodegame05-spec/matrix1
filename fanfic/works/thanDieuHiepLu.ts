@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const thanDieuHiepLu: FanficWork = {
+  id: 'than-dieu-hiep-lu',
+  title: 'Thần Điêu Hiệp Lữ',
+  description: 'Dương Quá, một thiếu niên bất hạnh, gặp gỡ Tiểu Long Nữ và cùng nhau tạo nên một thiên tình sử đầy trắc trở.',
+  country: 'Trung',
+  plot: 'Dương Quá là con trai của Dương Khang, được Quách Tĩnh đưa lên Toàn Chân Giáo nhưng bị ngược đãi. Anh trốn vào Cổ Mộ và được Tiểu Long Nữ nhận làm đệ tử. Cả hai nảy sinh tình cảm nhưng bị giang hồ phản đối vì quan hệ sư đồ. Cuộc đời họ là chuỗi bi kịch chia ly suốt 16 năm, cuối cùng cùng nhau đánh bại quân Mông Cổ bảo vệ Tương Dương.',
+  worldSetting: 'Thế giới võ hiệp Kim Dung, bối cảnh cuối thời Nam Tống khi quân Mông Cổ xâm lược. Võ công chia thành các môn phái và các đại cao thủ (Thiên Hạ Ngũ Tuyệt mới).',
+  characters: [
+    { name: 'Dương Quá', role: 'Nhân vật chính', age: '20+', description: 'Thần Điêu Đại Hiệp, thông minh, phóng khoáng, chung thủy. Sử dụng Huyền Thiết Trọng Kiếm và Ám Nhiên Tiêu Hồn Chưởng.' },
+    { name: 'Tiểu Long Nữ', role: 'Nữ chính', age: '20+', description: 'Sư phụ của Dương Quá, vẻ đẹp thanh cao thoát tục, tính tình lạnh lùng nhưng hết lòng yêu Dương Quá. Sử dụng Ngọc Nữ Tâm Kinh.' },
+    { name: 'Quách Tĩnh', role: 'Hỗ trợ', age: '40+', description: 'Bắc Hiệp, người bảo vệ Tương Dương, coi Dương Quá như con đẻ nhưng nghiêm khắc.' },
+    { name: 'Hoàng Dung', role: 'Hỗ trợ', age: '40+', description: 'Bang chủ Cái Bang, thông minh sắc sảo, luôn lo lắng cho gia đình và Tương Dương.' },
+    { name: 'Lý Mạc Sầu', role: 'Phản diện', age: '30+', description: 'Xích Luyện Tiên Tử, sư tỷ của Tiểu Long Nữ, độc ác, tàn nhẫn vì hận tình.' },
+    { name: 'Kim Luân Pháp Vương', role: 'Phản diện', age: '50+', description: 'Đệ nhất cao thủ Mông Cổ, sử dụng Ngũ Luân, là đối thủ lớn nhất của Dương Quá.' },
+    { name: 'Quách Phù', role: 'Đối thủ / Nữ chính', age: '20+', description: 'Con gái lớn của Quách Tĩnh, tính tình kiêu ngạo, là người đã chặt đứt cánh tay của Dương Quá.' },
+    { name: 'Quách Tương', role: 'Nữ chính', age: '16+', description: 'Con gái út của Quách Tĩnh, tính tình phóng khoáng, thầm yêu Dương Quá và sau này sáng lập phái Nga Mi.' },
+    { name: 'Lục Vô Song', role: 'Hỗ trợ', age: '18+', description: 'Đệ tử của Lý Mạc Sầu, thầm yêu Dương Quá và luôn giúp đỡ anh.' },
+    { name: 'Trình Anh', role: 'Hỗ trợ', age: '18+', description: 'Đệ tử của Hoàng Dược Sư, dịu dàng, thông minh, thầm yêu Dương Quá.' },
+    { name: 'Hoàng Dược Sư', role: 'Huyền thoại', age: '60+', description: 'Đông Tà, đảo chủ Đảo Đào Hoa, tính tình quái dị, võ công tuyệt thế, là ông ngoại của Quách Tương.' },
+    { name: 'Âu Dương Phong', role: 'Huyền thoại', age: '60+', description: 'Tây Độc, nghĩa phụ của Dương Quá, bị điên nhưng võ công cực cao với Linh Xà Quyền và Hàm Mô Công.' },
+    { name: 'Nhất Đăng Đại Sư', role: 'Huyền thoại', age: '70+', description: 'Nam Đế, hoàng đế Đại Lý đi tu, võ công Nhất Dương Chỉ lừng lẫy thiên hạ.' },
+    { name: 'Hồng Thất Công', role: 'Huyền thoại', age: '70+', description: 'Bắc Cái, cựu bang chủ Cái Bang, truyền nhân của Đả Cẩu Bổng Pháp và Hàng Long Thập Bát Chưởng.' },
+    { name: 'Chu Bá Thông', role: 'Huyền thoại', age: '60+', description: 'Lão Ngoan Đồng, tính tình trẻ con, võ công tuyệt đỉnh với Không Minh Quyền và Song Thủ Hổ Bác.' },
+    { name: 'Công Tôn Chỉ', role: 'Phản diện', age: '40+', description: 'Cốc chủ Tuyệt Tình Cốc, võ công cao cường nhưng tâm địa độc ác, âm mưu chiếm đoạt Tiểu Long Nữ.' },
+    { name: 'Cầu Thiên Xích', role: 'Phản diện', age: '40+', description: 'Vợ của Công Tôn Chỉ, bị chồng hãm hại nhưng sống sót, sở hữu tuyệt kỹ phun hạt táo cực kỳ lợi hại.' },
+    { name: 'Công Tôn Lục Ngạn', role: 'Đồng minh', age: '18+', description: 'Con gái của Công Tôn Chỉ, hiền lành, nhân hậu, đã hy sinh mạng sống để giúp đỡ Dương Quá.' },
+    { name: 'Doãn Chí Bình', role: 'Nhân vật quan trọng', age: '25+', description: 'Đệ tử Toàn Chân Giáo, người đã có hành vi sai trái với Tiểu Long Nữ và luôn sống trong dằn vặt.' },
+    { name: 'Triệu Chí Kính', role: 'Phản diện', age: '30+', description: 'Đệ tử Toàn Chân Giáo, tính tình hẹp hòi, đố kỵ, thường xuyên hãm hại Dương Quá.' },
+    { name: 'Hoắc Đô', role: 'Phản diện', age: '25+', description: 'Vương tử Mông Cổ, đệ tử của Kim Luân Pháp Vương, xảo quyệt và tàn nhẫn.' },
+    { name: 'Đạt Nhĩ Ba', role: 'Đối thủ', age: '30+', description: 'Đệ tử lớn của Kim Luân Pháp Vương, sức mạnh vô song nhưng tính tình thật thà, chất phác.' },
+    { name: 'Gia Luật Tề', role: 'Đồng minh', age: '25+', description: 'Chồng của Quách Phù, bang chủ Cái Bang đời tiếp theo, chính trực và tài giỏi.' },
+    { name: 'Võ Đôn Nho', role: 'Hỗ trợ', age: '22+', description: 'Đệ tử của Quách Tĩnh, anh cả nhà họ Võ, tính tình điềm tĩnh hơn em trai.' },
+    { name: 'Võ Tu Văn', role: 'Hỗ trợ', age: '20+', description: 'Đệ tử của Quách Tĩnh, em trai của Võ Đôn Nho, nóng nảy và bộc trực.' },
+    { name: 'Khưu Xứ Cơ', role: 'Nhân vật quan trọng', age: '60+', description: 'Trường Xuân Tử, đệ tử của Vương Trùng Dương, người có mối liên hệ mật thiết với gia đình Dương Quá.' },
+    { name: 'Thần Điêu', role: 'Bạn đồng hành', age: 'Unknown', description: 'Chú chim điêu khổng lồ, người bạn và cũng là người thầy dạy võ công cho Dương Quá tại hang động của Độc Cô Cầu Bại.' },
+    { name: 'Lâm Triều Anh', role: 'Huyền thoại', age: 'Đã mất', description: 'Người sáng lập phái Cổ Mộ, tình nhân của Vương Trùng Dương, để lại Ngọc Nữ Tâm Kinh.' },
+    { name: 'Vương Trùng Dương', role: 'Huyền thoại', age: 'Đã mất', description: 'Người sáng lập Toàn Chân Giáo, đệ nhất cao thủ tại Hoa Sơn Luận Kiếm lần thứ nhất.' },
+    { name: 'Mông Ca', role: 'Lãnh đạo', age: '40+', description: 'Đại hãn Mông Cổ, người trực tiếp chỉ huy cuộc tấn công vào thành Tương Dương.' }
+  ]
+};

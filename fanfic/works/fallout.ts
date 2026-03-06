@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const fallout: FanficWork = {
+  id: 'fallout',
+  title: 'Fallout',
+  description: 'Sinh tồn trong thế giới hậu tận thế sau cuộc chiến tranh hạt nhân.',
+  country: 'Khác',
+  plot: 'Năm 2077, một cuộc chiến tranh hạt nhân toàn cầu đã biến thế giới thành một vùng đất hoang tàn. Hàng trăm năm sau, những người sống sót bước ra từ các hầm trú ẩn để đối mặt với một thế giới đầy rẫy quái vật đột biến, các băng đảng cướp bóc và những tổ chức quân sự đang tranh giành quyền lực.',
+  worldSetting: 'Thế giới mang phong cách Atompunk của những năm 1950 nhưng ở tương lai. Bức xạ hạt nhân đã tạo ra các sinh vật như thây ma phóng xạ, siêu đột biến và quái vật Deathclaw. Nước sạch và đạn dược là những tài nguyên quý giá nhất.',
+  characters: [
+    { name: 'Người cư ngụ trong hầm trú ẩn (The Vault Dweller)', role: 'Nhân vật chính', age: '25', description: 'Người bước ra từ hầm trú ẩn để cứu cộng đồng của mình, biểu tượng của sự hy sinh, lòng dũng cảm và khả năng sinh tồn phi thường.' },
+    { name: 'Dogmeat', role: 'Bạn đồng hành', age: '5', description: 'Chú chó trung thành luôn đồng hành cùng người chơi qua mọi vùng đất hoang, có khả năng đánh hơi và hỗ trợ chiến đấu xuất sắc.' },
+    { name: 'Nick Valentine', role: 'Bạn đồng hành', age: '200+', description: 'Một thám tử tư là người máy sinh học (Synth) với ký ức của một cảnh sát thời tiền chiến, thông minh, chính trực và đầy lòng trắc ẩn.' },
+    { name: 'Paladin Danse', role: 'Đồng minh / Bạn đồng hành', age: '35', description: 'Thành viên cấp cao của Brotherhood of Steel, một chiến binh dũng cảm trong bộ giáp năng lượng, luôn tuân thủ kỷ luật và lý tưởng của tổ chức.' },
+    { name: 'Piper Wright', role: 'Bạn đồng hành', age: '28', description: 'Nữ phóng viên nhiệt huyết tại Diamond City, luôn tìm kiếm sự thật và đấu tranh cho quyền lợi của người dân vùng đất hoang.' },
+    { name: 'Preston Garvey', role: 'Đồng minh', age: '30', description: 'Thủ lĩnh của Minutemen, người luôn mong muốn xây dựng lại cộng đồng, giúp đỡ mọi người và bảo vệ những kẻ yếu thế.' },
+    { name: 'John Hancock', role: 'Bạn đồng hành', age: '40', description: 'Thị trưởng của Goodneighbor, một Ghoul với phong cách lãng tử, tinh thần tự do và luôn bảo vệ những kẻ bị xã hội ruồng bỏ.' },
+    { name: 'Cait', role: 'Bạn đồng hành', age: '26', description: 'Một đấu sĩ mạnh mẽ với quá khứ đau thương, tính cách gai góc nhưng dần mở lòng khi đồng hành cùng nhân vật chính.' },
+    { name: 'MacCready', role: 'Bạn đồng hành', age: '28', description: 'Một tay súng bắn tỉa đánh thuê, cựu thị trưởng của Little Lamplight, đang tìm cách cứu chữa cho con trai mình.' },
+    { name: 'Deacon', role: 'Bạn đồng hành', age: '35', description: 'Thành viên của tổ chức bí ẩn The Railroad, bậc thầy về cải trang và thu thập thông tin tình báo.' },
+    { name: 'Codsworth', role: 'Bạn đồng hành', age: '210', description: 'Robot quản gia trung thành của nhân vật chính từ trước cuộc chiến, luôn giữ thái độ lịch sự và lạc quan dù thế giới đã sụp đổ.' },
+    { name: 'Strong', role: 'Bạn đồng hành', age: 'Unknown', description: 'Một siêu đột biến (Super Mutant) đang tìm kiếm "sữa của lòng nhân ái", sở hữu sức mạnh thể chất kinh khủng và tính cách bộc trực.' },
+    { name: 'Curie', role: 'Bạn đồng hành', age: '200+', description: 'Một robot y tế (Miss Nanny) với trí tuệ nhân tạo tiên tiến, sau này có thể chuyển ý thức vào một cơ thể Synth để khám phá cảm xúc con người.' },
+    { name: 'X6-88', role: 'Bạn đồng hành', age: 'Unknown', description: 'Một thợ săn (Courser) của tổ chức The Institute, lạnh lùng, hiệu quả và tuyệt đối trung thành với mục tiêu của tổ chức.' },
+    { name: 'Robert House (Mr. House)', role: 'Lãnh đạo / Phản diện', age: '260', description: 'Người sáng lập tập đoàn RobCo và là người cai trị New Vegas, một thiên tài công nghệ duy trì sự sống qua hệ thống máy tính.' },
+    { name: 'Elder Maxson', role: 'Lãnh đạo', age: '20', description: 'Thủ lĩnh trẻ tuổi và quyết đoán của Brotherhood of Steel tại vùng Commonwealth, người mang lý tưởng thanh trừng mọi mối đe dọa phi nhân loại.' },
+    { name: 'Father (Shaun)', role: 'Lãnh đạo / Nhân vật quan trọng', age: '60', description: 'Con trai của nhân vật chính và là lãnh đạo của The Institute, người tin rằng công nghệ của tổ chức là hy vọng duy nhất cho nhân loại.' },
+    { name: 'Conrad Kellogg', role: 'Phản diện', age: '100+', description: 'Một lính đánh thuê tàn nhẫn làm việc cho The Institute, kẻ đã trực tiếp gây ra bi kịch gia đình cho nhân vật chính.' },
+    { name: 'Rose', role: 'Hỗ trợ', age: 'Unknown', description: 'Một robot Raider đầy cá tính, người quản lý mạng lưới phát thanh và các nhiệm vụ nguy hiểm tại vùng Appalachia.' },
+    { name: 'Benny', role: 'Phản diện / Nhân vật quan trọng', age: '35', description: 'Kẻ đã bắn nhân vật chính ở New Vegas, một gã lãng tử đầy tham vọng muốn chiếm quyền kiểm soát thành phố.' },
+    { name: 'Ulysses', role: 'Đối thủ / Nhân vật quan trọng', age: '40', description: 'Một cựu thợ săn nô lệ và là người đưa thư bí ẩn, kẻ mang trong mình lòng thù hận và những triết lý sâu sắc về vùng đất hoang.' },
+    { name: 'Joshua Graham', role: 'Đồng minh / Nhân vật quan trọng', age: '45', description: 'Người Đàn Ông Bị Thiêu, cựu Legate của Caesar, một chiến binh đầy đức tin và sức mạnh sinh tồn kinh ngạc.' },
+    { name: 'Caesar (Edward Sallow)', role: 'Lãnh đạo / Phản diện', age: '55', description: 'Người sáng lập Caesar\'s Legion, một kẻ độc tài sử dụng các triết lý cổ đại để xây dựng đế chế tàn bạo của mình.' },
+    { name: 'Legate Lanius', role: 'Phản diện', age: '40', description: 'Quái Vật Phương Đông, chiến binh mạnh mẽ và tàn bạo nhất của Caesar, kẻ gieo rắc nỗi khiếp sợ trên mọi chiến trường.' },
+    { name: 'Arcade Gannon', role: 'Bạn đồng hành', age: '35', description: 'Một bác sĩ thông minh thuộc tổ chức Followers of the Apocalypse, người luôn quan tâm đến lợi ích của cộng đồng.' },
+    { name: 'Boone (Craig Boone)', role: 'Bạn đồng hành', age: '30', description: 'Một tay súng bắn tỉa xuất sắc của NCR với quá khứ đau thương, luôn tìm kiếm sự chuộc lỗi qua nòng súng.' },
+    { name: 'Veronica Santangelo', role: 'Bạn đồng hành', age: '27', description: 'Thành viên của Brotherhood of Steel, một cô gái vui vẻ nhưng luôn trăn trở về tương lai của tổ chức mình.' },
+    { name: 'Raul Tejada', role: 'Bạn đồng hành', age: '200+', description: 'Một Ghoul thợ sửa máy tài ba với khiếu hài hước châm biếm, người đã chứng kiến thế giới sụp đổ từ những ngày đầu.' },
+    { name: 'Lily Bowen', role: 'Bạn đồng hành', age: '200+', description: 'Một Nightkin (siêu đột biến) hiền lành nhưng mắc chứng tâm thần phân liệt, luôn coi nhân vật chính như cháu của mình.' },
+    { name: 'Yes Man', role: 'Hỗ trợ / Lãnh đạo', age: 'N/A', description: 'Một robot Securitron được lập trình để luôn nói "có", công cụ giúp nhân vật chính chiếm quyền kiểm soát New Vegas.' },
+    { name: 'The Master (Richard Moreau)', role: 'Phản diện chính', age: 'Unknown', description: 'Kẻ đứng sau sự trỗi dậy của đội quân siêu đột biến trong Fallout 1, một thực thể sinh học đáng sợ với tham vọng thống nhất nhân loại.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const nanoMachine: FanficWork = {
+  id: 'nano-machine',
+  title: 'Nano Machine',
+  description: 'Chun Yeowun, một đứa con rơi của Ma Giáo, nhận được sự giúp đỡ từ hậu duệ tương lai thông qua các máy móc Nano cấy vào cơ thể.',
+  country: 'Hàn',
+  plot: 'Chun Yeowun bị truy sát bởi các thế lực trong Ma Giáo. Một hậu duệ từ tương lai đã xuất hiện và cấy vào cơ thể anh "Nano Machine" - một công nghệ tối tân giúp phân tích võ học, chữa trị vết thương và tăng cường thể chất. Nhờ đó, Yeowun bắt đầu hành trình chinh phục Ma Giáo và trở thành Thiên Ma mạnh nhất lịch sử.',
+  worldSetting: 'Thế giới võ hiệp Trung Hoa với các thế lực Ma Giáo, Chính Giáo và Tà Giáo. Công nghệ Nano mang lại sự kết hợp độc đáo giữa võ thuật và khoa học.',
+  characters: [
+    { name: 'Chun Yeowun', role: 'Nhân vật chính', description: 'Lạnh lùng, quyết đoán và cực kỳ mạnh mẽ. Sử dụng Nano Machine để học lén và hoàn thiện mọi loại võ công.' },
+    { name: 'Nano', role: 'Hỗ trợ', description: 'Trí tuệ nhân tạo bên trong cơ thể Yeowun, cung cấp thông tin và hỗ trợ anh trong mọi tình huống chiến đấu.' },
+    { name: 'Hu Bong', role: 'Đồng minh', age: '18+', description: 'Thuộc hạ trung thành nhất và là người đầu tiên đi theo Yeowun. Tính cách nhiệt huyết, đôi khi hơi ngốc nghếch nhưng cực kỳ trung kiên.' },
+    { name: 'Marakim', role: 'Đồng minh', age: '50+', description: 'Đại Hộ Pháp của Ma Giáo, luôn đeo mặt nạ bí ẩn. Ông là người bảo vệ công lý trong giáo và sau này trở thành trợ thủ đắc lực nhất của Yeowun.' },
+    { name: 'Ko Wanghur', role: 'Đồng minh', age: '20+', description: 'Một chiến binh mạnh mẽ với thể hình hộ pháp, đứng đầu nhóm thuộc hạ của Yeowun, sở hữu sức mạnh cơ bắp đáng kinh rợ.' },
+    { name: 'Bakgi', role: 'Đồng minh', age: '19+', description: 'Thiên tài võ học với đôi chân thần tốc, ban đầu là đối thủ của Yeowun trong học viện nhưng sau đó đã bị thu phục bởi tài năng của anh.' },
+    { name: 'Lee Hameng', role: 'Người dẫn dắt', age: '45+', description: 'Tả Hộ Pháp và là Hiệu trưởng của Học viện Ma Giáo. Ông cực kỳ nghiêm khắc nhưng luôn công bằng trong việc đào tạo các hậu duệ.' },
+    { name: 'Chun Yujong', role: 'Đối thủ / Phức tạp', age: '50+', description: 'Giáo chủ Ma Giáo hiện tại và là cha của Yeowun. Ông có thái độ lạnh lùng và tàn nhẫn với chính con trai mình vì những âm mưu chính trị.' },
+    { name: 'Sama Chak', role: 'Đồng minh', age: '19+', description: 'Con trai của một trưởng lão quyền lực, gia nhập nhóm của Yeowun và đóng vai trò là bộ não chiến thuật của cả nhóm.' },
+    { name: 'Yin Mohwa', role: 'Đồng minh', age: '40+', description: 'Trưởng lão của Ma Giáo, người có mối thâm tình với mẹ của Yeowun và luôn âm thầm bảo vệ anh khỏi các âm mưu đoạt mệnh.' },
+    { name: 'Subai', role: 'Phản diện', age: '55+', description: 'Một trưởng lão gian ác, luôn tìm cách hãm hại Yeowun để bảo vệ quyền lợi cho các con trai của mình trong cuộc đua giành ngôi vị.' },
+    { name: 'Kiếm Đế (Blade God)', role: 'Phản diện', age: '???', description: 'Kẻ thù bí ẩn và mạnh mẽ nhất, người sở hữu võ công vượt xa tầm hiểu biết của võ lâm hiện tại, là mục tiêu cuối cùng mà Yeowun phải vượt qua.' },
+    { name: 'Munyun', role: 'Đồng minh', description: 'Một trong những thuộc hạ trung thành nhất của Yeowun, luôn hỗ trợ anh trong việc quản lý và chiến đấu.' },
+    { name: 'Chun Kung-wun', role: 'Đối thủ', description: 'Một trong những ứng cử viên cho ngôi vị giáo chủ, đối thủ lớn nhất của Yeowun trong giai đoạn đầu.' },
+    { name: 'Great Guardian', role: 'Người dẫn dắt / Đồng minh', description: 'Người bảo hộ của Ma Giáo, nhận ra tài năng của Yeowun và hỗ trợ anh thăng tiến.' },
+    { name: 'Hậu duệ tương lai', role: 'Hỗ trợ', description: 'Người đã mang Nano Machine về quá khứ để thay đổi vận mệnh của tổ tiên mình.' },
+    { name: 'Lady Hwa', role: 'Gia đình', age: '35 (khi mất)', description: 'Mẹ của Chun Yeowun, người phụ nữ hiền hậu đã hy sinh để bảo vệ con trai mình khỏi các âm mưu trong Ma Giáo.' },
+    { name: 'Chun Hạo', role: 'Đệ tử', age: '18', description: 'Một đệ tử trẻ tuổi của Ma Giáo, người luôn ngưỡng mộ và lấy Chun Yeowun làm tấm gương phấn đấu.' },
+    { name: 'Chun Hồng', role: 'Đệ tử', age: '17', description: 'Nữ đệ tử xinh đẹp của Ma Giáo, có khiếu về y thuật và luôn hỗ trợ đồng đội trong các trận chiến.' },
+    { name: 'Chun Thanh', role: 'Đệ tử', age: '16', description: 'Một thiếu niên đầy nhiệt huyết, người luôn tin tưởng vào sự phục hưng của Ma Giáo dưới thời Chun Yeowun.' },
+    { name: 'Chun Vân', role: 'Đệ tử', age: '19', description: 'Đệ tử sở hữu tốc độ và khả năng trinh sát tuyệt vời, là tai mắt của Chun Yeowun trên chiến trường.' },
+    { name: 'Chun Lôi', role: 'Đệ tử', age: '20', description: 'Chiến sĩ mạnh mẽ với sức mạnh vật lý phi thường, luôn tiên phong trong các cuộc tấn công.' },
+    { name: 'Chun Điện', role: 'Đệ tử', age: '18', description: 'Đệ tử chuyên về các loại ám khí và bẫy rập, người gây ra nhiều bất ngờ cho kẻ thù.' },
+    { name: 'Chun Quang', role: 'Đệ tử', age: '17', description: 'Nữ đệ tử sở hữu kiếm pháp thanh thoát, mang lại sự tinh tế trong các trận chiến phối hợp.' },
+    { name: 'Chun Ám', role: 'Đệ tử', age: '19', description: 'Sát thủ thầm lặng của Ma Giáo, người chuyên thực hiện các nhiệm vụ ám sát quan trọng.' },
+    { name: 'Chun Không', role: 'Đệ tử', age: '21', description: 'Đệ tử có khả năng thấu hiểu các trận pháp cổ xưa, giúp Ma Giáo giải mã nhiều bí mật.' },
+    { name: 'Chun Thời', role: 'Đệ tử', age: '20', description: 'Người quản lý thời gian và lịch trình huấn luyện của các đệ tử, đảm bảo sự kỷ luật trong giáo.' },
+    { name: 'Chun Mệnh', role: 'Đệ tử', age: '18', description: 'Đệ tử mang trong mình hy vọng về một tương lai tươi sáng cho Ma Giáo.' },
+    { name: 'Chun Luân', role: 'Đệ tử', age: '17', description: 'Thiếu niên dũng cảm luôn sẵn sàng hy sinh để bảo vệ danh dự của giáo.' },
+    { name: 'Chun Hồi', role: 'Đệ tử', age: '16', description: 'Đệ tử nhỏ tuổi nhất nhưng sở hữu ý chí kiên định, luôn nỗ lực để không bị bỏ lại phía sau.' }
+  ]
+};

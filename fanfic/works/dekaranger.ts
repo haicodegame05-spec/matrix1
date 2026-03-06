@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const dekaranger: FanficWork = {
+  id: 'dekaranger',
+  title: 'Tokusou Sentai Dekaranger',
+  description: 'Chiến đội Đặc phong - Cảnh sát vũ trụ bảo vệ Trái Đất khỏi tội phạm Alienizer.',
+  country: 'Nhật',
+  plot: 'Trái Đất trở thành nơi chung sống của con người và các cư dân ngoài hành tinh. Để đối phó với những tội phạm vũ trụ nguy hiểm (Alienizer), chi nhánh Trái Đất của Cảnh sát Vũ trụ (S.P.D) được thành lập. 6 thám tử tài năng cùng nhau điều tra và thực thi công lý dưới khẩu hiệu "S.P.D - Special Police Dekaranger".',
+  worldSetting: 'Thế giới tương lai gần nơi du hành vũ trụ là phổ biến. Các Alienizer sử dụng công nghệ cao và quái vật khổng lồ để thực hiện tội ác.',
+  characters: [
+    { name: 'Akaza Banban (Deka Red)', role: 'Lãnh đạo', age: '22', description: 'Một thám tử nóng nảy, nhiệt huyết với phong cách chiến đấu "Juu-Kune-Do" sử dụng hai súng. Anh luôn tin vào công lý tuyệt đối.' },
+    { name: '戸増 宝児 (Tomasu Houji - Deka Blue)', role: 'Chiến binh', age: '23', description: 'Xạ thủ thiên tài, người luôn tuân thủ quy tắc và chuyên nghiệp. Anh là đối thủ và cũng là cộng sự ăn ý nhất của Ban.' },
+    { name: 'Enari Senichi (Deka Green)', role: 'Chiến binh', age: '24', description: 'Một thám tử có khả năng suy luận sắc bén khi đứng bằng hai tay (trồng cây chuối). Anh điềm tĩnh và luôn tìm ra manh mối quan trọng.' },
+    { name: 'Reimon Marika (Deka Yellow)', role: 'Chiến binh', age: '21', description: 'Biệt danh Jasmine, một người có khả năng ngoại cảm (Psychometry) cho phép cô đọc được ký ức từ vật thể.' },
+    { name: 'Kodou Koume (Deka Pink)', role: 'Chiến binh', age: '20', description: 'Biệt danh Umeko, một cô gái yêu đời, thích tắm bồn và là người gắn kết tinh thần của cả đội.' },
+    { name: 'Aira Tekkan (Deka Break)', role: 'Chiến binh / Đặc vụ cấp cao', age: '19', description: 'Biệt danh Tetsu, thành viên của đội đặc nhiệm Tokkyou. Anh sử dụng sức mạnh nắm đấm và công nghệ tiên tiến.' },
+    { name: 'Doggie Kruger (Deka Master)', role: 'Chỉ huy', age: 'Unknown', description: 'Chỉ huy chi nhánh Trái Đất, một người ngoài hành tinh tộc Anubis. Ông là một kiếm sĩ huyền thoại với danh hiệu "Chó săn địa ngục".' },
+    { name: 'Shiratori Swan (Deka Swan)', role: 'Hỗ trợ kỹ thuật', age: 'Unknown', description: 'Người thiết kế và bảo trì các thiết bị, robot cho Dekaranger. Cô dịu dàng và là người mẹ tinh thần của cả đội.' },
+    { name: 'Murphy K9', role: 'Hỗ trợ', age: 'N/A', description: 'Chú chó robot cảnh sát, có thể biến thành vũ khí D-Bazooka mạnh mẽ.' },
+    { name: 'Agent Abrella', role: 'Phản diện chính', age: 'Unknown', description: 'Một tay buôn vũ khí vũ trụ, kẻ đứng sau cung cấp công nghệ và quái vật cho các tội phạm Alienizer.' },
+    { name: 'Deka Base', role: 'Căn cứ / Robot', age: 'N/A', description: 'Trụ sở của S.P.D chi nhánh Trái Đất, có thể biến hình thành robot khổng lồ Deka Base Robo.' },
+    { name: 'Pat Striker', role: 'Deka Machine', age: 'N/A', description: 'Xe cảnh sát của Deka Red.' },
+    { name: 'Pat Gyrer', role: 'Deka Machine', age: 'N/A', description: 'Trực thăng của Deka Blue.' },
+    { name: 'Pat Trailer', role: 'Deka Machine', age: 'N/A', description: 'Xe tải của Deka Green.' },
+    { name: 'Pat Armor', role: 'Deka Machine', age: 'N/A', description: 'Xe bọc thép của Deka Yellow.' },
+    { name: 'Pat Signer', role: 'Deka Machine', age: 'N/A', description: 'Xe tín hiệu của Deka Pink.' },
+    { name: 'Deka Ranger Robo', role: 'Robot', age: 'N/A', description: 'Robot hợp thể chính của 5 Dekaranger.' },
+    { name: 'Deka Bike', role: 'Robot', age: 'N/A', description: 'Xe mô tô khổng lồ của Deka Break, có thể biến thành robot.' },
+    { name: 'Deka Wing Robo', role: 'Robot', age: 'N/A', description: 'Robot chuyên dụng cho các trận chiến không trung và không gian.' },
+    { name: 'Alienizer Criminals', role: 'Phản diện', age: 'N/A', description: 'Các tội phạm từ khắp nơi trong vũ trụ đến Trái Đất gây án.' },
+    { name: 'Numa O (Supreme Commander)', role: 'Lãnh đạo cấp cao', age: 'Unknown', description: 'Tổng chỉ huy của S.P.D toàn vũ trụ.' },
+    { name: 'Princess Io', role: 'Nhân vật phụ', age: 'Unknown', description: 'Công chúa từ hành tinh khác cần sự bảo vệ của Dekaranger.' },
+    { name: 'Hikaru (Deka Bright)', role: 'Đồng minh', age: 'Unknown', description: 'Nữ thám tử Tokkyou xuất hiện trong một tập phim đặc biệt.' },
+    { name: 'Lisa Teagel', role: 'Đồng minh', age: 'Unknown', description: 'Cấp trên của Tetsu, một thám tử Tokkyou nghiêm khắc.' },
+    { name: 'Bapira', role: 'Phản diện', age: 'Unknown', description: 'Một trong những tội phạm Alienizer nguy hiểm.' },
+    { name: 'Don Quijote', role: 'Phản diện', age: 'Unknown', description: 'Tội phạm vũ trụ với âm mưu điên rồ.' },
+    { name: 'Umeko\'s Bath Toys', role: 'Nhân vật phụ', age: 'N/A', description: 'Những chú vịt cao su luôn xuất hiện trong cảnh tắm của Umeko.' },
+    { name: 'S.P.D Staff', role: 'Nhân vật phụ', age: 'Various', description: 'Các nhân viên hỗ trợ tại căn cứ Deka Base.' },
+    { name: 'Gyorir', role: 'Phản diện', age: 'Unknown', description: 'Quái vật khổng lồ do Abrella cung cấp.' },
+    { name: 'Igaroid', role: 'Phản diện', age: 'N/A', description: 'Robot chiến đấu do Abrella chế tạo.' },
+    { name: 'Deka Gold', role: 'Chiến binh (Movie)', age: 'Unknown', description: 'Chiến binh đặc biệt xuất hiện trong bản điện ảnh.' }
+  ]
+};

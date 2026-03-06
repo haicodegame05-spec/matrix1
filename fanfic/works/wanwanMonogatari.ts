@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const wanwanMonogatari: FanficWork = {
+  id: 'wanwan-monogatari',
+  title: 'Chuyện Chú Chó Fenrir (Woof Woof Story)',
+  description: 'Một thanh niên chuyển sinh thành một con chó Fenrir khổng lồ, nhưng lại muốn sống cuộc đời của một con chó cưng nhà giàu.',
+  country: 'Nhật',
+  plot: 'Một thanh niên Nhật Bản chuyển sinh thành một con Fenrir - thần thú mạnh mẽ nhất thế giới. Tuy nhiên, thay vì chiến đấu và thống trị, anh lại muốn sống một cuộc đời nhàn hạ như một con chó cưng của một gia đình quý tộc. Anh được Mary, một cô bé tiểu thư xinh đẹp, nhận nuôi và đặt tên là Routa. Anh quyết định che giấu sức mạnh thật sự của mình để được hưởng thụ cuộc sống giàu sang, nhưng vô tình lại phải bảo vệ Mary khỏi những mối đe dọa từ thế giới bên ngoài.',
+  worldSetting: 'Một thế giới fantasy nhẹ nhàng với ma pháp, quý tộc và các quái vật. Routa sở hữu sức mạnh thể chất và ma pháp vô địch của một Fenrir.',
+  characters: [
+    { name: 'Routa (Fenrir)', role: 'Nhân vật chính', age: '???', description: 'Thanh niên chuyển sinh thành Fenrir. Thông minh, lười biếng và cực kỳ bảo vệ Mary. Luôn đóng vai chó cưng.' },
+    { name: 'Mary', role: 'Nữ chính / Chủ nhân', age: '12', description: 'Một cô bé tiểu thư xinh đẹp, hiền lành và dũng cảm. Rất yêu quý Routa và luôn chăm sóc anh hết mực.' },
+    { name: 'Hầu Gái 1', role: 'Hỗ trợ', age: '20', description: 'Một nữ hầu gái tại biệt thự của Mary, người luôn chăm sóc Routa và Mary.' },
+    { name: 'Hầu Gái 2', role: 'Hỗ trợ', age: '20', description: 'Thành viên khác trong đội hầu gái, chuyên về nấu ăn cho Routa.' },
+    { name: 'The Duke', role: 'Phụ thân', age: '45+', description: 'Cha của Mary, một quý tộc quyền lực và là người đứng đầu gia đình.' },
+    { name: 'The Duchess', role: 'Mẫu thân', age: '40+', description: 'Mẹ của Mary, người phụ nữ hiền hậu và luôn chăm sóc Mary hết mực.' },
+    { name: 'Knight 1', role: 'Hỗ trợ', age: '25+', description: 'Thành viên trong đội hiệp sĩ bảo vệ biệt thự, luôn tin tưởng và bảo vệ Mary.' },
+    { name: 'Knight 2', role: 'Hỗ trợ', age: '25+', description: 'Thành viên khác trong đội hiệp sĩ, chuyên về ma pháp phòng thủ.' },
+    { name: 'Adventurer 1', role: 'Đối thủ', age: '25+', description: 'Một mạo hiểm giả cố gắng săn lùng Routa vì coi anh là quái vật nguy hiểm.' },
+    { name: 'Adventurer 2', role: 'Đối thủ', age: '25+', description: 'Thành viên khác trong nhóm mạo hiểm giả, chuyên về bẫy và thuốc mê.' },
+    { name: 'Merchant 1', role: 'Hỗ trợ', age: '40+', description: 'Một thương nhân buôn bán vật phẩm ma pháp, người đã cung cấp cho Mary những đồ chơi cho Routa.' },
+    { name: 'Routa (Kiếp trước)', role: 'Ký ức', age: '20+', description: 'Hình bóng của thanh niên bình thường luôn nhắc nhở Routa về cuộc sống cũ.' },
+    { name: 'Villager 1', role: 'Hỗ trợ', age: '30+', description: 'Một người dân được Mary cứu sống, luôn biết ơn và ủng hộ cô.' },
+    { name: 'Villager 2', role: 'Hỗ trợ', age: '30+', description: 'Thành viên khác trong cộng đồng, người đã giúp Mary lan tỏa kiến thức.' },
+    { name: 'Monster 1', role: 'Đối thủ', age: '???', description: 'Một quái vật mạnh mẽ trong rừng, luôn tìm cách tấn công Mary.' },
+    { name: 'Monster 2', role: 'Đối thủ', age: '???', description: 'Thành viên khác trong đội quân quái vật, chuyên về tấn công tầm xa.' },
+    { name: 'Spirit 1', role: 'Hỗ trợ', age: '???', description: 'Một tinh linh rừng xanh, người đã giúp đỡ Routa trong việc điều khiển ma pháp.' },
+    { name: 'Spirit 2', role: 'Hỗ trợ', age: '???', description: 'Tinh linh nước, người đã cung cấp nguồn nước sạch và hỗ trợ trị thương.' },
+    { name: 'Ancient Fenrir', role: 'Linh hồn', age: 'Ancient', description: 'Linh hồn của một con Fenrir cổ đại, người đã truyền lại ý chí cho Routa.' },
+    { name: 'Cat 1', role: 'Hỗ trợ', age: '???', description: 'Một con mèo cưng khác trong biệt thự, người bạn đồng hành của Routa.' },
+    { name: 'The Crown Prince', role: 'Đối thủ', age: '15', description: 'Hoàng tử của vương quốc, người luôn ghen tị với sự quan tâm mà Mary dành cho Routa.' },
+    { name: 'Old Man Gen', role: 'Hỗ trợ', age: '80', description: 'Một võ sư già nua, người duy nhất nhận ra Routa không phải là một con chó bình thường.' },
+    { name: 'Luna', role: 'Hỗ trợ', age: '14', description: 'Một cô bé mồ côi có khả năng giao tiếp với động vật, người bạn bí mật của Routa.' },
+    { name: 'The Beast King', role: 'Đồng minh', age: '???', description: 'Vị vua của các loài thú, người đã đến để bày tỏ sự tôn trọng đối với Fenrir huyền thoại.' },
+    { name: 'The Evil Sorcerer', role: 'Phản diện', age: '60', description: 'Kẻ đang âm mưu bắt cóc Mary để chiếm đoạt tài sản của gia đình cô.' },
+    { name: 'The Beast King\'s Messenger', role: 'Hỗ trợ', age: '???', description: 'Một con đại bàng khổng lồ có khả năng nói tiếng người, truyền tin từ vương quốc thú nhân.' },
+    { name: 'The Village Elder', role: 'Hỗ trợ', age: '70+', description: 'Người đứng đầu ngôi làng gần biệt thự, luôn mang đến những món quà đặc sản cho Routa.' },
+    { name: 'The Royal Knight Captain', role: 'Đối thủ / Đồng minh', age: '35', description: 'Chỉ huy đội kỵ binh hoàng gia, người luôn nghi ngờ về thân phận thật sự của Routa.' },
+    { name: 'The Forest Fairy', role: 'Hỗ trợ', age: '???', description: 'Một tiên nữ nhỏ bé sống trong vườn hoa của Mary, người thường xuyên chơi đùa cùng Routa.' },
+    { name: 'The Traveling Bard', role: 'Hỗ trợ', age: '28', description: 'Một nhạc sĩ lang thang, người đã sáng tác những bài hát ca ngợi "chú chó anh hùng" của gia đình công tước.' }
+  ]
+};

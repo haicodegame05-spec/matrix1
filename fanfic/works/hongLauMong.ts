@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const hongLauMong: FanficWork = {
+  id: 'hong-lau-mong',
+  title: 'Hồng Lâu Mộng',
+  description: 'Gia tộc họ Giả hưng thịnh rồi suy tàn, cùng với mối tình bi kịch giữa Giả Bảo Ngọc và Lâm Đại Ngọc.',
+  country: 'Trung',
+  plot: 'Gia tộc họ Giả là một gia đình quyền quý bậc nhất thời nhà Thanh. Giả Bảo Ngọc là công tử được cưng chiều nhất, gặp gỡ Lâm Đại Ngọc - cô em họ xinh đẹp, đa sầu đa cảm. Cả hai nảy sinh tình cảm nhưng bị gia đình phản đối vì sự khác biệt về tính cách và hoàn cảnh. Cuối cùng, gia tộc họ Giả suy tàn, Bảo Ngọc đi tu và Đại Ngọc qua đời vì đau khổ.',
+  worldSetting: 'Thế giới lịch sử văn hóa Trung Hoa thời nhà Thanh. Các nhân vật sống trong một gia đình quyền quý với những quy tắc lễ giáo khắt khe và những âm mưu tranh giành quyền lực.',
+  characters: [
+    { name: 'Giả Bảo Ngọc', role: 'Nhân vật chính', age: '15+', description: 'Công tử họ Giả, thông minh, đa sầu đa cảm, không thích học hành thi cử. Yêu Lâm Đại Ngọc sâu đậm.' },
+    { name: 'Lâm Đại Ngọc', role: 'Nữ chính', age: '15+', description: 'Cô em họ của Bảo Ngọc, xinh đẹp, đa sầu đa cảm, tài hoa vẹn toàn. Yêu Bảo Ngọc nhưng chịu nhiều đau khổ.' },
+    { name: 'Tiết Bảo Thoa', role: 'Nữ chính', age: '15+', description: 'Cô em họ của Bảo Ngọc, xinh đẹp, thông minh, hiền lành, là người được gia đình chọn làm vợ cho Bảo Ngọc.' },
+    { name: 'Vương Hy Phượng', role: 'Hỗ trợ', age: '25+', description: 'Mợ Hai của Bảo Ngọc, thông minh, sắc sảo, quản lý mọi việc trong gia đình họ Giả.' },
+    { name: 'Giả Mẫu', role: 'Hỗ trợ', age: '70+', description: 'Bà nội của Bảo Ngọc, người có quyền lực cao nhất trong gia đình họ Giả, hết mực yêu thương Bảo Ngọc.' },
+    { name: 'Giả Chính', role: 'Hỗ trợ', age: '50+', description: 'Cha của Bảo Ngọc, nghiêm khắc, luôn muốn Bảo Ngọc học hành thi cử để làm quan.' },
+    { name: 'Tập Nhân', role: 'Hỗ trợ', age: '18+', description: 'Nữ tỳ thân cận nhất của Bảo Ngọc, hiền lành, thật thà, hết lòng chăm sóc Bảo Ngọc.' },
+    { name: 'Tình Văn', role: 'Hỗ trợ', age: '18+', description: 'Nữ tỳ của Bảo Ngọc, xinh đẹp, cá tính, có tài thêu thùa và rất trung thành.' },
+    { name: 'Diệu Ngọc', role: 'Hỗ trợ', age: '20+', description: 'Nữ tu sĩ ở Đại Quan Viên, xinh đẹp, thanh cao, có tâm hồn đồng điệu với Bảo Ngọc.' },
+    { name: 'Giả Nguyên Xuân', role: 'Hỗ trợ', age: '25+', description: 'Chị gái của Bảo Ngọc, là phi tần của hoàng đế, mang lại vinh quang cho gia tộc họ Giả.' },
+    { name: 'Giả Thám Xuân', role: 'Nữ chính', age: '18+', description: 'Em gái cùng cha khác mẹ của Bảo Ngọc, thông minh, sắc sảo và có tài quản lý, người nỗ lực cứu vãn gia tộc.' },
+    { name: 'Sử Tương Vân', role: 'Nữ chính', age: '15+', description: 'Cô em họ của Bảo Ngọc, tính tình phóng khoáng, hồn nhiên và rất mực tài hoa.' },
+    { name: 'Lý Hoàn', role: 'Hỗ trợ', age: '25+', description: 'Chị dâu góa bụa của Bảo Ngọc, đức hạnh, mẫu mực, dành cả đời nuôi dạy con trai.' },
+    { name: 'Giả Nghênh Xuân', role: 'Hỗ trợ', age: '18+', description: 'Chị họ của Bảo Ngọc, tính tình hiền lành đến mức nhu nhược, chịu nhiều bất hạnh trong hôn nhân.' },
+    { name: 'Giả Tích Xuân', role: 'Hỗ trợ', age: '15+', description: 'Em họ của Bảo Ngọc, tính tình lạnh lùng, sau này chọn con đường đi tu để thoát khỏi bụi trần.' },
+    { name: 'Tần Khả Khanh', role: 'Nhân vật quan trọng', age: '20+', description: 'Cháu dâu của gia tộc họ Giả, xinh đẹp tuyệt trần nhưng bạc mệnh, cái chết của cô là điềm báo cho sự suy tàn của gia tộc.' },
+    { name: 'Giả Liễn', role: 'Hỗ trợ', age: '25+', description: 'Chồng của Vương Hy Phượng, đào hoa, ham chơi nhưng cũng có tài giao thiệp.' },
+    { name: 'Tiết Bàn', role: 'Đối thủ', age: '20+', description: 'Anh trai của Bảo Thoa, tính tình thô lỗ, cậy thế làm càn nhưng rất sợ em gái.' },
+    { name: 'Hương Lăng', role: 'Hỗ trợ', age: '18+', description: 'Vợ lẽ của Tiết Bàn, xinh đẹp, hiền hậu, có số phận đau khổ từ nhỏ.' },
+    { name: 'Tử Quyên', role: 'Hỗ trợ', age: '18+', description: 'Nữ tỳ trung thành nhất của Lâm Đại Ngọc, luôn lo lắng và chăm sóc cho cô như chị em ruột.' },
+    { name: 'Bình Nhi', role: 'Hỗ trợ', age: '20+', description: 'Nữ tỳ thân cận của Vương Hy Phượng, thông minh, nhân hậu, thường xuyên giúp đỡ mọi người.' },
+    { name: 'Uyên Ương', role: 'Hỗ trợ', age: '20+', description: 'Nữ tỳ của Giả Mẫu, cương trực, thà chết không chịu làm vợ lẽ cho Giả Xá.' },
+    { name: 'Lưu Lão Lão', role: 'Nhân vật phụ', age: '70+', description: 'Bà lão nông thôn nghèo khó, người mang lại tiếng cười và cái nhìn thực tế về cuộc sống cho gia đình họ Giả.' },
+    { name: 'Vương Phu Nhân', role: 'Hỗ trợ', age: '45+', description: 'Mẹ của Bảo Ngọc, người sùng đạo Phật nhưng đôi khi cũng rất tàn nhẫn với các nữ tỳ.' },
+    { name: 'Giả Trân', role: 'Nhân vật quan trọng', age: '40+', description: 'Người đứng đầu phủ Ninh Quốc, sống xa hoa, trụy lạc, góp phần làm suy đồi gia tộc.' },
+    { name: 'Giả Dung', role: 'Nhân vật phụ', age: '20+', description: 'Con trai của Giả Trân, tính tình giống cha, sống hưởng lạc và thiếu trách nhiệm.' },
+    { name: 'Kim Xuyến', role: 'Nhân vật phụ', age: '18+', description: 'Nữ tỳ của Vương Phu Nhân, phải tự tử vì bị vu oan và sỉ nhục.' },
+    { name: 'Giả Thụy', role: 'Nhân vật phụ', age: '20+', description: 'Một người họ hàng xa của nhà họ Giả, chết vì si mê Vương Hy Phượng.' },
+    { name: 'Hình Phu Nhân', role: 'Hỗ trợ', age: '45+', description: 'Vợ của Giả Xá, tính tình hẹp hòi, luôn ghen tị với Vương Hy Phượng.' },
+    { name: 'Giả Xá', role: 'Hỗ trợ', age: '50+', description: 'Bác của Bảo Ngọc, ham mê tửu sắc, luôn tìm cách vòi vĩnh tiền bạc của gia đình.' }
+  ]
+};

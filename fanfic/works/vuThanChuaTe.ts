@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const vuThanChuaTe: FanficWork = {
+  id: 'vu-than-chua-te',
+  title: 'Võ Thần Chúa Tể',
+  description: 'Tần Trần, một đại sư luyện dược và võ học bị phản bội, tái sinh sau 300 năm để thực hiện cuộc trả thù và vươn tới đỉnh cao.',
+  country: 'Trung',
+  plot: 'Tần Trần là đệ nhất cao thủ của Thiên Vũ Đại Lục, bị người yêu và bạn thân phản bội sát hại. 300 năm sau, linh hồn anh thức tỉnh trong thân xác một thiếu niên cùng tên bị coi là phế vật. Với kiến thức từ kiếp trước, Tần Trần bắt đầu hành trình tu luyện lại từ đầu, quét ngang thiên hạ và tìm kiếm sự thật về cuộc phản bội năm xưa.',
+  worldSetting: 'Thế giới võ đạo rộng lớn với các cấp bậc: Võ Giả, Võ Sư, Võ Tông, Võ Tôn, Võ Vương, Võ Hoàng, Võ Đế... và các cảnh giới cao hơn ở Thiên Giới.',
+  characters: [
+    { name: 'Tần Trần', role: 'Nhân vật chính', description: 'Thông minh, quyết đoán, am hiểu sâu sắc về luyện dược, trận pháp và võ học. Luôn đi trước đối thủ một bước.' },
+    { name: 'U Thiên Tuyết', role: 'Nữ chính', description: 'Thiên tài của Đại Tề Quốc, xinh đẹp và mạnh mẽ, là người đồng hành trung thành của Tần Trần.' },
+    { name: 'Trần Tư Tư', role: 'Nữ chính', description: 'Thánh nữ của Ảo Ma Tông, có mối quan hệ sâu đậm và luôn hy sinh vì Tần Trần.' },
+    { name: 'U vương (Đại Ma Vương)', role: 'Bạn đồng hành', description: 'Một linh hồn ma tộc bị Tần Trần thu phục, thường xuyên cung cấp thông tin và hỗ trợ anh.' },
+    { name: 'Thượng Quan Hi Nhi', role: 'Phản diện', description: 'Người yêu kiếp trước của Tần Trần, kẻ đã phản bội anh và hiện là nữ hoàng của lục địa.' },
+    { name: 'Phong Thiếu Vũ', role: 'Phản diện', description: 'Bạn thân kiếp trước của Tần Trần, kẻ đã cùng Thượng Quan Hi Nhi sát hại anh.' },
+    { name: 'Cơ Như Nguyệt', role: 'Nữ chính', description: 'Thiên tài của Cơ gia, xinh đẹp và lạnh lùng, là một trong những người phụ nữ quan trọng nhất của Tần Trần.' },
+    { name: 'Đại Hắc Miêu', role: 'Bạn đồng hành', description: 'Một con mèo đen bí ẩn với kiến thức uyên bác, thường xuyên giúp Tần Trần hóa giải nguy nan.' },
+    { name: 'Phó Càn Khôn', role: 'Đồng minh', description: 'Hội trưởng của Vạn Bảo Lâu, một cao thủ trận pháp đã bị Tần Trần thu phục.' },
+    { name: 'Lâm Thiên', role: 'Đồng minh', description: 'Bạn thân của Tần Trần ở Đại Tề Quốc, luôn nỗ lực tu luyện để không bị bỏ lại phía sau.' },
+    { name: 'Trương Anh', role: 'Đồng minh', description: 'Một người bạn trung thành khác của Tần Trần, có tính cách bộc trực và dũng cảm.' },
+    { name: 'Tần Nguyệt Chi', role: 'Gia đình', description: 'Mẹ của Tần Trần, người phụ nữ hiền hậu luôn bảo vệ và yêu thương con trai hết mực.' },
+    { name: 'Tần Bá Thiên', role: 'Gia đình', description: 'Ông nội của Tần Trần, một vị tướng quân dũng cảm luôn tự hào về sự trưởng thành của cháu trai.' },
+    { name: 'Tần Phượng', role: 'Gia đình', description: 'Em họ của Tần Trần, xinh đẹp và có khiếu về luyện dược, luôn ngưỡng mộ anh trai mình.' },
+    { name: 'Tần Dũng', role: 'Gia đình', description: 'Anh họ của Tần Trần, ban đầu có sự đố kỵ nhưng sau đó đã bị tài năng của Tần Trần thuyết phục.' },
+    { name: 'Lưu Huyền', role: 'Đồng minh', description: 'Một cao thủ của Thiên Vũ Đại Lục, người đã nhận ra tiềm năng của Tần Trần và âm thầm hỗ trợ anh.' },
+    { name: 'U Thiên Tuyết\'s Father', role: 'Hỗ trợ', description: 'Lãnh đạo của Đại Tề Quốc, người đã công nhận tài năng của Tần Trần và gả con gái cho anh.' },
+    { name: 'Cơ gia Trưởng lão', role: 'Lãnh đạo', description: 'Người đứng đầu Cơ gia, một trong những thế lực lớn nhất lục địa, ban đầu đối đầu nhưng sau đó hợp tác với Tần Trần.' },
+    { name: 'Ảo Ma Tông Chủ', role: 'Lãnh đạo', description: 'Sư phụ của Trần Tư Tư, một vị đại năng sở hữu sức mạnh ma pháp đỉnh cao.' },
+    { name: 'Vạn Bảo Lâu Trưởng lão', role: 'Hỗ trợ', description: 'Một vị tiền bối uyên bác của Vạn Bảo Lâu, người đã cung cấp nhiều tài nguyên quý giá cho Tần Trần.' },
+    { name: 'Thiên Ma Tướng', role: 'Phản diện', description: 'Vị tướng quân mạnh nhất của ma tộc, kẻ luôn âm mưu xâm chiếm Thiên Vũ Đại Lục.' },
+    { name: 'Thượng Quan Hi Nhi\'s Disciple', role: 'Phản diện', description: 'Một thiên tài trẻ tuổi dưới trướng Thượng Quan Hi Nhi, đối thủ lớn nhất của Tần Trần trong thế hệ trẻ.' },
+    { name: 'Phong Thiếu Vũ\'s General', role: 'Phản diện', description: 'Một vị tướng quân tàn bạo dưới trướng Phong Thiếu Vũ, chuyên dẫn quân tấn công các tông môn.' },
+    { name: 'Spirit of the Cauldron', role: 'Hỗ trợ', description: 'Linh hồn của chiếc vạc luyện dược cổ xưa, người dẫn dắt Tần Trần thấu hiểu đạo luyện dược tối cao.' },
+    { name: 'Ancient Martial Guardian', role: 'Hỗ trợ', description: 'Thực thể bảo vệ các di tích võ đạo cổ xưa, người thử thách ý chí và sức mạnh của Tần Trần.' },
+    { name: 'Inter-continental Traveler Z', role: 'Bí ẩn', age: 'Unknown', description: 'Một người lữ hành đã đi qua nhiều đại lục, cung cấp cho Tần Trần thông tin về các thế lực ở Thiên Giới.' },
+    { name: 'Tần Gia Đệ Tử A', role: 'Nhân vật phụ', age: '16', description: 'Một đệ tử của Tần gia luôn lấy Tần Trần làm tấm gương để phấn đấu.' },
+    { name: 'Thiên Vũ Đại Lục Thiên Đạo', role: 'Thực thể', description: 'Ý chí của đại lục, người luôn thử thách và giám sát hành trình tu luyện của Tần Trần.' },
+    { name: 'Heavenly Realm Envoy', role: 'Bí ẩn', description: 'Một sứ giả đến từ Thiên Giới, người mang đến những thông tin quan trọng về vận mệnh của vũ trụ.' },
+    { name: 'Martial God of Chaos', role: 'Huyền thoại', description: 'Vị thần võ đạo trong truyền thuyết, người đã đạt đến cảnh giới tối cao mà Tần Trần đang hướng tới.' }
+  ]
+};

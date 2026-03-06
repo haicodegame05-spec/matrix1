@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const tienNghich: FanficWork = {
+  id: 'tien-nghich',
+  title: 'Tiên Nghịch',
+  description: 'Vương Lâm, một thiếu niên bình thường với tư chất kém cỏi, từng bước nghịch thiên cải mệnh, trở thành một vị đại năng chấn động chư thiên.',
+  country: 'Trung',
+  plot: 'Vương Lâm là một thiếu niên bình thường, tình cờ gia nhập Hằng Nhạc Phái nhưng bị coi thường vì tư chất kém. Nhờ một viên Thiên Nghịch Châu bí ẩn, anh bắt đầu con đường tu tiên đầy gian khổ và thù hận. Từ một người hiền lành, anh trở thành một kẻ sát phạt quyết đoán, một mình đối đầu với cả thế giới để bảo vệ những gì mình trân trọng.',
+  worldSetting: 'Thế giới tu tiên tàn khốc, nơi tu sĩ tranh giành tài nguyên và vận mệnh. Hệ thống tu luyện chia thành: Ngưng Khí, Trúc Cơ, Kết Đan, Nguyên Anh, Hóa Thần, Anh Biến, Vấn Đỉnh... và các cảnh giới cao hơn như Toái Niết, Tịnh Niết, Toái Không. Tu luyện không chỉ là tăng cường sức mạnh mà còn là ngộ đạo và nghịch thiên.',
+  characters: [
+    { name: 'Vương Lâm', role: 'Nhân vật chính', age: '2000+', description: 'Biệt danh Vương Ma, cực kỳ quyết đoán, sát phạt, nhưng cũng rất trọng tình nghĩa. Luôn nghịch thiên mà đi, sở hữu Thiên Nghịch Châu.' },
+    { name: 'Lý Mộ Uyển', role: 'Nữ chính', age: '500+', description: 'Người con gái Vương Lâm yêu nhất, một luyện đan sư tài ba. Sự ra đi của cô là động lực lớn nhất để Vương Lâm nghịch thiên cải mệnh.' },
+    { name: 'Tư Đồ Nam', role: 'Người dẫn dắt', age: '5000+', description: 'Linh hồn trong Thiên Nghịch Châu, người thầy đầu tiên dẫn dắt Vương Lâm vào con đường tu tiên và dạy anh những kỹ năng sinh tồn.' },
+    { name: 'Mộc Băng Mi', role: 'Hỗ trợ', age: '1000+', description: 'Thánh nữ của Côn Lôn, có mối quan hệ phức tạp với Vương Lâm, là mẹ của Vương Bình và luôn dành tình cảm thầm lặng cho anh.' },
+    { name: 'Vương Bình', role: 'Con trai', age: '60', description: 'Con trai của Vương Lâm và Mộc Băng Mi, người mà Vương Lâm đã dùng cả đời để bảo vệ sự bình yên trong một kiếp phàm nhân.' },
+    { name: 'Thanh Thủy', role: 'Anh em / Đồng minh', age: '3000+', description: 'Tiên đế của Tiên giới, người anh em kết nghĩa của Vương Lâm, sở hữu sức mạnh kinh hồn và tính cách hào sảng.' },
+    { name: 'Hồng Điệp', role: 'Đối thủ', age: '200+', description: 'Thiên kiêu của Chu Tước Tinh, đối thủ lớn của Vương Lâm ở giai đoạn đầu, sở hữu thiên phú kinh người.' },
+    { name: 'Chu Tước Tử', role: 'Phản diện', age: '2000+', description: 'Lãnh đạo của Chu Tước Tinh, một kẻ mưu mô và là người đã gây ra nhiều đau khổ cho Vương Lâm.' },
+    { name: 'Thiên Vận Tử', role: 'Phản diện', age: 'Vĩnh cửu', description: 'Một thực thể bí ẩn, coi chúng sinh là quân cờ, kẻ thù lớn nhất xuyên suốt hành trình của Vương Lâm.' },
+    { name: 'Đại Đầu', role: 'Đồng minh', age: '1000+', description: 'Một tu sĩ trung thành, luôn đi theo và hỗ trợ Vương Lâm trong những trận chiến khốc liệt.' },
+    { name: 'Thập Tam', role: 'Đệ tử', age: '500+', description: 'Đệ tử của Vương Lâm, một kẻ sát phạt và trung thành tuyệt đối với sư phụ.' },
+    { name: 'Tán Ma (A Ngốc)', role: 'Bạn đồng hành', age: '???', description: 'Một sinh vật ma đạo mạnh mẽ, có trí tuệ đơn giản nhưng sức mạnh kinh người, luôn bảo vệ Vương Lâm.' },
+    { name: 'Lục Mặc', role: 'Phân thân', age: 'N/A', description: 'Phân thân của Vương Lâm, đại diện cho phần tàn bạo và sát phạt nhất của anh.' },
+    { name: 'Vương Lâm (Phàm nhân)', role: 'Bản ngã', age: 'N/A', description: 'Phần tâm hồn phàm nhân của Vương Lâm, luôn khao khát sự bình yên và tình cảm gia đình.' },
+    { name: 'Tô Đạo', role: 'Danh hiệu', age: 'N/A', description: 'Tên gọi của Vương Lâm khi anh hóa thân thành một phàm nhân để ngộ đạo và trải nghiệm cuộc sống.' },
+    { name: 'Diêu Tích Tuyết', role: 'Đối thủ / Tình cảm', age: '1000+', description: 'Con gái của Huyết Tổ, một nữ tu mạnh mẽ và kiêu ngạo, có mối quan hệ đầy ân oán với Vương Lâm.' },
+    { name: 'Chu Nhị Thập Thất', role: 'Đồng minh', age: '1000+', description: 'Một trong những tu sĩ trung thành của Vương Lâm, người đã cùng anh chiến đấu qua nhiều thế giới.' },
+    { name: 'Hứa Lập Quốc', role: 'Bạn đồng hành / Ma đầu', age: '???', description: 'Ma đầu do Vương Lâm thu phục, tính tình nhát gan, nịnh hót nhưng lại là một trong những nhân vật mang lại tiếng cười và sự hỗ trợ kỳ lạ cho anh.' },
+    { name: 'Lưu Kim Bưu', role: 'Hỗ trợ', age: 'Unknown', description: 'Một kẻ chuyên đi lừa đảo nhưng lại có thiên phú về ảo thuật, sau này đi theo và giúp đỡ Vương Lâm trong nhiều vụ việc.' },
+    { name: 'Trần Hạo', role: 'Đồng minh', age: '500+', description: 'Một tu sĩ chính trực, người đã cùng Vương Lâm trải qua những ngày đầu gian khó tại Hằng Nhạc Phái.' },
+    { name: 'Thanh Thủy (Tiên Đế)', role: 'Anh em', age: '3000+', description: 'Vị tiên đế điên cuồng của Tiên giới, người anh em kết nghĩa đã truyền thụ cho Vương Lâm nhiều thần thông mạnh mẽ.' },
+    { name: 'Đạo Diễn', role: 'Phản diện', age: 'Ancient', description: 'Một trong những thực thể tối cao của Thái Cổ Thần Cảnh, kẻ luôn tìm cách kiểm soát vận mệnh của Vương Lâm.' },
+    { name: 'Cổ Đạo', role: 'Tiền bối / Đại năng', age: 'Ancient', description: 'Đại tế tư của Cổ Tộc, người đã chỉ dẫn Vương Lâm về sức mạnh của Cổ Tộc và con đường thành thần.' },
+    { name: 'Huyền La', role: 'Người dẫn dắt / Sư phụ', age: 'Ancient', description: 'Một trong các Đại Thiên Tôn của Tiên Cương Đại Lục, người đã nhận Vương Lâm làm đệ tử và bảo vệ anh.' },
+    { name: 'Bạch Độ', role: 'Đồng minh / Đại Thiên Tôn', age: 'Ancient', description: 'Một vị Đại Thiên Tôn mạnh mẽ và bí ẩn, người có mối quan hệ tôn trọng và hỗ trợ Vương Lâm.' },
+    { name: 'Cửu Thần', role: 'Phản diện', age: 'Ancient', description: 'Một thực thể tà ác luôn tìm cách thôn tính các giới diện, là một trong những thử thách lớn nhất của Vương Lâm.' },
+    { name: 'Lý Thiến Mai', role: 'Tình cảm', age: '1000+', description: 'Một nữ tu dành tình cảm sâu nặng cho Vương Lâm, người đã hy sinh rất nhiều để giúp anh ngộ đạo.' },
+    { name: 'Tây Tử Phượng', role: 'Tình cảm', age: '1000+', description: 'Một trong những hồng nhan tri kỷ của Vương Lâm, người đã cùng anh trải qua nhiều kỷ niệm đẹp.' },
+    { name: 'Vương Lâm (Thần)', role: 'Cảnh giới tối cao', age: 'Vĩnh cửu', description: 'Trạng thái tối cao của Vương Lâm khi anh đã vượt qua mọi giới hạn, trở thành vị thần thực sự cai quản vận mệnh.' },
+    { name: 'Thiên Đạo', role: 'Thực thể tối cao', age: 'Vĩnh cửu', description: 'Ý chí của vũ trụ, thực thể mà Vương Lâm luôn muốn vượt qua và nghịch chuyển.' }
+  ]
+};

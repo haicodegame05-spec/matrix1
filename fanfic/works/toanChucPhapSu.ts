@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const toanChucPhapSu: FanficWork = {
+  id: 'toan-chuc-phap-su',
+  title: 'Toàn Chức Pháp Sư',
+  description: 'Mạc Phàm tỉnh dậy trong một thế giới song song nơi khoa học được thay thế bằng ma pháp, và anh sở hữu thiên phú song hệ hiếm có.',
+  country: 'Trung',
+  plot: 'Mạc Phàm vốn là một học sinh bình thường, nhưng sau khi ngủ quên trên núi, anh tỉnh dậy ở một thế giới mà mọi thứ vẫn giống hệt, ngoại trừ việc mọi người đều tu luyện ma pháp thay vì khoa học. Tại đây, anh phát hiện mình có thiên phú "Trời sinh song hệ", cho phép anh thức tỉnh hai hệ ma pháp mỗi khi thăng cấp, bắt đầu hành trình trở thành pháp sư mạnh nhất bảo vệ nhân loại khỏi yêu ma.',
+  worldSetting: 'Thế giới hiện đại nhưng tràn ngập ma pháp. Nhân loại sống trong các thành phố được bảo vệ bởi các pháp sư, bên ngoài là lãnh thổ của yêu ma. Hệ thống ma pháp chia thành: Sơ cấp, Trung cấp, Cao cấp, Siêu cấp, Cấm chú. Các hệ bao gồm: Lôi, Hỏa, Thổ, Thủy, Phong, Băng, Quang, Triệu Hoán, Ám Ảnh, Không Gian...',
+  characters: [
+    { name: 'Mạc Phàm', role: 'Nhân vật chính', age: '18-25', description: 'Sở hữu thiên phú "Trời sinh song hệ", mỗi lần thăng cấp thức tỉnh 2 hệ ma pháp. Anh là một pháp sư mạnh mẽ, quyết đoán, sở hữu các hệ: Lôi, Hỏa, Ám Ảnh, Triệu Hoán, Không Gian, Thổ, Hỗn Độn, Ác Ma.' },
+    { name: 'Mục Ninh Tuyết', role: 'Nữ chính / Băng hệ pháp sư', age: '18-25', description: 'Thanh mai trúc mã của Mạc Phàm, thiên tài hệ Băng với Băng Tinh Sát Cung. Cô là một cô gái xinh đẹp, lạnh lùng nhưng vô cùng kiên cường và chung thủy.' },
+    { name: 'Diệp Tâm Hạ', role: 'Nữ chính / Chữa trị pháp sư', age: '17-24', description: 'Em gái không cùng huyết thống của Mạc Phàm, dịu dàng và nhân hậu. Cô sở hữu ma pháp hệ Chữa Trị, Tâm Linh và Chúc Phúc, sau này trở thành Thần Nữ của Parthenon.' },
+    { name: 'Trương Tiểu Hầu', role: 'Bạn thân / Phong hệ pháp sư', age: '18-25', description: 'Bạn thân nhất của Mạc Phàm, một quân nhân dũng cảm. Anh sở hữu ma pháp hệ Phong, Thổ và Không Gian, luôn sát cánh cùng Mạc Phàm trong mọi trận chiến.' },
+    { name: 'Triệu Mãn Diên', role: 'Bạn thân / Phòng ngự pháp sư', age: '19-26', description: 'Thiếu gia nhà giàu, "cây ATM" của nhóm. Anh chuyên về ma pháp phòng ngự (Thủy, Quang, Thổ) và là một người bạn cực kỳ đáng tin cậy.' },
+    { name: 'Mục Bạch', role: 'Đồng minh / Băng hệ pháp sư', age: '18-25', description: 'Từng là đối thủ thời học sinh, sau này trở thành đồng đội thân thiết của Mạc Phàm. Anh sở hữu ma pháp hệ Băng, Thủy và Độc.' },
+    { name: 'Đường Nguyệt', role: 'Người dẫn dắt / Hỏa hệ pháp sư', age: '24-30', description: 'Cô giáo của Mạc Phàm, thành viên của Thẩm Phán Hội. Cô sở hữu ma pháp hệ Hỏa và Ám Ảnh, luôn bảo vệ và dẫn dắt Mạc Phàm từ những ngày đầu.' },
+    { name: 'Linh Linh', role: 'Đồng minh / Thợ săn', age: '12-18', description: 'Một thợ săn thiên tài với trí tuệ siêu việt dù còn nhỏ tuổi. Cô là bộ não của nhóm, giúp Mạc Phàm giải quyết vô số vụ án và nhiệm vụ khó khăn.' },
+    { name: 'Apas', role: 'Khế ước thú / Medusa', age: 'Unknown', description: 'Nữ hoàng Medusa trẻ tuổi, khế ước thú của Mạc Phàm. Cô sở hữu ma pháp hệ Tâm Linh và Không Gian cực mạnh cùng vẻ ngoài xinh đẹp đầy nguy hiểm.' },
+    { name: 'Tưởng Thiểu Nh絮', role: 'Đồng minh / Tâm linh pháp sư', age: '20-27', description: 'Thành viên đội tuyển quốc gia, chuyên về ma pháp hệ Tâm Linh. Cô là một cô gái thông minh, sắc sảo và có bối cảnh gia đình quân đội lớn.' },
+    { name: 'Ai Giang Đồ', role: 'Lãnh đạo / Không gian pháp sư', age: '22-29', description: 'Đội trưởng đội tuyển quốc gia Trung Quốc, một quân nhân nghiêm túc và mạnh mẽ. Anh sở hữu ma pháp hệ Không Gian và Lời Nguyền đỉnh cao.' },
+    { name: 'Bàng Lai', role: 'Người dẫn dắt / Triệu hoán pháp sư', age: '60+', description: 'Trưởng lão của Cung Đình Pháp Sư, một trong những pháp sư Triệu Hoán mạnh nhất thế giới, người đã chỉ dạy nhiều điều cho Mạc Phàm.' },
+    { name: 'Shao Zheng', role: 'Lãnh đạo / Nghị trưởng', age: '50+', description: 'Đại nghị trưởng của Trung Quốc, một nhà lãnh đạo anh minh luôn nhìn xa trông rộng và ủng hộ Mạc Phàm trong cuộc chiến chống lại yêu ma biển.' },
+    { name: 'Zhan Kong', role: 'Người dẫn dắt / Anh hùng', age: '30-40', description: 'Tổng chỉ huy quân đội tại Bác Thành, người đã hy sinh thân mình để trở thành Cổ Vương nhằm bảo vệ nhân loại.' },
+    { name: 'Khufu', role: 'Phản diện / Minh vương', age: 'Ancient', description: 'Vị vua của xác ướp Ai Cập, một trong những chúa tể vùng đất chết, đối thủ đáng gờm của Mạc Phàm trong các cuộc chiến tâm linh.' },
+    { name: 'Mạc Gia Hưng', role: 'Gia đình', age: '45-55', description: 'Cha của Mạc Phàm, một người đàn ông hiền lành, làm nghề lái xe tải để nuôi nấng hai anh em Mạc Phàm và Tâm Hạ.' },
+    { name: 'Mục Trác Vân', role: 'Đối thủ / Gia đình', age: '45-55', description: 'Cha của Mục Ninh Tuyết, người đứng đầu Mục gia tại Bác Thành. Ban đầu ông rất khinh thường Mạc Phàm nhưng sau này đã thay đổi thái độ.' },
+    { name: 'Mục Hổ', role: 'Phản diện / Đối thủ', age: '20-25', description: 'Một thiên tài của Mục gia, người luôn tìm cách gây khó dễ cho Mạc Phàm trong các cuộc thi đấu ma pháp.' },
+    { name: 'Mục Đình', role: 'Đối thủ', age: '22-27', description: 'Một nữ pháp sư tài năng của Mục gia, người đã cùng Mục Ninh Tuyết tham gia nhiều nhiệm vụ quan trọng.' },
+    { name: 'Mục Kiếm Vân', role: 'Lãnh đạo', age: '50-60', description: 'Một vị trưởng lão của Mục gia, người sở hữu sức mạnh ma pháp hệ Băng đỉnh cao và có tầm ảnh hưởng lớn.' },
+    { name: 'Mục Hạ', role: 'Hỗ trợ', age: '24-30', description: 'Một pháp sư hệ Thủy của Mục gia, người đã giúp đỡ Mạc Phàm trong một số trận chiến tại Thượng Hải.' },
+    { name: 'Mục Lâm', role: 'Đồng minh', age: '21-26', description: 'Một pháp sư hệ Phong của Mục gia, người đã cùng Mạc Phàm tham gia đội tuyển quốc gia dự bị.' },
+    { name: 'Mục Sơn', role: 'Đồng minh', age: '23-28', description: 'Một pháp sư hệ Thổ của Mục gia, người sở hữu khả năng phòng ngự kiên cố và tinh thần dũng cảm.' },
+    { name: 'Mục Thủy', role: 'Nhân vật phụ', age: '20-25', description: 'Một nữ pháp sư trẻ tuổi của Mục gia, người luôn ngưỡng mộ tài năng của Mục Ninh Tuyết.' },
+    { name: 'Mục Hỏa', role: 'Nhân vật phụ', age: '22-27', description: 'Một pháp sư hệ Hỏa của Mục gia, người luôn nỗ lực để khẳng định vị thế của mình trong gia tộc.' },
+    { name: 'Mục Thổ', role: 'Nhân vật phụ', age: '21-26', description: 'Một pháp sư hệ Thổ của Mục gia, người đã hy sinh để bảo vệ gia tộc trong cuộc chiến chống yêu ma.' },
+    { name: 'Mục Phong', role: 'Nhân vật phụ', age: '20-25', description: 'Một pháp sư hệ Phong của Mục gia, người sở hữu tốc độ và khả năng trinh sát tuyệt vời.' },
+    { name: 'Mục Lôi', role: 'Nhân vật phụ', age: '23-28', description: 'Một pháp sư hệ Lôi của Mục gia, người luôn mang lại hỏa lực mạnh mẽ trong các trận chiến.' },
+    { name: 'Mục Quang', role: 'Nhân vật phụ', age: '22-27', description: 'Một pháp sư hệ Quang của Mục gia, người chuyên về ma pháp hỗ trợ và thanh lọc yêu ma.' },
+    { name: 'Mục Ám', role: 'Nhân vật phụ', age: '21-26', description: 'Một pháp sư hệ Ám Ảnh của Mục gia, người thầm lặng tiêu diệt những mục tiêu quan trọng của kẻ thù.' }
+  ]
+};

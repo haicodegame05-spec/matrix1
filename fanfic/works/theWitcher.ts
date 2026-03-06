@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const theWitcher: FanficWork = {
+  id: 'the-witcher',
+  title: 'The Witcher 3: Wild Hunt',
+  description: 'Geralt of Rivia, thợ săn quái vật trên hành trình tìm kiếm con gái nuôi Ciri.',
+  country: 'Khác',
+  plot: 'Geralt là một Witcher - thợ săn quái vật bị biến đổi gen. Anh đang trên đường tìm kiếm Ciri, con gái nuôi của mình, người đang bị săn đuổi bởi Wild Hunt - một đội quân ma quái từ thế giới khác. Hành trình đưa anh qua những vùng đất bị tàn phá bởi chiến tranh và đầy rẫy những âm mưu chính trị.',
+  worldSetting: 'Một thế giới giả tưởng đen tối dựa trên thần thoại Slav. Quái vật và ma thuật là có thật nhưng thường bị con người xua đuổi. Witcher là những người bị xã hội kỳ thị nhưng lại là hy vọng duy nhất chống lại quái vật.',
+  characters: [
+    { name: 'Geralt of Rivia', role: 'Nhân vật chính', age: '100+', description: 'Sói Trắng, thợ săn quái vật lạnh lùng nhưng có trái tim nhân hậu ẩn giấu. Anh là một Witcher huyền thoại với kỹ năng kiếm thuật và ma thuật dấu ấn đỉnh cao.' },
+    { name: 'Ciri (Cirilla Fiona Elen Riannon)', role: 'Nhân vật chính / Nữ chính', age: '21', description: 'Đứa con của Vận Mệnh, sở hữu dòng máu cổ xưa với khả năng du hành qua các thế giới và thời gian. Cô là con gái nuôi của Geralt và Yennefer.' },
+    { name: 'Yennefer of Vengerberg', role: 'Nhân vật chính / Phù thủy', age: '100+', description: 'Phù thủy quyền năng và xinh đẹp, người mẹ tinh thần của Ciri và là tình yêu của Geralt. Cô luôn nỗ lực bảo vệ gia đình mình bằng mọi giá.' },
+    { name: 'Triss Merigold', role: 'Đồng minh / Phù thủy', age: '50+', description: 'Phù thủy tài ba, người bạn thân thiết và đồng minh đáng tin cậy của Geralt. Cô có tính cách ấm áp và luôn sẵn lòng giúp đỡ người khác.' },
+    { name: 'Dandelion (Jaskier)', role: 'Bạn thân', age: '40+', description: 'Nhạc sĩ hát rong nổi tiếng, người bạn thân nhất của Geralt. Anh là người kể lại những cuộc phiêu lưu của Sói Trắng qua những bài hát và câu chuyện đầy kịch tính.' },
+    { name: 'Vesemir', role: 'Người dẫn dắt', age: '300+', description: 'Witcher già nhất và là người thầy của Geralt tại Kaer Morhen. Ông là biểu tượng của kinh nghiệm và sự thông thái trong giới Witcher.' },
+    { name: 'Emhyr var Emreis', role: 'Hoàng đế / Phản diện', age: '50+', description: 'Hoàng đế của Nilfgaard, cha đẻ của Ciri. Ông là một nhà lãnh đạo tàn nhẫn, luôn tìm cách đưa Ciri trở về để củng cố quyền lực của mình.' },
+    { name: 'Eredin Bréacc Glas', role: 'Phản diện chính', age: 'Ancient', description: 'Vua của Wild Hunt, kẻ săn đuổi Ciri để chiếm đoạt sức mạnh dòng máu cổ xưa của cô. Hắn là một chiến binh bóng tối đáng sợ.' },
+    { name: 'Zoltan Chivay', role: 'Đồng minh', age: 'Unknown', description: 'Một người lùn dũng cảm và trung thành, người bạn thân thiết của Geralt, luôn sẵn sàng sát cánh chiến đấu.' },
+    { name: 'Keira Metz', role: 'Đồng minh / Phù thủy', age: 'Unknown', description: 'Một phù thủy thông minh và đầy tham vọng, từng là thành viên của Hội đồng Phù thủy, người đã giúp đỡ Geralt trong hành trình của anh.' },
+    { name: 'Lambert', role: 'Đồng minh / Witcher', age: 'Unknown', description: 'Một Witcher trẻ tuổi và nóng nảy tại Kaer Morhen, người bạn đồng môn của Geralt với tính cách gai góc.' },
+    { name: 'Eskel', role: 'Đồng minh / Witcher', age: 'Unknown', description: 'Một Witcher điềm tĩnh và đáng tin cậy, người bạn đồng môn lâu năm của Geralt, nổi tiếng với khả năng chiến đấu bền bỉ.' },
+    { name: 'Philippa Eilhart', role: 'Nhân vật phức tạp / Phù thủy', age: '300+', description: 'Một phù thủy cực kỳ quyền năng và mưu mô, người sáng lập Hội Nữ Phù Thủy, luôn hành động vì lợi ích chính trị và quyền lực.' },
+    { name: 'Sigismund Dijkstra', role: 'Đồng minh / Đối thủ', age: '50+', description: 'Cựu điệp viên trưởng của Redania, một người đàn ông to lớn, thông minh và cực kỳ xảo quyệt trong các âm mưu chính trị.' },
+    { name: 'Vernon Roche', role: 'Đồng minh', age: '40+', description: 'Thủ lĩnh của lực lượng đặc nhiệm Blue Stripes của Temeria, một người lính trung thành và là đồng minh đáng tin cậy của Geralt.' },
+    { name: 'Iorveth', role: 'Đồng minh / Đối thủ', age: '100+', description: 'Thủ lĩnh của một nhóm Scoia\'tael (phiến quân tộc Elf), một cung thủ tài ba và là người đấu tranh cho quyền lợi của các tộc người không phải con người.' },
+    { name: 'Emiel Regis Rohellec Terzieff-Godefroy', role: 'Bạn thân / Ma cà rồng', age: '400+', description: 'Một ma cà rồng cao cấp (Higher Vampire) thông thái, lịch thiệp và là người bạn tri kỷ của Geralt, người luôn đưa ra những lời khuyên sâu sắc.' },
+    { name: 'Gaunter O\'Dimm', role: 'Phản diện chính / Thực thể thần bí', age: 'Vĩnh cửu', description: 'Kẻ Buôn Gương, một thực thể tà ác và quyền năng chuyên đi giao kèo với con người để chiếm đoạt linh hồn của họ.' },
+    { name: 'Olgierd von Everec', role: 'Nhân vật chính / Đối thủ', age: '100+', description: 'Một quý tộc bất tử với trái tim bằng đá, người đã thực hiện một giao kèo bi kịch với Gaunter O\'Dimm.' },
+    { name: 'Iris von Everec', role: 'Nhân vật bi kịch', age: 'Unknown', description: 'Vợ của Olgierd, một họa sĩ tài năng có số phận đau thương, người bị mắc kẹt trong thế giới tranh vẽ của chính mình.' },
+    { name: 'Detlaff van der Eretein', role: 'Phản diện / Ma cà rồng', age: 'Ancient', description: 'Một ma cà rồng cao cấp mạnh mẽ nhưng thiếu kinh nghiệm về thế giới con người, kẻ đã gây ra thảm kịch tại Beauclair.' },
+    { name: 'Anna Henrietta', role: 'Nữ hoàng', age: '30+', description: 'Nữ công tước của Toussaint, một nhà lãnh đạo kiêu sa, quyết đoán và rất mực yêu thương thần dân của mình.' },
+    { name: 'Syanna (Sylvia Anna)', role: 'Phản diện / Nhân vật bi kịch', age: '30+', description: 'Chị gái bị ruồng bỏ của Anna Henrietta, người mang trong mình lời nguyền của Mặt Trời Đen và lòng thù hận sâu sắc.' },
+    { name: 'Letho of Gulet', role: 'Đối thủ / Đồng minh', age: '100+', description: 'Kẻ Sát Vương, một Witcher khổng lồ thuộc trường phái Rắn, người đã gây ra những biến động chính trị lớn trong quá khứ.' },
+    { name: 'Crach an Craite', role: 'Đồng minh', age: '50+', description: 'Jarl của Skellige, một chiến binh dũng mãnh và là người bạn lâu năm của Geralt, luôn sẵn lòng hỗ trợ anh bằng cả hạm đội của mình.' },
+    { name: 'Hjalmar an Craite', role: 'Đồng minh', age: '25', description: 'Con trai của Crach, một chiến binh dũng cảm và nóng nảy, người luôn khao khát chứng tỏ bản lĩnh của mình.' },
+    { name: 'Cerys an Craite', role: 'Đồng minh / Nữ vương', age: '23', description: 'Con gái của Crach, một nhà lãnh đạo thông minh và điềm tĩnh, người sau này trở thành Nữ vương đầu tiên của Skellige.' },
+    { name: 'Mousesack (Ermion)', role: 'Đồng minh / Druid', age: '70+', description: 'Một Druid thông thái của Skellige, người bạn lâu năm của Geralt và là người bảo vệ thầm lặng cho Ciri.' },
+    { name: 'Avallac\'h', role: 'Đồng minh bí ẩn / Elf', age: 'Ancient', description: 'Một pháp sư Elf (Aen Elle) quyền năng, người đã dẫn dắt và bảo vệ Ciri khỏi Wild Hunt vì những mục đích riêng của mình.' },
+    { name: 'The Bloody Baron (Phillip Strenger)', role: 'Nhân vật phức tạp', age: '50', description: 'Lãnh chúa của vùng Velen, một người đàn ông mang nhiều lỗi lầm đang tìm cách chuộc lỗi với gia đình mình.' }
+  ]
+};

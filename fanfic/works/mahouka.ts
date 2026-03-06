@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const mahouka: FanficWork = {
+  id: 'mahouka',
+  title: 'The Irregular at Magic High School (Mahouka Koukou no Rettousei)',
+  description: 'Câu chuyện về hai anh em Shiba Tatsuya và Shiba Miyuki tại trường trung học ma pháp, nơi tài năng được đánh giá qua các chỉ số ma pháp.',
+  country: 'Nhật',
+  plot: 'Trong một thế giới nơi ma pháp đã trở thành một công nghệ hiện đại, Shiba Tatsuya là một học sinh "tầm thường" ở lớp 2 (Course 2) trong khi em gái Miyuki là thiên tài ở lớp 1. Tuy nhiên, Tatsuya sở hữu những khả năng bí ẩn và sức mạnh chiến đấu vượt xa mọi chỉ số đo lường thông thường, âm thầm bảo vệ em gái và quốc gia khỏi các mối đe dọa.',
+  worldSetting: 'Thế giới tương lai nơi ma pháp được hệ thống hóa thành kỹ thuật số. Các quốc gia sử dụng pháp sư như một lực lượng quân sự chiến lược.',
+  characters: [
+    { name: 'Shiba Tatsuya', role: 'Nhân vật chính', age: '16', description: 'Học sinh lớp 2 (Course 2), bị coi là "kẻ kém cỏi" nhưng thực chất là một kỹ sư ma pháp thiên tài và là một vũ khí chiến lược của quân đội với khả năng phân rã và tái tạo. Anh là vệ sĩ của em gái mình và là thành viên của gia tộc Yotsuba.' },
+    { name: 'Shiba Miyuki', role: 'Nữ chính', age: '15', description: 'Em gái của Tatsuya, thiên tài lớp 1 (Course 1), sở hữu vẻ đẹp tuyệt trần và ma pháp hệ băng cực mạnh. Cô là ứng cử viên tiếp theo cho vị trí người đứng đầu gia tộc Yotsuba và cực kỳ sùng bái anh trai mình.' },
+    { name: 'Saegusa Mayumi', role: 'Hỗ trợ / Hội trưởng', age: '18', description: 'Hội trưởng hội học sinh, một trong những pháp sư mạnh nhất trường thuộc gia tộc Saegusa - một trong Thập Sư Tộc. Cô nổi tiếng với kỹ năng bắn tỉa ma pháp tầm xa.' },
+    { name: 'Chiba Erika', role: 'Bạn bè / Kiếm sĩ', age: '16', description: 'Bạn cùng lớp của Tatsuya, con gái út của gia tộc Chiba nổi tiếng về kiếm thuật ma pháp. Cô là một bậc thầy về cận chiến và thường xuyên giúp đỡ Tatsuya trong các cuộc điều tra.' },
+    { name: 'Shibata Mizuki', role: 'Bạn bè', age: '16', description: 'Cô gái nhút nhát với đôi mắt có khả năng nhìn thấy các hạt linh hồn ma pháp (Pushion). Cô phải đeo kính đặc biệt để hạn chế lượng thông tin ma pháp thu nhận.' },
+    { name: 'Saijou Leonhart', role: 'Bạn bè / Cận chiến', age: '16', description: 'Bạn thân của Tatsuya, chuyên về ma pháp cường hóa cơ thể và phòng ngự. Anh là một người lai giữa con người và một loại người nhân tạo được tối ưu hóa cho chiến đấu.' },
+    { name: 'Yoshida Mikihiko', role: 'Bạn bè / Cổ thuật', age: '16', description: 'Một pháp sư cổ thuật (Ancient Magic) tài năng chuyên về triệu hồi linh hồn. Anh từng mất tự tin sau một tai nạn nhưng đã lấy lại được nhờ sự giúp đỡ của Tatsuya.' },
+    { name: 'Mitsui Honoka', role: 'Bạn bè', age: '16', description: 'Bạn cùng lớp của Miyuki, sở hữu ma pháp hệ ánh sáng. Cô thầm yêu Tatsuya và luôn cố gắng để được anh chú ý.' },
+    { name: 'Kitayama Shizuku', role: 'Bạn bè', age: '16', description: 'Bạn thân nhất của Honoka, một pháp sư hệ dao động cực mạnh. Cô đến từ một gia đình giàu có và có tính cách trầm lặng, ít nói.' },
+    { name: 'Ichijou Masaki', role: 'Đối thủ / Thiên tài', age: '17', description: 'Thiên tài của trường trung học đệ tam, được mệnh danh là "Crimson Prince" vì khả năng điều khiển máu và chất lỏng để tạo ra các vụ nổ ma pháp.' },
+    { name: 'Yotsuba Maya', role: 'Lãnh đạo gia tộc', age: '40+', description: 'Người đứng đầu gia tộc Yotsuba, dì của Tatsuya và Miyuki. Bà là một trong những pháp sư quyền năng nhất thế giới với ma pháp "Meteor Stream" có thể bẻ cong ánh sáng.' },
+    { name: 'Kokonoe Yakumo', role: 'Sư phụ / Nhẫn giả', age: 'Unknown', description: 'Một bậc thầy về nhẫn thuật và cổ thuật, người dạy Tatsuya các kỹ năng chiến đấu không dùng ma pháp. Ông là một nhân vật bí ẩn với mạng lưới thông tin rộng khắp.' },
+    { name: 'Watanabe Mari', role: 'Hỗ trợ / Trưởng ban kỷ luật', age: '18', description: 'Trưởng ban kỷ luật của trường, một chuyên gia về cận chiến ma pháp. Cô là bạn thân của Mayumi và Katsuto.' },
+    { name: 'Juumonji Katsuto', role: 'Hỗ trợ / Lãnh đạo', age: '18', description: 'Trưởng ban các câu lạc bộ, người thừa kế của gia tộc Juumonji. Anh sở hữu ma pháp phòng ngự tuyệt đối "Phalanx" có thể chặn đứng mọi cuộc tấn công.' },
+    { name: 'Kudou Retsu', role: 'Trưởng lão', age: '90+', description: 'Cựu lãnh đạo của Thập Sư Tộc, một nhân vật có tầm ảnh hưởng lớn trong giới ma pháp Nhật Bản. Ông luôn theo dõi sự phát triển của Tatsuya với sự quan tâm đặc biệt.' },
+    { name: 'Fujibayashi Kyoko', role: 'Đồng minh / Quân đội', age: '24', description: 'Một sĩ quan quân đội thuộc đội đặc nhiệm 101, chuyên gia về ma pháp điện tử và là cầu nối giữa Tatsuya với quân đội.' },
+    { name: 'Kazama Harunobu', role: 'Chỉ huy / Quân đội', age: '35+', description: 'Thiếu tá chỉ huy đội đặc nhiệm 101, người hiểu rõ sức mạnh thực sự của Tatsuya và luôn tin tưởng giao phó các nhiệm vụ chiến lược cho anh.' },
+    { name: 'Angelina Kudo Shields', role: 'Đối thủ / Đồng minh', age: '16', description: 'Được biết đến với mật danh "Sirius", pháp sư mạnh nhất của quân đội Hoa Kỳ (USNA). Cô sở hữu ma pháp chiến lược "Heavy Metal Burst" và có mối quan hệ phức tạp với Tatsuya.' },
+    { name: 'Kudo Minoru', role: 'Nhân vật quan trọng', age: '15', description: 'Cháu trai của Kudo Retsu, một thiên tài ma pháp trẻ tuổi với cơ thể yếu ớt nhưng sở hữu tiềm năng vượt xa các pháp sư cùng trang lứa.' },
+    { name: 'Saegusa Koichi', role: 'Lãnh đạo gia tộc', age: '45+', description: 'Người đứng đầu gia tộc Saegusa, cha của Mayumi. Ông là một chính trị gia xảo quyệt luôn tìm cách gia tăng quyền lực cho gia tộc mình.' },
+    { name: 'Ichijou Gouki', role: 'Lãnh đạo gia tộc', age: '45+', description: 'Người đứng đầu gia tộc Ichijou, cha của Masaki. Ông là một chiến binh dũng mãnh và luôn tự hào về tài năng của con trai mình.' },
+    { name: 'Zhou Gongjin', role: 'Phản diện', age: '30+', description: 'Một chiến lược gia nguy hiểm đến từ Đại Lục, kẻ đứng sau nhiều âm mưu phá hoại Nhật Bản và luôn tìm cách tiêu diệt Tatsuya.' },
+    { name: 'Gu Jie', role: 'Phản diện', age: 'Unknown', description: 'Một pháp sư tà ác chuyên về cổ thuật và xác sống, kẻ đã gây ra nhiều thảm kịch trong các sự kiện ma pháp quốc tế.' },
+    { name: 'Raymond S. Clark', role: 'Nhân vật quan trọng', age: '17', description: 'Một trong "Thất Hiền Giả" (Seven Sages), người sở hữu hệ thống Echelon và thường xuyên cung cấp thông tin bí mật cho Tatsuya.' },
+    { name: 'Edward Clark', role: 'Phản diện', age: '40+', description: 'Cha của Raymond và là một trong Thất Hiền Giả, kẻ âm mưu cô lập các pháp sư khỏi xã hội loài người.' },
+    { name: 'Shiba Tatsuro', role: 'Gia đình', age: '45+', description: 'Cha đẻ của Tatsuya và Miyuki, một người đàn ông lạnh lùng luôn coi Tatsuya là một công cụ thay vì một đứa con.' },
+    { name: 'Shiba Sayuri', role: 'Gia đình', age: '35+', description: 'Mẹ kế của Tatsuya, người luôn ghen tị với tài năng của Miyuki và ghét bỏ sự hiện diện của Tatsuya trong gia đình.' },
+    { name: 'Sanada Shigeru', role: 'Đồng minh / Quân đội', age: '30+', description: 'Đại úy thuộc đội đặc nhiệm 101, chuyên gia về thiết kế CAD và hỗ trợ kỹ thuật cho Tatsuya trên chiến trường.' },
+    { name: 'Yanagi Akihito', role: 'Đồng minh / Quân đội', age: '30+', description: 'Đại úy thuộc đội đặc nhiệm 101, một bậc thầy về cận chiến và phối hợp tác chiến cùng Tatsuya.' },
+    { name: 'Yamanaka Kousuke', role: 'Đồng minh / Quân đội', age: '28', description: 'Trung sĩ thuộc đội đặc nhiệm 101, chuyên gia về y tế ma pháp và hỗ trợ hậu cần cho đội.' }
+  ]
+};

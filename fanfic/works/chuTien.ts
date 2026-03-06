@@ -1,0 +1,43 @@
+import { FanficWork } from '../types';
+
+export const chuTien: FanficWork = {
+  id: 'chu-tien',
+  title: 'Chu Tiên',
+  description: 'Một thiếu niên bình thường bị cuốn vào cuộc chiến giữa Chính và Tà, tìm kiếm ý nghĩa của cuộc sống và tình yêu.',
+  country: 'Trung',
+  plot: 'Trương Tiểu Phàm là một thiếu niên bình thường ở thôn Thảo Miếu, sau một đêm thảm sát cả thôn, anh được Thanh Vân Môn nhận làm đệ tử. Với tư chất kém cỏi, anh tình cờ sở hữu Phệ Huyết Châu và Nhiếp Hồn Bổng, tạo thành Phệ Hồn - một pháp bảo tà ác. Cuộc đời anh là chuỗi bi kịch giữa tình yêu, lòng trung thành và sự phản bội của chính đạo.',
+  worldSetting: 'Thế giới tu tiên chia thành Chính đạo (Thanh Vân Môn, Thiên Âm Tự, Phần Hương Cốc) và Ma giáo (Quỷ Vương Tông, Hợp Hoan Phái...). Pháp bảo là vật bất ly thân của tu sĩ, và Phệ Huyết Châu là một trong những tà vật mạnh nhất.',
+  characters: [
+    { name: 'Trương Tiểu Phàm', role: 'Nhân vật chính', age: '100+', description: 'Biệt danh Quỷ Lệ (sau khi gia nhập Ma giáo). Tính tình kiên trì, trọng tình nghĩa, sở hữu pháp bảo Phệ Hồn và tu luyện cả Phật, Đạo, Ma.' },
+    { name: 'Bích Dao', role: 'Nữ chính', age: '20+', description: 'Con gái của Quỷ Vương, xinh đẹp, thông minh và dám yêu dám hận. Cô đã dùng Si Tình Chú để cứu Tiểu Phàm và rơi vào trạng thái hôn mê vĩnh viễn.' },
+    { name: 'Lục Tuyết Kỳ', role: 'Nữ chính', age: '100+', description: 'Đệ tử xuất sắc nhất của Thanh Vân Môn, vẻ đẹp lạnh lùng thanh cao, sở hữu thần binh Thiên Gia Kiếm. Luôn âm thầm bảo vệ và chờ đợi Tiểu Phàm.' },
+    { name: 'Điền Bất Dịch', role: 'Sư phụ', age: '300+', description: 'Thủ tọa Đại Trúc Phong, bề ngoài nghiêm khắc nhưng cực kỳ yêu thương đệ tử, đặc biệt là Tiểu Phàm.' },
+    { name: 'Quỷ Vương', role: 'Phản diện / Nhạc phụ', age: '500+', description: 'Tông chủ Quỷ Vương Tông, tham vọng thống nhất Ma giáo và hồi sinh Thú Thần, nhưng cũng là một người cha hết mực thương con.' },
+    { name: 'Lâm Kinh Vũ', role: 'Bạn thân', age: '100+', description: 'Bạn thanh mai trúc mã của Tiểu Phàm, tư chất cực cao, đệ tử của Long Thủ Phong, luôn nỗ lực trừ ma vệ đạo.' },
+    { name: 'Điền Linh Nhi', role: 'Mối tình đầu', age: '100+', description: 'Con gái của Điền Bất Dịch, sư tỷ của Tiểu Phàm, tính tình hoạt bát, là người Tiểu Phàm thầm thương trộm nhớ lúc nhỏ.' },
+    { name: 'Thú Thần', role: 'Phản diện', age: '1000+', description: 'Sinh vật bất tử được tạo ra từ oán khí, có sức mạnh kinh thiên động địa, đem lòng yêu Linh Lung - vu nữ của Nam Cương.' },
+    { name: 'Đạo Huyền Chân Nhân', role: 'Chưởng môn', age: '500+', description: 'Chưởng môn Thanh Vân Môn, người nắm giữ Tru Tiên Kiếm, vì đại cục mà không tiếc hy sinh bất cứ ai.' },
+    { name: 'Vạn Kiếm Nhất', role: 'Nhân vật quan trọng', age: '500+', description: 'Thiên tài của Thanh Vân Môn, người đã từng tung hoành Ma giáo, sau ẩn cư tại Tổ Sư Từ và truyền dạy võ công cho Lâm Kinh Vũ.' },
+    { name: 'Thương Tùng Đạo Nhân', role: 'Phản diện', age: '500+', description: 'Thủ tọa Long Thủ Phong, vì oán hận cho Vạn Kiếm Nhất mà phản bội Thanh Vân Môn, gia nhập Ma giáo.' },
+    { name: 'Tô Như', role: 'Hỗ trợ', age: '300+', description: 'Vợ của Điền Bất Dịch, một nữ tu xinh đẹp và tài năng, luôn là người hòa giải và chăm sóc các đệ tử Đại Trúc Phong.' },
+    { name: 'Thủy Kỳ Lân', role: 'Thần thú', age: '1000+', description: 'Linh thú trấn sơn của Thanh Vân Môn, sở hữu sức mạnh thủy hệ kinh người và là người bạn đồng hành của Đạo Huyền.' },
+    { name: 'Pháp Tướng', role: 'Đồng minh', age: '100+', description: 'Đệ tử xuất sắc của Thiên Âm Tự, người đã cùng Tiểu Phàm trải qua nhiều sinh tử và luôn giữ vững đạo tâm.' },
+    { name: 'Kim Bình Nhi', role: 'Nhân vật quan trọng', age: '100+', description: 'Diệu Công Chúa của Hợp Hoan Phái, thông minh, quyến rũ và đầy tham vọng, sau này trở thành một trong những thủ lĩnh của Ma giáo.' },
+    { name: 'Tần Vô Viêm', role: 'Phản diện', age: '100+', description: 'Độc Công Tử của Vạn Độc Môn, bậc thầy sử dụng độc dược và mưu mô, là đối thủ đáng gờm của Tiểu Phàm.' },
+    { name: 'Chu Nhất Tiên', role: 'Hỗ trợ', age: 'Unknown', description: 'Một lão già bí ẩn đi lang thang khắp nơi, sở hữu kiến thức uyên bác về mọi thứ nhưng luôn tỏ ra là một kẻ lừa đảo.' },
+    { name: 'Tiểu Hoàn', role: 'Hỗ trợ', age: '18+', description: 'Cháu gái của Chu Nhất Tiên, thiên tài về bói toán và quỷ đạo, luôn dành tình cảm đặc biệt cho Tiểu Phàm.' },
+    { name: 'Dã Cẩu Đạo Nhân', role: 'Hỗ trợ', age: '100+', description: 'Một tu sĩ Ma giáo có ngoại hình xấu xí nhưng trung thành, sau này đi theo bảo vệ Tiểu Hoàn và Chu Nhất Tiên.' },
+    { name: 'Lý Tuân', role: 'Đối thủ', age: '100+', description: 'Đệ tử kiêu ngạo của Phần Hương Cốc, luôn coi thường Tiểu Phàm và là người theo đuổi Lục Tuyết Kỳ.' },
+    { name: 'Tiểu Hôi', role: 'Linh thú', age: '???', description: 'Con khỉ ba mắt thông minh, người bạn trung thành nhất của Tiểu Phàm, có khả năng biến hình khổng lồ.' },
+    { name: 'Đại Hoàng', role: 'Linh thú', age: '???', description: 'Con chó vàng của Điền Bất Dịch, người bạn thân thiết của Tiểu Hôi và Tiểu Phàm tại Đại Trúc Phong.' },
+    { name: 'Pháp Thiện', role: 'Đồng minh', age: '100+', description: 'Đệ tử chính trực của Thiên Âm Tự, người luôn tôn trọng và tin tưởng Tiểu Phàm.' },
+    { name: 'Yến Hồng', role: 'Đối thủ / Đồng minh', age: '100+', description: 'Nữ đệ tử tài năng của Phần Hương Cốc, một người điềm tĩnh và có cái nhìn khách quan về chính tà.' },
+    { name: 'Hấp Huyết Lão Yêu', role: 'Phản diện', age: '300+', description: 'Một trong những cao thủ Ma giáo tàn ác, chuyên sử dụng tà thuật hút máu.' },
+    { name: 'Bách Độc Tử', role: 'Phản diện', age: '300+', description: 'Trưởng lão của Vạn Độc Môn, bậc thầy sử dụng độc dược và mưu mô.' },
+    { name: 'Đoan Mộc Lão Tổ', role: 'Phản diện', age: '300+', description: 'Một cao thủ Ma giáo lâu đời, tính tình quái dị và võ công thâm hậu.' },
+    { name: 'U Cơ (Chu Tước)', role: 'Hỗ trợ', age: '300+', description: 'Một trong tứ đại hộ pháp của Quỷ Vương Tông, luôn che mặt bằng khăn đen, người coi Bích Dao như con gái.' },
+    { name: 'Thanh Long', role: 'Hỗ trợ', age: '300+', description: 'Đứng đầu tứ đại hộ pháp Quỷ Vương Tông, một người điềm tĩnh, mưu lược và sở hữu pháp bảo Càn Khôn Thanh Quang Giới.' },
+    { name: 'Linh Lung', role: 'Nhân vật quan trọng', age: '1000+', description: 'Vu nữ vĩ đại của Nam Cương, người đã tạo ra Thú Thần và cũng là người đã hy sinh để phong ấn hắn.' },
+    { name: 'Hắc Mộc', role: 'Nhân vật quan trọng', age: '1000+', description: 'Vu sư Nam Cương, người hầu trung thành của Thú Thần, luôn tìm cách hồi sinh chủ nhân.' }
+  ]
+};

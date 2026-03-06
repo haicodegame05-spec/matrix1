@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const mushokuTensei: FanficWork = {
+  id: 'mushoku-tensei',
+  title: 'Thất Nghiệp Chuyển Sinh (Mushoku Tensei)',
+  description: 'Một người đàn ông thất nghiệp 34 tuổi chết đi và được tái sinh trong một thế giới ma pháp với quyết tâm sống một cuộc đời nghiêm túc.',
+  country: 'Nhật',
+  plot: 'Rudeus Greyrat được tái sinh với ký ức của kiếp trước. Nhận ra sai lầm của quá khứ, cậu quyết tâm học tập ma pháp và võ thuật từ khi còn nhỏ. Hành trình của Rudeus trải dài từ việc học tập, phiêu lưu qua các lục địa cho đến khi đối mặt với những thế lực thần bí chi phối thế giới.',
+  worldSetting: 'Thế giới kỳ ảo với hệ thống ma pháp và đấu khí phát triển. Thế giới được chia thành nhiều lục địa với các chủng tộc và văn hóa khác nhau.',
+  characters: [
+    { name: 'Rudeus Greyrat', role: 'Nhân vật chính', age: '34 (kiếp trước) / 0-74 (kiếp này)', description: 'Thiên tài ma pháp, sở hữu lượng ma lực khổng lồ và kiến thức từ kiếp trước. Luôn cố gắng sống một cuộc đời không hối tiếc.' },
+    { name: 'Sylphiette', role: 'Nữ chính', age: '???', description: 'Bạn thuở nhỏ của Rudeus, một bán tiên dịu dàng và là một trong những người vợ của cậu. Cô giỏi ma pháp không cần niệm chú.' },
+    { name: 'Roxy Migurdia', role: 'Người dẫn dắt / Nữ chính', age: '50+', description: 'Sư phụ ma pháp đầu tiên của Rudeus, người đã giúp cậu vượt qua nỗi sợ ra khỏi nhà và trở thành người vợ thứ hai.' },
+    { name: 'Eris Boreas Greyrat', role: 'Nữ chính', age: '???', description: 'Tiểu thư nhà Boreas, một chiến binh mạnh mẽ và nóng nảy, người vợ thứ ba của Rudeus. Cô là một Kiếm Vương tài ba.' },
+    { name: 'Paul Greyrat', role: 'Cha', age: '40+', description: 'Cha của Rudeus, một kiếm sĩ tài giỏi nhưng có nhiều khuyết điểm, người đã dạy cho Rudeus những bài học về gia đình.' },
+    { name: 'Zenith Greyrat', role: 'Mẹ', age: '40+', description: 'Mẹ của Rudeus, một pháp sư trị liệu tài năng. Cô là người dịu dàng và luôn yêu thương gia đình hết mực.' },
+    { name: 'Lilia', role: 'Hầu gái / Gia đình', age: '???', description: 'Hầu gái của gia đình Greyrat, người đã sinh cho Paul một cô con gái. Cô luôn trung thành và chăm sóc Rudeus chu đáo.' },
+    { name: 'Aisha Greyrat', role: 'Em gái', age: '???', description: 'Em gái cùng cha khác mẹ của Rudeus, một thiên tài về mọi mặt nhưng luôn chọn đứng sau hỗ trợ anh trai mình.' },
+    { name: 'Norn Greyrat', role: 'Em gái', age: '???', description: 'Em gái ruột của Rudeus, người có tính cách nghiêm túc và từng có mâu thuẫn với anh trai nhưng sau đó đã thấu hiểu.' },
+    { name: 'Ruijerd Superdia', role: 'Đồng minh / Người dẫn dắt', age: '500+', description: 'Chiến binh tộc Superd huyền thoại, người đã đồng hành cùng Rudeus và Eris trong hành trình trở về quê hương.' },
+    { name: 'Ghislaine Dedoldia', role: 'Người dẫn dắt', age: '???', description: 'Kiếm Vương tộc Thú, sư phụ kiếm thuật của Rudeus và Eris. Cô có vẻ ngoài mạnh mẽ và trung thành tuyệt đối.' },
+    { name: 'Orsted', role: 'Đồng minh / Đối thủ', age: 'Ancient', description: 'Long Thần, người mạnh nhất thế giới với vẻ ngoài đáng sợ khiến mọi sinh vật đều kinh hãi, sau này trở thành minh chủ của Rudeus.' },
+    { name: 'Kishirika Kishirisu', role: 'Ma Đế', age: 'Ancient', description: 'Nữ vương của ma tộc, người đã ban cho Rudeus các con mắt ma thuật. Cô có tính cách trẻ con và ham ăn.' },
+    { name: 'Badigadi', role: 'Ma Vương', age: 'Ancient', description: 'Ma Vương bất tử với sáu cánh tay, vị hôn phu của Kishirika. Ông là một chiến binh mạnh mẽ và phóng khoáng.' },
+    { name: 'Hitogami', role: 'Phản diện chính', age: 'Unknown', description: 'Nhân Thần, kẻ thao túng vận mệnh con người từ trong giấc mơ. Hắn là kẻ thù không đội trời chung của Orsted và Rudeus.' },
+    { name: 'Perugius Dola', role: 'Đại năng cổ xưa', age: '400+', description: 'Giáp Long Vương, một trong những anh hùng đã đánh bại Ma Thần Laplace. Ông sống trong pháo đài bay Chaos Breaker.' },
+    { name: 'Nanahoshi Shizuka', role: 'Người xuyên không', age: '???', description: 'Một nữ sinh bị triệu hồi cùng lúc với Rudeus nhưng không có ma lực. Cô luôn tìm cách trở về thế giới cũ.' },
+    { name: 'Zanoba Shirone', role: 'Đồng minh / Học trò', age: '???', description: 'Tam hoàng tử của vương quốc Shirone, một người cuồng búp bê và sở hữu sức mạnh thể chất phi thường (Miko).' },
+    { name: 'Cliff Grimoire', role: 'Đồng minh', age: '???', description: 'Cháu trai của Giáo hoàng, một pháp sư tài giỏi và là chồng của Elinalise. Anh là người bạn thân thiết của Rudeus.' },
+    { name: 'Elinalise Dragonroad', role: 'Đồng minh / Gia đình', age: 'Unknown', description: 'Một bán tiên xinh đẹp với lời nguyền cần tinh dịch để duy trì sự sống. Cô là bà nội của Sylphiette và là đồng đội cũ của Paul.' },
+    { name: 'Linia Dedoldia', role: 'Đồng minh', age: '18', description: 'Một cô gái tộc Thú, bạn cùng lớp của Rudeus tại Học viện Ma pháp Ranoa, tính cách kiêu ngạo nhưng tốt bụng.' },
+    { name: 'Pursena Adoldia', role: 'Đồng minh', age: '18', description: 'Bạn thân của Linia, một cô gái tộc Thú ham ăn và luôn đi theo Linia.' },
+    { name: 'Luke Notos Greyrat', role: 'Đối thủ / Đồng minh', age: '18', description: 'Anh họ của Rudeus, hiệp sĩ bảo vệ Ariel và là một kẻ hám gái.' },
+    { name: 'Ariel Anemoi Asura', role: 'Đồng minh / Lãnh đạo', age: '18', description: 'Nhị công chúa của vương quốc Asura, người đang nỗ lực giành lại ngai vàng với sự giúp đỡ của Rudeus.' },
+    { name: 'Sylvester Greyrat', role: 'Gia đình', age: 'Deceased', description: 'Ông nội của Rudeus, người đứng đầu gia tộc Notos Greyrat.' },
+    { name: 'Sauros Boreas Greyrat', role: 'Gia đình', age: 'Deceased', description: 'Ông nội của Eris, người đứng đầu gia tộc Boreas Greyrat, một người nóng nảy nhưng rất yêu thương cháu gái.' },
+    { name: 'Philip Boreas Greyrat', role: 'Gia đình', age: 'Deceased', description: 'Cha của Eris, một chính trị gia tài ba và là người đã thuê Rudeus làm gia sư cho con gái mình.' },
+    { name: 'Hilda Boreas Greyrat', role: 'Gia đình', age: 'Deceased', description: 'Mẹ của Eris, một người phụ nữ quý tộc luôn lo lắng cho tương lai của gia đình.' },
+    { name: 'Geese Nukadia', role: 'Đồng minh / Phản diện', age: 'Unknown', description: 'Một người tộc Quỷ chuyên về cờ bạc và thu thập thông tin, đồng đội cũ của Paul, người mang trong mình nhiều bí mật.' },
+    { name: 'Talhand', role: 'Đồng minh', age: '100+', description: 'Một chiến binh tộc Lùn, đồng đội cũ của Paul, người sở hữu sức mạnh phòng ngự tuyệt vời.' }
+  ]
+};

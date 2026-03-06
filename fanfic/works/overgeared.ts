@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const overgeared: FanficWork = {
+  id: 'overgeared',
+  title: 'Thợ Rèn Huyền Thoại (Overgeared)',
+  description: 'Shin Youngwoo, một thanh niên xui xẻo, bỗng nhiên trở thành người chơi mang nghề nghiệp huyền thoại trong trò chơi thực tế ảo Satisfy.',
+  country: 'Hàn',
+  plot: 'Shin Youngwoo (Grid) là một người chơi kém cỏi và xui xẻo trong trò chơi Satisfy. Trong một nhiệm vụ cấp S, anh tình cờ nhận được "Sách của Pagma" và chuyển chức thành "Hậu duệ của Pagma" - một thợ rèn huyền thoại. Thay vì chiến đấu bằng kỹ năng, Grid dùng những trang bị cực phẩm do chính mình rèn ra để đè bẹp đối thủ và dần trở thành vị vua của đế chế mạnh nhất Satisfy.',
+  worldSetting: 'Trò chơi thực tế ảo Satisfy với hệ thống nghề nghiệp, kỹ năng và trang bị cực kỳ phức tạp. Grid xây dựng vương quốc Overgeared và đối đầu với các vị thần.',
+  characters: [
+    { name: 'Grid (Shin Youngwoo)', role: 'Nhân vật chính', description: 'Ban đầu ích kỷ và nhỏ nhen, nhưng dần trưởng thành thành một vị vua vĩ đại. Sở hữu khả năng rèn trang bị huyền thoại.' },
+    { name: 'Kraugel', role: 'Đối thủ / Đồng minh', description: 'Kiếm Thánh, người chơi mạnh nhất Satisfy, đối thủ lớn nhất và cũng là người bạn đáng kính của Grid.' },
+    { name: 'Irene', role: 'Nữ chính', description: 'Công chúa của vương quốc Winston, người vợ là nhân vật hệ thống đầu tiên của Grid, luôn yêu thương và ủng hộ anh hết lòng.' },
+    { name: 'Jishuka', role: 'Nữ chính / Đồng minh', description: 'Cung thủ thiên tài, thủ lĩnh hội Tzedakah, một trong những người đầu tiên nhận ra tài năng của Grid.' },
+    { name: 'Yura', role: 'Nữ chính / Đồng minh', description: 'Sát thủ quỷ, một trong những người chơi top đầu, có tình cảm sâu đậm với Grid.' },
+    { name: 'Braham', role: 'Người dẫn dắt / Đồng minh', description: 'Phù thủy huyền thoại, linh hồn cư ngụ trong cơ thể Grid, người đã dạy cho anh những kiến thức ma pháp tối cao.' },
+    { name: 'Piaro', role: 'Đồng minh / Cấp dưới', description: 'Cựu kỵ sĩ đế chế, người đã trở thành "Nông dân huyền thoại" và là thuộc hạ trung thành nhất của Grid.' },
+    { name: 'Lauel', role: 'Đồng minh / Mưu sĩ', description: 'Thiên tài mưu lược, người đã xây dựng vương quốc Overgeared từ con số không bằng trí tuệ siêu việt.' },
+    { name: 'Faker', role: 'Đồng minh', description: 'Sát thủ bóng tối, một trong những thành viên cốt cán của hội Overgeared, luôn hành động thầm lặng.' },
+    { name: 'Regas', role: 'Đồng minh', description: 'Võ sư mạnh mẽ, người luôn khao khát được so tài với các đối thủ mạnh để hoàn thiện bản thân.' },
+    { name: 'Pon', role: 'Đồng minh', description: 'Kỵ sĩ thương tài ba, một trong những người bạn đầu tiên và là chiến binh dũng cảm của Grid.' },
+    { name: 'Vantner', role: 'Đồng minh', description: 'Hộ vệ (Guardian) mạnh mẽ, một trong những thành viên cốt cán của hội Overgeared, luôn bảo vệ đồng đội.' },
+    { name: 'Peak Sword', role: 'Đồng minh', description: 'Một người chơi yêu nước Hàn Quốc, thủ lĩnh hội Silver Knights, người đã bái Grid làm sư phụ.' },
+    { name: 'Huroi', role: 'Đồng minh / Diễn giả', description: 'Người chơi mang nghề nghiệp "Diễn giả huyền thoại", có khả năng thao túng tâm lý và gây ức chế cho kẻ thù.' },
+    { name: 'Euphemina', role: 'Đồng minh', description: 'Người chơi mang nghề nghiệp "Người sao chép huyền thoại", có khả năng sao chép kỹ năng của bất kỳ ai.' },
+    { name: 'Ruby (Shin Sehee)', role: 'Gia đình / Thánh nữ', description: 'Em gái của Grid, người chơi mang nghề nghiệp "Thánh nữ huyền thoại", luôn hỗ trợ anh bằng ma pháp hồi phục.' },
+    { name: 'Noe', role: 'Thú cưng', description: 'Một con Memphis - sinh vật mạnh nhất địa ngục, thú cưng trung thành và cực kỳ đáng yêu của Grid.' },
+    { name: 'Randy', role: 'Triệu hồi', description: 'Một con Doppelganger có khả năng sao chép hình dạng và sức mạnh của Grid, hỗ trợ anh trong các trận chiến.' },
+    { name: 'Mercedes', role: 'Đồng minh / Cấp dưới', description: 'Kỵ sĩ huyền thoại, người đã thề trung thành với Grid và trở thành lá chắn vững chắc cho vương quốc Overgeared.' },
+    { name: 'Asmophel', role: 'Đồng minh / Cấp dưới', description: 'Cựu kỵ sĩ đế chế, một chiến binh tài ba luôn nỗ lực chuộc lỗi và phục vụ Grid hết lòng.' },
+    { name: 'Marie Rose', role: 'Nhân vật quan trọng', description: 'Công tước Ma cà rồng, một trong những thực thể mạnh nhất Satisfy, có mối quan hệ bí ẩn với Grid.' },
+    { name: 'Basara', role: 'Đồng minh / Lãnh đạo', description: 'Nữ hoàng của đế chế Saharan, người đã thiết lập liên minh bền chặt với vương quốc Overgeared.' },
+    { name: 'Damian', role: 'Đồng minh', description: 'Giáo hoàng của Giáo hội Rebecca, một fan cuồng của Grid và luôn hỗ trợ anh bằng quyền lực tôn giáo.' },
+    { name: 'Isabel', role: 'Đồng minh', description: 'Một trong những "Con gái của Rebecca", chiến binh thánh thiện luôn bảo vệ công lý cùng Grid.' },
+    { name: 'Agnus', role: 'Phản diện / Đối thủ', description: 'Người chơi mang nghề nghiệp "Nhà thầu của Baal", một kẻ điên loạn với sức mạnh triệu hồi linh hồn đáng sợ.' },
+    { name: 'Zibal', role: 'Đối thủ / Đồng minh', description: 'Người chơi top đầu của Mỹ, ban đầu là đối thủ nhưng sau đó đã hợp tác với Grid vì lợi ích chung.' },
+    { name: 'Chris', role: 'Đối thủ / Đồng minh', description: 'Người chơi top đầu của Canada, thủ lĩnh hội Giant, người luôn nỗ lực để vượt qua Grid.' },
+    { name: 'Hao', role: 'Đồng minh', description: 'Người chơi top đầu của Trung Quốc, một chiến binh dũng cảm luôn tôn trọng sức mạnh của Grid.' },
+    { name: 'Biban', role: 'Người dẫn dắt', description: 'Một trong những thành viên của Tháp Trí Tuệ, Kiếm Thánh đời trước, người đã dạy cho Grid những kỹ năng tối thượng.' },
+    { name: 'Morpheus', role: 'Hệ thống', description: 'Siêu máy tính AI quản lý toàn bộ thế giới Satisfy, người luôn theo dõi sự phát triển không ngừng của Grid.' }
+  ]
+};

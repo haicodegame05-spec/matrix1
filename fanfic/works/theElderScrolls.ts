@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const theElderScrolls: FanficWork = {
+  id: 'the-elder-scrolls',
+  title: 'The Elder Scrolls V: Skyrim',
+  description: 'Dovahkiin - Người mang dòng máu rồng trên hành trình giải cứu thế giới khỏi rồng thần Alduin.',
+  country: 'Khác',
+  plot: 'Skyrim đang bị chia cắt bởi cuộc nội chiến giữa Đế chế và quân nổi dậy Stormcloaks. Cùng lúc đó, những con rồng cổ xưa bỗng nhiên quay trở lại. Bạn là người mang dòng máu rồng (Dovahkiin), người duy nhất có khả năng sử dụng tiếng thét của rồng để tiêu diệt Alduin - kẻ ăn linh hồn và ngăn chặn sự tận thế.',
+  worldSetting: 'Lục địa Tamriel rộng lớn với nhiều chủng tộc: Nord, Elf, Orc, Khajiit... Ma thuật, quái vật và các vị thần Daedric luôn hiện hữu. Skyrim là vùng đất phương Bắc lạnh giá với những đỉnh núi tuyết và tàn tích cổ xưa.',
+  characters: [
+    { name: 'Dovahkiin (The Last Dragonborn)', role: 'Nhân vật chính', age: 'Unknown', description: 'Người mang dòng máu rồng, có khả năng hấp thụ linh hồn rồng và sử dụng các tiếng thét (Shouts) quyền năng để cứu thế giới khỏi sự hủy diệt của Alduin.' },
+    { name: 'Alduin (The World-Eater)', role: 'Phản diện chính', age: 'Ancient', description: 'Con rồng cổ xưa, con trai cả của Akatosh, người được định mệnh sẽ nuốt chửng thế giới. Hắn là mối đe dọa lớn nhất đối với toàn bộ Tamriel.' },
+    { name: 'Paarthurnax', role: 'Người dẫn dắt / Đồng minh', age: 'Ancient', description: 'Con rồng cổ xưa sống trên đỉnh High Hrothgar, người đã phản bội Alduin để giúp đỡ loài người. Ông dạy Dovahkiin về triết lý của rồng và cách sử dụng tiếng thét.' },
+    { name: 'Lydia', role: 'Bạn đồng hành / Hộ vệ', age: '25-30', description: 'Hộ vệ trung thành của Dovahkiin tại Whiterun, người thề sẽ bảo vệ và mang vác mọi gánh nặng cho chủ nhân trên hành trình gian khổ.' },
+    { name: 'Serana', role: 'Bạn đồng hành / Nữ chính', age: '1000+', description: 'Một ma cà rồng cổ xưa (Daughter of Coldharbour) với quá khứ phức tạp. Cô là một phù thủy mạnh mẽ và là đồng minh quan trọng trong cuộc chiến chống lại cha mình - Harkon.' },
+    { name: 'Ulfric Stormcloak', role: 'Thủ lĩnh / Nhân vật phức tạp', age: '40-50', description: 'Thủ lĩnh quân nổi dậy Stormcloaks, người muốn Skyrim độc lập khỏi Đế chế. Ông sở hữu khả năng sử dụng tiếng thét và là một nhà lãnh đạo đầy tranh cãi.' },
+    { name: 'General Tullius', role: 'Thủ lĩnh', age: '50-60', description: 'Vị tướng chỉ huy quân đội Đế chế tại Skyrim, một nhà quân sự tài ba luôn cố gắng duy trì trật tự và sự đoàn kết của Đế chế trước mối đe dọa từ Thalmor.' },
+    { name: 'Cicero', role: 'Bạn đồng hành / Kẻ ám sát', age: 'Unknown', description: 'Kẻ ám sát điên rồ của Dark Brotherhood, người bảo vệ trung thành cho xác ướp của Night Mother. Hắn sở hữu kỹ năng ám sát đỉnh cao và tính cách quái dị.' },
+    { name: 'Delphine', role: 'Đồng minh / Lãnh đạo', age: '50+', description: 'Một trong những thành viên cuối cùng của Blades, tổ chức bảo vệ các Dragonborn. Cô là người dẫn dắt Dovahkiin trong việc khám phá bí mật về sự trở lại của rồng.' },
+    { name: 'Esbern', role: 'Đồng minh / Học giả', age: '70+', description: 'Một học giả về rồng và là thành viên của Blades. Ông sở hữu kiến thức uyên bác về các lời tiên tri cổ xưa và cách tiêu diệt Alduin.' },
+    { name: 'Astrid', role: 'Lãnh đạo / Phản diện', age: '30-40', description: 'Thủ lĩnh của Dark Brotherhood tại Skyrim. Cô là một sát thủ lạnh lùng, người đã dẫn dắt hội ám sát qua những thời kỳ khó khăn nhất.' },
+    { name: 'Miraak', role: 'Phản diện', age: 'Ancient', description: 'Dragonborn đầu tiên, người đã phản bội các vị thần rồng và tìm cách thống trị thế giới từ cõi Apocrypha của Hermaeus Mora.' },
+    { name: 'Harkon', role: 'Phản diện', age: 'Ancient', description: 'Chúa tể ma cà rồng, cha của Serana, người muốn thực hiện lời tiên tri để che khuất ánh mặt trời vĩnh viễn.' },
+    { name: 'Karliah', role: 'Đồng minh / Sát thủ', age: 'Unknown', description: 'Một thành viên của Nightingale, hội bảo vệ đền thờ của Nocturnal. Cô là một cung thủ tài ba đang tìm cách minh oan cho bản thân và tiêu diệt kẻ phản bội Mercer Frey.' },
+    { name: 'Mercer Frey', role: 'Phản diện', age: '50+', description: 'Thủ lĩnh phản bội của Thieves Guild, kẻ đã giết hại chưởng môn đời trước và đánh cắp bảo vật của Nocturnal.' },
+    { name: 'Brynjolf', role: 'Đồng minh', age: '40+', description: 'Thành viên cấp cao của Thieves Guild tại Riften, người đã phát hiện tài năng và đưa Dovahkiin vào hội đạo tặc.' },
+    { name: 'Vex', role: 'Đồng minh', age: '30+', description: 'Một chuyên gia về đột nhập và trộm cắp của Thieves Guild, tính tình gai góc và luôn đòi hỏi sự hoàn hảo trong công việc.' },
+    { name: 'Delvin Mallory', role: 'Đồng minh', age: '50+', description: 'Bậc thầy về ám sát và thu thập thông tin của Thieves Guild, người có mạng lưới quan hệ rộng khắp Skyrim.' },
+    { name: 'Savos Aren', role: 'Lãnh đạo', age: '100+', description: 'Chưởng môn của College of Winterhold, một pháp sư hùng mạnh nhưng luôn mang trong mình nỗi ám ảnh về sai lầm trong quá khứ.' },
+    { name: 'Tolfdir', role: 'Sư phụ', age: '70+', description: 'Giảng viên cao cấp tại College of Winterhold, chuyên gia về ma thuật biến đổi và là người dẫn dắt các học viên mới.' },
+    { name: 'J\'zargo', role: 'Bạn đồng hành / Học viên', age: 'Unknown', description: 'Một Khajiit đầy tham vọng tại College of Winterhold, người luôn tìm cách chứng tỏ mình là pháp sư giỏi nhất.' },
+    { name: 'Onmund', role: 'Bạn đồng hành / Học viên', age: '20+', description: 'Một Nord hiếm hoi theo đuổi ma thuật tại College of Winterhold, người luôn đấu tranh với định kiến của gia đình.' },
+    { name: 'Brelyna Maryon', role: 'Bạn đồng hành / Học viên', age: 'Unknown', description: 'Một nữ Elf (Dunmer) từ gia tộc Telvanni danh tiếng, chuyên gia về ma thuật triệu hồi.' },
+    { name: 'Ancano', role: 'Phản diện', age: 'Unknown', description: 'Một cố vấn Thalmor tại College of Winterhold, kẻ luôn âm mưu chiếm đoạt quyền năng của Eye of Magnus.' },
+    { name: 'Kodlak Whitemane', role: 'Lãnh đạo', age: '60+', description: 'Thủ lĩnh của Companions tại Whiterun, một chiến binh dũng cảm đang tìm cách giải lời nguyền người sói cho bản thân và đồng đội.' },
+    { name: 'Aela the Huntress', role: 'Bạn đồng hành / Chiến binh', age: '30+', description: 'Thành viên cấp cao của Companions, một cung thủ tài ba và là người sói đầy tự hào.' },
+    { name: 'Farkas', role: 'Bạn đồng hành / Chiến binh', age: '30+', description: 'Một chiến binh dũng mãnh của Companions, dù vẻ ngoài bặm trợn nhưng anh là người trung thành và có trái tim nhân hậu.' },
+    { name: 'Vilkas', role: 'Bạn đồng hành / Chiến binh', age: '30+', description: 'Anh trai sinh đôi của Farkas, một chiến thuật gia thông minh và là bậc thầy về kiếm thuật của Companions.' },
+    { name: 'Mjoll the Lioness', role: 'Bạn đồng hành / Anh hùng', age: '35+', description: 'Một nữ chiến binh chính trực tại Riften, người luôn đấu tranh chống lại sự tham nhũng của Thieves Guild và gia tộc Black-Briar.' },
+    { name: 'Erandur', role: 'Bạn đồng hành / Tu sĩ', age: 'Unknown', description: 'Một cựu tu sĩ của Vaermina đang tìm cách chuộc lỗi bằng cách tiêu diệt những cơn ác mộng tại Dawnstar.' }
+  ]
+};

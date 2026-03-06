@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const slimeTensei: FanficWork = {
+  id: 'slime-tensei',
+  title: 'Về chuyện tôi chuyển sinh thành Slime (That Time I Got Reincarnated as a Slime)',
+  description: 'Một nhân viên văn phòng bị sát hại và chuyển sinh thành một con Slime yếu ớt nhưng sở hữu những kỹ năng bá đạo.',
+  country: 'Nhật',
+  plot: 'Satoru Mikami chết vì bị đâm và tỉnh dậy ở thế giới khác dưới hình dạng một con Slime tên là Rimuru. Nhờ kỹ năng "Kẻ săn mồi" và "Đại hiền giả", Rimuru nhanh chóng trở nên mạnh mẽ, thu phục các chủng tộc quái vật và xây dựng một quốc gia hòa bình cho tất cả mọi người.',
+  worldSetting: 'Thế giới kỳ ảo nơi quái vật và con người cùng tồn tại. Rimuru xây dựng liên minh Jura Tempest và trở thành một trong những Ma Vương mạnh nhất.',
+  characters: [
+    { name: 'Rimuru Tempest', role: 'Nhân vật chính', description: 'Một con Slime thông minh, nhân hậu nhưng cực kỳ mạnh mẽ khi cần thiết. Sở hữu sức mạnh của rồng thần Veldora.' },
+    { name: 'Veldora Tempest', role: 'Đồng minh', description: 'Bạo Phong Long, một trong bốn con rồng nguyên thủy, người bạn đầu tiên và là người đặt tên cho Rimuru.' },
+    { name: 'Benimaru', role: 'Cấp dưới', description: 'Thủ lĩnh của tộc Quỷ Nhân (Ogre), một chiến binh và chỉ huy quân sự tài ba dưới trướng Rimuru.' },
+    { name: 'Shion', role: 'Cấp dưới', description: 'Thư ký và vệ sĩ của Rimuru, sở hữu sức mạnh thể chất kinh hồn và khả năng nấu ăn "thảm họa".' },
+    { name: 'Milim Nava', role: 'Đồng minh', description: 'Một trong những Ma Vương cổ xưa nhất, có vẻ ngoài trẻ con nhưng sở hữu sức mạnh hủy diệt, là bạn thân của Rimuru.' },
+    { name: 'Diablo', role: 'Cấp dưới', description: 'Một trong Thất Sắc Ác Ma, cực kỳ trung thành và tôn thờ Rimuru như một vị thần tối cao.' },
+    { name: 'Hakuro', role: 'Cấp dưới', description: 'Kiếm sư của tộc Quỷ Nhân, người đã dạy kiếm thuật cho Rimuru và các thuộc hạ khác.' },
+    { name: 'Souei', role: 'Cấp dưới', description: 'Thủ lĩnh đội tình báo và ám sát, một ninja cực kỳ nhanh nhẹn và trung thành.' },
+    { name: 'Ranga', role: 'Cấp dưới', description: 'Thủ lĩnh tộc Nha Lang, thú cưỡi và là cái bóng trung thành của Rimuru.' },
+    { name: 'Shuna', role: 'Cấp dưới', description: 'Em gái của Benimaru, chuyên gia về dệt may và quản lý hậu cần, rất giỏi ma pháp hỗ trợ.' },
+    { name: 'Geld', role: 'Cấp dưới', description: 'Thủ lĩnh tộc Trư Nhân (Orc), chỉ huy đội xây dựng và phòng thủ của Tempest.' },
+    { name: 'Gabiru', role: 'Cấp dưới', description: 'Thủ lĩnh tộc Long Nhân (Lizardman), chỉ huy đội không quân và nghiên cứu dược phẩm.' },
+    { name: 'Rigurd', role: 'Cấp dưới', description: 'Thủ lĩnh tộc Goblin, người quản lý hành chính của thành phố Rimuru.' },
+    { name: 'Kaijin', role: 'Cấp dưới', description: 'Thợ rèn huyền thoại tộc Dwarf, người đã giúp xây dựng nền móng công nghiệp cho Tempest.' },
+    { name: 'Vesta', role: 'Cấp dưới', description: 'Cựu bộ trưởng vương quốc Dwarf, hiện là nhà nghiên cứu ma pháp và dược phẩm cho Rimuru.' },
+    { name: 'Treyni', role: 'Đồng minh', description: 'Một Dryad bảo vệ rừng Jura, người đã đề nghị Rimuru trở thành thủ lĩnh của khu rừng.' },
+    { name: 'Ramiris', role: 'Đồng minh', description: 'Một trong những Ma Vương cổ xưa, nữ hoàng của các tinh linh và là người quản lý mê cung của Tempest.' },
+    { name: 'Hinata Sakaguchi', role: 'Đối thủ / Đồng minh', description: 'Thủ lĩnh của đội hiệp sĩ thánh, một người Nhật chuyển sinh mạnh mẽ, ban đầu đối đầu với Rimuru.' },
+    { name: 'Guy Crimson', role: 'Ma Vương / Đồng minh', age: 'Ancient', description: 'Ma Vương mạnh nhất thế giới, lãnh đạo của các Ma Vương và là người giám sát sự cân bằng của thế giới.' },
+    { name: 'Chloe Aubert', role: 'Anh hùng / Đồng minh', age: '???', description: 'Một anh hùng du hành thời gian với sức mạnh vô hạn, có mối liên kết sâu sắc với Rimuru.' },
+    { name: 'Gobta', role: 'Cấp dưới', description: 'Một chú Goblin may mắn và tài năng một cách kỳ lạ, đội trưởng đội kỵ binh sói của Tempest.' },
+    { name: 'Kurobe', role: 'Cấp dưới', description: 'Thợ rèn vũ khí của tộc Quỷ Nhân, người chuyên chế tạo các trang bị cao cấp cho quân đội Rimuru.' },
+    { name: 'Adalman', role: 'Cấp dưới', description: 'Một vị vua xương (Wight King) cai trị mê cung, một pháp sư chiêu hồn mạnh mẽ phục vụ Rimuru.' },
+    { name: 'Kumara', role: 'Cấp dưới', description: 'Cửu Vĩ Hồ, một trong những hộ vệ mê cung mạnh nhất với khả năng điều khiển các linh thú.' },
+    { name: 'Zegion', role: 'Cấp dưới', description: 'Thủ lĩnh tộc Côn Trùng, một chiến binh vô địch trong mê cung với sức mạnh thể chất và ma pháp đáng sợ.' },
+    { name: 'Apito', role: 'Cấp dưới', description: 'Nữ hoàng ong, người quản lý việc sản xuất mật ong ma thuật và là hộ vệ trung thành của mê cung.' },
+    { name: 'Beretta', role: 'Cấp dưới', description: 'Một con Golem được Rimuru tạo ra và được Diablo triệu hồi linh hồn ác ma vào, hiện phục vụ Ramiris.' },
+    { name: 'Gazel Dwargo', role: 'Đồng minh', description: 'Vua của vương quốc vũ trang Dwargon, một kiếm sư tài ba và là người anh lớn dẫn dắt Rimuru.' },
+    { name: 'Elmesia El-Ru Sarion', role: 'Đồng minh', description: 'Nữ hoàng của vương quốc ma pháp Sarion, một người phụ nữ thông minh và là đối tác kinh tế của Tempest.' },
+    { name: 'Leon Cromwell', role: 'Ma Vương / Đối thủ', description: 'Một trong các Ma Vương, người đã triệu hồi Shizue Izawa, sở hữu sức mạnh ánh sáng cực mạnh.' }
+  ]
+};

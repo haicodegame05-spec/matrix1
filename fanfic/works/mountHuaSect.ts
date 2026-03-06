@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const mountHuaSect: FanficWork = {
+  id: 'mount-hua-sect',
+  title: 'Hoa Sơn Tái Khởi (Return of the Mount Hua Sect)',
+  description: 'Kiếm Hiệp Mai Hoa - Thanh Minh, sau khi tiêu diệt Thiên Ma đã hy sinh và tái sinh sau 100 năm để vực dậy môn phái Hoa Sơn đang lụi tàn.',
+  country: 'Hàn',
+  plot: 'Thanh Minh là đệ nhất kiếm thủ của phái Hoa Sơn, người đã cùng các cao thủ võ lâm tiêu diệt Thiên Ma. 100 năm sau, ông tỉnh dậy trong thân xác một đứa trẻ và bàng hoàng nhận ra Hoa Sơn đã mất hết danh tiếng và trở thành một môn phái hạng bét. Với tính cách "độc miệng" và võ công thượng thừa, Thanh Minh bắt đầu hành trình "chỉnh đốn" lại môn phái và đưa Hoa Sơn trở lại đỉnh cao.',
+  worldSetting: 'Thế giới võ hiệp (Wuxia) với các môn phái lớn như Thiếu Lâm, Võ Đang, Đường Môn... Hoa Sơn phái nổi tiếng với Mai Hoa Kiếm Pháp.',
+  characters: [
+    { name: 'Thanh Minh', role: 'Nhân vật chính', description: 'Kiếm Hiệp Mai Hoa, tính cách quái gở, thích uống rượu và cực kỳ nghiêm khắc với đồ đệ. Sở hữu kiếm pháp vô song.' },
+    { name: 'Bạch Thiên', role: 'Đồng minh', description: 'Đại sư huynh của Hoa Sơn, ban đầu nghiêm túc nhưng dần bị Thanh Minh "tha hóa" và trở thành một chiến binh mạnh mẽ.' },
+    { name: 'Lưu Di Lê', role: 'Đồng minh', description: 'Nữ đệ tử tài năng của Hoa Sơn, xinh đẹp và lạnh lùng, luôn nỗ lực để theo kịp bước chân của Thanh Minh.' },
+    { name: 'Chiêu Kiệt', role: 'Đồng minh', description: 'Đệ tử của Hoa Sơn, tính cách thẳng thắn, là một trong những người đầu tiên bị Thanh Minh huấn luyện "đến nơi đến chốn".' },
+    { name: 'Huyền Tử', role: 'Người dẫn dắt', description: 'Chưởng môn của Hoa Sơn, người luôn đau đáu về sự suy tàn của môn phái và đặt niềm tin vào Thanh Minh.' },
+    { name: 'Thiên Ma', role: 'Phản diện', description: 'Lãnh đạo của Ma Giáo, kẻ thù truyền kiếp của võ lâm và là người đã cùng Thanh Minh đồng quy vu tận kiếp trước.' },
+    { name: 'Nhuận Thành', role: 'Đồng minh', age: '20+', description: 'Nhị sư huynh của Hoa Sơn, người luôn cố gắng giữ gìn quy củ nhưng thường xuyên phải đau đầu vì những trò quái chiêu của Thanh Minh.' },
+    { name: 'Đường Tiểu Tiếu', role: 'Đồng minh', age: '18+', description: 'Tiểu thư của Đường Môn gia nhập Hoa Sơn, kết hợp y thuật và ám khí của Đường Gia với kiếm pháp Hoa Sơn.' },
+    { name: 'Huyền Linh', role: 'Người dẫn dắt', age: '60+', description: 'Trưởng lão quản lý tài chính của Hoa Sơn, người cực kỳ yêu tiền và là "đồng minh" đắc lực của Thanh Minh trong việc làm giàu cho môn phái.' },
+    { name: 'Đường Quân Nhạc', role: 'Đồng minh', age: '45+', description: 'Gia chủ Đường Môn, một trong Thiên Hạ Ngũ Tuyệt, người nhìn ra thiên tài của Thanh Minh và quyết định liên minh với Hoa Sơn.' },
+    { name: 'Pháp Hải', role: 'Đối thủ', age: '70+', description: 'Phương trượng Thiếu Lâm Tự, người luôn muốn duy trì vị thế bá chủ của Thiếu Lâm và thường xuyên có những bất đồng về tư tưởng với Thanh Minh.' },
+    { name: 'Lâm Huệ', role: 'Đồng minh', age: '30+', description: 'Minh chủ của Lục Lâm, một kẻ mưu mô nhưng trọng tình nghĩa, bị Thanh Minh "thu phục" và trở thành tai mắt cho Hoa Sơn.' },
+    { name: 'Tuyết Thiếu Bạch', role: 'Đồng minh', age: '15+', description: 'Cung chủ trẻ tuổi của Bắc Hải Băng Cung, được Thanh Minh cứu giúp và tôn thờ anh như một vị thần.' },
+    { name: 'Trường Nhất Tiếu', role: 'Phản diện', age: '40+', description: 'Vạn Nhân Phòng Chủ, một kẻ tàn nhẫn, điên cuồng và sở hữu trí tuệ cực cao, là đối thủ truyền kiếp của Thanh Minh ở kiếp này.' },
+    { name: 'Thanh Vấn', role: 'Hồi ức', age: '50+', description: 'Chưởng môn Hoa Sơn kiếp trước, sư huynh của Thanh Minh, người mà Thanh Minh luôn kính trọng và cảm thấy tội lỗi vì không bảo vệ được.' },
+    { name: 'Huyền Vân', role: 'Người dẫn dắt', age: '60+', description: 'Trưởng lão chấp pháp của Hoa Sơn, người nghiêm khắc nhưng hết lòng vì sự phát triển của các đệ tử.' },
+    { name: 'Thanh Hạo', role: 'Đệ tử', age: '18', description: 'Một đệ tử trẻ tuổi của Hoa Sơn, người luôn ngưỡng mộ và lấy Thanh Minh làm tấm gương phấn đấu.' },
+    { name: 'Thanh Hồng', role: 'Đệ tử', age: '17', description: 'Nữ đệ tử xinh đẹp của Hoa Sơn, có khiếu về y thuật và luôn hỗ trợ đồng đội trong các trận chiến.' },
+    { name: 'Thanh Thanh', role: 'Đệ tử', age: '16', description: 'Một thiếu niên đầy nhiệt huyết, người luôn tin tưởng vào sự phục hưng của Hoa Sơn.' },
+    { name: 'Thanh Vân', role: 'Đệ tử', age: '19', description: 'Đệ tử sở hữu tốc độ và khả năng trinh sát tuyệt vời, là tai mắt của Thanh Minh trên chiến trường.' },
+    { name: 'Thanh Lôi', role: 'Đệ tử', age: '20', description: 'Chiến sĩ mạnh mẽ với sức mạnh vật lý phi thường, luôn tiên phong trong các cuộc tấn công.' },
+    { name: 'Thanh Điện', role: 'Đệ tử', age: '18', description: 'Đệ tử chuyên về các loại ám khí và bẫy rập, người gây ra nhiều bất ngờ cho kẻ thù.' },
+    { name: 'Thanh Quang', role: 'Đệ tử', age: '17', description: 'Nữ đệ tử sở hữu kiếm pháp thanh thoát, mang lại sự tinh tế trong các trận chiến phối hợp.' },
+    { name: 'Thanh Ám', role: 'Đệ tử', age: '19', description: 'Sát thủ thầm lặng của Hoa Sơn, người chuyên thực hiện các nhiệm vụ ám sát quan trọng.' },
+    { name: 'Thanh Không', role: 'Đệ tử', age: '21', description: 'Đệ tử có khả năng thấu hiểu các trận pháp cổ xưa, giúp Hoa Sơn giải mã nhiều bí mật.' },
+    { name: 'Thanh Thời', role: 'Đệ tử', age: '20', description: 'Người quản lý thời gian và lịch trình huấn luyện của các đệ tử, đảm bảo sự kỷ luật trong môn phái.' },
+    { name: 'Thanh Mệnh', role: 'Đệ tử', age: '18', description: 'Đệ tử mang trong mình hy vọng về một tương lai tươi sáng cho Hoa Sơn.' },
+    { name: 'Thanh Luân', role: 'Đệ tử', age: '17', description: 'Thiếu niên dũng cảm luôn sẵn sàng hy sinh để bảo vệ danh dự của môn phái.' },
+    { name: 'Thanh Hồi', role: 'Đệ tử', age: '16', description: 'Đệ tử nhỏ tuổi nhất nhưng sở hữu ý chí kiên định, luôn nỗ lực để không bị bỏ lại phía sau.' },
+    { name: 'Thanh Kiếp', role: 'Đệ tử', age: '19', description: 'Chiến binh đã trải qua nhiều trận chiến sinh tử, mang lại kinh nghiệm quý báu cho các đồng môn.' }
+  ]
+};

@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const beginningAfterTheEnd: FanficWork = {
+  id: 'beginning-after-the-end',
+  title: 'Sự Khởi Đầu Sau Khi Chết (The Beginning After The End)',
+  description: 'Vua Grey, một vị vua cô độc trong một thế giới võ thuật hiện đại, được tái sinh vào một thế giới ma pháp và kiếm sĩ đầy rẫy hiểm nguy.',
+  country: 'Hàn',
+  plot: 'Vua Grey là một vị lãnh đạo tối cao trong một thế giới mà sức mạnh cá nhân quyết định tất cả. Sau khi chết một cách bí ẩn, ông được tái sinh thành Arthur Leywin trong một gia đình yêu thương ở thế giới mới. Với kiến thức và ý chí từ kiếp trước, Arthur quyết tâm bảo vệ gia đình và bạn bè khỏi những thế lực bóng tối đang đe dọa lục địa Dicathen.',
+  worldSetting: 'Thế giới kỳ ảo với hệ thống ma pháp dựa trên các lõi mana (Mana Cores) và các nguyên tố. Lục địa Dicathen đang đứng trước nguy cơ xâm lược từ lục địa Alacrya bí ẩn.',
+  characters: [
+    { name: 'Arthur Leywin (Grey)', role: 'Nhân vật chính', age: '16', description: 'Một thiên tài ma pháp và kiếm thuật, sở hữu ý chí của một vị vua và khế ước với rồng thần Sylvie. Anh là một Lance của Dicathen.' },
+    { name: 'Sylvie', role: 'Bạn đồng hành', age: '4', description: 'Con gái của rồng thần Sylvia, có khả năng hóa thành người, là người bạn đồng hành trung thành nhất của Arthur.' },
+    { name: 'Tessia Eralith', role: 'Nữ chính', age: '16', description: 'Công chúa của tộc Tiên (Elf), thanh mai trúc mã của Arthur, sở hữu tài năng ma pháp thiên bẩm và là vật chứa của Cecilia.' },
+    { name: 'Virion Eralith', role: 'Người dẫn dắt', age: '100+', description: 'Cựu vương của tộc Tiên, người thầy đã dạy cho Arthur những kỹ thuật chiến đấu cấp cao và là lãnh đạo kháng chiến.' },
+    { name: 'Alice Leywin', role: 'Gia đình', age: '38', description: 'Mẹ của Arthur, một người phụ nữ dịu dàng và là một pháp sư trị thương tài giỏi.' },
+    { name: 'Reynolds Leywin', role: 'Gia đình', age: '40', description: 'Cha của Arthur, một chiến binh mạnh mẽ, thành viên của nhóm mạo hiểm giả Helstea.' },
+    { name: 'Agrona Vritra', role: 'Phản diện', age: '1000+', description: 'Lãnh đạo của lục địa Alacrya, một thực thể cổ xưa thuộc tộc Basilisk với những âm mưu thâm độc chi phối cả thế giới.' },
+    { name: 'Elijah Knight', role: 'Bạn thân', age: '16', description: 'Bạn thân của Arthur, thực chất là vật chứa của Nico Sever, người bạn cũ từ kiếp trước của Grey.' },
+    { name: 'Kathyln Glayder', role: 'Đồng minh', age: '16', description: 'Công chúa của vương quốc Sapin, một pháp sư băng hệ lạnh lùng nhưng trung thành, thành viên của Ủy ban Kỷ luật.' },
+    { name: 'Curtis Glayder', role: 'Đồng minh', age: '17', description: 'Hoàng tử vương quốc Sapin, anh trai của Kathyln, một chiến binh dũng cảm sở hữu linh thú Grawder.' },
+    { name: 'Caera Denoir', role: 'Đồng minh', age: '18', description: 'Một quý tộc Alacrya mang dòng máu Vritra, đồng hành cùng Arthur trong các hầm ngục ở Alacrya.' },
+    { name: 'Regis', role: 'Bạn đồng hành', age: '1', description: 'Vũ khí sống được tạo ra từ mana của Arthur, Sylvie và Uto. Có tính cách hài hước và sở hữu sức mạnh hủy diệt.' },
+    { name: 'Bairon Wykes', role: 'Lance', age: '25', description: 'Một trong những Lance mạnh nhất của Dicathen, ban đầu ghét Arthur nhưng sau đó trở thành đồng đội đáng tin cậy.' },
+    { name: 'Varay Isshin', role: 'Lance', age: '28', description: 'Lance mạnh nhất Dicathen, sở hữu ma pháp băng hệ tuyệt đỉnh và lòng trung thành tuyệt đối với vương quốc.' },
+    { name: 'Kezess Indrath', role: 'Thực thể tối cao', age: '10000+', description: 'Lãnh chúa của tộc Indrath và Epheotus, một vị thần kiêu ngạo nắm giữ sức mạnh không gian và thời gian.' },
+    { name: 'Seris Vritra', role: 'Đồng minh bí ẩn', age: '???', description: 'Một Scythe của Alacrya nhưng bí mật hỗ trợ Arthur vì những mục đích riêng của mình.' },
+    { name: 'Nico Sever', role: 'Đối thủ', age: '16', description: 'Bạn cũ của Grey ở kiếp trước, tái sinh trong thân xác Elijah, mang lòng hận thù sâu sắc với Arthur.' },
+    { name: 'Cecilia', role: 'Nhân vật quan trọng', age: '16', description: 'Di sản của kiếp trước, người sở hữu lượng mana vô hạn, bị Agrona lợi dụng để chống lại Arthur.' },
+    { name: 'Ellie Leywin', role: 'Gia đình', age: '12', description: 'Em gái của Arthur, một cung thủ tài năng đang dần trưởng thành để bảo vệ gia đình.' },
+    { name: 'Cynthia Goodsky', role: 'Người dẫn dắt', age: '60', description: 'Hiệu trưởng học viện Xyrus, một gián điệp từ Alacrya nhưng đã chọn bảo vệ Dicathen.' },
+    { name: 'Mica Earthborn', role: 'Lance', age: '22 (ngoại hình 12)', description: 'Lance của tộc Người Lùn, sở hữu ma pháp trọng lực cực mạnh và tính cách tinh nghịch.' },
+    { name: 'Olfred Wrent', role: 'Lance', age: '35', description: 'Lance của tộc Người Lùn, chuyên về ma pháp thổ hệ và là một chiến binh dày dạn kinh nghiệm.' },
+    { name: 'Aya Greifen', role: 'Lance', age: '24', description: 'Lance của tộc Tiên, sở hữu ma pháp phong hệ và khả năng tàng hình, ám sát đỉnh cao.' },
+    { name: 'Alea Triscan', role: 'Lance', age: '23', description: 'Một Lance dũng cảm đã hy sinh trong hầm ngục, cái chết của cô là động lực lớn cho Arthur.' },
+    { name: 'Uto', role: 'Phản diện / Vritra', age: '???', description: 'Một Retainer của Alacrya với sức mạnh bóng tối đáng sợ, kẻ đã gây ra nhiều đau khổ cho Arthur.' },
+    { name: 'Cadell', role: 'Phản diện / Scythe', age: '???', description: 'Một Scythe mạnh mẽ của Alacrya, kẻ đã trực tiếp đối đầu và đánh bại Arthur trong nhiều trận chiến.' },
+    { name: 'Nico Sever (Kiếp trước)', role: 'Ký ức', age: '20', description: 'Hình bóng người bạn thân cũ của Grey, người đã trở thành kẻ thù không đội trời chung ở thế giới mới.' },
+    { name: 'Cecilia (Kiếp trước)', role: 'Ký ức', age: '19', description: 'Người con gái mà cả Grey và Nico đều yêu thương, cái chết của cô là nguồn cơn của mọi hận thù.' },
+    { name: 'Sylvia Indrath', role: 'Người dẫn dắt', age: 'Ancient', description: 'Rồng thần đã cứu Arthur khi còn nhỏ và trao cho anh khế ước với con gái mình, Sylvie.' },
+    { name: 'Windsom', role: 'Người dẫn dắt / Asura', age: 'Ancient', description: 'Một Asura thuộc tộc Indrath, người đã đưa Arthur đến Epheotus để rèn luyện sức mạnh.' }
+  ]
+};

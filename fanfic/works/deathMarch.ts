@@ -1,0 +1,42 @@
+import { FanficWork } from '../types';
+
+export const deathMarch: FanficWork = {
+  id: 'death-march',
+  title: 'Ma Thần Hành Tại Dị Giới (Death March to the Parallel World Rhapsody)',
+  description: 'Suzuki Ichirou, một lập trình viên 29 tuổi, tỉnh dậy trong một thế giới khác sau một giấc ngủ "death march".',
+  country: 'Nhật',
+  plot: 'Suzuki Ichirou, một lập trình viên đang làm việc quá sức, tỉnh dậy trong một thế giới giống như các trò chơi mà anh đang phát triển. Anh nhận ra mình đang ở trong cơ thể của một thiếu niên 15 tuổi tên là Satou. Sau khi vô tình tiêu diệt một đội quân thằn lằn bằng ma pháp "Mưa sao băng", anh đạt đến cấp độ 310 và trở thành người mạnh nhất thế giới. Satou quyết định che giấu sức mạnh và bắt đầu hành trình du ngoạn dị giới, giúp đỡ mọi người và thu thập một dàn harem đa dạng.',
+  worldSetting: 'Một thế giới fantasy có hệ thống cấp độ, kỹ năng và ma pháp. Satou sở hữu lượng tài sản khổng lồ và các kỹ năng tối thượng nhưng luôn muốn sống một cuộc đời bình yên.',
+  characters: [
+    { name: 'Satou (Suzuki Ichirou)', role: 'Nhân vật chính', age: '15 (29)', description: 'Lập trình viên chuyển sinh, cấp độ 310. Thông minh, điềm đạm và cực kỳ giàu có. Luôn che giấu sức mạnh thật sự.' },
+    { name: 'Zena Marientail', role: 'Nữ chính / Harem', age: '17', description: 'Một nữ hiệp sĩ ma pháp tại thành phố Seiryuu. Hiền lành, dũng cảm và là người đầu tiên Satou giúp đỡ.' },
+    { name: 'Pochi', role: 'Thuộc hạ / Harem', age: '10', description: 'Một cô bé thuộc tộc người chó, nô lệ được Satou giải cứu. Năng động, ham ăn và rất trung thành.' },
+    { name: 'Tama', role: 'Thuộc hạ / Harem', age: '10', description: 'Một cô bé thuộc tộc người mèo, bạn thân của Pochi. Thích ngủ và có trực giác nhạy bén.' },
+    { name: 'Liza', role: 'Thuộc hạ / Harem', age: '18', description: 'Một cô gái thuộc tộc người thằn lằn, trưởng nhóm các nô lệ được Satou cứu. Nghiêm túc, giỏi thương thuật.' },
+    { name: 'Arisa', role: 'Thuộc hạ / Harem', age: '11', description: 'Công chúa của một vương quốc bị diệt vong, nô lệ chuyển sinh từ Nhật Bản. Thông minh, lém lỉnh và luôn tìm cách quyến rũ Satou.' },
+    { name: 'Lulu', role: 'Thuộc hạ / Harem', age: '14', description: 'Chị gái của Arisa, xinh đẹp theo tiêu chuẩn Nhật Bản nhưng bị coi là xấu xí ở dị giới. Đảm đang và nấu ăn ngon.' },
+    { name: 'Nana', role: 'Thuộc hạ / Harem', age: '???', description: 'Một homunculus (người nhân tạo) được Satou cứu từ mê cung. Tính cách vô cảm nhưng rất yêu quý trẻ con và động vật nhỏ.' },
+    { name: 'Mia (Misanalia Boronan)', role: 'Nữ chính / Harem', age: '130', description: 'Một tinh linh (Elf) trẻ tuổi, ít nói và giao tiếp bằng âm nhạc. Rất bám Satou.' },
+    { name: 'Lady Karina', role: 'Nữ chính / Harem', age: '19', description: 'Con gái của lãnh chúa Muno, sở hữu "Raka" - một vật phẩm ma pháp có trí tuệ. Tính tình thẳng thắn và hơi vụng về.' },
+    { name: 'Raka', role: 'Hỗ trợ', age: '???', description: 'Một vật phẩm ma pháp cổ đại có trí tuệ, hỗ trợ Karina và sau này là Satou trong việc phân tích thông tin.' },
+    { name: 'Sera', role: 'Nữ chính / Harem', age: '16', description: 'Nữ tu sĩ tại đền thờ Shiga, xinh đẹp và nhân hậu. Có tình cảm sâu đậm với Satou.' },
+    { name: 'Hayato Masaki', role: 'Anh hùng', age: '20+', description: 'Anh hùng thực sự của vương quốc Shiga, cũng là người Nhật chuyển sinh. Mạnh mẽ nhưng đôi khi quá tự phụ.' },
+    { name: 'Mina', role: 'Hỗ trợ', age: '20+', description: 'Một trong những người hầu gái tại biệt thự của Satou, giúp quản lý việc nhà.' },
+    { name: 'Yusratoya Boronan', role: 'Đồng minh', age: '500+', description: 'Cha của Mia, một tinh linh cao quý và là người đứng đầu rừng Boronan.' },
+    { name: 'Iona', role: 'Đồng minh', age: '25+', description: 'Đội trưởng đội cận vệ của Karina, một nữ chiến binh mạnh mẽ.' },
+    { name: 'Lilo', role: 'Đồng minh', age: '25+', description: 'Thành viên đội cận vệ của Karina, chuyên về cung thuật.' },
+    { name: 'Ruuta', role: 'Đồng minh', age: '25+', description: 'Thành viên đội cận vệ của Karina, chuyên về ma pháp phòng thủ.' },
+    { name: 'Nidunnen', role: 'Đối thủ', age: '???', description: 'Một ác ma cấp cao thường xuyên gây rắc rối cho Satou và nhóm của anh.' },
+    { name: 'Zen', role: 'Đối thủ', age: '???', description: 'Một xác sống (Undead) mạnh mẽ trong mê cung, người đã thử thách Satou ở giai đoạn đầu.' },
+    { name: 'Princess Sistina', role: 'Nữ chính / Harem', age: '17', description: 'Công chúa của vương quốc Shiga, một cô gái thông minh và có khả năng ma pháp tốt. Cô rất ngưỡng mộ Satou.' },
+    { name: 'Lady Ringrande', role: 'Đồng minh / Anh hùng', age: '20+', description: 'Bạn đồng hành của Anh hùng Hayato, một nữ chiến binh mạnh mẽ và nghiêm túc.' },
+    { name: 'Arowa', role: 'Hỗ trợ / Linh hồn', age: '???', description: 'Một cô bé linh hồn sống trong mê cung, sau này được Satou giúp đỡ và trở thành một phần của nhóm.' },
+    { name: 'Icarus', role: 'Thuộc hạ / Harem', age: '???', description: 'Một homunculus chiến đấu được Satou cứu thoát, sở hữu sức mạnh thể chất đáng kinh ngạc.' },
+    { name: 'Tia', role: 'Thuộc hạ / Harem', age: '???', description: 'Một homunculus khác được Satou cứu, chuyên về ma pháp hỗ trợ và trinh sát.' },
+    { name: 'The Rat-man Tribe Leader', role: 'Đồng minh', age: '40+', description: 'Lãnh đạo của tộc người chuột, người đã cung cấp cho Satou những thông tin quý giá về mê cung.' },
+    { name: 'The High Elf Priestess', role: 'Hỗ trợ', age: '1000+', description: 'Một nữ tu sĩ Elf cao quý, người đã ban phúc lành cho nhóm của Satou.' },
+    { name: 'The Shiga Kingdom General', role: 'Đồng minh', age: '45+', description: 'Một vị tướng quân dũng cảm, người luôn ngưỡng mộ tài năng quân sự và ma pháp của Satou.' },
+    { name: 'The Mysterious Masked Man', role: 'Bí ẩn', age: '???', description: 'Một nhân vật bí ẩn thường xuyên xuất hiện để giúp đỡ Satou trong những tình huống hiểm nghèo.' },
+    { name: 'The Village Orphan', role: 'Hỗ trợ', age: '8', description: 'Một cậu bé mồ côi được Satou cứu thoát khỏi đám quái vật, hiện đang sống tại lãnh địa của anh.' }
+  ]
+};
